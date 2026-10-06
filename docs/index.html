@@ -146,13 +146,13 @@
           <!-- 播放按钮与速度控制 (加入慢速 0.25x/0.5x，移除 5x 以上) -->
           <div class="flex flex-wrap items-center justify-between gap-3 pt-1">
             <div class="flex items-center gap-2">
-              <button id="play" class="px-4 py-2 text-xs font-semibold rounded-xl bg-blue-600 hover:bg-blue-500 text-white shadow-sm flex items-center gap-1.5 transition">
+              <button id="play" class="px-4 py-2 text-xs font-semibold rounded-xl bg-blue-600 hover:bg-blue-500 text-white shadow-sm flex items-center gap-1.5 transition select-none cursor-pointer">
                 <span>▶ 播放</span>
               </button>
-              <button id="prev" class="px-3 py-2 text-xs font-medium rounded-xl bg-[#212e42] hover:bg-[#2b3c56] text-[#f0f6fc] border border-[#354866] transition">
+              <button id="prev" class="px-3 py-2 text-xs font-medium rounded-xl bg-[#212e42] hover:bg-[#2b3c56] text-[#f0f6fc] border border-[#354866] transition select-none cursor-pointer">
                 ◀ -1T
               </button>
-              <button id="next" class="px-3 py-2 text-xs font-medium rounded-xl bg-[#212e42] hover:bg-[#2b3c56] text-[#f0f6fc] border border-[#354866] transition">
+              <button id="next" class="px-3 py-2 text-xs font-medium rounded-xl bg-[#212e42] hover:bg-[#2b3c56] text-[#f0f6fc] border border-[#354866] transition select-none cursor-pointer">
                 +1T ▶
               </button>
             </div>
@@ -186,6 +186,7 @@
             <span>🔲 基地范围</span>
             <span>⚡ 光束 = 攻击命中</span>
             <span>✖ 橙红十字 = 阵亡掉旗</span>
+            <span class="text-blue-400">💡 快捷键: 空格=播放/暂停，左右键=逐回合步进</span>
           </div>
         </div>
       </div>
@@ -307,12 +308,12 @@
     
     const C = ['#ff6b7f','#5ab4ff','#7bd99b','#d7a2ff','#ffcb6b','#5fd9d4','#ff9fd0','#b5cc6e','#a9aeff','#f09c63','#e0e0e0','#8fb3c9','#e8d38a','#c98fa8','#8fd6b2'];
     const $ = id => document.getElementById(id);
-    const cv = $('board'), g = cv.getContext('2d');
+    let cv, g;
     
     let i = 0, playing = false, last = 0, focus = -1;
     const MV = {N:'上', S:'下', E:'右', W:'左', WAIT:'停'};
     const AC = {attack:'攻击', pickup:'拾旗', drop:'丢旗', wait:''};
-    const name = t => R.names[t] ?? ('阵营' + t);
+    const name = t => (R && R.names && R.names[t]) ? R.names[t] : ('阵营' + t);
 
     // 初始化游戏选择卡片
     function initLobbyCards() {
@@ -320,7 +321,7 @@
       let html = '';
       for (const [key, cfg] of Object.entries(ALL_GAMES)) {
         html += `
-          <div onclick="selectGame('${key}')" id="card-${key}" class="game-card p-3.5 rounded-xl bg-[#111822] border border-[#26354a] cursor-pointer hover:border-[#3b82f6] transition flex flex-col justify-between space-y-2">
+          <div onclick="selectGame('${key}')" id="card-${key}" class="game-card p-3.5 rounded-xl bg-[#111822] border border-[#26354a] cursor-pointer hover:border-[#3b82f6] transition flex flex-col justify-between space-y-2 select-none">
             <div>
               <div class="flex items-center justify-between gap-1 mb-1">
                 <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-[#212e42] text-blue-400">${cfg.badge.split('·')[0].trim()}</span>
@@ -352,9 +353,9 @@
         const el = $('card-' + key);
         if (el) {
           if (key === activeKey) {
-            el.className = 'game-card p-3.5 rounded-xl bg-[#1e293b] border-2 border-blue-500 shadow-md cursor-pointer flex flex-col justify-between space-y-2';
+            el.className = 'game-card p-3.5 rounded-xl bg-[#1e293b] border-2 border-blue-500 shadow-md cursor-pointer flex flex-col justify-between space-y-2 select-none';
           } else {
-            el.className = 'game-card p-3.5 rounded-xl bg-[#111822] border border-[#26354a] cursor-pointer hover:border-[#334155] transition flex flex-col justify-between space-y-2';
+            el.className = 'game-card p-3.5 rounded-xl bg-[#111822] border border-[#26354a] cursor-pointer hover:border-[#334155] transition flex flex-col justify-between space-y-2 select-none';
           }
         }
       }
@@ -387,7 +388,11 @@
 
     function renderKdaTable() {
       const tbody = $('kda-tbody');
-      const stats = ALL_GAMES[activeKey].enhanced_stats;
+      const stats = (ALL_GAMES[activeKey].replay && ALL_GAMES[activeKey].replay.enhanced_stats) ? ALL_GAMES[activeKey].replay.enhanced_stats : (ALL_GAMES[activeKey].enhanced_stats || []);
+      if (!stats || !stats.length) {
+        tbody.innerHTML = '<tr><td colspan="10" class="py-4 text-center text-[#8ca0ba]">暂无统计数据</td></tr>';
+        return;
+      }
       let html = '';
       stats.forEach((st, rank) => {
         const isTop = rank === 0;
@@ -425,7 +430,7 @@
         case 'capture': return `🏆 ${name(e.team)} 成功交旗进球！(角色 ${e.unit}，旗 ${e.flag})`;
         case 'pickup':  return `🚩 角色 ${e.unit} [${name(Math.floor(e.unit/3))}] 拾取旗帜 ${e.flag}`;
         case 'drop':    return `放下旗帜 ${e.flag} (角色 ${e.unit})`;
-        case 'death':   return `💀 角色 ${e.unit} [${name(Math.floor(e.unit/3))}] 阵亡${e.flag!==null?' (掉落旗'+e.flag+')':''} 击杀者: ${e.by.join('、')}`;
+        case 'death':   return `💀 角色 ${e.unit} [${name(Math.floor(e.unit/3))}] 阵亡${e.flag!==null?' (掉落旗'+e.flag+')':''}${e.by && e.by.length ? ' 击杀者: ' + e.by.join('、') : ''}`;
         case 'attack':  return `⚔️ 角色 ${e.unit} 攻击 角色 ${e.target}`;
         case 'respawn': return `🔄 角色 ${e.unit} 基地重生`;
         case 'return':  return `⏳ 旗帜 ${e.flag} 刷新回位`;
@@ -434,6 +439,10 @@
     }
 
     function render() {
+      if (!cv) cv = $('board');
+      if (!g) g = cv.getContext('2d');
+      if (!R || !R.frames || !R.frames[i]) return;
+
       const f = R.frames[i], H = R.header, n = H.size, s = Math.max(8, Math.floor(640 / n));
       cv.width = cv.height = n * s;
 
@@ -465,6 +474,7 @@
       for(const e of f.events) {
         if(e.type === 'attack') {
           const a = f.units[e.unit], b = f.units[e.target];
+          if(!a || !b) continue;
           const pa = a.pos, pb = b.pos || (f.events.find(z => z.type === 'death' && z.unit === e.target) || {}).pos;
           if(pa && pb) {
             g.strokeStyle = '#fef08a';
@@ -479,7 +489,7 @@
 
       // 地面旗帜
       for(const fl of f.flags) {
-        if(fl.pos) {
+        if(fl && fl.pos) {
           const [x, y] = fl.pos;
           star((x + 0.5) * s, (y + 0.5) * s, s * 0.42, '#fbbf24');
         }
@@ -487,7 +497,7 @@
 
       // 阵亡十字
       for(const e of f.events) {
-        if(e.type === 'death') {
+        if(e.type === 'death' && e.pos) {
           const [x, y] = e.pos;
           g.strokeStyle = '#f87171';
           g.lineWidth = Math.max(2, s * 0.18);
@@ -502,7 +512,7 @@
 
       // 角色单位
       for(const u of f.units) {
-        if(!u.pos) continue;
+        if(!u || !u.pos) continue;
         const t = Math.floor(u.id / 3), [x, y] = u.pos, cx = (x + 0.5) * s, cy = (y + 0.5) * s;
         g.globalAlpha = focus < 0 || focus === t ? 1 : 0.2;
         
@@ -537,7 +547,8 @@
       g.globalAlpha = 1;
 
       // 状态文本与控件联动
-      $('turns-counter').textContent = `回合 ${f.turn} / ${R.frames.at(-1).turn}`;
+      const maxTurn = (R.frames[R.frames.length - 1] ? R.frames[R.frames.length - 1].turn : 400);
+      $('turns-counter').textContent = `回合 ${f.turn} / ${maxTurn}`;
       $('seek').value = i;
       $('progress-percent').textContent = Math.round((i / (R.frames.length - 1)) * 100) + '%';
       $('event-turn-badge').textContent = `T${f.turn}`;
@@ -560,20 +571,32 @@
         return d;
       }));
 
-      // 事件监控流
-      const evs = f.events.filter(e => e.type !== 'attack' || focus < 0 || Math.floor(e.unit / 3) === focus);
-      $('events-log').innerHTML = evs.length ? 
-        evs.map(e => `<div class="${e.type === 'capture' ? 'text-emerald-400 font-bold' : e.type === 'death' ? 'text-red-400' : 'text-[#8ca0ba]'}">${ev(e)}</div>`).join('') :
-        '<div class="text-[#475569]">本回合无特殊交火事件</div>';
+      // 事件监控流 (Safe try-catch)
+      try {
+        const evs = f.events.filter(e => e.type !== 'attack' || focus < 0 || Math.floor(e.unit / 3) === focus);
+        $('events-log').innerHTML = evs.length ? 
+          evs.map(e => `<div class="${e.type === 'capture' ? 'text-emerald-400 font-bold' : e.type === 'death' ? 'text-red-400' : 'text-[#8ca0ba]'}">${ev(e)}</div>`).join('') :
+          '<div class="text-[#475569]">本回合无特殊交火事件</div>';
+      } catch (err) {
+        console.error('Error rendering events log:', err);
+      }
 
-      // 指令监控
-      $('focus-team-label').textContent = focus >= 0 ? `阵营: ${name(focus)}` : '全员监控';
-      const ords = Object.entries(f.orders).filter(([t]) => focus < 0 || +t === focus);
-      $('orders-log').innerHTML = ords.length ?
-        ords.map(([t, cs]) => `<div class="truncate"><strong class="text-[#f0f6fc]">${name(+t)}:</strong> ` + 
-          cs.map(c => `${c.id} ${MV[c.move] ?? '停'}${c.act !== 'wait' ? ' ' + (AC[c.act] || c.act) : ''}${c.act === 'attack' ? '→' + c.target : ''}${c.note ? '「' + c.note + '」' : ''}`).join('，') + 
-          `</div>`).join('') :
-        '—';
+      // 指令监控流 (Safe object/array handling)
+      try {
+        $('focus-team-label').textContent = focus >= 0 ? `阵营: ${name(focus)}` : '全员监控';
+        const ords = Object.entries(f.orders || {}).filter(([t]) => focus < 0 || +t === focus);
+        $('orders-log').innerHTML = ords.length ?
+          ords.map(([t, raw]) => {
+            const list = Array.isArray(raw) ? raw : (raw && Array.isArray(raw.units) ? raw.units : []);
+            if (!list.length) return '';
+            return `<div class="truncate"><strong class="text-[#f0f6fc]">${name(+t)}:</strong> ` + 
+              list.map(c => `${c.id} ${MV[c.move] ?? '停'}${c.act && c.act !== 'wait' ? ' ' + (AC[c.act] || c.act) : ''}${c.act === 'attack' ? '→' + c.target : ''}${c.note ? '「' + c.note + '」' : ''}`).join('，') + 
+              `</div>`;
+          }).filter(Boolean).join('') :
+          '—';
+      } catch (err) {
+        console.error('Error rendering orders log:', err);
+      }
     }
 
     function star(x, y, r, col) {
@@ -594,48 +617,74 @@
 
     function pausePlay() {
       playing = false;
-      $('play').innerHTML = '<span>▶ 播放</span>';
+      const playBtn = $('play');
+      if (playBtn) playBtn.innerHTML = '<span>▶ 播放</span>';
+    }
+
+    function startPlay() {
+      if (i >= R.frames.length - 1) i = 0;
+      playing = true;
+      const playBtn = $('play');
+      if (playBtn) playBtn.innerHTML = '<span>⏸ 暂停</span>';
+      last = performance.now();
+    }
+
+    function togglePlay() {
+      if (playing) {
+        pausePlay();
+      } else {
+        startPlay();
+      }
     }
 
     function tick(t) {
-      const spd = parseFloat($('speed').value);
-      // 速度映射：1x 对应 200ms 每帧；0.25x 对应 800ms 每帧；4x 对应 50ms 每帧
-      const interval = 200 / spd;
-      if (playing && t - last >= interval) {
-        last = t;
-        if (i < R.frames.length - 1) {
-          i++;
-          render();
-        } else {
-          go(i);
+      if (playing) {
+        const spd = parseFloat($('speed').value) || 1;
+        // 速度映射：1x 对应 200ms 每帧；0.25x 对应 800ms 每帧；4x 对应 50ms 每帧
+        const interval = 200 / spd;
+        if (t - last >= interval) {
+          last = t;
+          if (i < R.frames.length - 1) {
+            i++;
+            render();
+          } else {
+            pausePlay();
+          }
         }
       }
       requestAnimationFrame(tick);
     }
 
     // 绑定事件
-    $('play').onclick = () => {
-      if (i === R.frames.length - 1) i = 0;
-      playing = !playing;
-      $('play').innerHTML = playing ? '<span>⏸ 暂停</span>' : '<span>▶ 播放</span>';
-    };
-    $('prev').onclick = () => go(i - 1);
-    $('next').onclick = () => go(i + 1);
-    $('seek').oninput = e => go(+e.target.value);
-    $('keys').onchange = e => { if (e.target.value !== '') go(+e.target.value); };
+    function setupEventListeners() {
+      $('play').onclick = togglePlay;
+      $('prev').onclick = () => go(i - 1);
+      $('next').onclick = () => go(i + 1);
+      $('seek').oninput = e => go(+e.target.value);
+      $('keys').onchange = e => { if (e.target.value !== '') go(+e.target.value); };
 
-    addEventListener('keydown', e => {
-      if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
-      if (e.key === 'ArrowRight') go(i + 1);
-      if (e.key === 'ArrowLeft') go(i - 1);
-      if (e.key === ' ') { e.preventDefault(); $('play').click(); }
-    });
+      addEventListener('keydown', e => {
+        if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+        if (e.key === 'ArrowRight') { e.preventDefault(); go(i + 1); }
+        if (e.key === 'ArrowLeft') { e.preventDefault(); go(i - 1); }
+        if (e.key === ' ') { e.preventDefault(); togglePlay(); }
+      });
+    }
 
-    window.onload = () => {
+    function init() {
+      cv = $('board');
+      g = cv.getContext('2d');
+      setupEventListeners();
       initLobbyCards();
       loadGameToViewer();
       requestAnimationFrame(tick);
-    };
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
   </script>
 </body>
 </html>
