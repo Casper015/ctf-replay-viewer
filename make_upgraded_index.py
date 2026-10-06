@@ -13,7 +13,7 @@ html_template = """<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>CTF 多智能体夺旗 · 官方全景动态回放 & 战力大厅</title>
+  <title>CTF 多智能体夺旗 · 官方全景动态回放 & 实时战力大厅</title>
   <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
   <style>
     :root {
@@ -63,10 +63,19 @@ html_template = """<!doctype html>
       margin-right: 6px;
       flex-shrink: 0;
     }
-    .game-card.active {
+    .match-item {
+      transition: all 0.15s ease;
+      border: 1px solid #26354a;
+      background: #111822;
+    }
+    .match-item:hover {
+      background: #182333;
       border-color: #3b82f6;
-      background: rgba(59, 130, 246, 0.08);
-      box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+    }
+    .match-item.active {
+      border-color: #3b82f6;
+      background: rgba(59, 130, 246, 0.12);
+      box-shadow: 0 0 12px rgba(59, 130, 246, 0.25);
     }
   </style>
 </head>
@@ -86,10 +95,10 @@ html_template = """<!doctype html>
           <span class="text-xs text-[#8ca0ba]">官方裁判引擎 v1.0 · Canvas 动态复盘</span>
         </div>
         <h1 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-[#f0f6fc]">
-          CTF 多智能体对战平台 · 动态复盘与 KDA 战报大厅
+          CTF 多智能体对战平台 · 动态复盘与实时 KDA 战报大厅
         </h1>
         <p class="text-sm text-[#8ca0ba] mt-1.5">
-          15 大顶尖 AI 模型全员交锋 · 逐回合动作级追踪 · 慢动作微操回放 · 战损比矩阵与技术统计
+          15 大顶尖 AI 模型全员交锋 · 逐回合动作级追踪 · 慢动作微操回放 · 随播放步进实时动态刷新战损比矩阵
         </p>
       </div>
 
@@ -101,22 +110,42 @@ html_template = """<!doctype html>
       </div>
     </header>
 
-    <!-- 🎮 游戏选择大厅 (Game Selector Lobby) -->
-    <section class="bg-[#151d28] border border-[#26354a] rounded-2xl p-5 sm:p-6 shadow-md space-y-4">
-      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+    <!-- 🎮 游戏选择大厅 (Match Lobby List - 列表化设计，支持未来扩充无限场次) -->
+    <section class="bg-[#151d28] border border-[#26354a] rounded-2xl p-4 sm:p-5 shadow-md space-y-3.5">
+      <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
         <div>
           <h2 class="text-lg sm:text-xl font-bold text-[#f0f6fc] flex items-center gap-2">
             <span>🎯</span> 对局选择大厅 (Match Lobby)
           </h2>
-          <p class="text-xs text-[#8ca0ba] mt-0.5">精选 6 场高能史诗战役 · 点击下方卡片即可免刷新瞬时切换全盘对局与技术统计</p>
+          <p class="text-xs text-[#8ca0ba] mt-0.5">采用无限扩充 List 架构 · 支持按人数分类与关键词搜索 · 点击任意条目免刷新秒级切换</p>
         </div>
-        <span id="current-loaded-tag" class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-blue-500/10 text-blue-400 border border-blue-500/20">
-          当前加载：15人·90球纪录战
-        </span>
+        
+        <!-- 搜索与场次指示 -->
+        <div class="flex flex-wrap items-center gap-2 w-full sm:w-auto">
+          <div class="relative flex-1 sm:w-60">
+            <input id="match-search" type="text" placeholder="搜索模型、对局ID、特征…" 
+                   class="w-full bg-[#0b1017] text-[#f0f6fc] text-xs rounded-xl px-3 py-1.5 border border-[#26354a] focus:outline-none focus:border-blue-500 pl-8 placeholder-[#64748b]">
+            <svg class="w-3.5 h-3.5 absolute left-2.5 top-2 text-[#64748b]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+          </div>
+          <span id="match-count-badge" class="px-2.5 py-1 rounded-lg text-xs font-semibold bg-[#212e42] text-blue-400 border border-[#354866]">
+            共 6 场对局
+          </span>
+        </div>
       </div>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-3.5" id="game-card-grid">
-        <!-- 动态生成 6 张卡片 -->
+      <!-- 快捷人数筛选 Tabs -->
+      <div class="flex flex-wrap items-center gap-1.5 text-xs pt-1 border-t border-[#1e2a3b]" id="filter-tabs">
+        <button onclick="setFilter('all')" class="filter-btn px-3 py-1 rounded-lg bg-blue-600 text-white font-semibold transition" data-filter="all">全部对局</button>
+        <button onclick="setFilter('15')" class="filter-btn px-3 py-1 rounded-lg bg-[#111822] text-[#8ca0ba] hover:text-[#f0f6fc] border border-[#26354a] transition" data-filter="15">15人决战</button>
+        <button onclick="setFilter('8')" class="filter-btn px-3 py-1 rounded-lg bg-[#111822] text-[#8ca0ba] hover:text-[#f0f6fc] border border-[#26354a] transition" data-filter="8">8人混战</button>
+        <button onclick="setFilter('4')" class="filter-btn px-3 py-1 rounded-lg bg-[#111822] text-[#8ca0ba] hover:text-[#f0f6fc] border border-[#26354a] transition" data-filter="4">4人交锋</button>
+        <button onclick="setFilter('3')" class="filter-btn px-3 py-1 rounded-lg bg-[#111822] text-[#8ca0ba] hover:text-[#f0f6fc] border border-[#26354a] transition" data-filter="3">3人逆转</button>
+        <button onclick="setFilter('2')" class="filter-btn px-3 py-1 rounded-lg bg-[#111822] text-[#8ca0ba] hover:text-[#f0f6fc] border border-[#26354a] transition" data-filter="2">2人单挑</button>
+      </div>
+
+      <!-- 可滚动对局列表 (Scrollable Match List) -->
+      <div class="max-h-60 overflow-y-auto space-y-1.5 pr-1 rounded-xl border border-[#26354a] p-1.5 bg-[#0b1017]/60" id="match-list-container">
+        <!-- 动态生成对局列表条目 -->
       </div>
     </section>
 
@@ -240,34 +269,39 @@ html_template = """<!doctype html>
       </div>
     </section>
 
-    <!-- 📊 全场战绩矩阵与 KDA 战力表 -->
+    <!-- 📊 实时战绩矩阵与 KDA 战力表 (完全随播放帧动态更新) -->
     <section class="bg-[#151d28] border border-[#26354a] rounded-2xl p-5 sm:p-6 shadow-md space-y-4">
       <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
         <div>
-          <h2 class="text-lg sm:text-xl font-bold text-[#f0f6fc] flex items-center gap-2">
-            <span>📊</span> 全场技术统计矩阵与 KDA 战力榜 (Combat Matrix & KDA)
-          </h2>
+          <div class="flex items-center gap-2.5">
+            <h2 class="text-lg sm:text-xl font-bold text-[#f0f6fc] flex items-center gap-2">
+              <span>📊</span> 实时技术统计矩阵与 KDA 战力榜
+            </h2>
+            <span id="kda-turn-badge" class="px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-blue-500/10 text-blue-400 border border-blue-500/20">
+              当前回合: T0 / 400
+            </span>
+          </div>
           <p class="text-xs text-[#8ca0ba] mt-0.5">
-            拿了多少旗 (进球得分/捡旗总数/转化率) · 杀了多少人 (总杀/助攻/断旗截杀) · 阵亡数 · 战损比 KDA
+            随播放进度实时累加统计：拿了多少旗 (交旗进球/捡旗/转化率) · 杀了多少人 (击杀/助攻/断旗截杀) · 阵亡数 · 实时 KDA 战损比
           </p>
         </div>
         <div class="flex items-center gap-2 text-xs">
           <span class="text-[#8ca0ba]">KDA 战损比计算模型:</span>
-          <span class="px-2.5 py-1 rounded bg-[#212e42] text-amber-400 font-mono font-bold border border-[#354866]">(击杀 + 0.5×助攻) / 阵亡</span>
+          <span class="px-2.5 py-1 rounded bg-[#212e42] text-amber-400 font-mono font-bold border border-[#354866]">(击杀 + 0.5×助攻) / max(1, 阵亡)</span>
         </div>
       </div>
 
-      <!-- 🌟 本局高能数据卡片 -->
+      <!-- 🌟 当前回合高能数据卡片 (实时同步) -->
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs" id="kda-highlight-cards">
-        <!-- 动态生成 4 张本场王座卡片 -->
+        <!-- 动态生成 4 张实时王座卡片 -->
       </div>
 
-      <!-- KDA 数据表格 -->
+      <!-- 实时 KDA 数据表格 -->
       <div class="overflow-x-auto rounded-xl border border-[#26354a]">
         <table class="w-full text-left border-collapse text-xs sm:text-sm">
           <thead>
             <tr class="bg-[#101722] border-b border-[#26354a] text-[#8ca0ba] text-xs font-semibold">
-              <th class="py-3 px-3 text-center">排名</th>
+              <th class="py-3 px-3 text-center">实时排名</th>
               <th class="py-3 px-3">参赛模型 / 阵营</th>
               <th class="py-3 px-3 text-right">🏆 进球得分 (交旗)</th>
               <th class="py-3 px-3 text-right">🚩 捡旗总数</th>
@@ -276,12 +310,12 @@ html_template = """<!doctype html>
               <th class="py-3 px-3 text-right">🤝 助攻 (Assists)</th>
               <th class="py-3 px-3 text-right">🛡️ 断旗截杀</th>
               <th class="py-3 px-3 text-right">💀 阵亡 (Deaths)</th>
-              <th class="py-3 px-3 text-right">📊 KDA 战损比</th>
-              <th class="py-3 px-3 text-center">🎖️ 综合战术评级</th>
+              <th class="py-3 px-3 text-right">📊 实时 KDA</th>
+              <th class="py-3 px-3 text-center">🎖️ 实时战术评级</th>
             </tr>
           </thead>
           <tbody id="kda-tbody" class="divide-y divide-[#1e2a3b] font-mono bg-[#0e141f]">
-            <!-- 动态生成 KDA 行 -->
+            <!-- 动态生成实时 KDA 行 -->
           </tbody>
         </table>
       </div>
@@ -321,7 +355,11 @@ html_template = """<!doctype html>
     const ALL_GAMES = """ + json.dumps(raw_data, ensure_ascii=False) + """;
     let activeKey = 'g15_rec';
     let R = ALL_GAMES[activeKey].replay;
+    let CUM_STATS = []; // 存储当前对局每回合的实时累加统计数据
     
+    let currentFilter = 'all';
+    let currentSearchKeyword = '';
+
     const C = ['#ff6b7f','#5ab4ff','#7bd99b','#d7a2ff','#ffcb6b','#5fd9d4','#ff9fd0','#b5cc6e','#a9aeff','#f09c63','#e0e0e0','#8fb3c9','#e8d38a','#c98fa8','#8fd6b2'];
     const $ = id => document.getElementById(id);
     let cv, g;
@@ -331,40 +369,153 @@ html_template = """<!doctype html>
     const AC = {attack:'攻击', pickup:'拾旗', drop:'丢旗', wait:''};
     const name = t => (R && R.names && R.names[t]) ? R.names[t] : ('阵营' + t);
 
-    // 获取当前对局的技术统计数据
-    function getActiveStats() {
-      const gObj = ALL_GAMES[activeKey];
-      if (gObj && gObj.enhanced_stats && gObj.enhanced_stats.length) return gObj.enhanced_stats;
-      if (gObj && gObj.replay && gObj.replay.enhanced_stats && gObj.replay.enhanced_stats.length) return gObj.replay.enhanced_stats;
-      return [];
+    // 预先逐帧计算当前对局的实时累加技术统计 (耗时 < 2ms)
+    function computeCumulativeStats(replayObj) {
+      const teams = replayObj.header.teams;
+      const running = [];
+      for (let t = 0; t < teams; t++) {
+        running.push({
+          team: t,
+          name: (replayObj.names && replayObj.names[t]) ? replayObj.names[t] : ('阵营' + t),
+          score: 0,
+          pickups: 0,
+          kills: 0,
+          assists: 0,
+          carrier_kills: 0,
+          deaths: 0,
+        });
+      }
+
+      const snapshots = [];
+      for (let frameIdx = 0; frameIdx < replayObj.frames.length; frameIdx++) {
+        const f = replayObj.frames[frameIdx];
+        for (const e of f.events) {
+          if (e.type === 'capture') {
+            if (running[e.team]) running[e.team].score++;
+          } else if (e.type === 'pickup') {
+            const tm = Math.floor(e.unit / 3);
+            if (running[tm]) running[tm].pickups++;
+          } else if (e.type === 'death') {
+            const victimTeam = Math.floor(e.unit / 3);
+            if (running[victimTeam]) running[victimTeam].deaths++;
+            
+            const attackers = e.by || [];
+            const isCarrier = (e.flag !== null && e.flag !== undefined);
+            if (attackers.length === 1) {
+              const killerTeam = Math.floor(attackers[0] / 3);
+              if (running[killerTeam]) {
+                running[killerTeam].kills++;
+                if (isCarrier) running[killerTeam].carrier_kills++;
+              }
+            } else if (attackers.length > 1) {
+              const primaryTeam = Math.floor(attackers[0] / 3);
+              if (running[primaryTeam]) {
+                running[primaryTeam].kills++;
+                if (isCarrier) running[primaryTeam].carrier_kills++;
+              }
+              for (let a = 1; a < attackers.length; a++) {
+                const assistTeam = Math.floor(attackers[a] / 3);
+                if (running[assistTeam]) running[assistTeam].assists++;
+              }
+            }
+          }
+        }
+
+        // 保存 frameIdx 状态快照
+        const snapshot = running.map(st => {
+          const kdaVal = st.deaths > 0 ? ((st.kills + st.assists * 0.5) / st.deaths) : (st.kills + st.assists * 0.5);
+          const rateVal = st.pickups > 0 ? ((st.score / st.pickups) * 100) : 0;
+          return {
+            team: st.team,
+            name: st.name,
+            score: st.score,
+            pickups: st.pickups,
+            kills: st.kills,
+            assists: st.assists,
+            carrier_kills: st.carrier_kills,
+            deaths: st.deaths,
+            kda: parseFloat(kdaVal.toFixed(2)),
+            capture_rate: parseFloat(rateVal.toFixed(1)),
+          };
+        });
+        // 动态根据当前进球数降序、KDA 降序排列
+        snapshot.sort((a, b) => b.score - a.score || b.kda - a.kda);
+        snapshots.push(snapshot);
+      }
+      return snapshots;
     }
 
-    // 初始化游戏选择卡片
-    function initLobbyCards() {
-      const grid = $('game-card-grid');
+    // 初始化/渲染对局 List 列表 (支持无限场次扩展)
+    function renderMatchList() {
+      const container = $('match-list-container');
+      const kw = currentSearchKeyword.toLowerCase().trim();
+      let count = 0;
       let html = '';
+
       for (const [key, cfg] of Object.entries(ALL_GAMES)) {
+        const teamsCount = cfg.replay?.header?.teams || 0;
+        
+        // 分类过滤
+        if (currentFilter !== 'all' && String(teamsCount) !== currentFilter) {
+          continue;
+        }
+
+        // 搜索关键词过滤
+        if (kw) {
+          const text = (cfg.id + ' ' + cfg.tag + ' ' + cfg.title + ' ' + cfg.desc + ' ' + (cfg.replay?.names || []).join(' ')).toLowerCase();
+          if (!text.includes(kw)) continue;
+        }
+
+        count++;
         const stats = cfg.enhanced_stats || cfg.replay?.enhanced_stats || [];
-        const mvpName = stats[0]?.name || '榜首争夺';
+        const topModel = stats[0]?.name || '胜者决出';
         const topScore = stats[0]?.score || 0;
+        const isActive = (key === activeKey);
+
         html += `
-          <div onclick="selectGame('${key}')" id="card-${key}" class="game-card p-3 rounded-xl bg-[#111822] border border-[#26354a] cursor-pointer hover:border-[#3b82f6] transition flex flex-col justify-between space-y-2 select-none">
-            <div>
-              <div class="flex items-center justify-between gap-1 mb-1">
-                <span class="px-1.5 py-0.5 rounded text-[10px] font-bold bg-[#212e42] text-blue-400">${cfg.badge.split('·')[0].trim()}</span>
-                <span class="text-[10px] text-amber-400 font-bold">${cfg.tag}</span>
+          <div onclick="selectGame('${key}')" id="match-row-${key}" 
+               class="match-item p-2.5 sm:p-3 rounded-xl cursor-pointer flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 select-none ${isActive ? 'active' : ''}">
+            <div class="flex items-start sm:items-center gap-2.5 flex-1 min-w-0">
+              <span class="px-2 py-0.5 rounded text-[10px] font-bold bg-[#212e42] text-blue-400 border border-[#354866] whitespace-nowrap">
+                ${cfg.badge.split('·')[0].trim()}
+              </span>
+              <div class="min-w-0 flex-1">
+                <div class="flex items-center gap-2">
+                  <h4 class="text-xs sm:text-sm font-bold text-[#f0f6fc] truncate">${cfg.title}</h4>
+                  <span class="text-[10px] font-mono text-[#8ca0ba]">${cfg.id}</span>
+                </div>
+                <p class="text-[11px] text-[#8ca0ba] line-clamp-1 mt-0.5">${cfg.desc}</p>
               </div>
-              <h4 class="text-xs font-bold text-[#f0f6fc] leading-snug line-clamp-2">${cfg.title}</h4>
             </div>
-            <div class="pt-1 border-t border-[#1e2a3b] flex justify-between items-center text-[10px]">
-              <span class="text-[#8ca0ba]">MVP: <strong class="text-yellow-400">${mvpName}</strong></span>
-              <span class="text-emerald-400 font-bold font-mono">${topScore}分</span>
+
+            <div class="flex items-center justify-between sm:justify-end gap-3 w-full sm:w-auto text-xs border-t sm:border-t-0 border-[#1e2a3b] pt-1.5 sm:pt-0">
+              <div class="text-right">
+                <span class="text-[11px] text-[#8ca0ba]">终盘头名:</span>
+                <span class="font-bold text-yellow-400 ml-1">${topModel}</span>
+              </div>
+              <span class="px-2.5 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-mono font-bold border border-emerald-500/20 whitespace-nowrap">
+                ${topScore} 进球
+              </span>
+              <span class="text-xs ${isActive ? 'text-blue-400 font-bold' : 'text-transparent'}">●</span>
             </div>
           </div>
         `;
       }
-      grid.innerHTML = html;
-      updateActiveCard();
+
+      container.innerHTML = html || '<div class="py-6 text-center text-xs text-[#8ca0ba]">无匹配对局，请尝试更换筛选条件</div>';
+      $('match-count-badge').textContent = `已筛选 ${count} 场 / 共 ${Object.keys(ALL_GAMES).length} 场`;
+    }
+
+    function setFilter(type) {
+      currentFilter = type;
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        if (btn.dataset.filter === type) {
+          btn.className = 'filter-btn px-3 py-1 rounded-lg bg-blue-600 text-white font-semibold transition';
+        } else {
+          btn.className = 'filter-btn px-3 py-1 rounded-lg bg-[#111822] text-[#8ca0ba] hover:text-[#f0f6fc] border border-[#26354a] transition';
+        }
+      });
+      renderMatchList();
     }
 
     function selectGame(key) {
@@ -374,22 +525,8 @@ html_template = """<!doctype html>
       pausePlay();
       i = 0;
       focus = -1;
-      updateActiveCard();
+      renderMatchList();
       loadGameToViewer();
-    }
-
-    function updateActiveCard() {
-      for (const key of Object.keys(ALL_GAMES)) {
-        const el = $('card-' + key);
-        if (el) {
-          if (key === activeKey) {
-            el.className = 'game-card p-3 rounded-xl bg-[#1e293b] border-2 border-blue-500 shadow-lg cursor-pointer flex flex-col justify-between space-y-2 select-none';
-          } else {
-            el.className = 'game-card p-3 rounded-xl bg-[#111822] border border-[#26354a] cursor-pointer hover:border-[#334155] transition flex flex-col justify-between space-y-2 select-none';
-          }
-        }
-      }
-      $('current-loaded-tag').innerText = '当前加载：' + ALL_GAMES[activeKey].tag;
     }
 
     function loadGameToViewer() {
@@ -398,6 +535,9 @@ html_template = """<!doctype html>
       $('current-title-label').innerText = `${cfg.title} (${cfg.id})`;
       $('seek').max = R.frames.length - 1;
       $('seek').value = 0;
+
+      // 实时计算预装载当前对局的逐回合累加统计
+      CUM_STATS = computeCumulativeStats(R);
 
       // 下拉菜单关键回合填充
       const keysSelect = $('keys');
@@ -412,22 +552,25 @@ html_template = """<!doctype html>
         }
       });
 
-      renderKdaTable();
       render();
     }
 
-    function renderKdaTable() {
+    // 渲染实时动态 KDA 表格与高能数据卡片 (依据当前 frame 的实时累计数据)
+    function renderKdaTable(stats) {
       const tbody = $('kda-tbody');
       const cards = $('kda-highlight-cards');
-      const stats = getActiveStats();
+      const f = R.frames[i];
+      const maxTurn = (R.frames[R.frames.length - 1] ? R.frames[R.frames.length - 1].turn : 400);
+
+      $('kda-turn-badge').textContent = `当前回合: T${f.turn} / ${maxTurn}`;
 
       if (!stats || !stats.length) {
-        tbody.innerHTML = '<tr><td colspan="11" class="py-6 text-center text-[#8ca0ba]">暂无技术统计数据</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="11" class="py-6 text-center text-[#8ca0ba]">暂无实时技术统计数据</td></tr>';
         if (cards) cards.innerHTML = '';
         return;
       }
 
-      // 计算本场高光之星
+      // 计算本回合实时高光之星
       const topScore = [...stats].sort((a,b) => b.score - a.score)[0];
       const topKills = [...stats].sort((a,b) => b.kills - a.kills)[0];
       const topCK = [...stats].sort((a,b) => b.carrier_kills - a.carrier_kills)[0];
@@ -437,16 +580,16 @@ html_template = """<!doctype html>
         cards.innerHTML = `
           <div class="p-3 bg-[#111822] rounded-xl border border-[#26354a]">
             <div class="text-[#8ca0ba] text-[11px] flex justify-between">
-              <span>👑 本场得分王</span>
+              <span>👑 实时得分王</span>
               <span class="text-emerald-400 font-bold">${topScore.score} 进球</span>
             </div>
             <div class="text-sm font-bold text-yellow-400 mt-1 truncate">${topScore.name}</div>
-            <div class="text-[11px] text-[#8ca0ba] mt-0.5">护送转化率 ${topScore.capture_rate}%</div>
+            <div class="text-[11px] text-[#8ca0ba] mt-0.5">转化率 ${topScore.capture_rate}% (${topScore.pickups} 捡旗)</div>
           </div>
 
           <div class="p-3 bg-[#111822] rounded-xl border border-[#26354a]">
             <div class="text-[#8ca0ba] text-[11px] flex justify-between">
-              <span>⚔️ 全场杀神</span>
+              <span>⚔️ 实时杀神</span>
               <span class="text-red-400 font-bold">${topKills.kills} 击杀</span>
             </div>
             <div class="text-sm font-bold text-red-400 mt-1 truncate">${topKills.name}</div>
@@ -455,16 +598,16 @@ html_template = """<!doctype html>
 
           <div class="p-3 bg-[#111822] rounded-xl border border-[#26354a]">
             <div class="text-[#8ca0ba] text-[11px] flex justify-between">
-              <span>🛡️ 铁壁截断</span>
+              <span>🛡️ 实时断旗截杀</span>
               <span class="text-amber-400 font-bold">${topCK.carrier_kills} 断旗杀</span>
             </div>
             <div class="text-sm font-bold text-amber-400 mt-1 truncate">${topCK.name}</div>
-            <div class="text-[11px] text-[#8ca0ba] mt-0.5">极限挽救失球危机</div>
+            <div class="text-[11px] text-[#8ca0ba] mt-0.5">拦截敌方持旗突防</div>
           </div>
 
           <div class="p-3 bg-[#111822] rounded-xl border border-[#26354a]">
             <div class="text-[#8ca0ba] text-[11px] flex justify-between">
-              <span>📊 最佳 KDA</span>
+              <span>📊 实时最佳 KDA</span>
               <span class="text-cyan-400 font-bold">${topKDA.kda} 战损比</span>
             </div>
             <div class="text-sm font-bold text-cyan-400 mt-1 truncate">${topKDA.name}</div>
@@ -475,14 +618,14 @@ html_template = """<!doctype html>
 
       let html = '';
       stats.forEach((st, rank) => {
-        const isTop = rank === 0;
+        const isTop = (rank === 0 && st.score > 0);
         const color = C[st.team % 15];
         
         let badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-gray-500/10 text-gray-400">稳定发挥</span>';
-        if (rank === 0) badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-yellow-500/10 text-yellow-400 font-bold">👑 本场 MVP</span>';
-        else if (st.kills >= 30) badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-red-500/10 text-red-400 font-bold">⚔️ 杀神</span>';
-        else if (st.capture_rate >= 80 && st.score >= 5) badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-emerald-500/10 text-emerald-400 font-bold">🎯 高效护送</span>';
-        else if (st.carrier_kills >= 8) badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-amber-500/10 text-amber-400 font-bold">🛡️ 铁壁截断</span>';
+        if (isTop) badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-yellow-500/10 text-yellow-400 font-bold">👑 当前领跑</span>';
+        else if (st.kills >= 15) badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-red-500/10 text-red-400 font-bold">⚔️ 杀神</span>';
+        else if (st.capture_rate >= 75 && st.score >= 3) badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-emerald-500/10 text-emerald-400 font-bold">🎯 高效护送</span>';
+        else if (st.carrier_kills >= 5) badge = '<span class="px-2 py-0.5 rounded text-[10px] bg-amber-500/10 text-amber-400 font-bold">🛡️ 铁壁截断</span>';
 
         html += `
           <tr class="hover:bg-[#16202e] transition ${isTop ? 'bg-blue-500/5' : ''}">
@@ -495,7 +638,7 @@ html_template = """<!doctype html>
             <td class="py-2.5 px-3 text-right text-[#f0f6fc]">${st.pickups}</td>
             <td class="py-2.5 px-3 text-right text-cyan-400">${st.capture_rate}%</td>
             <td class="py-2.5 px-3 text-right font-bold text-red-400">${st.kills}</td>
-            <td class="py-2.5 px-3 text-right text-[#8ca0ba]">${st.assists ?? 0}</td>
+            <td class="py-2.5 px-3 text-right text-[#8ca0ba]">${st.assists}</td>
             <td class="py-2.5 px-3 text-right text-amber-400 font-bold">${st.carrier_kills}</td>
             <td class="py-2.5 px-3 text-right text-[#8ca0ba]">${st.deaths}</td>
             <td class="py-2.5 px-3 text-right font-bold ${st.kda >= 1.5 ? 'text-emerald-400' : st.kda >= 1 ? 'text-blue-400' : 'text-[#8ca0ba]'}">${st.kda}</td>
@@ -678,6 +821,11 @@ html_template = """<!doctype html>
       } catch (err) {
         console.error('Error rendering orders log:', err);
       }
+
+      // 实时动态渲染 KDA 表格与高能数据卡片
+      if (CUM_STATS && CUM_STATS[i]) {
+        renderKdaTable(CUM_STATS[i]);
+      }
     }
 
     function star(x, y, r, col) {
@@ -744,6 +892,14 @@ html_template = """<!doctype html>
       $('seek').oninput = e => go(+e.target.value);
       $('keys').onchange = e => { if (e.target.value !== '') go(+e.target.value); };
 
+      const searchInput = $('match-search');
+      if (searchInput) {
+        searchInput.oninput = e => {
+          currentSearchKeyword = e.target.value;
+          renderMatchList();
+        };
+      }
+
       addEventListener('keydown', e => {
         if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
         if (e.key === 'ArrowRight') { e.preventDefault(); go(i + 1); }
@@ -756,7 +912,7 @@ html_template = """<!doctype html>
       cv = $('board');
       g = cv.getContext('2d');
       setupEventListeners();
-      initLobbyCards();
+      renderMatchList();
       loadGameToViewer();
       requestAnimationFrame(tick);
     }
@@ -775,4 +931,4 @@ Path("index.html").write_text(html_template, encoding='utf-8')
 docs_dir = Path("docs")
 docs_dir.mkdir(exist_ok=True)
 (docs_dir / "index.html").write_text(html_template, encoding='utf-8')
-print("Successfully generated upgraded index.html and docs/index.html with 6 curated games and prominent KDA matrix!")
+print("Successfully generated upgraded index.html with Real-time KDA and Match List view!")
