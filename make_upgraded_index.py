@@ -1928,6 +1928,9 @@ docs_dir.mkdir(exist_ok=True)
 (docs_dir / "index.html").write_text(lobby_content, encoding='utf-8')
 (docs_dir / "lobby.html").write_text(lobby_content, encoding='utf-8')
 
+Path(".nojekyll").write_text("", encoding='utf-8')
+(docs_dir / ".nojekyll").write_text("", encoding='utf-8')
+
 print("✓ 成功生成对局选择大厅 index.html 与 lobby.html！")
 
 # 2. 为每一场比赛生成专属独立 HTML 文件 (一个比赛一个网页)

@@ -49,19 +49,19 @@
 
 ## 🏆 精选对局巡礼 (Curated Matches)
 
-| 编号 | 对局 ID | 规模 | 地图 | 进球纪录 | 对局看点 |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **g15_rec** | `sz15-m055282` | 15 人 (45 单位) | 49×49 | 90 球 | **全赛程最高进球纪录**！Sonnet 14 vs P5 13 vs Astra 13，压哨 1 分绝杀 |
-| **g15_p5** | `sz15-m057668` | 15 人 (45 单位) | 49×49 | 84 球 | **个人 16 球暴走高光**！Sol 独揽 16 球、转化率 76.2%，全场 84 次惨烈拼杀 |
-| **g8_record** | `sz08-m040053` | 8 人 (24 单位) | 41×41 | 70 球 | **8人局破门纪录战**！Opus(13) vs Astra(12) vs Sol(11) vs DeepSeek(10) 四强全部破门上双 |
-| **g8_astra_opus** | `sz08-m037636` | 8 人 (24 单位) | 41×41 | 64 球 | **15:14 神魔决战**！Astra(15) 压哨 1 分险胜 Opus(14)，四大模型全破 10 分 |
-| **g8_p5_sol** | `sz08-m041527` | 8 人 (24 单位) | 41×41 | 63 球 | **总天梯冠亚军死斗**！天梯第 1 的 Player5(13) 终盘 1 分险胜第 2 的 Sol(12) |
-| **g4_record** | `sz04-m015252` | 4 人 (12 单位) | 31×31 | 53 球 | **4人局破门纪录战**！Astra 爆发极致单兵侵略狂轰 18 球，Sol(14) 与 P5(13) 全力阻截 |
-| **g4_duel** | `sz04-m016157` | 4 人 (12 单位) | 31×31 | 47 球 | **18:17 史诗双雄死斗**！Player5(18) vs Sol(17) 独揽 35 球，第 395 回合门前断旗 1 球绝杀 |
-| **g4_tie** | `sz04-m021109` | 4 人 (12 单位) | 31×31 | 51 球 | **16:16 终盘握手双冠战**！Player5 与 Astra 展开狂暴换家拉锯，终场 16:16 握手言和 |
-| **g4_three_way** | `sz04-m016034` | 4 人 (12 单位) | 31×31 | 45 球 | **12:12:12 三足鼎立奇迹**！Fable(12) = DeepSeek(12) = Sol(12) 罕见三队并列第一 |
-| **g3** | `sz03-m012514` | 3 人 (9 单位) | 31×31 | 47 球 | **半程落后 7 分绝地大翻盘**！Fable 5.1(17) 下半场连追 12 分 17:16 压哨逆转 Sol |
-| **g2** | `sz02-m006122` | 2 人 (6 单位) | 23×23 | 60 球 | **60 球单挑巅峰决战**！10 次比分更迭，Player5(31) 终盘断旗绝杀 Opus(29) |
+| 编号 | 对局 ID | 规模 | 地图 | 进球纪录 | 对局看点 | 独立网页直达 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **g15_rec** | `sz15-m055282` | 15 人 (45 单位) | 49×49 | 90 球 | **全赛程最高进球纪录**！Sonnet 14 vs P5 13 vs Astra 13，压哨 1 分绝杀 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g15_rec.html) |
+| **g15_p5** | `sz15-m057668` | 15 人 (45 单位) | 49×49 | 84 球 | **个人 16 球暴走高光**！Sol 独揽 16 球、转化率 76.2%，全场 84 次惨烈拼杀 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g15_p5.html) |
+| **g8_record** | `sz08-m040053` | 8 人 (24 单位) | 41×41 | 70 球 | **8人局破门纪录战**！Opus(13) vs Astra(12) vs Sol(11) vs DeepSeek(10) 四强全部破门上双 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g8_record.html) |
+| **g8_astra_opus** | `sz08-m037636` | 8 人 (24 单位) | 41×41 | 64 球 | **15:14 神魔决战**！Astra(15) 压哨 1 分险胜 Opus(14)，四大模型全破 10 分 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g8_astra_opus.html) |
+| **g8_p5_sol** | `sz08-m041527` | 8 人 (24 单位) | 41×41 | 63 球 | **总天梯冠亚军死斗**！天梯第 1 的 Player5(13) 终盘 1 分险胜第 2 的 Sol(12) | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g8_p5_sol.html) |
+| **g4_record** | `sz04-m015252` | 4 人 (12 单位) | 31×31 | 53 球 | **4人局破门纪录战**！Astra 爆发极致单兵侵略狂轰 18 球，Sol(14) 与 P5(13) 全力阻截 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g4_record.html) |
+| **g4_duel** | `sz04-m016157` | 4 人 (12 单位) | 31×31 | 47 球 | **18:17 史诗双雄死斗**！Player5(18) vs Sol(17) 独揽 35 球，第 395 回合门前断旗 1 球绝杀 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g4_duel.html) |
+| **g4_tie** | `sz04-m021109` | 4 人 (12 单位) | 31×31 | 51 球 | **16:16 终盘握手双冠战**！Player5 与 Astra 展开狂暴换家拉锯，终场 16:16 握手言和 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g4_tie.html) |
+| **g4_three_way** | `sz04-m016034` | 4 人 (12 单位) | 31×31 | 45 球 | **12:12:12 三足鼎立奇迹**！Fable(12) = DeepSeek(12) = Sol(12) 罕见三队并列第一 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g4_three_way.html) |
+| **g3** | `sz03-m012514` | 3 人 (9 单位) | 31×31 | 47 球 | **半程落后 7 分绝地大翻盘**！Fable 5.1(17) 下半场连追 12 分 17:16 压哨逆转 Sol | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g3.html) |
+| **g2** | `sz02-m006122` | 2 人 (6 单位) | 23×23 | 60 球 | **60 球单挑巅峰决战**！10 次比分更迭，Player5(31) 终盘断旗绝杀 Opus(29) | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g2.html) |
 
 ---
 
