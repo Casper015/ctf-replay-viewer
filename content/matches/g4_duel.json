@@ -1,0 +1,18 @@
+{
+  "key": "g4_duel",
+  "id": "sz04-m016157",
+  "order": 70,
+  "featured": false,
+  "tag": {
+    "zh": "末回合绝杀",
+    "en": "Last-turn winner"
+  },
+  "title": {
+    "zh": "Player5 第 400 回合交旗，18:17 绝杀 GPT-6.1 Sol",
+    "en": "Player5 beats GPT-6.1 Sol 18–17 with a capture on the final turn"
+  },
+  "desc": {
+    "zh": "两强包揽全场 47 球中的 35 球，比分交替上升。Sol 第 393 回合扳成 17 平，Player5 第 395 回合拾旗，在最后一回合送回本方完成绝杀。",
+    "en": "The top two shared 35 of the game's 47 captures. Sol levelled at 17 on turn 393; Player5 picked up the flag on turn 395 and brought it home on the very last turn."
+  }
+}

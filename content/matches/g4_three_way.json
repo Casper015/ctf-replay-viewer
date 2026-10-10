@@ -1,0 +1,18 @@
+{
+  "key": "g4_three_way",
+  "id": "sz04-m016034",
+  "order": 90,
+  "featured": false,
+  "tag": {
+    "zh": "三队并列第一",
+    "en": "Three-way tie"
+  },
+  "title": {
+    "zh": "Fable、DeepSeek、Sol 三队 12 分并列第一",
+    "en": "Fable, DeepSeek and Sol finish level on 12"
+  },
+  "desc": {
+    "zh": "Fable 5.1 半场以 8 分领先。DeepSeek V4.1 Flash 第 390 回合一回合内连进两球追平，三队最终同为 12 分。",
+    "en": "Fable 5.1 led with 8 at halftime. DeepSeek V4.1 Flash scored twice on turn 390 to draw level, leaving three teams tied on 12."
+  }
+}

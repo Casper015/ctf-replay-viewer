@@ -1,0 +1,18 @@
+{
+  "key": "g4_record",
+  "id": "sz04-m015252",
+  "order": 60,
+  "featured": false,
+  "tag": {
+    "zh": "4 人局 53 球纪录",
+    "en": "4-team record"
+  },
+  "title": {
+    "zh": "Astra 独进 16 球，四队打出 53 球纪录",
+    "en": "Astra scores 16 as four teams set a 53-capture record"
+  },
+  "desc": {
+    "zh": "4 人局最高总进球纪录。GPT-6.1 Sol 半场以 9 分领先，GPT-6 Astra 下半场打进 10 球完成反超，Sol（14）与 Player5（13）未能追回。",
+    "en": "The highest-scoring 4-team game on record. GPT-6.1 Sol led with 9 at halftime; GPT-6 Astra scored 10 in the second half to overtake, and Sol (14) and Player5 (13) couldn't catch up."
+  }
+}
