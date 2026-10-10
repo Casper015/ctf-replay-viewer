@@ -1,0 +1,112 @@
+# Data formats · 数据格式
+
+Three kinds of JSON files feed the site. `tools/add_match.py` and `tools/build_catalog.py` validate them and print readable errors, so you rarely need to check by hand.
+
+网站使用三种 JSON 文件。`tools/add_match.py` 和 `tools/build_catalog.py` 会自动校验并给出清楚的错误提示，一般不需要手动检查。
+
+| File · 文件 | Written by · 由谁编写 | Purpose · 用途 |
+| --- | --- | --- |
+| `site/data/matches/<key>.json` | engine / `add_match.py` | Replay: every turn of one match · 回放：一场比赛的每个回合 |
+| `content/matches/<key>.json` | people (or drafted by `add_match.py`) · 人工编写或自动起草 | Bilingual lobby text · 大厅显示的中英文文字 |
+| `site/data/catalog.json` | `build_catalog.py` only · 仅自动生成 | Index the lobby loads first · 大厅首先加载的索引 |
+
+## Replay · 回放
+
+One object per match. Fields marked **required** are checked by `validate_replay` in `tools/ctf_data.py`.
+
+```jsonc
+{
+  "header": {                       // required
+    "teams": 4,                     // required: number of teams
+    "size": 31,                     // required: the map is size × size cells
+    "map": ["#####…", "#...…"],     // required: `size` strings; '#' = wall, anything else = open
+    "bases": [[[4,8],[5,8]], …],    // required: one list of [x, y] cells per team
+    "flag_spots": [[9,10], …],      // required: where flags spawn and return to
+    "rules": {                      // required
+      "hp": 100,                    // required: max health, used for health rings
+      "turns": 400, "damage": 34, "attack_range": 2,
+      "respawn": 10, "flag_return": 15, "flag_cooldown": 8
+    }
+  },
+  "names": ["Player5", "Opus 5.5", …],  // required: one display name per team
+  "frames": [ … ],                      // required: frame 0 is the start, then one per turn
+  "result": { … },                      // optional: engine summary (not used by the site)
+  "enhanced_stats": [ … ]               // optional: final per-team stats (the site recomputes them)
+}
+```
+
+Each team has exactly **3 units**. Unit `id` runs from `0` to `teams × 3 − 1`, and a unit's team is `Math.floor(id / 3)`.
+
+每支队伍固定 **3 个单位**，单位 `id` 从 `0` 到 `队伍数 × 3 − 1`，所属队伍为 `Math.floor(id / 3)`。
+
+### Frame · 帧
+
+```jsonc
+{
+  "turn": 50,
+  "score": [2, 5, 0, 1],                 // captures so far, one per team
+  "units": [                             // every unit, sorted by id
+    { "id": 0, "pos": [12, 11], "hp": 66, "flag": null },
+    { "id": 1, "pos": [11, 11], "hp": 100, "flag": 1 },   // carrying flag 1
+    { "id": 2, "pos": null, "hp": 0, "flag": null }       // dead (pos null)
+  ],
+  "flags": [
+    { "id": 0, "pos": [9, 10], "status": "home",     "holder": null, "return_at": null },
+    { "id": 1, "pos": null,    "status": "carried",  "holder": 1,    "return_at": null },
+    { "id": 2, "pos": [20,17], "status": "dropped",  "holder": null, "return_at": 43 },
+    { "id": 3, "pos": null,    "status": "cooldown", "holder": null, "return_at": 18 }
+  ],
+  "events": [ … ],                       // what happened this turn (below)
+  "orders": {                            // optional: what each team's bot asked for
+    "0": { "units": [ { "id": 0, "move": "S", "act": "attack", "target": 4, "note": "camp" } ] }
+  }
+}
+```
+
+- `move`: `N`, `S`, `E`, `W` or `WAIT`
+- `act`: `attack`, `pickup`, `drop` or `wait`
+- `note`: the bot's own free-text label (shown as-is) · 机器人自己的备注，原样显示
+
+### Events · 事件
+
+| `type` | Fields · 字段 | Meaning · 含义 |
+| --- | --- | --- |
+| `capture` | `unit`, `team`, `flag` | A flag was brought home: +1 for `team` · 交旗得分 |
+| `pickup` | `unit`, `flag` | A unit picked up a flag · 拾起旗帜 |
+| `drop` | `unit`, `flag` | A unit put a flag down · 放下旗帜 |
+| `attack` | `unit`, `target` | One unit hit another · 攻击 |
+| `death` | `unit`, `pos`, `by` (attacker ids, killer first), `flag` (dropped flag or `null`) | A unit was taken down · 阵亡 |
+| `respawn` | `unit` | A unit came back at its base · 重生 |
+| `return` | `flag` | A dropped flag went back to a spot · 旗帜归位 |
+
+Stats the site derives from events: a **kill** goes to the first id in `by`, the rest get an **assist**; a **carrier stop** is a kill on a unit whose `death` event has a non-null `flag`. KDA = (kills + 0.5 × assists) ÷ max(1, deaths).
+
+网站从事件中统计数据：`by` 中第一个单位记**击杀**，其余记**助攻**；被击杀时 `flag` 不为空则记一次**截杀持旗**。KDA = (击杀 + 0.5 × 助攻) ÷ max(1, 阵亡)。
+
+## Match metadata · 比赛元数据
+
+`content/matches/<key>.json`. The template with field-by-field notes is `tools/templates/match.json`; keys starting with `$` are notes and are ignored.
+
+模板见 `tools/templates/match.json`，以 `$` 开头的字段是说明，会被忽略。
+
+```json
+{
+  "key": "g4_duel",
+  "id": "sz04-m016157",
+  "order": 70,
+  "featured": false,
+  "tag":   { "zh": "…", "en": "…" },
+  "title": { "zh": "…", "en": "…" },
+  "desc":  { "zh": "…", "en": "…" }
+}
+```
+
+- `key`: lowercase letters, digits, `_` or `-`; must equal the file name and the replay's file name · 只能用小写字母、数字、`_`、`-`，须与文件名一致
+- `order`: lobby position, low first · 大厅排序，数字小的在前
+- `featured`: at most one match · 最多一场
+
+## Catalog · 索引
+
+Generated by `tools/build_catalog.py`. Never edit it by hand. Each entry repeats the metadata and adds what the lobby needs without loading replays: `teams`, `size`, `units`, `turns`, `totalCaptures`, `leadChanges`, `standings` (final, sorted), `captures` (`[turn, team]` pairs for the score-race lines), `map`, `bases`, `flagSpots`, `file` and `bytes`.
+
+由 `tools/build_catalog.py` 自动生成，不要手动修改。

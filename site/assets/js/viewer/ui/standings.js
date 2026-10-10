@@ -38,6 +38,8 @@ export function mountStandings(store) {
       r.li.style.order = String(rank);
       r.btn.setAttribute('aria-pressed', String(s.focusTeam === row.team));
       r.btn.classList.toggle('is-dim', s.focusTeam >= 0 && s.focusTeam !== row.team);
+      // Rows are reordered visually with CSS `order`, so mark the leader explicitly
+      r.btn.classList.toggle('is-leader', row.score > 0 && row.score === ranking[0].score);
       r.btn.innerHTML = `
         <span class="standing__rank num">${rank + 1}</span>
         ${swatchSvg(row.team, 14)}

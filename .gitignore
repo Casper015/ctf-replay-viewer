@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local Claude Code state (launch.json for previews is shared)
+.claude/*
+!.claude/launch.json

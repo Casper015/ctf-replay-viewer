@@ -9,7 +9,7 @@ import { drawTerrain } from './terrain.js';
 import {
   drawBeam, drawCapture, drawDeath, drawGroundFlag, drawRespawn, drawSelection, drawTrail, drawUnit,
 } from './sprites.js';
-import { teamOfUnit, unitSlot } from '../../core/teams.js';
+import { teamOfUnit, unitSlot } from '../core/teams.js';
 
 const TRAIL_FRAMES = 7;
 const smooth = (t) => t * t * (3 - 2 * t);

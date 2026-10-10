@@ -165,7 +165,7 @@ def cmd_add(args) -> None:
         return
     rebuild_catalog()
     print("\nadded: " + ", ".join(added))
-    print("preview: python3 -m http.server -d site 8000  ->  http://localhost:8000/match.html?m=" + added[0])
+    print("preview: python3 tools/serve.py  ->  http://localhost:8000/match.html?m=" + added[0])
 
 
 def cmd_draft(args) -> None:

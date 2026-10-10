@@ -2,7 +2,7 @@
 // All functions draw in CSS pixels on a context already scaled for devicePixelRatio.
 // Sizes scale with the cell size `cs`; fine detail is dropped when cells get small.
 
-import { shade, teamColor, teamShape, traceShape, withAlpha } from '../../core/teams.js';
+import { shade, teamColor, teamShape, traceShape, withAlpha } from '../core/teams.js';
 
 const INK = 'rgba(6, 8, 28, 0.92)';
 const GOLD = '#ffc24b';

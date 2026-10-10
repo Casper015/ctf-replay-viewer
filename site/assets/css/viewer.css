@@ -192,6 +192,11 @@
   animation: card-in var(--dur) var(--ease-out);
 }
 @keyframes card-in { from { opacity: 0; transform: translateY(6px); } }
+@media (max-width: 719px) {
+  .unit-card { width: min(230px, calc(100% - 60px)); padding: 10px; gap: 4px; }
+  .unit-card__head { font-size: var(--fs-xs); }
+  .unit-card__follow { min-height: 28px; }
+}
 .unit-card__head { display: flex; align-items: center; gap: 8px; font-size: var(--fs-sm); }
 .unit-card__head strong { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .unit-card__close { width: 28px; height: 28px; margin: -4px -6px -4px 0; }
@@ -398,6 +403,7 @@
 .flag-chip--carried { background: var(--flag-soft); color: var(--text); }
 .flag-chip--cooldown .icon, .flag-chip--cooldown b { color: var(--text-3); }
 .flag-chip .swatch { width: 10px; height: 10px; }
+.flag-chip > span { display: inline-flex; align-items: center; gap: 4px; }
 
 .standings { display: flex; flex-direction: column; gap: 2px; }
 .standing {
@@ -419,7 +425,7 @@
 .standing__name { font-weight: 600; font-size: var(--fs-sm); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .standing__units { display: inline-flex; gap: 3px; }
 .standing__score { font-size: var(--fs-2xl); line-height: 1; text-align: right; }
-.standings li:first-child .standing__score { color: var(--flag); }
+.standing.is-leader .standing__score { color: var(--flag); }
 .pip { width: 12px; height: 12px; }
 .pip--dead { opacity: 0.55; }
 .standing.scored { animation: scored 900ms var(--ease-out); }
@@ -429,7 +435,8 @@
 
 /* Feed */
 .feed-filter { margin-bottom: var(--s-2); max-width: 100%; overflow-x: auto; }
-.moments { display: flex; flex-direction: column; max-height: 260px; overflow: auto; margin: 0 calc(-1 * var(--s-1)); }
+.feed-block + .feed-block { margin-top: var(--s-4); padding-top: var(--s-1); border-top: 1px solid var(--line); }
+.moments { position: relative; display: flex; flex-direction: column; max-height: 260px; overflow: auto; margin: 0 calc(-1 * var(--s-1)); }
 .moment {
   width: 100%;
   display: grid;

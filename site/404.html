@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Page not found | CTF Arena Replays</title>
+  <!-- GitHub Pages serves this file for any missing path, at any depth, so it is fully
+       self-contained (no relative CSS/JS) and works out the site root at runtime. -->
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px;
+      background: #0c1029; color: #eef0ff;
+      font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", sans-serif;
+      text-align: center;
+    }
+    main { max-width: 34rem; display: grid; gap: 12px; justify-items: center; }
+    h1 { margin: 0; font-size: 1.5rem; }
+    p { margin: 0; color: #b6bbdf; line-height: 1.55; }
+    a { margin-top: 12px; display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border-radius: 10px; background: #eef0ff; color: #0c1029; font-weight: 600; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <svg width="40" height="40" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#1a2046"/><path d="M11 26V7" stroke="#eef0ff" stroke-width="2.4" stroke-linecap="round"/><path d="M11.5 7.2h12.3l-3.3 4.9 3.3 4.9H11.5z" fill="#ffc24b"/></svg>
+    <h1>找不到这个页面 / Page not found</h1>
+    <p>链接可能已失效，所有对局都在大厅里。<br>This link may be out of date. Every match is listed in the lobby.</p>
+    <a id="home" href="/">返回对局大厅 / Go to the lobby</a>
+  </main>
+  <script>
+    // Project sites live under /<repo>/ on github.io; user sites and local servers at /
+    var seg = location.pathname.split('/')[1];
+    if (/\.github\.io$/.test(location.hostname) && seg) document.getElementById('home').href = '/' + seg + '/';
+  </script>
+</body>
+</html>

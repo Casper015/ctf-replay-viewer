@@ -1,9 +1,9 @@
 // Board area: canvas renderer + gestures + HUD pills + zoom tools + hover tip.
 // Exposes draw(now) for the main animation loop.
 
-import { BoardRenderer } from '../board/renderer.js';
-import { attachGestures } from '../board/gestures.js';
-import { $, prefersReducedMotion } from '../../core/dom.js';
+import { BoardRenderer } from '../../board/renderer.js';
+import { attachGestures } from '../../board/gestures.js';
+import { $, escapeHtml, prefersReducedMotion } from '../../core/dom.js';
 import { onLangChange, t } from '../../core/i18n.js';
 import { fmtInt } from '../../core/format.js';
 import { swatchSvg, teamName, teamOfUnit, unitSlot } from '../../core/teams.js';
@@ -89,7 +89,7 @@ export function mountBoardView(store, { playback }) {
     const s = store.get();
     const u = s.replay.frames[s.frame].units[unit];
     const team = teamOfUnit(unit);
-    tip.innerHTML = `${swatchSvg(team, 12)}<span>${unitLabel(s.replay, unit)}</span>`
+    tip.innerHTML = `${swatchSvg(team, 12)}<span>${escapeHtml(unitLabel(s.replay, unit))}</span>`
       + `<span class="board-tip__hp num">${fmtInt(u.hp)}</span>`;
     tip.hidden = false;
     const fw = frame.clientWidth;
@@ -109,7 +109,7 @@ export function mountBoardView(store, { playback }) {
     if (top === 0) {
       hudLeader.innerHTML = `<span class="hud-label">${t('viewer.noScoreYet')}</span>`;
     } else if (leaders.length === 1) {
-      hudLeader.innerHTML = `${swatchSvg(leaders[0], 12)}<span class="hud-name">${teamName(s.replay.names[leaders[0]])}</span><span class="num hud-score">${top}</span>`;
+      hudLeader.innerHTML = `${swatchSvg(leaders[0], 12)}<span class="hud-name">${escapeHtml(teamName(s.replay.names[leaders[0]]))}</span><span class="num hud-score">${top}</span>`;
     } else {
       hudLeader.innerHTML = `${leaders.slice(0, 3).map((team) => swatchSvg(team, 12)).join('')}<span class="hud-label">${t('viewer.tiedAt', { score: top })}</span>`;
     }
