@@ -75,6 +75,17 @@ table { border-collapse: collapse; }
 }
 .skip-link:focus-visible { top: var(--s-3); }
 
+.file-notice {
+  position: relative;
+  z-index: 1000;
+  padding: var(--s-4) var(--gutter);
+  background: var(--paper);
+  color: var(--paper-ink);
+  font-size: var(--fs-sm);
+}
+.file-notice p { margin-top: 4px; }
+.file-notice code { font-weight: 700; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

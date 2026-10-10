@@ -17,6 +17,19 @@
   <link rel="stylesheet" href="assets/css/viewer.css">
   <link rel="modulepreload" href="assets/js/viewer/main.js">
   <script type="module" src="assets/js/viewer/main.js"></script>
+  <script>
+    // Opened straight from disk: browsers block ES modules on file:// pages.
+    if (location.protocol === 'file:') {
+      document.addEventListener('DOMContentLoaded', function () {
+        var n = document.createElement('div');
+        n.className = 'file-notice';
+        n.innerHTML = '<strong>请通过本地服务器打开 / Open this site through a local server</strong>'
+          + '<p>在项目目录运行 / In the project folder run: <code>python3 tools/serve.py</code></p>'
+          + '<p>然后访问 / then open <code>http://localhost:8000</code></p>';
+        document.body.prepend(n);
+      });
+    }
+  </script>
 </head>
 <body class="page-viewer">
   <a class="skip-link" href="#board" data-i18n="viewer.skipToBoard"></a>

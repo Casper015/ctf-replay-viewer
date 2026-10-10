@@ -86,7 +86,11 @@ export function mountFeed(store, { playback }) {
     const el = items[idx];
     if (el) {
       el.classList.add('is-current');
-      if (!pane.hidden && s.playing) el.scrollIntoView({ block: 'nearest' });
+      // Scroll only the moments list (not the page) so the current moment sits mid-list
+      if (!pane.hidden) {
+        const li = el.parentElement;
+        momentsList.scrollTop = li.offsetTop - momentsList.clientHeight / 2 + li.offsetHeight / 2;
+      }
     }
   }
 

@@ -1,114 +1,313 @@
-# 🚩 CTF 多智能体对战平台 · 动态复盘与 KDA 战报大厅
-### *Capture The Flag Multi-Agent AI Arena — Interactive Replay Viewer & Match Lobby*
+# CTF Arena Replays · CTF 夺旗竞技场复盘
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?logo=github)](https://casper015.github.io/ctf-replay-viewer/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Matches](https://img.shields.io/badge/Curated%20Matches-5%20Epic%20Battles-orange.svg)](#-精选对局巡礼-curated-matches)
-[![Tournament](https://img.shields.io/badge/Stress%20Test-8%2C000%20Games-purple.svg)](#-8000-局天梯排行榜)
+[![Deploy](https://github.com/Casper015/ctf-replay-viewer/actions/workflows/pages.yml/badge.svg)](https://github.com/Casper015/ctf-replay-viewer/actions/workflows/pages.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-> 🎮 **在线即刻体验 (无需安装)：[https://casper015.github.io/ctf-replay-viewer/](https://casper015.github.io/ctf-replay-viewer/)**
+**▶ Live site / 在线观看：https://casper015.github.io/ctf-replay-viewer/**
 
----
-
-## 🌟 核心升级特性 (Key Highlights)
-
-本仓库提供专门针对 **CTF（Capture The Flag）多智能体 AI 夺旗竞技场** 的官方级交互式可视化与赛后复盘分析系统。针对官方原始静态与简易回放进行了全面升级：
-
-### 1. 🎮 对局选择大厅 (Match Lobby - 列表 List 架构)
-- **无限扩展 List 架构**：采用结构化滚动列表设计，彻底摆脱固定卡片数量限制，轻松承载数十乃至上百场比赛复盘。
-- **快速人数筛选与全局搜索**：一键按人数档位（`全部`、`15人`、`8人`、`4人`、`3人`、`2人`）过滤，支持实时输入模型名称（如 `Player5`、`Astra`）或对局 ID 快速检索。
-- **免刷新秒级无缝切换**：点击任意对局条目即可即刻载入全新战场，自动适配棋盘规模（23×23 ~ 49×49）。
-
-### 2. 📊 实时动态 KDA 战力矩阵 (逐回合精准累加)
-- **随播放进度实时累加跳变**：不仅仅是终局静态数据！拖动进度滑块或播放过程中，技术统计表与战损比会随当前回合数（`T0 ~ T400`）**毫秒级实时更新**！
-- **拿了多少旗**：实时显示当前回合累计 **进球得分 (交旗 / Captures)** 与 **捡旗总数 (Pickups)**，以及动态护送转化率。
-- **杀了多少人**：精确统计实时 **总击杀数 (Kills)**、**助攻数 (Assists)** 以及关键 **断旗截杀 (Carrier Kills)**。
-- **四大实时高能荣誉卡片**：【实时得分王】、【实时杀神】、【实时断旗截杀】、【实时最佳 KDA】随比赛进程动态更替榜首！
-- **KDA 战损比计算模型**：
-  $$\text{KDA} = \frac{\text{Kills} + 0.5 \times \text{Assists}}{\max(1, \text{Deaths})}$$
-
-### 3. ⏱️ 慢动作微操与专业倍速控制
-- **剔除无用高速**：去除了 5×、8×、20× 等因跳帧严重而无法看清微操的高速档位。
-- **引入专业慢动作档位**：
-  - `0.25×`：慢动作微操分析（适合观察门前断旗、走位博弈）
-  - `0.5×`：慢速战术巡航
-  - `1.0×`：实战原速回放
-  - `2.0×`：流畅倍速快览
-  - `3.0×`：快进巡航
-  - `4.0×`：极速冲刺
-- **关键高能节点跳转**：下拉菜单一键直达进球得分、关键掉旗瞬间。
-- **键盘快捷控制**：空格键暂停/播放，左右方向键逐回合精密步进。
-
-### 4. 🎨 电竞级高对比度暗色 UI 与 Canvas 渲染
-- **单位实时动态血条**：实时反馈当前血量（绿条健康，红条濒血）。
-- **携旗金环与星形标记**：携旗手拥有高亮外金环，地面掉落旗帜以金星呈现。
-- **攻击激光束与阵亡掉旗红十字**：击杀与交火瞬间高对比度光束连线，角色掉旗以醒目红十字呈现。
-- **阵营聚焦与指令监听**：点击右侧阵营榜可单队伍高亮，指令窗口实时同步该队选手的移动、攻击、拾旗与决策注释。
+[English](#english) · [中文](#中文)
 
 ---
 
-## 🏆 精选对局巡礼 (Curated Matches)
+## English
 
-| 编号 | 对局 ID | 规模 | 地图 | 进球纪录 | 对局看点 | 独立网页直达 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **g15_rec** | `sz15-m055282` | 15 人 (45 单位) | 49×49 | 90 球 | **全赛程最高进球纪录**！Sonnet 14 vs P5 13 vs Astra 13，压哨 1 分绝杀 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g15_rec.html) |
-| **g15_p5** | `sz15-m057668` | 15 人 (45 单位) | 49×49 | 84 球 | **个人 16 球暴走高光**！Sol 独揽 16 球、转化率 76.2%，全场 84 次惨烈拼杀 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g15_p5.html) |
-| **g8_record** | `sz08-m040053` | 8 人 (24 单位) | 41×41 | 70 球 | **8人局破门纪录战**！Opus(13) vs Astra(12) vs Sol(11) vs DeepSeek(10) 四强全部破门上双 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g8_record.html) |
-| **g8_astra_opus** | `sz08-m037636` | 8 人 (24 单位) | 41×41 | 64 球 | **15:14 神魔决战**！Astra(15) 压哨 1 分险胜 Opus(14)，四大模型全破 10 分 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g8_astra_opus.html) |
-| **g8_p5_sol** | `sz08-m041527` | 8 人 (24 单位) | 41×41 | 63 球 | **总天梯冠亚军死斗**！天梯第 1 的 Player5(13) 终盘 1 分险胜第 2 的 Sol(12) | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g8_p5_sol.html) |
-| **g4_record** | `sz04-m015252` | 4 人 (12 单位) | 31×31 | 53 球 | **4人局破门纪录战**！Astra 爆发极致单兵侵略狂轰 18 球，Sol(14) 与 P5(13) 全力阻截 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g4_record.html) |
-| **g4_duel** | `sz04-m016157` | 4 人 (12 单位) | 31×31 | 47 球 | **18:17 史诗双雄死斗**！Player5(18) vs Sol(17) 独揽 35 球，第 395 回合门前断旗 1 球绝杀 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g4_duel.html) |
-| **g4_tie** | `sz04-m021109` | 4 人 (12 单位) | 31×31 | 51 球 | **16:16 终盘握手双冠战**！Player5 与 Astra 展开狂暴换家拉锯，终场 16:16 握手言和 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g4_tie.html) |
-| **g4_three_way** | `sz04-m016034` | 4 人 (12 单位) | 31×31 | 45 球 | **12:12:12 三足鼎立奇迹**！Fable(12) = DeepSeek(12) = Sol(12) 罕见三队并列第一 | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g4_three_way.html) |
-| **g3** | `sz03-m012514` | 3 人 (9 单位) | 31×31 | 47 球 | **半程落后 7 分绝地大翻盘**！Fable 5.1(17) 下半场连追 12 分 17:16 压哨逆转 Sol | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g3.html) |
-| **g2** | `sz02-m006122` | 2 人 (6 单位) | 23×23 | 60 球 | **60 球单挑巅峰决战**！10 次比分更迭，Player5(31) 终盘断旗绝杀 Opus(29) | [▶ 进入观战](https://casper015.github.io/ctf-replay-viewer/match_g2.html) |
+Turn-by-turn replays of AI agents playing capture the flag. Pick a match in the lobby, scrub to any turn, follow any unit, and see where each game was won. The interface is available in English and Chinese and works on phones.
 
----
+### What you can do
 
-## 🥇 8,000 局天梯排行榜 (Tournament Plackett-Luce)
+- **Watch any turn.** Play at 0.25× to 4×, step turn by turn, or jump to any capture from the timeline (team-colored ticks mark every capture).
+- **Read the board at a glance.** Each team has its own color *and* shape. Units show health rings, the way they last moved, and a gold flag and trail while carrying.
+- **Zoom and follow.** Pinch, scroll or double-tap to zoom; tap a unit to see its health, order and respawn timer, then press **Follow** to keep the camera on it.
+- **Understand the game.** Live standings, a score-race chart (lines or orbit view), a feed of key moments, and per-team stats (captures, kills, assists, deaths, KDA) that add up as the match plays.
+- **Share a moment.** The URL keeps the match and turn (`match.html?m=g2&t=378`).
 
-在严苛的 8,000 局冻结赛程多轮对局中，各参赛模型经过 Plackett-Luce 模型等权拟合：
+### Run it locally
 
-| 排名 | 模型 / 选手 | PL 天梯分 | 场均进球 | 平均推理延迟 | 风格定位 |
-| :---: | :--- | :---: | :---: | :---: | :--- |
-| 🥇 | **Player5** | **+320.8** | 11.24 | 1.0 ms | **多人局霸主**，极高并发压制力与高转化率 |
-| 🥈 | **GPT-6.1 Sol** | **+264.9** | 10.32 | 3.5 ms | **长程机动王**，广域跑图与快速突防能力极强 |
-| 🥉 | **GPT-6 Astra** | **+240.9** | 9.97 | 12.1 ms | **单挑统治者**，单兵博弈与战术计算极具侵略性 |
-| 4 | **Fable 5.1** | +182.4 | 8.85 | 4.2 ms | **韧性逆转王**，后半程变奏与多路牵制极佳 |
-| 5 | **Claude 3.5 Sonnet** | +151.7 | 8.21 | 8.0 ms | **团战收割机**，局势判断准，擅长乱战拾漏 |
-| 6 | **Claude 3.5 Opus** | +128.3 | 7.94 | 9.5 ms | **单挑大师**，高爆发门前拼杀 |
-| 7 | **DeepSeek-V3** | +94.6 | 7.30 | 5.1 ms | **均衡防守流**，稳定断旗，击杀转化稳定 |
+Everything is static HTML, CSS and JavaScript. There is nothing to install or build.
 
----
-
-## 🚀 本地使用与部署
-
-### 方式 1：直接双击查看
-本系统为纯前端零依赖实现，克隆本仓库后直接使用任意浏览器打开 `index.html` 即可畅玩全部功能：
 ```bash
 git clone https://github.com/Casper015/ctf-replay-viewer.git
 cd ctf-replay-viewer
-# 双击 index.html 即可在本地浏览器体验！
+python3 tools/serve.py          # then open http://localhost:8000
 ```
 
-### 方式 2：使用简易本地静态服务
+> Double-clicking `site/index.html` won't work: browsers block JavaScript modules on `file://` pages. Always use a local server.
+
+### Add a new competition
+
+A match needs two files: the **replay** (what happened each turn) and the **metadata** (the title and description shown in the lobby, in both languages). `tools/add_match.py` creates both for you.
+
+**1. Get the replay JSON.** Use the arena engine's recorder, or any tool that writes the [replay format](docs/data-format.md). If you have the private `ctf-stress-pack`, `tools/build_replays.py` can re-simulate scheduled games.
+
+**2. Add it.**
+
 ```bash
-python -m http.server 8000
-# 浏览器访问 http://localhost:8000
+# One match. The key becomes the URL: match.html?m=g4_spring_final
+python3 tools/add_match.py add path/to/replay.json --key g4_spring_final --id sz04-m012345
+
+# A whole competition at once: every .json in the folder becomes a match (key = file name)
+python3 tools/add_match.py add path/to/spring_cup/
 ```
 
-### 方式 3：重新构建或扩充新对局
-如果需要提取新对局并打包：
+The script:
+
+- checks that each replay is valid and stops with a clear message if it isn't
+- copies it to `site/data/matches/<key>.json`
+- writes `content/matches/<key>.json`, with a title and description drafted in both languages from the replay's facts (who won, the score, comebacks, the deciding turn)
+- rebuilds `site/data/catalog.json`, so the match is in the lobby right away
+
+**3. Check the text.** Open `content/matches/<key>.json` and improve the drafted text if you like. See [Writing match text](#writing-match-text). To check facts such as scores and turn numbers:
+
 ```bash
-# 提取赛程帧数据并计算进球/截杀/KDA统计
-python build_all_replays.py
-
-# 编译生成 index.html
-python make_upgraded_index.py
+python3 tools/build_catalog.py --report   # prints scores and lead changes for every match
+python3 tools/build_catalog.py            # run again after editing content/matches/*.json
 ```
+
+**4. Preview.** Run `python3 tools/serve.py` and open `http://localhost:8000/match.html?m=<key>`.
+
+**5. Run the checks.** These are the same checks CI runs before deploying:
+
+```bash
+python3 tools/build_catalog.py --check
+node tools/check.mjs
+```
+
+**6. Commit and open a pull request** with these three paths:
+
+```
+content/matches/<key>.json
+site/data/matches/<key>.json
+site/data/catalog.json
+```
+
+CI runs the checks on the pull request. When it's merged to `main`, the site redeploys automatically.
+
+#### Write the text first (optional)
+
+If you'd rather write the title yourself before adding the match:
+
+```bash
+python3 tools/add_match.py draft path/to/replay.json --key g4_spring_final -o my_match.json
+# edit my_match.json (same fields as tools/templates/match.json)
+python3 tools/add_match.py add path/to/replay.json --meta my_match.json
+```
+
+Any text field left as `"auto"` or empty is drafted for you.
+
+#### Other commands
+
+| Command | What it does |
+| --- | --- |
+| `python3 tools/add_match.py list` | List matches in lobby order (`*` = featured) |
+| `python3 tools/add_match.py add replay.json --featured` | Show this match in the lobby hero (unfeatures the current one) |
+| `python3 tools/add_match.py add replay.json --order 15` | Put it at a specific place in the list (low numbers first) |
+| `python3 tools/add_match.py add replay.json --key g2 --force` | Replace an existing match |
+| `python3 tools/add_match.py add replay.json --dry-run` | Preview what would be added, write nothing |
+| `python3 tools/add_match.py remove g4_spring_final` | Delete a match |
+
+#### Writing match text
+
+Each `content/matches/<key>.json` has `tag`, `title` and `desc`, each with `zh` and `en`:
+
+```json
+{
+  "key": "g4_duel",
+  "id": "sz04-m016157",
+  "order": 70,
+  "featured": false,
+  "tag":   { "zh": "末回合绝杀", "en": "Last-turn winner" },
+  "title": { "zh": "Player5 第 400 回合交旗，18:17 绝杀 GPT-6.1 Sol",
+             "en": "Player5 beats GPT-6.1 Sol 18–17 with a capture on the final turn" },
+  "desc":  { "zh": "两强包揽全场 47 球中的 35 球……", "en": "The top two shared 35 of the game's 47 captures…" }
+}
+```
+
+- **tag:** a 2–4 word hook (Chinese: 4–10 characters).
+- **title:** one line saying who won, the score, and the turning point.
+- **desc:** two or three factual sentences with turn numbers.
+- **Scores:** Chinese uses a colon (`31:29`), English an en dash (`31–29`).
+- **Facts:** every fact must match the replay. Check with `build_catalog.py --report`.
+
+### Project layout
+
+```
+content/matches/<key>.json    match metadata, one file per match (edit these)
+site/                         the website that GitHub Pages publishes
+  index.html                  lobby
+  match.html                  viewer
+  data/catalog.json           generated index of all matches (don't edit)
+  data/matches/<key>.json     replays
+  assets/css/                 tokens.css (design tokens), base, components, lobby, viewer
+  assets/js/core/             i18n, data loading, team colors and shapes, icons
+  assets/js/locales/          zh-CN.js and en.js: every piece of interface text
+  assets/js/board/            canvas board: camera, terrain, unit sprites, gestures
+  assets/js/viewer/           viewer state, playback, panels
+  assets/js/lobby/            lobby hero, match list, legend
+tools/
+  add_match.py                add, draft, list and remove matches
+  build_catalog.py            rebuild site/data/catalog.json
+  build_replays.py            re-simulate matches with the arena engine
+  check.mjs                   site checks (text keys, imports, icons, links)
+  serve.py                    local server with caching turned off
+  templates/match.json        metadata template
+docs/data-format.md           replay and catalog formats
+AGENTS.md                     how the code is organized, for contributors and AI agents
+```
+
+### Translating interface text
+
+All interface text lives in `site/assets/js/locales/zh-CN.js` and `en.js`. Add every new key to both files. `node tools/check.mjs` fails if they don't match.
+
+### Deployment
+
+`.github/workflows/pages.yml` runs the checks on every pull request. On each push to `main` it also publishes `site/` to GitHub Pages. In the repository's **Settings → Pages**, the source must be **GitHub Actions**.
+
+### License
+
+MIT. See [LICENSE](LICENSE).
 
 ---
 
-## 📄 许可说明
-本项目遵循 MIT 开源协议。
-欢迎 Star ⭐️ 与提交 Issue / PR 共同完善多智能体对战可视化工具！
+## 中文
+
+逐回合复盘 AI 智能体的夺旗（Capture the Flag）对局。在大厅选一场比赛，拖到任意回合、跟随任意单位，看清每一局的胜负手。界面支持中文和英文，手机上也能流畅使用。
+
+### 功能
+
+- **任意回合回放。** 0.25× 到 4× 倍速，可逐回合步进；时间轴上有按队伍着色的得分标记，点一下就能跳到任意一次交旗。
+- **一眼看懂棋盘。** 每支队伍有独立的颜色**和**形状；单位会显示血量环和上一步的移动方向，持旗时带金色旗帜和轨迹。
+- **缩放与跟随。** 双指、滚轮或双击缩放；点击单位查看血量、指令和重生倒计时，按 **镜头跟随** 让镜头一直跟着它。
+- **看懂整场比赛。** 实时排名、比分走势图（折线或星盘）、关键时刻战报，以及随回合累计的各队数据（得分、击杀、助攻、阵亡、KDA）。
+- **分享精彩瞬间。** 网址会记住对局和回合（`match.html?m=g2&t=378`）。
+
+### 本地运行
+
+整个网站都是静态 HTML、CSS 和 JavaScript，不需要安装或编译。
+
+```bash
+git clone https://github.com/Casper015/ctf-replay-viewer.git
+cd ctf-replay-viewer
+python3 tools/serve.py          # 然后打开 http://localhost:8000
+```
+
+> 直接双击 `site/index.html` 无法使用：浏览器会阻止 `file://` 页面加载 JavaScript 模块，请务必通过本地服务器打开。
+
+### 添加新的比赛
+
+每场比赛需要两个文件：**回放**（每回合发生了什么）和**元数据**（大厅里显示的中英文标题和简介）。`tools/add_match.py` 会帮你生成这两个文件。
+
+**1. 准备回放 JSON。** 用竞技场引擎的录制功能，或任何能输出[回放格式](docs/data-format.md)的工具。如果你有私有的 `ctf-stress-pack`，可以用 `tools/build_replays.py` 重新模拟赛程中的对局。
+
+**2. 导入。**
+
+```bash
+# 导入一场。key 就是网址：match.html?m=g4_spring_final
+python3 tools/add_match.py add path/to/replay.json --key g4_spring_final --id sz04-m012345
+
+# 一次导入整个比赛：文件夹里每个 .json 都会成为一场对局（key 取文件名）
+python3 tools/add_match.py add path/to/spring_cup/
+```
+
+脚本会：
+
+- 检查每个回放是否有效，有问题会给出清楚的提示并停止
+- 把回放复制到 `site/data/matches/<key>.json`
+- 生成 `content/matches/<key>.json`，根据回放事实（谁赢了、比分、逆转、决胜回合）自动起草中英文标题和简介
+- 重新生成 `site/data/catalog.json`，新比赛立刻出现在大厅里
+
+**3. 检查文字。** 打开 `content/matches/<key>.json`，可以润色自动起草的文字（写法见[比赛文案规范](#比赛文案规范)）。核对比分、回合数等事实：
+
+```bash
+python3 tools/build_catalog.py --report   # 打印每场比赛的比分和领先易主次数
+python3 tools/build_catalog.py            # 修改 content/matches/*.json 后重新生成
+```
+
+**4. 预览。** 运行 `python3 tools/serve.py`，打开 `http://localhost:8000/match.html?m=<key>`。
+
+**5. 运行检查。** 与部署前 CI 运行的检查相同：
+
+```bash
+python3 tools/build_catalog.py --check
+node tools/check.mjs
+```
+
+**6. 提交并发起 Pull Request**，包含这三个路径：
+
+```
+content/matches/<key>.json
+site/data/matches/<key>.json
+site/data/catalog.json
+```
+
+CI 会在 Pull Request 上运行检查；合并到 `main` 后网站会自动重新部署。
+
+#### 先写文案（可选）
+
+如果想在导入前自己写标题：
+
+```bash
+python3 tools/add_match.py draft path/to/replay.json --key g4_spring_final -o my_match.json
+# 编辑 my_match.json（字段与 tools/templates/match.json 相同）
+python3 tools/add_match.py add path/to/replay.json --meta my_match.json
+```
+
+写成 `"auto"` 或留空的文字字段会自动起草。
+
+#### 其他命令
+
+| 命令 | 作用 |
+| --- | --- |
+| `python3 tools/add_match.py list` | 按大厅顺序列出所有比赛（`*` 为精选） |
+| `python3 tools/add_match.py add replay.json --featured` | 设为大厅首屏的精选对局（取消原来的精选） |
+| `python3 tools/add_match.py add replay.json --order 15` | 指定在列表中的位置（数字越小越靠前） |
+| `python3 tools/add_match.py add replay.json --key g2 --force` | 替换已有的比赛 |
+| `python3 tools/add_match.py add replay.json --dry-run` | 只预览将要添加的内容，不写入任何文件 |
+| `python3 tools/add_match.py remove g4_spring_final` | 删除一场比赛 |
+
+#### 比赛文案规范
+
+每个 `content/matches/<key>.json` 有 `tag`、`title`、`desc` 三个字段，各含 `zh` 和 `en`（示例见上方英文部分）。
+
+- **tag：** 一句话看点，中文 4–10 字，英文 2–4 个词。
+- **title：** 一行写清谁赢了、比分和转折点。
+- **desc：** 两三句事实描述，带上回合数。
+- **比分写法：** 中文用冒号（`31:29`），英文用短横线（`31–29`）。
+- **事实核对：** 所有事实必须与回放一致，用 `build_catalog.py --report` 核对。
+
+### 目录结构
+
+```
+content/matches/<key>.json    比赛元数据，每场一个文件（需要编辑的是这些）
+site/                         GitHub Pages 发布的网站
+  index.html                  大厅
+  match.html                  观战页
+  data/catalog.json           自动生成的比赛索引（不要手动编辑）
+  data/matches/<key>.json     回放
+  assets/css/                 tokens.css（设计变量）、base、components、lobby、viewer
+  assets/js/core/             多语言、数据加载、队伍颜色与形状、图标
+  assets/js/locales/          zh-CN.js 与 en.js：所有界面文字
+  assets/js/board/            Canvas 棋盘：镜头、地形、单位绘制、手势
+  assets/js/viewer/           观战页状态、播放、各个面板
+  assets/js/lobby/            大厅首屏、比赛列表、图例
+tools/
+  add_match.py                添加、起草、列出、删除比赛
+  build_catalog.py            重新生成 site/data/catalog.json
+  build_replays.py            用竞技场引擎重新模拟比赛
+  check.mjs                   网站检查（文字键名、模块导入、图标、链接）
+  serve.py                    关闭缓存的本地服务器
+  templates/match.json        元数据模板
+docs/data-format.md           回放与索引的数据格式
+AGENTS.md                     代码组织说明，供贡献者和 AI 智能体协作参考
+```
+
+### 翻译界面文字
+
+所有界面文字都在 `site/assets/js/locales/zh-CN.js` 和 `en.js` 里。新增的键名必须两个文件都加，否则 `node tools/check.mjs` 会报错。
+
+### 部署
+
+`.github/workflows/pages.yml` 会在每个 Pull Request 上运行检查，并在每次推送到 `main` 时把 `site/` 发布到 GitHub Pages。仓库的 **Settings → Pages** 中，来源（Source）需设为 **GitHub Actions**。
+
+### 许可
+
+MIT，见 [LICENSE](LICENSE)。

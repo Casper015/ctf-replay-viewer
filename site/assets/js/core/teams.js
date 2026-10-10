@@ -30,7 +30,7 @@ export const teamOfUnit = (unitId) => Math.floor(unitId / 3);
 export const unitSlot = (unitId) => unitId % 3;
 
 // Team names come from the engine. Only non-English names need an English display form.
-const EN_NAMES = { '基准': 'Baseline' };
+export const EN_NAMES = { '基准': 'Baseline' };
 export function teamName(raw) {
   if (getLang() === 'en' && EN_NAMES[raw]) return EN_NAMES[raw];
   return raw;

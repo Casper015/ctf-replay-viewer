@@ -1,7 +1,7 @@
 // Static board layer: floor, bases, flag spots and walls. Drawn into a cache canvas and
 // only redrawn when the camera or size changes. Also used by the lobby's map thumbnails.
 
-import { teamColor, teamShape, traceShape, withAlpha } from '../../core/teams.js';
+import { teamColor, teamShape, traceShape, withAlpha } from '../core/teams.js';
 
 /** Board colors from CSS tokens (tokens.css), read once per page. */
 let cachedPalette = null;
