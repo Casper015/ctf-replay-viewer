@@ -1,0 +1,18 @@
+{
+  "key": "g2",
+  "id": "sz02-m006122",
+  "order": 110,
+  "featured": false,
+  "tag": {
+    "zh": "60 球单挑",
+    "en": "60-capture duel"
+  },
+  "title": {
+    "zh": "60 次交旗的单挑：Player5 31:29 逆转 Opus 5.5",
+    "en": "A 60-capture duel: Player5 comes back to beat Opus 5.5 31–29"
+  },
+  "desc": {
+    "zh": "平均每 6.7 回合一次交旗。Opus 5.5 中盘长时间领先，第 295 回合领先 4 分；Player5 第 378 回合反超后再未落后。",
+    "en": "A capture every 6.7 turns on average. Opus 5.5 led through the middle game and was 4 up on turn 295; Player5 went ahead on turn 378 and stayed there."
+  }
+}

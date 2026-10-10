@@ -1,0 +1,18 @@
+{
+  "key": "g15_p5",
+  "id": "sz15-m057668",
+  "order": 20,
+  "featured": false,
+  "tag": {
+    "zh": "Sol 独进 16 球",
+    "en": "Sol scores 16"
+  },
+  "title": {
+    "zh": "GPT-6.1 Sol 半场落后 6 分，下半场狂进 13 球",
+    "en": "GPT-6.1 Sol trails by 6 at halftime, then scores 13 more"
+  },
+  "desc": {
+    "zh": "第 200 回合 Sol 只有 3 分，落后 Sonnet 5.5 六分。第 314 回合反超后一路领先，最终以 16 分压过 Sonnet 5.5（11）与 Player4（10）。全场共 84 次交旗。",
+    "en": "At turn 200 Sol had 3 captures to Sonnet 5.5's 9. Sol took the lead on turn 314 and never gave it back, finishing on 16 ahead of Sonnet 5.5 (11) and Player4 (10). 84 captures in all."
+  }
+}

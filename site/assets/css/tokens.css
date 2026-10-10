@@ -1,0 +1,96 @@
+/* Design tokens. Every color, size and radius used by the site comes from here.
+   Rules (see docs/design-system.md):
+   - Gold (--flag) means "flag or score". Don't use it for anything else.
+   - Team colors live in assets/js/core/teams.js and are only used for teams.
+   - UI chrome stays neutral (ink + text tones). */
+
+:root {
+  color-scheme: dark;
+
+  /* Ink: the night-ops table the board sits on */
+  --ink-0: #0c1029;
+  --ink-1: #121736;
+  --ink-2: #1a2046;
+  --ink-3: #242b59;
+  --ink-4: #2f3769;
+  --line: rgba(160, 170, 255, 0.14);
+  --line-strong: rgba(160, 170, 255, 0.26);
+
+  /* Text */
+  --text: #eef0ff;
+  --text-2: #b6bbdf;
+  --text-3: #8188b6;
+  --paper: #eef0ff;       /* inverse surface for primary actions */
+  --paper-ink: #0c1029;
+
+  /* Semantic */
+  --flag: #ffc24b;
+  --flag-soft: rgba(255, 194, 75, 0.16);
+  --flag-ink: #2b1f00;
+  --kill: #ff7a87;
+  --good: #4fd6a0;
+  --focus: #a9b8ff;
+
+  /* Board palette (read by the canvas renderer through getComputedStyle) */
+  --board-floor: #151b3d;
+  --board-floor-alt: #171e43;
+  --board-grid: rgba(190, 200, 255, 0.045);
+  --board-wall: #2c3466;
+  --board-wall-top: #3e4884;
+  --board-wall-shade: #0a0d24;
+
+  /* Type */
+  --font: "Archivo", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wide: 100%;
+  --narrow: 72%;          /* condensed width for numbers and display type */
+  --fs-xs: 0.75rem;       /* 12 */
+  --fs-sm: 0.875rem;      /* 14 */
+  --fs-md: 1rem;          /* 16 */
+  --fs-lg: 1.125rem;      /* 18 */
+  --fs-xl: 1.3125rem;     /* 21 */
+  --fs-2xl: 1.5rem;       /* 24 */
+  --fs-3xl: 2.25rem;      /* 36 */
+  --fs-4xl: 3rem;         /* 48 */
+  --lh-tight: 1.05;
+  --lh-snug: 1.3;
+  --lh-body: 1.55;
+
+  /* Space (4px base) */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+  --s-16: 64px;
+  --gutter: 16px;
+
+  /* Radii follow hierarchy: the board is the biggest object, controls the smallest */
+  --r-board: 18px;
+  --r-panel: 14px;
+  --r-control: 10px;
+  --r-chip: 999px;
+
+  /* Elevation */
+  --shadow-pop: 0 18px 50px -12px rgba(2, 4, 20, 0.7), 0 0 0 1px var(--line);
+  --shadow-board: 0 30px 80px -30px rgba(0, 0, 0, 0.8);
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --dur-fast: 120ms;
+  --dur: 200ms;
+
+  /* Layout */
+  --topbar-h: 56px;
+  --transport-h: 64px;
+  --rail-w: 400px;
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  --safe-t: env(safe-area-inset-top, 0px);
+}
+
+@media (min-width: 720px) {
+  :root { --gutter: 24px; }
+}

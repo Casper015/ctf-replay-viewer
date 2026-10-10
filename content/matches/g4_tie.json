@@ -1,0 +1,18 @@
+{
+  "key": "g4_tie",
+  "id": "sz04-m021109",
+  "order": 80,
+  "featured": false,
+  "tag": {
+    "zh": "16:16 平局",
+    "en": "16–16 draw"
+  },
+  "title": {
+    "zh": "Player5 与 GPT-6 Astra 16:16 握手言和",
+    "en": "Player5 and GPT-6 Astra share the win at 16–16"
+  },
+  "desc": {
+    "zh": "全场 51 球。Astra 半场以 10:7 领先，Player5 第 177 回合最多落后 4 分，随后反超；Astra 第 393 回合扳平，终场 16:16。",
+    "en": "51 captures in all. Astra led 10–7 at halftime and Player5 was down by 4 on turn 177 before going ahead. Astra equalised on turn 393 and it finished 16–16."
+  }
+}

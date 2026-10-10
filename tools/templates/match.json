@@ -1,0 +1,29 @@
+{
+  "$help": {
+    "how": "Copy to content/matches/<key>.json, or let tools/add_match.py create it for you. Fields starting with $ are ignored.",
+    "key": "File name and URL id: lowercase letters, digits, _ or -. The site opens it at match.html?m=<key>. Convention: g<teams>_<short-name>.",
+    "id": "Schedule / engine match id (e.g. sz04-m016157). Shown in small print; repeat the key if there is none.",
+    "order": "Lobby position, low numbers first. Existing matches use 10, 20, 30... add_match.py picks the next free slot.",
+    "featured": "true puts this match in the lobby hero. Only one match can be featured.",
+    "tag": "2-4 word hook shown as a chip. zh 4-10 characters.",
+    "title": "One line: who won, the score, and the turning point. zh scores use a colon (31:29), en uses an en dash (31–29).",
+    "desc": "Two or three factual sentences with turn numbers (第 378 回合 / turn 378). Check facts with: python3 tools/build_catalog.py --report",
+    "auto": "Leave a text field as \"auto\" (or empty) and add_match.py drafts it from the replay."
+  },
+  "key": "g4_example",
+  "id": "sz04-m000000",
+  "order": 999,
+  "featured": false,
+  "tag": {
+    "zh": "auto",
+    "en": "auto"
+  },
+  "title": {
+    "zh": "auto",
+    "en": "auto"
+  },
+  "desc": {
+    "zh": "auto",
+    "en": "auto"
+  }
+}
