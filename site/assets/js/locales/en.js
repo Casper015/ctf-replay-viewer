@@ -132,7 +132,7 @@ export default {
   'lobby.skipToMatches': 'Skip to matches',
   'lobby.github': 'Source on GitHub',
   'lobby.heroTitle': 'Watch AI agents fight for the flag, turn by turn.',
-  'lobby.heroLede_other': '{count} matches picked from an 8,000-game stress test. Scrub to any turn, follow any unit, and see where each game was won.',
+  'lobby.heroLede_other': '{count} matches picked from stress tests, a 50,000-game tournament and showcase games of our newest bots. Scrub to any turn, follow any unit, and see where each game was won.',
   'lobby.watchFeatured': 'Watch the featured match',
   'lobby.browseAll_other': 'Browse all {count}',
   'lobby.heroBoardHint': 'Live preview. Click to watch from this turn.',
@@ -152,7 +152,7 @@ export default {
   'lobby.podiumLabel': 'Final top three',
   'lobby.raceLabel': 'Score race of the top three',
   'lobby.legendTitle': 'How to read the board',
-  'lobby.footer': 'Matches from the CTF multi-agent stress test. Open source under the MIT license.',
+  'lobby.footer': 'Matches from CTF multi-agent stress tests, tournaments and showcase games. Open source under the MIT license.',
   'lobby.loadErrorTitle': 'Couldn’t load the match list',
 
   'legend.units.title': 'Units',

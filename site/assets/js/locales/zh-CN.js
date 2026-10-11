@@ -128,7 +128,7 @@ export default {
   'lobby.skipToMatches': '跳到对局列表',
   'lobby.github': 'GitHub 源码',
   'lobby.heroTitle': '逐回合看 AI 智能体抢旗对决',
-  'lobby.heroLede_other': '从 8,000 局压力测试中精选 {count} 场。拖到任意回合、跟随任意单位，看清每一局的胜负手。',
+  'lobby.heroLede_other': '从压力测试、5 万局锦标赛和最新机器人的展示对局中精选 {count} 场。拖到任意回合、跟随任意单位，看清每一局的胜负手。',
   'lobby.watchFeatured': '观看精选对局',
   'lobby.browseAll_other': '浏览全部 {count} 场',
   'lobby.heroBoardHint': '实时预览，点击从这一回合开始看',
@@ -146,7 +146,7 @@ export default {
   'lobby.podiumLabel': '终局前三',
   'lobby.raceLabel': '前三名的比分走势',
   'lobby.legendTitle': '棋盘图例',
-  'lobby.footer': '对局来自 CTF 多智能体压力测试，项目以 MIT 协议开源。',
+  'lobby.footer': '对局来自 CTF 多智能体压力测试、锦标赛和展示对局，项目以 MIT 协议开源。',
   'lobby.loadErrorTitle': '对局列表载入失败',
 
   'legend.units.title': '单位',

@@ -1,0 +1,18 @@
+{
+  "key": "g4_ponly_pxl_comeback",
+  "id": "sz04-m010271",
+  "order": 75,
+  "featured": false,
+  "tag": {
+    "zh": "4 队混战",
+    "en": "4-team battle"
+  },
+  "title": {
+    "zh": "Player5 以 14 分夺冠，baseline 12 分次之",
+    "en": "Player5 wins with 14, ahead of baseline on 12"
+  },
+  "desc": {
+    "zh": "第 200 回合 v12_control 以 7 分领先。Player5 第 227 回合取得领先后再未落后。终局 Player5 14、baseline 12、v12_control 10，全场共 45 次交旗。",
+    "en": "v12_control led with 7 at turn 200. Player5 went ahead for good on turn 227. Final: Player5 14, baseline 12, v12_control 10. 45 captures in all."
+  }
+}
