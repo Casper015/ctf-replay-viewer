@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,9 +67,24 @@
       "key": true
     },
     {
+      "turn": 16,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
       "turn": 29,
       "role": "caster",
       "text": "关键拦截！c08_ponly_pxxl 放倒了 deepseek-v4.1 的持旗单位。"
+    },
+    {
+      "turn": 29,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "差一点就进了"
     },
     {
       "turn": 40,
@@ -62,10 +93,25 @@
       "key": true
     },
     {
+      "turn": 40,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
       "turn": 51,
       "role": "caster",
       "text": "Player3 扳平比分，1:1！",
       "key": true
+    },
+    {
+      "turn": 51,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 53,
+      "role": "crowd",
+      "text": "悬念拉满"
     },
     {
       "turn": 58,
@@ -78,9 +124,24 @@
       "text": "v12_ponly_pxl 再下一城，比分 3:1。"
     },
     {
+      "turn": 67,
+      "role": "crowd",
+      "text": "v12_ponly_pxl 好样的"
+    },
+    {
+      "turn": 69,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 75,
       "role": "caster",
       "text": "c08_ponly_pxxl 交旗成功！3:2。"
+    },
+    {
+      "turn": 75,
+      "role": "crowd",
+      "text": "c08_ponly_pxxl 牛！"
     },
     {
       "turn": 80,
@@ -88,9 +149,24 @@
       "text": "Player4 得分，现在是 3:2。"
     },
     {
+      "turn": 80,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
+      "turn": 82,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 86,
       "role": "caster",
       "text": "Player3 得分，现在是 3:2。"
+    },
+    {
+      "turn": 86,
+      "role": "crowd",
+      "text": "Player3 牛！"
     },
     {
       "turn": 93,
@@ -99,9 +175,19 @@
       "key": true
     },
     {
+      "turn": 93,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "第 51–100 回合：c08_control 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_pxxl 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 102,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 121,
@@ -110,15 +196,35 @@
       "key": true
     },
     {
+      "turn": 121,
+      "role": "crowd",
+      "text": "c08_ponly_pxxl 领先了！"
+    },
+    {
+      "turn": 124,
+      "role": "crowd",
+      "text": "v12_ponly_pxl 好样的"
+    },
+    {
       "turn": 134,
       "role": "caster",
       "text": "Player4 扳平比分，4:4！",
       "key": true
     },
     {
+      "turn": 134,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 143,
       "role": "caster",
       "text": "关键拦截！deepseek-v4.1 放倒了 v12_ponly_pxl 的持旗单位。"
+    },
+    {
+      "turn": 143,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 148,
@@ -127,9 +233,24 @@
       "key": true
     },
     {
+      "turn": 148,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
       "turn": 155,
       "role": "caster",
       "text": "gpt-6.1-sol 得分，现在是 5:4。"
+    },
+    {
+      "turn": 155,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 158,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 165,
@@ -137,9 +258,24 @@
       "text": "c08_control 交旗成功！5:4。"
     },
     {
+      "turn": 165,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 167,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 170,
       "role": "caster",
       "text": "Player5 截下了 c08_ponly_pxxl 的持旗者！"
+    },
+    {
+      "turn": 170,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 175,
@@ -152,9 +288,29 @@
       "text": "v12_ponly_pxl 得分，现在是 5:4。"
     },
     {
+      "turn": 182,
+      "role": "crowd",
+      "text": "v12_ponly_pxl 好样的"
+    },
+    {
       "turn": 191,
       "role": "caster",
       "text": "Player4 得分，现在是 6:4。"
+    },
+    {
+      "turn": 191,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
+      "turn": 197,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 199,
+      "role": "crowd",
+      "text": "c08_ponly_pxxl 牛！"
     },
     {
       "turn": 200,
@@ -168,15 +324,40 @@
       "key": true
     },
     {
+      "turn": 208,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 210,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 223,
       "role": "caster",
       "text": "关键拦截！c08_ponly_pxxl 放倒了 c08_control 的持旗单位。"
+    },
+    {
+      "turn": 223,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 235,
       "role": "caster",
       "text": "这一球让 c08_control 领先了，7:6！",
       "key": true
+    },
+    {
+      "turn": 235,
+      "role": "crowd",
+      "text": "c08_control 领先了！"
+    },
+    {
+      "turn": 246,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 250,
@@ -190,10 +371,20 @@
       "key": true
     },
     {
+      "turn": 258,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 267,
       "role": "caster",
       "text": "这一球让 c08_control 领先了，8:7！",
       "key": true
+    },
+    {
+      "turn": 267,
+      "role": "crowd",
+      "text": "反超了！！"
     },
     {
       "turn": 275,
@@ -206,10 +397,20 @@
       "text": "c08_ponly_pxxl 交旗成功！8:7。"
     },
     {
+      "turn": 285,
+      "role": "crowd",
+      "text": "c08_ponly_pxxl 牛！"
+    },
+    {
       "turn": 302,
       "role": "caster",
       "text": "c08_ponly_pxxl 扳平比分，8:8！",
       "key": true
+    },
+    {
+      "turn": 302,
+      "role": "crowd",
+      "text": "扳平了！"
     },
     {
       "turn": 310,
@@ -218,9 +419,19 @@
       "key": true
     },
     {
+      "turn": 310,
+      "role": "crowd",
+      "text": "c08_control 领先了！"
+    },
+    {
       "turn": 317,
       "role": "caster",
       "text": "关键拦截！Player3 放倒了 c08_ponly_pxxl 的持旗单位。"
+    },
+    {
+      "turn": 317,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 322,
@@ -228,9 +439,19 @@
       "text": "deepseek-v4.1 截下了 Player4 的持旗者！"
     },
     {
+      "turn": 322,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 331,
       "role": "caster",
       "text": "Player4 再下一城，比分 9:8。"
+    },
+    {
+      "turn": 331,
+      "role": "crowd",
+      "text": "Player4 牛！"
     },
     {
       "turn": 342,
@@ -238,9 +459,24 @@
       "text": "c08_control 交旗成功！10:8。"
     },
     {
+      "turn": 342,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 345,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "c08_ponly_pxxl 站位最靠前，单位平均离本方基地约 10.0 格；c08_control 最保守，平均只有 5.7 格。"
+    },
+    {
+      "turn": 371,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 372,
@@ -248,10 +484,25 @@
       "text": "c08_ponly_pxxl 交旗成功！10:9。"
     },
     {
+      "turn": 372,
+      "role": "crowd",
+      "text": "c08_ponly_pxxl 牛！"
+    },
+    {
       "turn": 389,
       "role": "caster",
       "text": "c08_ponly_pxxl 扳平比分，10:10！",
       "key": true
+    },
+    {
+      "turn": 389,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 390,
+      "role": "crowd",
+      "text": "谁顶得住"
     },
     {
       "turn": 400,

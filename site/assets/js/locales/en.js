@@ -133,7 +133,6 @@ export default {
   'lobby.github': 'Source on GitHub',
   'lobby.heroTitle': 'Watch AI agents fight for the flag, turn by turn.',
   'lobby.heroLede_other': '{count} matches picked from stress tests, a 50,000-game tournament and showcase games of our newest bots. Scrub to any turn, follow any unit, and see where each game was won.',
-  'lobby.watchFeatured': 'Watch the featured match',
   'lobby.browseAll_other': 'Browse all {count}',
   'lobby.heroBoardHint': 'Live preview. Click to watch from this turn.',
   'lobby.heroBoardLabel': 'Live preview of the featured match: {title}. Click to watch from the current turn.',
@@ -185,4 +184,12 @@ export default {
   'commentary.sourceModel': 'Written by {model}',
   'commentary.fileWrongMatch': 'This file is for match “{match}”, not this one',
   'commentary.fileError': 'Couldn’t load the file: {error}',
+
+  'lobby.watchThis': 'Watch this match',
+  'lobby.shuffle': 'Another match',
+  'lobby.shuffleHint': 'Preview a different random match',
+
+  'danmaku.label': 'Bullet comments',
+  'danmaku.show': 'Show bullet comments',
+  'danmaku.hide': 'Hide bullet comments',
 };

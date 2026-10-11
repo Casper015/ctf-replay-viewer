@@ -34,8 +34,9 @@ Import replaces the lines of the roles present in your file and keeps other role
 | caster | 10 turns | 2 | 5 turns | short | 2 |
 | color | 25 turns | 2 | 8 turns | medium | 1 |
 | analyst | 50 turns | 2 | 20 turns | long | 3 |
+| crowd (弹幕) | 10 turns | 4 | 1 turn | tiny | 0 |
 
-**Shared limit:** across all roles, at most one line every 5 turns (`generation.min_turns_between_lines`). On import, lines closer than that are dropped, keeping `key` lines first, then the higher-priority role (analyst 3 > caster 2 > color 1), then the earlier line. So space them yourself and keep the moments you care about. A 400-turn match has room for at most 80 lines; 40–60 well-chosen lines usually reads best.
+**Shared limit:** across all booth roles (everything except the crowd's bullet comments, which have `"display": "danmaku"`), at most one line every 5 turns (`generation.min_turns_between_lines`). On import, lines closer than that are dropped, keeping `key` lines first, then the higher-priority role (analyst 3 > caster 2 > color 1), then the earlier line. So space them yourself and keep the moments you care about. A 400-turn match has room for at most 80 lines; 40–60 well-chosen lines usually reads best.
 
 **Focus:** in matches with more than 4 teams (`generation.focus`), write about the contenders only (the top 3 by score, listed under `focus` in each window).
 

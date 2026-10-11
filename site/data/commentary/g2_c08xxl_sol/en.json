@@ -9,21 +9,32 @@
       "name": "Caster",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "Crowd",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,15 +67,30 @@
       "key": true
     },
     {
+      "turn": 6,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 21,
       "role": "caster",
       "text": "That capture puts c08_ponly_xxl in front. 2–1!",
       "key": true
     },
     {
+      "turn": 21,
+      "role": "crowd",
+      "text": "LEAD CHANGE"
+    },
+    {
       "turn": 26,
       "role": "caster",
       "text": "GPT-6.1 Sol stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 26,
+      "role": "crowd",
+      "text": "Defense wins"
     },
     {
       "turn": 32,
@@ -68,9 +99,29 @@
       "key": true
     },
     {
+      "turn": 32,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
+      "turn": 33,
+      "role": "crowd",
+      "text": "Unreal"
+    },
+    {
       "turn": 43,
       "role": "caster",
       "text": "Capture for c08_ponly_xxl, and it's 4–2."
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 50,
@@ -84,14 +135,34 @@
       "key": true
     },
     {
+      "turn": 61,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
+      "turn": 65,
+      "role": "crowd",
+      "text": "Comeback is real"
+    },
+    {
       "turn": 73,
       "role": "caster",
       "text": "Capture for c08_ponly_xxl, and it's 6–4."
     },
     {
+      "turn": 73,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 82,
       "role": "caster",
       "text": "Capture for GPT-6.1 Sol, and it's 6–5."
+    },
+    {
+      "turn": 82,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 88,
@@ -100,10 +171,20 @@
       "key": true
     },
     {
+      "turn": 88,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
       "turn": 94,
       "role": "caster",
       "text": "GPT-6.1 Sol scores and takes the lead! 7–6.",
       "key": true
+    },
+    {
+      "turn": 94,
+      "role": "crowd",
+      "text": "Unreal"
     },
     {
       "turn": 99,
@@ -112,15 +193,35 @@
       "key": true
     },
     {
+      "turn": 99,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
       "turn": 106,
       "role": "caster",
       "text": "GPT-6.1 Sol scores and takes the lead! 8–7.",
       "key": true
     },
     {
+      "turn": 106,
+      "role": "crowd",
+      "text": "Comeback is real"
+    },
+    {
       "turn": 117,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 9–7."
+    },
+    {
+      "turn": 117,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 125,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 129,
@@ -129,10 +230,25 @@
       "key": true
     },
     {
+      "turn": 129,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
       "turn": 142,
       "role": "caster",
       "text": "GPT-6.1 Sol scores and takes the lead! 10–9.",
       "key": true
+    },
+    {
+      "turn": 142,
+      "role": "crowd",
+      "text": "LEAD CHANGE"
+    },
+    {
+      "turn": 143,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 150,
@@ -140,9 +256,19 @@
       "text": "GPT-6.1 Sol played furthest forward, about 5.5 cells from home on average; c08_ponly_xxl stayed closest to base at 4.5."
     },
     {
+      "turn": 153,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 158,
       "role": "caster",
       "text": "GPT-6.1 Sol scores again. 12–10 now."
+    },
+    {
+      "turn": 158,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 164,
@@ -150,9 +276,19 @@
       "text": "GPT-6.1 Sol scores again. 13–10 now."
     },
     {
+      "turn": 164,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 169,
       "role": "caster",
       "text": "Capture for c08_ponly_xxl, and it's 13–11."
+    },
+    {
+      "turn": 169,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 175,
@@ -163,6 +299,16 @@
       "turn": 182,
       "role": "caster",
       "text": "GPT-6.1 Sol scores again. 14–11 now."
+    },
+    {
+      "turn": 182,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 196,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 200,
@@ -176,9 +322,29 @@
       "key": true
     },
     {
+      "turn": 207,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
+      "turn": 210,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol in front!"
+    },
+    {
       "turn": 218,
       "role": "caster",
       "text": "GPT-6.1 Sol scores again. 16–14 now."
+    },
+    {
+      "turn": 218,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 222,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 229,
@@ -186,9 +352,19 @@
       "text": "Capture for c08_ponly_xxl, and it's 17–15."
     },
     {
+      "turn": 229,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 234,
       "role": "caster",
       "text": "c08_ponly_xxl brings the flag home! 17–16."
+    },
+    {
+      "turn": 234,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 240,
@@ -197,9 +373,24 @@
       "key": true
     },
     {
+      "turn": 240,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
+      "turn": 248,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
       "turn": 250,
       "role": "analyst",
       "text": "c08_ponly_xxl played furthest forward, about 8.0 cells from home on average; GPT-6.1 Sol stayed closest to base at 5.0."
+    },
+    {
+      "turn": 251,
+      "role": "crowd",
+      "text": "Huge stop"
     },
     {
       "turn": 259,
@@ -208,9 +399,29 @@
       "key": true
     },
     {
+      "turn": 259,
+      "role": "crowd",
+      "text": "c08_ponly_xxl in front!"
+    },
+    {
+      "turn": 263,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 270,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 19–18."
+    },
+    {
+      "turn": 270,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 274,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 275,
@@ -223,9 +434,24 @@
       "text": "GPT-6.1 Sol scores again. 20–19 now."
     },
     {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 285,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 287,
       "role": "caster",
       "text": "c08_ponly_xxl scores again. 21–19 now."
+    },
+    {
+      "turn": 287,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 295,
@@ -233,14 +459,29 @@
       "text": "Capture for GPT-6.1 Sol, and it's 21–20."
     },
     {
+      "turn": 295,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "Turns 251–300: GPT-6.1 Sol turned 3 of 3 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 5 kills."
     },
     {
+      "turn": 300,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 312,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 22–21."
+    },
+    {
+      "turn": 312,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 324,
@@ -249,10 +490,20 @@
       "key": true
     },
     {
+      "turn": 324,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
       "turn": 330,
       "role": "caster",
       "text": "c08_ponly_xxl scores and takes the lead! 23–22.",
       "key": true
+    },
+    {
+      "turn": 330,
+      "role": "crowd",
+      "text": "Comeback is real"
     },
     {
       "turn": 338,
@@ -261,10 +512,20 @@
       "key": true
     },
     {
+      "turn": 338,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 347,
       "role": "caster",
       "text": "That capture puts c08_ponly_xxl in front. 24–23!",
       "key": true
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "Here we go"
     },
     {
       "turn": 353,
@@ -272,9 +533,19 @@
       "text": "c08_ponly_xxl scores again. 25–23 now."
     },
     {
+      "turn": 353,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 358,
       "role": "caster",
       "text": "Capture for c08_ponly_xxl, and it's 26–23."
+    },
+    {
+      "turn": 358,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 366,
@@ -282,9 +553,19 @@
       "text": "c08_ponly_xxl brings the flag home! 27–23."
     },
     {
+      "turn": 366,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 374,
       "role": "caster",
       "text": "GPT-6.1 Sol scores again. 27–24 now."
+    },
+    {
+      "turn": 374,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 388,
@@ -292,9 +573,24 @@
       "text": "Capture for GPT-6.1 Sol, and it's 27–25."
     },
     {
+      "turn": 388,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 389,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 400,
       "role": "analyst",
       "text": "Final verdict: c08_ponly_xxl finish on 28. Across the match they converted 93% of their pickups."
+    },
+    {
+      "turn": 400,
+      "role": "crowd",
+      "text": "Another one"
     }
   ]
 }

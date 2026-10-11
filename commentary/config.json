@@ -51,19 +51,19 @@
       "name": "简体中文",
       "english_name": "Simplified Chinese",
       "style": "用简体中文写作。比分用冒号（31:29），回合写成“第 N 回合”。队名和模型名保持原样，不要翻译。",
-      "length": { "short": "不超过 30 个字", "medium": "不超过 60 个字", "long": "不超过 120 个字" },
+      "length": { "tiny": "不超过 12 个字", "short": "不超过 30 个字", "medium": "不超过 60 个字", "long": "不超过 120 个字" },
       "max_chars": 200
     },
     "en": {
       "name": "English",
       "english_name": "English",
       "style": "Write in English. Use an en dash for scores (31–29) and 'turn N' for turns. Keep team and model names exactly as given.",
-      "length": { "short": "at most 20 words", "medium": "at most 40 words", "long": "at most 80 words" },
+      "length": { "tiny": "at most 6 words", "short": "at most 20 words", "medium": "at most 40 words", "long": "at most 80 words" },
       "max_chars": 600
     }
   },
 
-  "roles": ["caster", "color", "analyst"],
+  "roles": ["caster", "color", "analyst", "crowd"],
 
   "generation": {
     "$min_turns_between_lines": "No two lines (from any roles) closer than this many turns. When roles collide, the higher role priority keeps the slot.",

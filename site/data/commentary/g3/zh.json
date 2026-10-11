@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,10 +67,20 @@
       "key": true
     },
     {
+      "turn": 12,
+      "role": "crowd",
+      "text": "Player1 领先了！"
+    },
+    {
       "turn": 21,
       "role": "caster",
       "text": "GPT-6.1 Sol 扳平比分，1:1！",
       "key": true
+    },
+    {
+      "turn": 21,
+      "role": "crowd",
+      "text": "悬念拉满"
     },
     {
       "turn": 27,
@@ -63,16 +89,36 @@
       "key": true
     },
     {
+      "turn": 27,
+      "role": "crowd",
+      "text": "Player1 领先了！"
+    },
+    {
       "turn": 34,
       "role": "caster",
       "text": "GPT-6.1 Sol 扳平比分，2:2！",
       "key": true
     },
     {
+      "turn": 34,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 40,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分并反超！3:2！",
       "key": true
+    },
+    {
+      "turn": 40,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol 领先了！"
+    },
+    {
+      "turn": 48,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
     },
     {
       "turn": 50,
@@ -85,9 +131,19 @@
       "text": "Fable 5.1 交旗成功！3:2。"
     },
     {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 72,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！4:2。"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 85,
@@ -95,9 +151,29 @@
       "text": "GPT-6.1 Sol 再下一城，比分 5:2。"
     },
     {
+      "turn": 85,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 86,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "第 51–100 回合：Fable 5.1 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；Fable 5.1 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 101,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 103,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 111,
@@ -105,9 +181,19 @@
       "text": "关键拦截！Fable 5.1 放倒了 GPT-6.1 Sol 的持旗单位。"
     },
     {
+      "turn": 111,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 117,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！7:3。"
+    },
+    {
+      "turn": 117,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 126,
@@ -115,14 +201,34 @@
       "text": "Fable 5.1 交旗成功！7:4。"
     },
     {
+      "turn": 126,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 132,
       "role": "caster",
       "text": "Player1 交旗成功！7:4。"
     },
     {
+      "turn": 132,
+      "role": "crowd",
+      "text": "Player1 牛！"
+    },
+    {
       "turn": 139,
       "role": "caster",
       "text": "GPT-6.1 Sol 再下一城，比分 8:4。"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 147,
+      "role": "crowd",
+      "text": "Player1 牛！"
     },
     {
       "turn": 150,
@@ -135,9 +241,24 @@
       "text": "GPT-6.1 Sol 交旗成功！9:5。"
     },
     {
+      "turn": 162,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 176,
       "role": "caster",
       "text": "Fable 5.1 得分，现在是 9:5。"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
+      "turn": 180,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
     },
     {
       "turn": 191,
@@ -145,9 +266,24 @@
       "text": "Player1 得分，现在是 9:6。"
     },
     {
+      "turn": 191,
+      "role": "crowd",
+      "text": "Player1 牛！"
+    },
+    {
+      "turn": 196,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "第 151–200 回合：Fable 5.1 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；Fable 5.1 以 2 次击杀主导了交火。"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 206,
@@ -155,9 +291,24 @@
       "text": "GPT-6.1 Sol 得分，现在是 11:6。"
     },
     {
+      "turn": 206,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 222,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！13:6。"
+    },
+    {
+      "turn": 222,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
     },
     {
       "turn": 237,
@@ -165,9 +316,19 @@
       "text": "GPT-6.1 Sol 交旗成功！14:7。"
     },
     {
+      "turn": 237,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 245,
       "role": "caster",
       "text": "Player1 得分，现在是 14:7。"
+    },
+    {
+      "turn": 245,
+      "role": "crowd",
+      "text": "Player1 牛！"
     },
     {
       "turn": 250,
@@ -175,9 +336,24 @@
       "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 14.7 格；Player1 最保守，平均只有 5.3 格。"
     },
     {
+      "turn": 252,
+      "role": "crowd",
+      "text": "Player1 牛！"
+    },
+    {
       "turn": 263,
       "role": "caster",
       "text": "Fable 5.1 得分，现在是 14:8。"
+    },
+    {
+      "turn": 263,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
+      "turn": 267,
+      "role": "crowd",
+      "text": "Player1 牛！"
     },
     {
       "turn": 275,
@@ -190,9 +366,24 @@
       "text": "Fable 5.1 得分，现在是 14:9。"
     },
     {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
+      "turn": 282,
+      "role": "crowd",
+      "text": "Player1 牛！"
+    },
+    {
       "turn": 295,
       "role": "caster",
       "text": "Fable 5.1 再下一城，比分 15:10。"
+    },
+    {
+      "turn": 295,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
     },
     {
       "turn": 300,
@@ -205,14 +396,39 @@
       "text": "Player1 再下一城，比分 15:11。"
     },
     {
+      "turn": 310,
+      "role": "crowd",
+      "text": "Player1 牛！"
+    },
+    {
+      "turn": 314,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 327,
       "role": "caster",
       "text": "Fable 5.1 交旗成功！15:12。"
     },
     {
+      "turn": 327,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 7.3 格；GPT-6.1 Sol 最保守，平均只有 5.0 格。"
+    },
+    {
+      "turn": 352,
+      "role": "crowd",
+      "text": "Player1 牛！"
     },
     {
       "turn": 365,
@@ -221,16 +437,56 @@
       "key": true
     },
     {
+      "turn": 365,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "心跳加速"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "Player1 牛！"
+    },
+    {
       "turn": 379,
       "role": "caster",
       "text": "这一球让 Fable 5.1 领先了，16:15！",
       "key": true
     },
     {
+      "turn": 379,
+      "role": "crowd",
+      "text": "逆转来了"
+    },
+    {
+      "turn": 380,
+      "role": "crowd",
+      "text": "最后时刻！"
+    },
+    {
       "turn": 393,
       "role": "caster",
       "text": "这一球让 Fable 5.1 领先了，17:16！",
       "key": true
+    },
+    {
+      "turn": 393,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
+      "turn": 394,
+      "role": "crowd",
+      "text": "心跳加速"
+    },
+    {
+      "turn": 395,
+      "role": "crowd",
+      "text": "Player1 牛！"
     },
     {
       "turn": 400,

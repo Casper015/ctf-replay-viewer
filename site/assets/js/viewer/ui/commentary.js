@@ -22,13 +22,14 @@ export function mountCommentary(store, { playback }) {
 
   const langSelect = h('select', { class: 'select select--sm' });
   const captionsBtn = h('button', { type: 'button', class: 'chip-btn' });
+  const danmakuBtn = h('button', { type: 'button', class: 'chip-btn', hidden: true });
   const openBtn = h('button', { type: 'button', class: 'chip-btn' });
   const roleBar = h('div', { class: 'role-chips', role: 'group' });
   const note = h('p', { class: 'pane-hint commentary-note' });
   const list = h('ol', { class: 'commentary-list', 'aria-live': 'polite' });
   const empty = h('div', { class: 'commentary-empty' });
   pane.replaceChildren(
-    h('div', { class: 'commentary-head' }, langSelect, captionsBtn, openBtn, fileInput),
+    h('div', { class: 'commentary-head' }, langSelect, captionsBtn, danmakuBtn, openBtn, fileInput),
     roleBar, note, list, empty,
   );
 
@@ -66,6 +67,7 @@ export function mountCommentary(store, { playback }) {
   // ---- controls
   langSelect.addEventListener('change', () => store.set({ commentaryLang: langSelect.value }));
   captionsBtn.addEventListener('click', () => store.set({ captions: !store.get().captions }));
+  danmakuBtn.addEventListener('click', () => store.set({ danmaku: !store.get().danmaku }));
   openBtn.addEventListener('click', () => fileInput.click());
   roleBar.addEventListener('click', (e) => {
     const b = e.target.closest('[data-role]');
@@ -120,6 +122,9 @@ export function mountCommentary(store, { playback }) {
 
     captionsBtn.innerHTML = `${icon('captions', 'icon icon--sm')}<span>${t('commentary.captions')}</span>`;
     captionsBtn.setAttribute('aria-pressed', String(s.captions));
+    danmakuBtn.innerHTML = `${icon('chat', 'icon icon--sm')}<span>${t('danmaku.label')}</span>`;
+    danmakuBtn.setAttribute('aria-pressed', String(s.danmaku));
+    danmakuBtn.hidden = !s.commentary?.roles.some((r) => r.display === 'danmaku');
     openBtn.innerHTML = `${icon('upload', 'icon icon--sm')}<span>${t('commentary.openFile')}</span>`;
     openBtn.title = t('commentary.openFileHint');
     roleBar.setAttribute('aria-label', t('commentary.roles'));
@@ -141,12 +146,13 @@ export function mountCommentary(store, { playback }) {
     }
     const turn = s.replay.frames[s.frame].turn;
     const hidden = new Set(s.hiddenRoles);
-    const visible = track.lines.filter((ln) => ln.turn <= turn && !hidden.has(ln.role));
+    const booth = new Set(track.roles.filter((r) => r.display !== 'danmaku').map((r) => r.id));
+    const visible = track.lines.filter((ln) => ln.turn <= turn && booth.has(ln.role) && !hidden.has(ln.role));
     if (!force && visible.length === shownCount) return;
     const grow = visible.length > shownCount && shownCount >= 0;
     shownCount = visible.length;
 
-    roleBar.innerHTML = track.roles.map((r) => `
+    roleBar.innerHTML = track.roles.filter((r) => r.display !== 'danmaku').map((r) => `
       <button type="button" class="role-chip" data-role="${escapeHtml(r.id)}" aria-pressed="${!hidden.has(r.id)}">
         ${icon(r.icon, 'icon icon--sm')}<span>${escapeHtml(r.name)}</span>
       </button>`).join('');
@@ -176,7 +182,7 @@ export function mountCommentary(store, { playback }) {
     }
     const turn = s.replay.frames[s.frame].turn;
     const hidden = new Set(s.hiddenRoles);
-    const captionRoles = new Set(track.roles.filter((r) => r.caption && !hidden.has(r.id)).map((r) => r.id));
+    const captionRoles = new Set(track.roles.filter((r) => r.caption && r.display !== 'danmaku' && !hidden.has(r.id)).map((r) => r.id));
     let latest = null;
     for (const ln of track.lines) {
       if (ln.turn > turn) break;
@@ -213,7 +219,8 @@ export function mountCommentary(store, { playback }) {
     renderList(changed.includes('hiddenRoles'));
     renderCaption();
   });
-  store.subscribe(['captions'], () => { renderControls(); renderCaption(); });
+  store.subscribe(['captions', 'danmaku'], () => { renderControls(); renderCaption(); });
+  store.subscribe(['commentary'], renderControls);
   store.subscribe(['tab'], (s) => s.tab === 'commentary' && renderList(true));
   onLangChange(() => {
     renderControls();
@@ -236,10 +243,13 @@ function normalize(data, lang, origin, current = null, fileName = '') {
   const known = new Map([...(current?.roles || []), ...(Array.isArray(data.roles) ? data.roles : [])].map((r) => [r.id, r]));
   const priority = (id) => known.get(id)?.priority ?? DEFAULT_PRIORITY[id] ?? 0;
   // Same spacing rule as tools/commentate.py: one line per `gap` turns across all roles
-  const spaced = spaceLines(lines, Number.isFinite(data.min_gap) ? data.min_gap : MIN_GAP, priority);
+  const isDanmaku = (id) => (known.get(id)?.display || (id === 'crowd' ? 'danmaku' : 'booth')) === 'danmaku';
+  const spaced = [...spaceLines(lines.filter((ln) => !isDanmaku(ln.role)), Number.isFinite(data.min_gap) ? data.min_gap : MIN_GAP, priority),
+    ...lines.filter((ln) => isDanmaku(ln.role))].sort((a, b) => a.turn - b.turn);
   const roles = [...new Set(spaced.map((ln) => ln.role))].map((id) => {
     const r = known.get(id) || {};
-    return { id, name: r.name || id, icon: KNOWN_ICONS.has(r.icon) ? r.icon : 'chat', caption: r.caption ?? id !== 'analyst' };
+    const display = r.display || (id === 'crowd' ? 'danmaku' : 'booth');
+    return { id, name: r.name || id, icon: KNOWN_ICONS.has(r.icon) ? r.icon : 'chat', caption: display === 'booth' && (r.caption ?? id !== 'analyst'), display };
   });
   return { language: lang, roles, lines: spaced, sources: data.sources || {}, origin, fileName };
 }

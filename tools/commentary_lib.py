@@ -109,6 +109,8 @@ def check_config() -> list[str]:
                 errs.append(f"roles/{role_id}/role.json is missing '{field}'")
         if role.get("id") != role_id:
             errs.append(f"roles/{role_id}/role.json: id should be '{role_id}'")
+        if role.get("display", "booth") not in ("booth", "danmaku"):
+            errs.append(f"roles/{role_id}/role.json: display must be 'booth' or 'danmaku'")
         if role.get("icon") not in ICONS:
             errs.append(f"roles/{role_id}/role.json: icon must be one of {sorted(ICONS)}")
         for code in langs:
@@ -284,10 +286,11 @@ def build_prompt(role: dict, lang: str, config: dict, facts: dict, previous: lis
         "Fewer lines are fine; an empty list is fine when nothing is worth saying.",
         f"- Each line's \"turn\" must be between {facts['window']['from_turn']} and {facts['window']['to_turn']}: "
         "the turn where the thing you describe happened, or the last turn for a summary.",
-        f"- Across all roles there is at most one line every {min_gap_any(config)} turns, so make each line count: "
-        "pick the moments that matter most (lead changes, ties, captures by the leaders, stops of a leader's carrier).",
-        '- Add "key": true to a line about a lead change, a tie at the top or the winning capture; key lines are never '
-        'dropped when the booth gets crowded. Use it sparingly.',
+        *([] if role.get("display") == "danmaku" else [
+            f"- Across all roles there is at most one line every {min_gap_any(config)} turns, so make each line count: "
+            "pick the moments that matter most (lead changes, ties, captures by the leaders, stops of a leader's carrier).",
+            '- Add "key": true to a line about a lead change, a tie at the top or the winning capture; key lines are '
+            'never dropped when the booth gets crowded. Use it sparingly.']),
         '- Reply with JSON only, no other text: {"lines": [{"turn": <integer>, "text": "<line>", "key": <optional true>}]}',
     ]
     if "focus" in facts:
@@ -478,6 +481,26 @@ class MockWriter:
                     break
             return sorted(chosen, key=lambda c: c["turn"])
 
+        if rid == "crowd":
+            ev = facts.get("events", {})
+            total = facts["match"]["total_turns"]
+            moments = []
+            for c in ev.get("captures", []):
+                kind = "crowd.lead" if c["takes_lead"] else "crowd.tie" if c["ties_lead"] else "crowd.capture"
+                moments.append((c["turn"], kind, c["team"], 2 if kind != "crowd.capture" else 1))
+            for s in ev.get("carrier_stops", []):
+                moments.append((s["turn"], "crowd.stop", s["by"] or s["victim"], 1))
+            out = []
+            for turn, kind, team, n in sorted(moments):
+                if turn >= total - 40 and kind != "crowd.capture":
+                    n += 1
+                for j in range(n):
+                    key = "crowd.late" if j == 2 else kind
+                    text = self.pick(key, turn * 7 + j * 3 + len(team), team=team)
+                    if text and all(o["text"] != text or abs(o["turn"] - turn) > 3 for o in out):
+                        out.append({"turn": min(total, turn + j // 2), "text": text})
+            return sorted(out, key=lambda o: o["turn"])[:role["max_lines"]]
+
         standings = facts.get("standings") or []
         stats = facts.get("window_stats") or []
         if not standings:
@@ -547,6 +570,14 @@ def space_lines(lines: list[dict], gap: int, priority: dict[str, int]) -> list[d
     return sorted(kept, key=lambda ln: ln["turn"])
 
 
+def is_danmaku(role_id: str) -> bool:
+    """Bullet-comment roles fly across the board and don't count toward the booth's spacing."""
+    try:
+        return load_role(role_id).get("display") == "danmaku"
+    except OSError:
+        return False
+
+
 def role_priorities(config: dict) -> dict[str, int]:
     return {rid: int(load_role(rid).get("priority", 1)) for rid in config["roles"]}
 
@@ -564,14 +595,17 @@ def write_track(key: str, lang: str, config: dict, new_lines: list[dict], roles:
     replaced = {r["id"] for r in roles}
     lines = [ln for ln in existing.get("lines", []) if ln["role"] not in replaced] + new_lines
     gap = min_gap_any(config)
-    lines = space_lines(lines, gap, role_priorities(config))
+    danmaku = {rid for rid in {ln["role"] for ln in lines} if is_danmaku(rid)}
+    booth = space_lines([ln for ln in lines if ln["role"] not in danmaku], gap, role_priorities(config))
+    lines = sorted(booth + [ln for ln in lines if ln["role"] in danmaku], key=lambda ln: ln["turn"])
     sources = {k: v for k, v in existing.get("sources", {}).items() if k not in replaced}
     for r in roles:
         sources[r["id"]] = source
     used = {ln["role"] for ln in lines}
     role_meta = [{"id": rid, "name": load_role(rid)["name"].get(lang) or load_role(rid)["name"].get("en"),
                   "icon": load_role(rid)["icon"], "caption": bool(load_role(rid).get("caption")),
-                  "priority": int(load_role(rid).get("priority", 1))}
+                  "priority": int(load_role(rid).get("priority", 1)),
+                  "display": load_role(rid).get("display", "booth")}
                  for rid in config["roles"] if rid in used]
     out = {"version": 1, "match": key, "language": lang, "min_gap": gap, "roles": role_meta, "sources": sources,
            "lines": lines}

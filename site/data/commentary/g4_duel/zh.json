@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -49,6 +65,11 @@
       "role": "caster",
       "text": "Player5 扳平比分，1:1！",
       "key": true
+    },
+    {
+      "turn": 10,
+      "role": "crowd",
+      "text": "又平了"
     },
     {
       "turn": 20,
@@ -61,15 +82,40 @@
       "text": "GPT-6.1 Sol 截下了 Player6 的持旗者！"
     },
     {
+      "turn": 28,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 36,
       "role": "caster",
       "text": "Player5 得分并反超！2:1！",
       "key": true
     },
     {
+      "turn": 36,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
       "turn": 42,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！2:1。"
+    },
+    {
+      "turn": 42,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 50,
@@ -82,10 +128,20 @@
       "text": "GPT-6.1 Sol 再下一城，比分 3:2。"
     },
     {
+      "turn": 55,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 62,
       "role": "caster",
       "text": "GPT-6.1 Sol 扳平比分，3:3！",
       "key": true
+    },
+    {
+      "turn": 62,
+      "role": "crowd",
+      "text": "又平了"
     },
     {
       "turn": 68,
@@ -94,9 +150,19 @@
       "key": true
     },
     {
+      "turn": 68,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
       "turn": 75,
       "role": "caster",
       "text": "Player5 交旗成功！5:3。"
+    },
+    {
+      "turn": 75,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 81,
@@ -104,9 +170,19 @@
       "text": "GPT-6.1 Sol 交旗成功！5:4。"
     },
     {
+      "turn": 81,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 88,
       "role": "caster",
       "text": "Player5 再下一城，比分 6:4。"
+    },
+    {
+      "turn": 88,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 95,
@@ -114,9 +190,19 @@
       "text": "基准 得分，现在是 6:4。"
     },
     {
+      "turn": 95,
+      "role": "crowd",
+      "text": "基准 冲冲冲"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "第 51–100 回合：GPT-6.1 Sol 拾旗 3 次转化 3 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 101,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 108,
@@ -124,9 +210,19 @@
       "text": "Player5 交旗成功！7:5。"
     },
     {
+      "turn": 108,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 115,
       "role": "caster",
       "text": "Player5 再下一城，比分 8:5。"
+    },
+    {
+      "turn": 115,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 126,
@@ -134,9 +230,19 @@
       "text": "GPT-6.1 Sol 交旗成功！8:6。"
     },
     {
+      "turn": 126,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 150,
       "role": "analyst",
       "text": "基准 站位最靠前，单位平均离本方基地约 7.3 格；Player6 最保守，平均只有 2.0 格。"
+    },
+    {
+      "turn": 150,
+      "role": "crowd",
+      "text": "Player6 牛！"
     },
     {
       "turn": 158,
@@ -144,9 +250,19 @@
       "text": "基准 得分，现在是 8:7。"
     },
     {
+      "turn": 158,
+      "role": "crowd",
+      "text": "基准 冲冲冲"
+    },
+    {
       "turn": 165,
       "role": "caster",
       "text": "Player6 交旗成功！8:7。"
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "Player6 牛！"
     },
     {
       "turn": 175,
@@ -159,6 +275,16 @@
       "text": "Player5 再下一城，比分 9:7。"
     },
     {
+      "turn": 181,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 197,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "第 151–200 回合：GPT-6.1 Sol 拾旗 1 次转化 1 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 7 次击杀主导了交火。"
@@ -169,9 +295,19 @@
       "text": "Player6 再下一城，比分 9:8。"
     },
     {
+      "turn": 208,
+      "role": "crowd",
+      "text": "Player6 牛！"
+    },
+    {
       "turn": 218,
       "role": "caster",
       "text": "GPT-6.1 Sol 截下了 基准 的持旗者！"
+    },
+    {
+      "turn": 218,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 226,
@@ -180,10 +316,30 @@
       "key": true
     },
     {
+      "turn": 226,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 228,
+      "role": "crowd",
+      "text": "Player6 牛！"
+    },
+    {
       "turn": 239,
       "role": "caster",
       "text": "这一球让 GPT-6.1 Sol 领先了，10:9！",
       "key": true
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
+      "turn": 241,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 250,
@@ -191,9 +347,29 @@
       "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 9.0 格；基准 最保守，平均只有 4.5 格。"
     },
     {
+      "turn": 253,
+      "role": "crowd",
+      "text": "基准 冲冲冲"
+    },
+    {
+      "turn": 254,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 266,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分，现在是 12:10。"
+    },
+    {
+      "turn": 266,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 267,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 279,
@@ -202,9 +378,19 @@
       "key": true
     },
     {
+      "turn": 279,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 286,
       "role": "caster",
       "text": "基准 再下一城，比分 12:12。"
+    },
+    {
+      "turn": 286,
+      "role": "crowd",
+      "text": "基准 冲冲冲"
     },
     {
       "turn": 292,
@@ -213,9 +399,19 @@
       "key": true
     },
     {
+      "turn": 292,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合：基准 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 3 次击杀主导了交火。"
+    },
+    {
+      "turn": 300,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 305,
@@ -224,10 +420,25 @@
       "key": true
     },
     {
+      "turn": 305,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 320,
       "role": "caster",
       "text": "Player5 得分并反超！14:13！",
       "key": true
+    },
+    {
+      "turn": 320,
+      "role": "crowd",
+      "text": "逆转来了"
+    },
+    {
+      "turn": 324,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
     },
     {
       "turn": 325,
@@ -241,6 +452,21 @@
       "key": true
     },
     {
+      "turn": 333,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
+      "turn": 337,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "基准 冲冲冲"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 11.0 格；Player6 最保守，平均只有 6.3 格。"
@@ -252,10 +478,25 @@
       "key": true
     },
     {
+      "turn": 359,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
       "turn": 365,
       "role": "caster",
       "text": "GPT-6.1 Sol 扳平比分，16:16！",
       "key": true
+    },
+    {
+      "turn": 365,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "最后时刻！"
     },
     {
       "turn": 372,
@@ -264,14 +505,34 @@
       "key": true
     },
     {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Player5 领先了！"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "稳住啊"
+    },
+    {
       "turn": 379,
       "role": "caster",
       "text": "基准 再下一城，比分 17:16。"
     },
     {
+      "turn": 379,
+      "role": "crowd",
+      "text": "基准 冲冲冲"
+    },
+    {
       "turn": 387,
       "role": "caster",
       "text": "Player6 交旗成功！17:16。"
+    },
+    {
+      "turn": 387,
+      "role": "crowd",
+      "text": "Player6 牛！"
     },
     {
       "turn": 393,
@@ -280,10 +541,25 @@
       "key": true
     },
     {
+      "turn": 393,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 394,
+      "role": "crowd",
+      "text": "最后时刻！"
+    },
+    {
       "turn": 400,
       "role": "caster",
       "text": "Player5 得分并反超！18:17！",
       "key": true
+    },
+    {
+      "turn": 400,
+      "role": "crowd",
+      "text": "逆转来了"
     }
   ]
 }

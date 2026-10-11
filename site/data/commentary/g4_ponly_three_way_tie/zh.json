@@ -9,14 +9,24 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -34,6 +44,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -44,10 +59,20 @@
       "key": true
     },
     {
+      "turn": 10,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 24,
       "role": "caster",
       "text": "GPT-6 Astra 得分并反超！2:1！",
       "key": true
+    },
+    {
+      "turn": 24,
+      "role": "crowd",
+      "text": "v12_ponly_xxl 好样的"
     },
     {
       "turn": 37,
@@ -56,10 +81,25 @@
       "key": true
     },
     {
+      "turn": 37,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 41,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 43,
       "role": "caster",
       "text": "v12_ponly_xxl 扳平比分，2:2！",
       "key": true
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "悬念拉满"
     },
     {
       "turn": 50,
@@ -68,10 +108,20 @@
       "key": true
     },
     {
+      "turn": 50,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol 领先了！"
+    },
+    {
       "turn": 58,
       "role": "caster",
       "text": "v12_ponly_xxl 扳平比分，3:3！",
       "key": true
+    },
+    {
+      "turn": 58,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
     },
     {
       "turn": 63,
@@ -80,10 +130,25 @@
       "key": true
     },
     {
+      "turn": 63,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 76,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分并反超！4:3！",
       "key": true
+    },
+    {
+      "turn": 76,
+      "role": "crowd",
+      "text": "名场面"
     },
     {
       "turn": 85,
@@ -92,15 +157,40 @@
       "key": true
     },
     {
+      "turn": 85,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 93,
       "role": "caster",
       "text": "v12_ponly_xxl 扳平比分，4:4！",
       "key": true
     },
     {
+      "turn": 93,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 97,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "第 51–100 回合：GPT-6 Astra 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_xxl 以 8 次击杀主导了交火。"
+    },
+    {
+      "turn": 100,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 104,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 106,
@@ -109,9 +199,19 @@
       "key": true
     },
     {
+      "turn": 106,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
       "turn": 111,
       "role": "caster",
       "text": "关键拦截！v12_ponly_xxl 放倒了 GPT-6 Astra 的持旗单位。"
+    },
+    {
+      "turn": 111,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 117,
@@ -119,9 +219,19 @@
       "text": "v12_ponly_xxl 交旗成功！6:4。"
     },
     {
+      "turn": 117,
+      "role": "crowd",
+      "text": "v12_ponly_xxl 好样的"
+    },
+    {
       "turn": 122,
       "role": "caster",
       "text": "v12_ponly_xxl 得分，现在是 7:4。"
+    },
+    {
+      "turn": 122,
+      "role": "crowd",
+      "text": "v12_ponly_xxl 好样的"
     },
     {
       "turn": 131,
@@ -129,9 +239,29 @@
       "text": "GPT-6 Astra 得分，现在是 7:5。"
     },
     {
+      "turn": 131,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 135,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 145,
       "role": "caster",
       "text": "c08_ponly_xxl 再下一城，比分 7:5。"
+    },
+    {
+      "turn": 145,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
+      "turn": 147,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 150,
@@ -139,9 +269,24 @@
       "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 12.0 格；c08_ponly_xxl 最保守，平均只有 7.0 格。"
     },
     {
+      "turn": 153,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 160,
       "role": "caster",
       "text": "c08_ponly_xxl 再下一城，比分 7:5。"
+    },
+    {
+      "turn": 160,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 175,
@@ -149,14 +294,34 @@
       "text": "关键拦截！v12_ponly_xxl 放倒了 GPT-6 Astra 的持旗单位。"
     },
     {
+      "turn": 175,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 181,
       "role": "caster",
       "text": "v12_ponly_xxl 再下一城，比分 8:6。"
     },
     {
+      "turn": 181,
+      "role": "crowd",
+      "text": "v12_ponly_xxl 好样的"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 193,
       "role": "caster",
       "text": "GPT-6 Astra 再下一城，比分 8:7。"
+    },
+    {
+      "turn": 193,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 200,
@@ -169,9 +334,29 @@
       "text": "c08_ponly_xxl 得分，现在是 8:7。"
     },
     {
+      "turn": 209,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
+      "turn": 212,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 214,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 222,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！8:7。"
+    },
+    {
+      "turn": 222,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 231,
@@ -180,10 +365,25 @@
       "key": true
     },
     {
+      "turn": 231,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 243,
       "role": "caster",
       "text": "这一球让 v12_ponly_xxl 领先了，9:8！",
       "key": true
+    },
+    {
+      "turn": 243,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
+      "turn": 244,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
     },
     {
       "turn": 250,
@@ -197,14 +397,44 @@
       "key": true
     },
     {
+      "turn": 257,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 268,
       "role": "caster",
       "text": "c08_ponly_xxl 截下了 GPT-6 Astra 的持旗者！"
     },
     {
+      "turn": 268,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 271,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 278,
       "role": "caster",
       "text": "GPT-6 Astra 截下了 v12_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 278,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 286,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 289,
@@ -213,9 +443,24 @@
       "key": true
     },
     {
+      "turn": 289,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合：c08_ponly_xxl 拾旗 3 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_xxl 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 302,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
+      "turn": 305,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 316,
@@ -223,14 +468,29 @@
       "text": "c08_ponly_xxl 再下一城，比分 10:10。"
     },
     {
+      "turn": 316,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 324,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！10:10。"
     },
     {
+      "turn": 324,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 330,
       "role": "caster",
       "text": "c08_ponly_xxl 交旗成功！10:10。"
+    },
+    {
+      "turn": 330,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 338,
@@ -239,10 +499,35 @@
       "key": true
     },
     {
+      "turn": 338,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 340,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 351,
       "role": "caster",
       "text": "这一球让 GPT-6 Astra 领先了，11:10！",
       "key": true
+    },
+    {
+      "turn": 351,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 363,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 367,
@@ -251,16 +536,51 @@
       "key": true
     },
     {
+      "turn": 367,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 378,
       "role": "caster",
       "text": "GPT-6 Astra 得分并反超！12:11！",
       "key": true
     },
     {
+      "turn": 378,
+      "role": "crowd",
+      "text": "逆转来了"
+    },
+    {
+      "turn": 379,
+      "role": "crowd",
+      "text": "谁顶得住"
+    },
+    {
+      "turn": 381,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 392,
       "role": "caster",
       "text": "v12_ponly_xxl 扳平比分，12:12！",
       "key": true
+    },
+    {
+      "turn": 392,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 393,
+      "role": "crowd",
+      "text": "谁顶得住"
+    },
+    {
+      "turn": 395,
+      "role": "crowd",
+      "text": "悬念拉满"
     },
     {
       "turn": 400,

@@ -31,7 +31,6 @@ onReady(async () => {
   }
   status.hidden = true;
 
-  const featured = catalog.matches.find((m) => m.featured) || catalog.matches[0];
   mountMatchList(catalog);
-  if (featured) mountHero(featured, catalog);
+  if (catalog.matches.length) mountHero(catalog);
 });

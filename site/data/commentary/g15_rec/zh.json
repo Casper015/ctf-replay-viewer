@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,9 +67,24 @@
       "key": true
     },
     {
+      "turn": 22,
+      "role": "crowd",
+      "text": "Player5 领先了！"
+    },
+    {
+      "turn": 23,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 28,
       "role": "caster",
       "text": "Player6 再下一城，比分 3:1。"
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "Player4 牛！"
     },
     {
       "turn": 36,
@@ -61,9 +92,24 @@
       "text": "Player2 交旗成功！3:1。"
     },
     {
+      "turn": 36,
+      "role": "crowd",
+      "text": "Player2 牛！"
+    },
+    {
       "turn": 50,
       "role": "analyst",
       "text": "Player4 站位最靠前，单位平均离本方基地约 12.7 格；Player6 最保守，平均只有 1.5 格。"
+    },
+    {
+      "turn": 52,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 57,
@@ -72,16 +118,56 @@
       "key": true
     },
     {
+      "turn": 57,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
       "turn": 67,
       "role": "caster",
       "text": "Sonnet 5.5 扳平比分，3:3！",
       "key": true
     },
     {
+      "turn": 67,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 78,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 79,
       "role": "caster",
       "text": "这一球让 Player5 领先了，4:3！",
       "key": true
+    },
+    {
+      "turn": 79,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
+      "turn": 80,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 81,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 96,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
+      "turn": 99,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 100,
@@ -95,10 +181,25 @@
       "key": true
     },
     {
+      "turn": 108,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 111,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
       "turn": 113,
       "role": "caster",
       "text": "这一球让 Player5 领先了，6:5！",
       "key": true
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "名场面"
     },
     {
       "turn": 125,
@@ -111,14 +212,39 @@
       "text": "Player4 得分，现在是 6:5。"
     },
     {
+      "turn": 134,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 141,
       "role": "caster",
       "text": "Player4 交旗成功！7:6。"
     },
     {
+      "turn": 141,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
+      "turn": 142,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 150,
       "role": "analyst",
       "text": "Player5 站位最靠前，单位平均离本方基地约 12.5 格；Sonnet 5.5 最保守，平均只有 4.5 格。"
+    },
+    {
+      "turn": 152,
+      "role": "crowd",
+      "text": "这球漂亮"
     },
     {
       "turn": 161,
@@ -127,9 +253,19 @@
       "key": true
     },
     {
+      "turn": 161,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 168,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 截下了 Player4 的持旗者！"
+    },
+    {
+      "turn": 168,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 175,
@@ -143,9 +279,24 @@
       "key": true
     },
     {
+      "turn": 183,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
+      "turn": 184,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
       "turn": 195,
       "role": "caster",
       "text": "关键拦截！GLM 5.3 放倒了 Sonnet 5.5 的持旗单位。"
+    },
+    {
+      "turn": 195,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 200,
@@ -153,9 +304,29 @@
       "text": "第 151–200 回合：Sonnet 5.5 拾旗 3 次转化 2 次，是这一段转化率最高的队伍；Sonnet 5.5 以 6 次击杀主导了交火。"
     },
     {
+      "turn": 204,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 214,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 216,
       "role": "caster",
       "text": "GPT-6 Astra 交旗成功！9:7。"
+    },
+    {
+      "turn": 216,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 218,
+      "role": "crowd",
+      "text": "这球漂亮"
     },
     {
       "turn": 225,
@@ -168,9 +339,34 @@
       "text": "Player4 得分，现在是 9:8。"
     },
     {
+      "turn": 230,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
+      "turn": 233,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 237,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 243,
       "role": "caster",
       "text": "关键拦截！DeepSeek V4.1 Flash 放倒了 GPT-6 Astra 的持旗单位。"
+    },
+    {
+      "turn": 243,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 245,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 250,
@@ -184,10 +380,25 @@
       "key": true
     },
     {
+      "turn": 255,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 264,
       "role": "caster",
       "text": "Player5 得分并反超！10:9！",
       "key": true
+    },
+    {
+      "turn": 264,
+      "role": "crowd",
+      "text": "反超了！！"
     },
     {
       "turn": 278,
@@ -195,9 +406,49 @@
       "text": "Player2 截下了 GPT-6 Astra 的持旗者！"
     },
     {
+      "turn": 278,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 283,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 298,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合：GPT-6 Astra 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；GPT-6 Astra 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 304,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 309,
@@ -205,9 +456,24 @@
       "text": "Player5 交旗成功！12:10。"
     },
     {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 316,
       "role": "caster",
       "text": "Fable 5.1 截下了 Player5 的持旗者！"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 323,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 326,
@@ -216,16 +482,41 @@
       "key": true
     },
     {
+      "turn": 326,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 334,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
       "turn": 337,
       "role": "caster",
       "text": "Sonnet 5.5 扳平比分，12:12！",
       "key": true
     },
     {
+      "turn": 337,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 342,
       "role": "caster",
       "text": "Player5 得分并反超！13:12！",
       "key": true
+    },
+    {
+      "turn": 342,
+      "role": "crowd",
+      "text": "Player5 领先了！"
+    },
+    {
+      "turn": 344,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
     },
     {
       "turn": 350,
@@ -239,9 +530,34 @@
       "key": true
     },
     {
+      "turn": 359,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 363,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 364,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 377,
       "role": "caster",
       "text": "关键拦截！GPT-6.1 Sol 放倒了 Sonnet 5.5 的持旗单位。"
+    },
+    {
+      "turn": 377,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 383,
@@ -249,10 +565,25 @@
       "text": "关键拦截！Player4 放倒了 GPT-6 Astra 的持旗单位。"
     },
     {
+      "turn": 383,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 396,
       "role": "caster",
       "text": "Sonnet 5.5 得分并反超！14:13！",
       "key": true
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "逆转来了"
+    },
+    {
+      "turn": 397,
+      "role": "crowd",
+      "text": "最后时刻！"
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "$help": "Audience bullet comments (弹幕) that fly across the board. display = 'danmaku' keeps them out of the commentary panel and out of the booth's one-line-per-5-turns limit; they have their own pacing (max_lines per window, min_gap between crowd lines).",
+  "id": "crowd",
+  "name": { "zh": "观众弹幕", "en": "Crowd" },
+  "icon": "chat",
+  "display": "danmaku",
+  "window": 10,
+  "max_lines": 4,
+  "min_gap": 1,
+  "length": "tiny",
+  "context": ["events", "standings"],
+  "priority": 0,
+  "caption": false
+}

@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,15 +67,40 @@
       "key": true
     },
     {
+      "turn": 10,
+      "role": "crowd",
+      "text": "逆转来了"
+    },
+    {
+      "turn": 11,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 25,
       "role": "caster",
       "text": "c08_ponly_pxl 扳平比分，1:1！",
       "key": true
     },
     {
+      "turn": 25,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 27,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 30,
       "role": "caster",
       "text": "Player5 截下了 baseline 的持旗者！"
+    },
+    {
+      "turn": 30,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 38,
@@ -68,15 +109,30 @@
       "key": true
     },
     {
+      "turn": 38,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 46,
       "role": "caster",
       "text": "Player5 得分并反超！2:1！",
       "key": true
     },
     {
+      "turn": 46,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
       "turn": 52,
       "role": "caster",
       "text": "baseline 再下一城，比分 2:1。"
+    },
+    {
+      "turn": 52,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 59,
@@ -85,10 +141,20 @@
       "key": true
     },
     {
+      "turn": 59,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 65,
       "role": "caster",
       "text": "这一球让 v12_control 领先了，3:2！",
       "key": true
+    },
+    {
+      "turn": 65,
+      "role": "crowd",
+      "text": "v12_control 领先了！"
     },
     {
       "turn": 72,
@@ -97,14 +163,39 @@
       "key": true
     },
     {
+      "turn": 72,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
       "turn": 77,
       "role": "caster",
       "text": "关键拦截！c08_ponly_pxl 放倒了 v12_control 的持旗单位。"
     },
     {
+      "turn": 77,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 79,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 81,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 86,
       "role": "caster",
       "text": "baseline 得分，现在是 3:3。"
+    },
+    {
+      "turn": 86,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 101,
@@ -113,9 +204,24 @@
       "key": true
     },
     {
+      "turn": 101,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
+      "turn": 103,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 115,
       "role": "caster",
       "text": "baseline 再下一城，比分 5:3。"
+    },
+    {
+      "turn": 115,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 120,
@@ -123,9 +229,39 @@
       "text": "Player5 截下了 v12_control 的持旗者！"
     },
     {
+      "turn": 120,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 124,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 125,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 129,
       "role": "caster",
       "text": "关键拦截！baseline 放倒了 v12_control 的持旗单位。"
+    },
+    {
+      "turn": 129,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 132,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 135,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 138,
@@ -133,9 +269,29 @@
       "text": "baseline 交旗成功！5:4。"
     },
     {
+      "turn": 138,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
+      "turn": 147,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 150,
       "role": "analyst",
       "text": "baseline 站位最靠前，单位平均离本方基地约 9.0 格；v12_control 最保守，平均只有 4.5 格。"
+    },
+    {
+      "turn": 151,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 161,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 164,
@@ -144,10 +300,25 @@
       "key": true
     },
     {
+      "turn": 164,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 175,
+      "role": "crowd",
+      "text": "c08_ponly_pxl 好样的"
+    },
+    {
       "turn": 177,
       "role": "caster",
       "text": "这一球让 v12_control 领先了，7:6！",
       "key": true
+    },
+    {
+      "turn": 177,
+      "role": "crowd",
+      "text": "反超了！！"
     },
     {
       "turn": 189,
@@ -155,9 +326,29 @@
       "text": "c08_ponly_pxl 交旗成功！7:6。"
     },
     {
+      "turn": 189,
+      "role": "crowd",
+      "text": "c08_ponly_pxl 好样的"
+    },
+    {
+      "turn": 199,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "第 151–200 回合：v12_control 拾旗 3 次转化 3 次，是这一段转化率最高的队伍；Player5 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 202,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 205,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 207,
@@ -165,9 +356,19 @@
       "text": "关键拦截！baseline 放倒了 Player5 的持旗单位。"
     },
     {
+      "turn": 207,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 213,
       "role": "caster",
       "text": "c08_ponly_pxl 交旗成功！7:6。"
+    },
+    {
+      "turn": 213,
+      "role": "crowd",
+      "text": "c08_ponly_pxl 好样的"
     },
     {
       "turn": 218,
@@ -175,10 +376,25 @@
       "text": "Player5 截下了 v12_control 的持旗者！"
     },
     {
+      "turn": 218,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 226,
       "role": "caster",
       "text": "Player5 扳平比分，7:7！",
       "key": true
+    },
+    {
+      "turn": 226,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 227,
+      "role": "crowd",
+      "text": "Player5 领先了！"
     },
     {
       "turn": 232,
@@ -191,6 +407,16 @@
       "text": "v12_control 截下了 Player5 的持旗者！"
     },
     {
+      "turn": 240,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 242,
+      "role": "crowd",
+      "text": "c08_ponly_pxl 好样的"
+    },
+    {
       "turn": 250,
       "role": "analyst",
       "text": "c08_ponly_pxl 站位最靠前，单位平均离本方基地约 10.0 格；Player5 最保守，平均只有 5.0 格。"
@@ -201,9 +427,29 @@
       "text": "c08_ponly_pxl 再下一城，比分 8:7。"
     },
     {
+      "turn": 256,
+      "role": "crowd",
+      "text": "c08_ponly_pxl 好样的"
+    },
+    {
+      "turn": 258,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 269,
       "role": "caster",
       "text": "关键拦截！v12_control 放倒了 Player5 的持旗单位。"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 272,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 278,
@@ -211,9 +457,19 @@
       "text": "Player5 得分，现在是 9:7。"
     },
     {
+      "turn": 278,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 286,
       "role": "caster",
       "text": "baseline 再下一城，比分 9:8。"
+    },
+    {
+      "turn": 286,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 291,
@@ -221,14 +477,29 @@
       "text": "v12_control 交旗成功！9:8。"
     },
     {
+      "turn": 291,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合：baseline 拾旗 2 次转化 3 次，是这一段转化率最高的队伍；Player5 以 5 次击杀主导了交火。"
     },
     {
+      "turn": 304,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 318,
       "role": "caster",
       "text": "baseline 交旗成功！11:9。"
+    },
+    {
+      "turn": 318,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 325,
@@ -241,9 +512,24 @@
       "text": "baseline 得分，现在是 11:10。"
     },
     {
+      "turn": 332,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 345,
       "role": "caster",
       "text": "v12_control 交旗成功！11:10。"
+    },
+    {
+      "turn": 345,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 350,
@@ -256,14 +542,44 @@
       "text": "Player5 再下一城，比分 13:10。"
     },
     {
+      "turn": 358,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 361,
+      "role": "crowd",
+      "text": "c08_ponly_pxl 好样的"
+    },
+    {
       "turn": 372,
       "role": "caster",
       "text": "baseline 交旗成功！13:11。"
     },
     {
+      "turn": 372,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
+      "turn": 375,
+      "role": "crowd",
+      "text": "c08_ponly_pxl 好样的"
+    },
+    {
       "turn": 388,
       "role": "caster",
       "text": "Player5 再下一城，比分 14:11。"
+    },
+    {
+      "turn": 388,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 391,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 400,

@@ -129,7 +129,6 @@ export default {
   'lobby.github': 'GitHub 源码',
   'lobby.heroTitle': '逐回合看 AI 智能体抢旗对决',
   'lobby.heroLede_other': '从压力测试、5 万局锦标赛和最新机器人的展示对局中精选 {count} 场。拖到任意回合、跟随任意单位，看清每一局的胜负手。',
-  'lobby.watchFeatured': '观看精选对局',
   'lobby.browseAll_other': '浏览全部 {count} 场',
   'lobby.heroBoardHint': '实时预览，点击从这一回合开始看',
   'lobby.heroBoardLabel': '精选对局实时预览：{title}。点击从当前回合开始观看。',
@@ -179,4 +178,12 @@ export default {
   'commentary.sourceModel': '由 {model} 撰写',
   'commentary.fileWrongMatch': '这个文件属于对局 “{match}”，不是当前这场',
   'commentary.fileError': '无法载入文件：{error}',
+
+  'lobby.watchThis': '观看这场对局',
+  'lobby.shuffle': '换一场',
+  'lobby.shuffleHint': '随机换一场对局预览',
+
+  'danmaku.label': '弹幕',
+  'danmaku.show': '打开弹幕',
+  'danmaku.hide': '关闭弹幕',
 };

@@ -9,21 +9,32 @@
       "name": "Caster",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "Crowd",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,15 +67,35 @@
       "key": true
     },
     {
+      "turn": 23,
+      "role": "crowd",
+      "text": "LEAD CHANGE"
+    },
+    {
+      "turn": 26,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 32,
       "role": "caster",
       "text": "Opus 5.5 scores to level it up. 1–1!",
       "key": true
     },
     {
+      "turn": 32,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
       "turn": 42,
       "role": "caster",
       "text": "GPT-6.1 Sol stops GPT-6 Astra's flag carrier!"
+    },
+    {
+      "turn": 42,
+      "role": "crowd",
+      "text": "Huge stop"
     },
     {
       "turn": 51,
@@ -68,10 +104,20 @@
       "key": true
     },
     {
+      "turn": 51,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
       "turn": 60,
       "role": "caster",
       "text": "Sonnet 5.5 scores to level it up. 1–1!",
       "key": true
+    },
+    {
+      "turn": 60,
+      "role": "crowd",
+      "text": "Big save"
     },
     {
       "turn": 65,
@@ -80,10 +126,25 @@
       "key": true
     },
     {
+      "turn": 65,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
       "turn": 73,
       "role": "caster",
       "text": "That capture puts Qwen 3.8 Max in front. 2–1!",
       "key": true
+    },
+    {
+      "turn": 73,
+      "role": "crowd",
+      "text": "Comeback is real"
+    },
+    {
+      "turn": 74,
+      "role": "crowd",
+      "text": "Easy money"
     },
     {
       "turn": 81,
@@ -91,9 +152,44 @@
       "text": "Qwen 3.8 Max brings the flag home! 4–1."
     },
     {
+      "turn": 81,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
+      "turn": 82,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 90,
       "role": "caster",
       "text": "c08_ponly_xxl brings the flag home! 4–1."
+    },
+    {
+      "turn": 90,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
+      "turn": 92,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
+      "turn": 94,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
+      "turn": 97,
+      "role": "crowd",
+      "text": "Defense wins"
     },
     {
       "turn": 100,
@@ -101,9 +197,29 @@
       "text": "Turns 51–100: Qwen 3.8 Max turned 4 of 4 pickups into points, the best conversion in this stretch. v12_ponly_xl led the fighting with 9 kills."
     },
     {
+      "turn": 103,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
       "turn": 110,
       "role": "caster",
       "text": "Sonnet 5.5 scores again. 4–2 now."
+    },
+    {
+      "turn": 110,
+      "role": "crowd",
+      "text": "Clean capture"
+    },
+    {
+      "turn": 111,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Easy money"
     },
     {
       "turn": 127,
@@ -111,9 +227,24 @@
       "text": "Big stop: Fable 5.1 takes down the Sonnet 5.5 carrier."
     },
     {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 133,
       "role": "caster",
       "text": "Capture for Qwen 3.8 Max, and it's 6–2."
+    },
+    {
+      "turn": 133,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "So close"
     },
     {
       "turn": 139,
@@ -121,9 +252,39 @@
       "text": "Big stop: GPT-6.1 Sol takes down the Opus 5.5 carrier."
     },
     {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
+      "turn": 143,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
+      "turn": 146,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
       "turn": 150,
       "role": "analyst",
       "text": "Qwen 3.8 Max played furthest forward, about 13.0 cells from home on average; c08_ponly_xxl stayed closest to base at 3.0."
+    },
+    {
+      "turn": 153,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 157,
+      "role": "crowd",
+      "text": "GLM 5.3!!!"
     },
     {
       "turn": 158,
@@ -131,9 +292,34 @@
       "text": "DeepSeek V4.1 Flash stops Qwen 3.8 Max's flag carrier!"
     },
     {
+      "turn": 158,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
+      "turn": 161,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
       "turn": 168,
       "role": "caster",
       "text": "Sonnet 5.5 stops DeepSeek V4.1 Flash's flag carrier!"
+    },
+    {
+      "turn": 168,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
+      "turn": 169,
+      "role": "crowd",
+      "text": "Huge stop"
     },
     {
       "turn": 173,
@@ -141,9 +327,24 @@
       "text": "Big stop: v12_ponly_xl takes down the c08_ponly_xxl carrier."
     },
     {
+      "turn": 173,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 178,
       "role": "caster",
       "text": "Capture for Sonnet 5.5, and it's 6–3."
+    },
+    {
+      "turn": 178,
+      "role": "crowd",
+      "text": "Clean capture"
+    },
+    {
+      "turn": 184,
+      "role": "crowd",
+      "text": "Huge stop"
     },
     {
       "turn": 188,
@@ -151,9 +352,34 @@
       "text": "GPT-6 Astra scores again. 6–3 now."
     },
     {
+      "turn": 188,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 189,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
+      "turn": 191,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
+      "turn": 199,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "Turns 151–200: c08_ponly_xl turned 2 of 2 pickups into points, the best conversion in this stretch. Sonnet 5.5 led the fighting with 7 kills."
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "GLM 5.3!!!"
     },
     {
       "turn": 212,
@@ -161,9 +387,29 @@
       "text": "DeepSeek V4.1 Flash scores again. 6–3 now."
     },
     {
+      "turn": 212,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
+      "turn": 213,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 220,
       "role": "caster",
       "text": "Kimi K3 stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 220,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 223,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 225,
@@ -171,14 +417,44 @@
       "text": "It's Qwen 3.8 Max's match to lose right now: 6, 2 clear of c08_ponly_xxl."
     },
     {
+      "turn": 227,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
       "turn": 230,
       "role": "caster",
       "text": "GPT-6.1 Sol scores again. 6–4 now."
     },
     {
+      "turn": 230,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 233,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
       "turn": 240,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash brings the flag home! 6–4."
+    },
+    {
+      "turn": 240,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
+      "turn": 248,
+      "role": "crowd",
+      "text": "GLM 5.3!!!"
+    },
+    {
+      "turn": 249,
+      "role": "crowd",
+      "text": "So close"
     },
     {
       "turn": 250,
@@ -191,9 +467,24 @@
       "text": "Sonnet 5.5 brings the flag home! 6–5."
     },
     {
+      "turn": 264,
+      "role": "crowd",
+      "text": "Clean capture"
+    },
+    {
+      "turn": 266,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
       "turn": 273,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 6–5."
+    },
+    {
+      "turn": 273,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 279,
@@ -201,9 +492,24 @@
       "text": "Qwen 3.8 Max brings the flag home! 7–5."
     },
     {
+      "turn": 279,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
       "turn": 287,
       "role": "caster",
       "text": "c08_ponly_xxl scores again. 7–6 now."
+    },
+    {
+      "turn": 287,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
+      "turn": 288,
+      "role": "crowd",
+      "text": "Easy money"
     },
     {
       "turn": 300,
@@ -211,14 +517,44 @@
       "text": "Turns 251–300: c08_ponly_xxl turned 1 of 1 pickups into points, the best conversion in this stretch. v12_ponly_xl led the fighting with 7 kills."
     },
     {
+      "turn": 300,
+      "role": "crowd",
+      "text": "GLM 5.3!!!"
+    },
+    {
+      "turn": 314,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 316,
       "role": "caster",
       "text": "Capture for GLM 5.3, and it's 7–6."
     },
     {
+      "turn": 316,
+      "role": "crowd",
+      "text": "GLM 5.3!!!"
+    },
+    {
+      "turn": 319,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 328,
       "role": "caster",
       "text": "Kimi K3 stops Qwen 3.8 Max's flag carrier!"
+    },
+    {
+      "turn": 328,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
+      "turn": 330,
+      "role": "crowd",
+      "text": "Big save"
     },
     {
       "turn": 338,
@@ -227,14 +563,44 @@
       "key": true
     },
     {
+      "turn": 338,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "GLM 5.3 played furthest forward, about 15.0 cells from home on average; c08_ponly_xxl stayed closest to base at 11.0."
     },
     {
+      "turn": 350,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
+      "turn": 356,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
+      "turn": 357,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
       "turn": 359,
       "role": "caster",
       "text": "Opus 5.5 scores again. 7–7 now."
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "What a run"
     },
     {
       "turn": 379,
@@ -243,10 +609,30 @@
       "key": true
     },
     {
+      "turn": 379,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
+      "turn": 380,
+      "role": "crowd",
+      "text": "Final stretch!"
+    },
+    {
+      "turn": 386,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 387,
       "role": "caster",
       "text": "That capture puts Qwen 3.8 Max in front. 8–7!",
       "key": true
+    },
+    {
+      "turn": 387,
+      "role": "crowd",
+      "text": "Qwen 3.8 Max in front!"
     },
     {
       "turn": 400,

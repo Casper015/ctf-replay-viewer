@@ -9,21 +9,32 @@
       "name": "Caster",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "Crowd",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,10 +67,30 @@
       "key": true
     },
     {
+      "turn": 16,
+      "role": "crowd",
+      "text": "Comeback is real"
+    },
+    {
+      "turn": 18,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 24,
       "role": "caster",
       "text": "Opus 5.5 scores to level it up. 1–1!",
       "key": true
+    },
+    {
+      "turn": 24,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
+      "turn": 26,
+      "role": "crowd",
+      "text": "Level!"
     },
     {
       "turn": 35,
@@ -63,10 +99,25 @@
       "key": true
     },
     {
+      "turn": 35,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol in front!"
+    },
+    {
       "turn": 42,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash scores to level it up. 2–2!",
       "key": true
+    },
+    {
+      "turn": 42,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
+      "turn": 45,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol in front!"
     },
     {
       "turn": 50,
@@ -80,6 +131,21 @@
       "key": true
     },
     {
+      "turn": 60,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
+      "turn": 61,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
+      "turn": 65,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol in front!"
+    },
+    {
       "turn": 75,
       "role": "color",
       "text": "It's GPT-6.1 Sol's match to lose right now: 5, 2 clear of Opus 5.5."
@@ -90,10 +156,25 @@
       "text": "Opus 5.5 brings the flag home! 5–4."
     },
     {
+      "turn": 81,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
+      "turn": 97,
+      "role": "crowd",
+      "text": "Clean capture"
+    },
+    {
       "turn": 99,
       "role": "caster",
       "text": "Opus 5.5 scores to level it up. 5–5!",
       "key": true
+    },
+    {
+      "turn": 99,
+      "role": "crowd",
+      "text": "Level!"
     },
     {
       "turn": 109,
@@ -102,9 +183,24 @@
       "key": true
     },
     {
+      "turn": 109,
+      "role": "crowd",
+      "text": "Unreal"
+    },
+    {
       "turn": 116,
       "role": "caster",
       "text": "GPT-6 Astra stops Sonnet 5.5's flag carrier!"
+    },
+    {
+      "turn": 116,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
+      "turn": 119,
+      "role": "crowd",
+      "text": "So close"
     },
     {
       "turn": 125,
@@ -112,9 +208,19 @@
       "text": "DeepSeek V4.1 Flash scores again. 6–5 now."
     },
     {
+      "turn": 125,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
       "turn": 131,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash scores again. 6–5 now."
+    },
+    {
+      "turn": 131,
+      "role": "crowd",
+      "text": "Easy money"
     },
     {
       "turn": 141,
@@ -123,16 +229,31 @@
       "key": true
     },
     {
+      "turn": 141,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
       "turn": 150,
       "role": "caster",
       "text": "Opus 5.5 scores to level it up. 6–6!",
       "key": true
     },
     {
+      "turn": 150,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
       "turn": 161,
       "role": "caster",
       "text": "That capture puts Opus 5.5 in front. 7–6!",
       "key": true
+    },
+    {
+      "turn": 161,
+      "role": "crowd",
+      "text": "LEAD CHANGE"
     },
     {
       "turn": 175,
@@ -145,6 +266,21 @@
       "text": "Opus 5.5 scores again. 8–6 now."
     },
     {
+      "turn": 182,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
+      "turn": 196,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "Turns 151–200: Opus 5.5 turned 3 of 3 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 4 kills."
@@ -155,9 +291,29 @@
       "text": "Capture for GPT-6 Astra, and it's 9–7."
     },
     {
+      "turn": 205,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 225,
       "role": "caster",
       "text": "GPT-6 Astra brings the flag home! 9–7."
+    },
+    {
+      "turn": 225,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 226,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
+      "turn": 229,
+      "role": "crowd",
+      "text": "Huge stop"
     },
     {
       "turn": 234,
@@ -165,9 +321,24 @@
       "text": "Player3 stops GPT-6.1 Sol's flag carrier!"
     },
     {
+      "turn": 234,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
+      "turn": 236,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
       "turn": 245,
       "role": "caster",
       "text": "GPT-6 Astra scores again. 9–8 now."
+    },
+    {
+      "turn": 245,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 250,
@@ -180,9 +351,39 @@
       "text": "Capture for Sonnet 5.5, and it's 9–8."
     },
     {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Clean capture"
+    },
+    {
+      "turn": 263,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
+      "turn": 266,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 279,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash brings the flag home! 11–9."
+    },
+    {
+      "turn": 279,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
+      "turn": 282,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 285,
+      "role": "crowd",
+      "text": "Huge stop"
     },
     {
       "turn": 288,
@@ -190,9 +391,19 @@
       "text": "Opus 5.5 brings the flag home! 12–9."
     },
     {
+      "turn": 288,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
       "turn": 295,
       "role": "caster",
       "text": "Capture for DeepSeek V4.1 Flash, and it's 12–9."
+    },
+    {
+      "turn": 295,
+      "role": "crowd",
+      "text": "Easy money"
     },
     {
       "turn": 300,
@@ -200,9 +411,24 @@
       "text": "Turns 251–300: Opus 5.5 turned 3 of 2 pickups into points, the best conversion in this stretch. Opus 5.5 led the fighting with 5 kills."
     },
     {
+      "turn": 302,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 317,
       "role": "caster",
       "text": "GPT-6.1 Sol scores again. 12–10 now."
+    },
+    {
+      "turn": 317,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 321,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 325,
@@ -220,9 +446,19 @@
       "text": "Capture for DeepSeek V4.1 Flash, and it's 12–10."
     },
     {
+      "turn": 355,
+      "role": "crowd",
+      "text": "Easy money"
+    },
+    {
       "turn": 367,
       "role": "caster",
       "text": "Capture for GPT-6 Astra, and it's 12–11."
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 375,
@@ -233,6 +469,21 @@
       "turn": 385,
       "role": "caster",
       "text": "Capture for Opus 5.5, and it's 13–11."
+    },
+    {
+      "turn": 385,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
+      "turn": 395,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 397,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 400,
