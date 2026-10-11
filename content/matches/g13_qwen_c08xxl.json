@@ -1,0 +1,19 @@
+{
+  "$note": "Auto-drafted tag.zh, tag.en, title.zh, title.en, desc.zh, desc.en from replay facts on 2026-10-11. Edit freely, then run tools/build_catalog.py.",
+  "key": "g13_qwen_c08xxl",
+  "id": "mac-seed-20261352",
+  "order": 8,
+  "featured": false,
+  "tag": {
+    "zh": "8:7 一分险胜",
+    "en": "8–7 thriller"
+  },
+  "title": {
+    "zh": "Qwen 3.8 Max 8:7 险胜 c08_ponly_xxl",
+    "en": "Qwen 3.8 Max edges c08_ponly_xxl 8–7"
+  },
+  "desc": {
+    "zh": "第 200 回合 Qwen 3.8 Max 以 6 分领先。Qwen 3.8 Max 第 387 回合取得领先后再未落后。终局 Qwen 3.8 Max 8、c08_ponly_xxl 7、GLM 5.3 7，全场共 67 次交旗。 2026-10-11 在开发用 Mac 上按官方 2 秒 / 50 毫秒限制对局（种子 20261352），无故障，用于展示最新的 P-only 机器人，不是基准成绩。",
+    "en": "Qwen 3.8 Max led with 6 at turn 200. Qwen 3.8 Max went ahead for good on turn 387. Final: Qwen 3.8 Max 8, c08_ponly_xxl 7, GLM 5.3 7. 67 captures in all. Played on 2026-10-11 on a development Mac under the official 2 s / 50 ms limits (seed 20261352), with no faults: a showcase of the newest P-only bots, not a benchmark result."
+  }
+}
