@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "match": "g8_p5_sol",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "Player2 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 27,
+      "role": "caster",
+      "text": "Player4 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 35,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 48,
+      "role": "caster",
+      "text": "基准 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 56,
+      "role": "caster",
+      "text": "Player2 扳平比分，2:2！",
+      "key": true
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "GLM 5.3 截下了 GPT-6.1 Sol 的持旗者！"
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "这一球让 Player5 领先了，3:2！",
+      "key": true
+    },
+    {
+      "turn": 78,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 89,
+      "role": "caster",
+      "text": "这一球让 Player5 领先了，4:3！",
+      "key": true
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "第 51–100 回合：GPT-6.1 Sol 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；Player5 以 4 次击杀主导了交火。"
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 5:4。"
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "Player2 交旗成功！6:4。"
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "现在主动权在 Player5 手里：6 分，领先 GPT-6.1 Sol 2 分。"
+    },
+    {
+      "turn": 133,
+      "role": "caster",
+      "text": "Fable 5.1 再下一城，比分 6:4。"
+    },
+    {
+      "turn": 142,
+      "role": "caster",
+      "text": "Player2 截下了 Player5 的持旗者！"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 13.7 格；GPT-6.1 Sol 最保守，平均只有 3.0 格。"
+    },
+    {
+      "turn": 167,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 7:5。"
+    },
+    {
+      "turn": 173,
+      "role": "caster",
+      "text": "关键拦截！Player3 放倒了 Player2 的持旗单位。"
+    },
+    {
+      "turn": 193,
+      "role": "caster",
+      "text": "Player5 再下一城，比分 8:5。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：Player2 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；Player5 以 7 次击杀主导了交火。"
+    },
+    {
+      "turn": 210,
+      "role": "caster",
+      "text": "Player5 交旗成功！9:6。"
+    },
+    {
+      "turn": 220,
+      "role": "caster",
+      "text": "Fable 5.1 再下一城，比分 9:7。"
+    },
+    {
+      "turn": 225,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！9:7。"
+    },
+    {
+      "turn": 243,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！9:7。"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 13.3 格；Player5 最保守，平均只有 7.0 格。"
+    },
+    {
+      "turn": 258,
+      "role": "caster",
+      "text": "Player2 交旗成功！9:8。"
+    },
+    {
+      "turn": 267,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！9:8。"
+    },
+    {
+      "turn": 276,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，9:9！",
+      "key": true
+    },
+    {
+      "turn": 286,
+      "role": "caster",
+      "text": "Player2 再下一城，比分 10:9。"
+    },
+    {
+      "turn": 304,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，10:10！",
+      "key": true
+    },
+    {
+      "turn": 320,
+      "role": "caster",
+      "text": "Player5 得分并反超！11:10！",
+      "key": true
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "现在主动权在 Player5 手里：11 分，领先 GPT-6.1 Sol 1 分。"
+    },
+    {
+      "turn": 338,
+      "role": "caster",
+      "text": "Player3 截下了 Player2 的持旗者！"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 13.7 格；Player2 最保守，平均只有 6.0 格。"
+    },
+    {
+      "turn": 358,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，11:11！",
+      "key": true
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "Player5 得分并反超！12:11！",
+      "key": true
+    },
+    {
+      "turn": 382,
+      "role": "caster",
+      "text": "Fable 5.1 再下一城，比分 12:11。"
+    },
+    {
+      "turn": 390,
+      "role": "caster",
+      "text": "Player5 交旗成功！13:11。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：Player5 以 13 分收官，全场拾旗转化率 76%。"
+    }
+  ]
+}

@@ -66,6 +66,7 @@
             <button class="icon-btn icon-btn--glass" id="btn-exit-immersive" type="button" data-i18n-attr="aria-label:viewer.exitImmersive,title:viewer.exitImmersive"><span data-icon="minimize"></span></button>
           </div>
 
+          <div class="board-caption" id="board-caption" hidden aria-hidden="true"></div>
           <div class="unit-card" id="unit-card" hidden aria-live="polite"></div>
           <div class="board-tip" id="board-tip" hidden></div>
           <div class="board-status" id="board-status" role="status"></div>
@@ -92,12 +93,14 @@
           <button role="tab" id="tab-chart" data-tab="chart" aria-controls="pane-chart" type="button"><span data-icon="chart" class="icon icon--sm"></span><span data-i18n="tabs.chart"></span></button>
           <button role="tab" id="tab-feed" data-tab="feed" aria-controls="pane-feed" type="button"><span data-icon="activity" class="icon icon--sm"></span><span data-i18n="tabs.feed"></span></button>
           <button role="tab" id="tab-stats" data-tab="stats" aria-controls="pane-stats" type="button"><span data-icon="table" class="icon icon--sm"></span><span data-i18n="tabs.stats"></span></button>
+          <button role="tab" id="tab-commentary" data-tab="commentary" aria-controls="pane-commentary" type="button"><span data-icon="mic" class="icon icon--sm"></span><span data-i18n="tabs.commentary"></span></button>
         </div>
         <div class="panes">
           <section class="pane" id="pane-standings" role="tabpanel" aria-labelledby="tab-standings"></section>
           <section class="pane" id="pane-chart" role="tabpanel" aria-labelledby="tab-chart" hidden></section>
           <section class="pane" id="pane-feed" role="tabpanel" aria-labelledby="tab-feed" hidden></section>
           <section class="pane" id="pane-stats" role="tabpanel" aria-labelledby="tab-stats" hidden></section>
+          <section class="pane" id="pane-commentary" role="tabpanel" aria-labelledby="tab-commentary" hidden></section>
         </div>
       </aside>
     </main>
@@ -124,7 +127,7 @@
       <div><dt><kbd>Home</kbd> <kbd>End</kbd></dt><dd data-i18n="keys.ends"></dd></div>
       <div><dt><kbd>[</kbd> <kbd>]</kbd></dt><dd data-i18n="keys.speed"></dd></div>
       <div><dt><kbd>+</kbd> <kbd>-</kbd> <kbd>0</kbd></dt><dd data-i18n="keys.zoom"></dd></div>
-      <div><dt><kbd>1</kbd>–<kbd>4</kbd></dt><dd data-i18n="keys.tabs"></dd></div>
+      <div><dt><kbd>1</kbd>–<kbd>5</kbd></dt><dd data-i18n="keys.tabs"></dd></div>
       <div><dt><kbd>F</kbd></dt><dd data-i18n="keys.immersive"></dd></div>
       <div><dt><kbd>Esc</kbd></dt><dd data-i18n="keys.escape"></dd></div>
     </dl>

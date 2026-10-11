@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "match": "g2_c08xxl_sol",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 6,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 21,
+      "role": "caster",
+      "text": "这一球让 c08_ponly_xxl 领先了，2:1！",
+      "key": true
+    },
+    {
+      "turn": 26,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 32,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，2:2！",
+      "key": true
+    },
+    {
+      "turn": 43,
+      "role": "caster",
+      "text": "c08_ponly_xxl 再下一城，比分 4:2。"
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 5.5 格；c08_ponly_xxl 最保守，平均只有 5.0 格。"
+    },
+    {
+      "turn": 61,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，4:4！",
+      "key": true
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "c08_ponly_xxl 再下一城，比分 6:4。"
+    },
+    {
+      "turn": 82,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 6:5。"
+    },
+    {
+      "turn": 88,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，6:6！",
+      "key": true
+    },
+    {
+      "turn": 94,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分并反超！7:6！",
+      "key": true
+    },
+    {
+      "turn": 99,
+      "role": "caster",
+      "text": "c08_ponly_xxl 扳平比分，7:7！",
+      "key": true
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分并反超！8:7！",
+      "key": true
+    },
+    {
+      "turn": 117,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！9:7。"
+    },
+    {
+      "turn": 129,
+      "role": "caster",
+      "text": "c08_ponly_xxl 扳平比分，9:9！",
+      "key": true
+    },
+    {
+      "turn": 142,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分并反超！10:9！",
+      "key": true
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 5.5 格；c08_ponly_xxl 最保守，平均只有 4.5 格。"
+    },
+    {
+      "turn": 158,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 12:10。"
+    },
+    {
+      "turn": 164,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 13:10。"
+    },
+    {
+      "turn": 169,
+      "role": "caster",
+      "text": "c08_ponly_xxl 再下一城，比分 13:11。"
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "现在主动权在 GPT-6.1 Sol 手里：13 分，领先 c08_ponly_xxl 2 分。"
+    },
+    {
+      "turn": 182,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 14:11。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：c08_ponly_xxl 拾旗 3 次转化 4 次，是这一段转化率最高的队伍；c08_ponly_xxl 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "c08_ponly_xxl 扳平比分，14:14！",
+      "key": true
+    },
+    {
+      "turn": 218,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 16:14。"
+    },
+    {
+      "turn": 229,
+      "role": "caster",
+      "text": "c08_ponly_xxl 再下一城，比分 17:15。"
+    },
+    {
+      "turn": 234,
+      "role": "caster",
+      "text": "c08_ponly_xxl 交旗成功！17:16。"
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "c08_ponly_xxl 扳平比分，17:17！",
+      "key": true
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "c08_ponly_xxl 站位最靠前，单位平均离本方基地约 8.0 格；GPT-6.1 Sol 最保守，平均只有 5.0 格。"
+    },
+    {
+      "turn": 259,
+      "role": "caster",
+      "text": "这一球让 c08_ponly_xxl 领先了，18:17！",
+      "key": true
+    },
+    {
+      "turn": 270,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！19:18。"
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "现在主动权在 c08_ponly_xxl 手里：20 分，领先 GPT-6.1 Sol 2 分。"
+    },
+    {
+      "turn": 281,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 20:19。"
+    },
+    {
+      "turn": 287,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分，现在是 21:19。"
+    },
+    {
+      "turn": 295,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 21:20。"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：GPT-6.1 Sol 拾旗 3 次转化 3 次，是这一段转化率最高的队伍；c08_ponly_xxl 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 312,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！22:21。"
+    },
+    {
+      "turn": 324,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，22:22！",
+      "key": true
+    },
+    {
+      "turn": 330,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分并反超！23:22！",
+      "key": true
+    },
+    {
+      "turn": 338,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，23:23！",
+      "key": true
+    },
+    {
+      "turn": 347,
+      "role": "caster",
+      "text": "这一球让 c08_ponly_xxl 领先了，24:23！",
+      "key": true
+    },
+    {
+      "turn": 353,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分，现在是 25:23。"
+    },
+    {
+      "turn": 358,
+      "role": "caster",
+      "text": "c08_ponly_xxl 再下一城，比分 26:23。"
+    },
+    {
+      "turn": 366,
+      "role": "caster",
+      "text": "c08_ponly_xxl 交旗成功！27:23。"
+    },
+    {
+      "turn": 374,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 27:24。"
+    },
+    {
+      "turn": 388,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 27:25。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：c08_ponly_xxl 以 28 分收官，全场拾旗转化率 93%。"
+    }
+  ]
+}

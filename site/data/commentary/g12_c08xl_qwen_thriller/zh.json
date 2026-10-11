@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "match": "g12_c08xl_qwen_thriller",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 22,
+      "role": "caster",
+      "text": "Qwen 3.8 Max 得分并反超！1:0！",
+      "key": true
+    },
+    {
+      "turn": 27,
+      "role": "caster",
+      "text": "GLM 5.3 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 39,
+      "role": "caster",
+      "text": "c08_ponly_xl 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 48,
+      "role": "caster",
+      "text": "c08_ponly_xl 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 54,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分并反超！2:1！",
+      "key": true
+    },
+    {
+      "turn": 60,
+      "role": "caster",
+      "text": "Qwen 3.8 Max 扳平比分，2:2！",
+      "key": true
+    },
+    {
+      "turn": 76,
+      "role": "caster",
+      "text": "c08_ponly_xxl 截下了 c08_ponly_xl 的持旗者！"
+    },
+    {
+      "turn": 81,
+      "role": "caster",
+      "text": "这一球让 Qwen 3.8 Max 领先了，3:2！",
+      "key": true
+    },
+    {
+      "turn": 94,
+      "role": "caster",
+      "text": "c08_ponly_xl 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "第 51–100 回合：GPT-6 Astra 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_xl 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 105,
+      "role": "caster",
+      "text": "c08_ponly_xl 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "c08_ponly_xxl 截下了 c08_ponly_xl 的持旗者！"
+    },
+    {
+      "turn": 127,
+      "role": "caster",
+      "text": "Qwen 3.8 Max 再下一城，比分 6:3。"
+    },
+    {
+      "turn": 132,
+      "role": "caster",
+      "text": "GPT-6 Astra 交旗成功！6:4。"
+    },
+    {
+      "turn": 144,
+      "role": "caster",
+      "text": "c08_ponly_xl 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "c08_ponly_xl 站位最靠前，单位平均离本方基地约 12.3 格；Qwen 3.8 Max 最保守，平均只有 6.0 格。"
+    },
+    {
+      "turn": 159,
+      "role": "caster",
+      "text": "c08_ponly_xl 交旗成功！6:5。"
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "现在主动权在 Qwen 3.8 Max 手里：6 分，领先 c08_ponly_xl 1 分。"
+    },
+    {
+      "turn": 197,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，6:6！",
+      "key": true
+    },
+    {
+      "turn": 202,
+      "role": "caster",
+      "text": "c08_ponly_xl 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 212,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分并反超！7:6！",
+      "key": true
+    },
+    {
+      "turn": 219,
+      "role": "caster",
+      "text": "c08_ponly_xl 交旗成功！7:6。"
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "现在主动权在 GPT-6 Astra 手里：7 分，领先 c08_ponly_xl 1 分。"
+    },
+    {
+      "turn": 235,
+      "role": "caster",
+      "text": "关键拦截！c08_ponly_xl 放倒了 Qwen 3.8 Max 的持旗单位。"
+    },
+    {
+      "turn": 244,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 截下了 GPT-6 Astra 的持旗者！"
+    },
+    {
+      "turn": 254,
+      "role": "caster",
+      "text": "c08_ponly_xl 扳平比分，7:7！",
+      "key": true
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "榜首胶着，c08_ponly_xl、GPT-6 Astra、Qwen 3.8 Max 都是 7 分。"
+    },
+    {
+      "turn": 282,
+      "role": "caster",
+      "text": "Qwen 3.8 Max 得分并反超！8:7！",
+      "key": true
+    },
+    {
+      "turn": 291,
+      "role": "caster",
+      "text": "关键拦截！v12_ponly_xxl 放倒了 GPT-6 Astra 的持旗单位。"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：c08_ponly_xl 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_xl 以 4 次击杀主导了交火。"
+    },
+    {
+      "turn": 310,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，8:8！",
+      "key": true
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "榜首胶着，c08_ponly_xl、GPT-6 Astra、Qwen 3.8 Max 都是 8 分。"
+    },
+    {
+      "turn": 340,
+      "role": "caster",
+      "text": "c08_ponly_xl 得分并反超！9:8！",
+      "key": true
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 12.7 格；Qwen 3.8 Max 最保守，平均只有 10.0 格。"
+    },
+    {
+      "turn": 360,
+      "role": "caster",
+      "text": "Qwen 3.8 Max 扳平比分，9:9！",
+      "key": true
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "c08_ponly_xl 扳平比分，10:10！",
+      "key": true
+    },
+    {
+      "turn": 378,
+      "role": "caster",
+      "text": "c08_ponly_xl 得分并反超！11:10！",
+      "key": true
+    },
+    {
+      "turn": 391,
+      "role": "caster",
+      "text": "关键拦截！GPT-6.1 Sol 放倒了 GPT-6 Astra 的持旗单位。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：c08_ponly_xl 以 11 分收官，全场拾旗转化率 73%。"
+    }
+  ]
+}

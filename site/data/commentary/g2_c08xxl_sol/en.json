@@ -1,0 +1,300 @@
+{
+  "version": 1,
+  "match": "g2_c08xxl_sol",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 6,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 21,
+      "role": "caster",
+      "text": "That capture puts c08_ponly_xxl in front. 2–1!",
+      "key": true
+    },
+    {
+      "turn": 26,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 32,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 43,
+      "role": "caster",
+      "text": "Capture for c08_ponly_xxl, and it's 4–2."
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 5.5 cells from home on average; c08_ponly_xxl stayed closest to base at 5.0."
+    },
+    {
+      "turn": 61,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 4–4!",
+      "key": true
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "Capture for c08_ponly_xxl, and it's 6–4."
+    },
+    {
+      "turn": 82,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 6–5."
+    },
+    {
+      "turn": 88,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 94,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 7–6.",
+      "key": true
+    },
+    {
+      "turn": 99,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores to level it up. 7–7!",
+      "key": true
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 8–7.",
+      "key": true
+    },
+    {
+      "turn": 117,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 9–7."
+    },
+    {
+      "turn": 129,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores to level it up. 9–9!",
+      "key": true
+    },
+    {
+      "turn": 142,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 10–9.",
+      "key": true
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 5.5 cells from home on average; c08_ponly_xxl stayed closest to base at 4.5."
+    },
+    {
+      "turn": 158,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 12–10 now."
+    },
+    {
+      "turn": 164,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 13–10 now."
+    },
+    {
+      "turn": 169,
+      "role": "caster",
+      "text": "Capture for c08_ponly_xxl, and it's 13–11."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 13, 2 clear of c08_ponly_xxl."
+    },
+    {
+      "turn": 182,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 14–11 now."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: c08_ponly_xxl turned 4 of 3 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 6 kills."
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores to level it up. 14–14!",
+      "key": true
+    },
+    {
+      "turn": 218,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 16–14 now."
+    },
+    {
+      "turn": 229,
+      "role": "caster",
+      "text": "Capture for c08_ponly_xxl, and it's 17–15."
+    },
+    {
+      "turn": 234,
+      "role": "caster",
+      "text": "c08_ponly_xxl brings the flag home! 17–16."
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores to level it up. 17–17!",
+      "key": true
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "c08_ponly_xxl played furthest forward, about 8.0 cells from home on average; GPT-6.1 Sol stayed closest to base at 5.0."
+    },
+    {
+      "turn": 259,
+      "role": "caster",
+      "text": "That capture puts c08_ponly_xxl in front. 18–17!",
+      "key": true
+    },
+    {
+      "turn": 270,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 19–18."
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "It's c08_ponly_xxl's match to lose right now: 20, 2 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 281,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 20–19 now."
+    },
+    {
+      "turn": 287,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores again. 21–19 now."
+    },
+    {
+      "turn": 295,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 21–20."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: GPT-6.1 Sol turned 3 of 3 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 5 kills."
+    },
+    {
+      "turn": 312,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 22–21."
+    },
+    {
+      "turn": 324,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 22–22!",
+      "key": true
+    },
+    {
+      "turn": 330,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores and takes the lead! 23–22.",
+      "key": true
+    },
+    {
+      "turn": 338,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 23–23!",
+      "key": true
+    },
+    {
+      "turn": 347,
+      "role": "caster",
+      "text": "That capture puts c08_ponly_xxl in front. 24–23!",
+      "key": true
+    },
+    {
+      "turn": 353,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores again. 25–23 now."
+    },
+    {
+      "turn": 358,
+      "role": "caster",
+      "text": "Capture for c08_ponly_xxl, and it's 26–23."
+    },
+    {
+      "turn": 366,
+      "role": "caster",
+      "text": "c08_ponly_xxl brings the flag home! 27–23."
+    },
+    {
+      "turn": 374,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 27–24 now."
+    },
+    {
+      "turn": 388,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 27–25."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: c08_ponly_xxl finish on 28. Across the match they converted 93% of their pickups."
+    }
+  ]
+}

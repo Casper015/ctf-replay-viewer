@@ -1,0 +1,12 @@
+{
+  "id": "color",
+  "name": { "zh": "嘉宾点评", "en": "Color commentator" },
+  "icon": "chat",
+  "window": 25,
+  "max_lines": 2,
+  "min_gap": 8,
+  "length": "medium",
+  "context": ["events", "standings", "window_stats"],
+  "priority": 1,
+  "caption": true
+}

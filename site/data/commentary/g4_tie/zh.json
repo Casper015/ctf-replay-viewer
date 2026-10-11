@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "match": "g4_tie",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 21,
+      "role": "caster",
+      "text": "关键拦截！GPT-6.1 Sol 放倒了 基准 的持旗单位。"
+    },
+    {
+      "turn": 28,
+      "role": "caster",
+      "text": "基准 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 38,
+      "role": "caster",
+      "text": "GPT-6 Astra 截下了 GPT-6.1 Sol 的持旗者！"
+    },
+    {
+      "turn": 43,
+      "role": "caster",
+      "text": "Player5 再下一城，比分 3:1。"
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "基准 站位最靠前，单位平均离本方基地约 12.0 格；Player5 最保守，平均只有 5.5 格。"
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "榜首胶着，Player5、GPT-6 Astra 都是 3 分。"
+    },
+    {
+      "turn": 83,
+      "role": "caster",
+      "text": "这一球让 GPT-6 Astra 领先了，4:3！",
+      "key": true
+    },
+    {
+      "turn": 96,
+      "role": "caster",
+      "text": "Player5 扳平比分，4:4！",
+      "key": true
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "Player5 得分并反超！5:4！",
+      "key": true
+    },
+    {
+      "turn": 119,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，5:5！",
+      "key": true
+    },
+    {
+      "turn": 124,
+      "role": "caster",
+      "text": "基准 再下一城，比分 5:5。"
+    },
+    {
+      "turn": 137,
+      "role": "caster",
+      "text": "这一球让 GPT-6 Astra 领先了，6:5！",
+      "key": true
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Player5 站位最靠前，单位平均离本方基地约 10.5 格；GPT-6 Astra 最保守，平均只有 3.5 格。"
+    },
+    {
+      "turn": 162,
+      "role": "caster",
+      "text": "Player5 交旗成功！8:6。"
+    },
+    {
+      "turn": 175,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 9:6。"
+    },
+    {
+      "turn": 187,
+      "role": "caster",
+      "text": "关键拦截！GPT-6 Astra 放倒了 Player5 的持旗单位。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：GPT-6 Astra 拾旗 3 次转化 3 次，是这一段转化率最高的队伍；Player5 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 217,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 11:8。"
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "现在主动权在 GPT-6 Astra 手里：11 分，领先 Player5 2 分。"
+    },
+    {
+      "turn": 231,
+      "role": "caster",
+      "text": "基准 交旗成功！11:9。"
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "基准 交旗成功！11:9。"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 9.3 格；基准 最保守，平均只有 7.0 格。"
+    },
+    {
+      "turn": 260,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分，现在是 13:9。"
+    },
+    {
+      "turn": 265,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 13:9。"
+    },
+    {
+      "turn": 270,
+      "role": "caster",
+      "text": "Player5 截下了 基准 的持旗者！"
+    },
+    {
+      "turn": 278,
+      "role": "caster",
+      "text": "Player5 得分，现在是 13:10。"
+    },
+    {
+      "turn": 287,
+      "role": "caster",
+      "text": "关键拦截！Player5 放倒了 GPT-6.1 Sol 的持旗单位。"
+    },
+    {
+      "turn": 292,
+      "role": "caster",
+      "text": "Player5 再下一城，比分 13:11。"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：Player5 拾旗 4 次转化 2 次，是这一段转化率最高的队伍；Player5 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 308,
+      "role": "caster",
+      "text": "Player5 扳平比分，13:13！",
+      "key": true
+    },
+    {
+      "turn": 318,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分并反超！14:13！",
+      "key": true
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "现在主动权在 GPT-6 Astra 手里：14 分，领先 Player5 1 分。"
+    },
+    {
+      "turn": 330,
+      "role": "caster",
+      "text": "Player5 扳平比分，14:14！",
+      "key": true
+    },
+    {
+      "turn": 337,
+      "role": "caster",
+      "text": "基准 再下一城，比分 14:14。"
+    },
+    {
+      "turn": 343,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 14:14。"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 9.0 格；基准 最保守，平均只有 5.0 格。"
+    },
+    {
+      "turn": 356,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 14:14。"
+    },
+    {
+      "turn": 370,
+      "role": "caster",
+      "text": "Player5 得分并反超！15:14！",
+      "key": true
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "现在主动权在 Player5 手里：15 分，领先 GPT-6 Astra 1 分。"
+    },
+    {
+      "turn": 380,
+      "role": "caster",
+      "text": "Player5 得分，现在是 16:14。"
+    },
+    {
+      "turn": 393,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，16:16！",
+      "key": true
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：Player5 以 16 分收官，全场拾旗转化率 80%。"
+    }
+  ]
+}

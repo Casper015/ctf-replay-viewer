@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "match": "g12_glm_c08xl",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "v12_ponly_xl 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 22,
+      "role": "caster",
+      "text": "Sonnet 5.5 得分并反超！1:0！",
+      "key": true
+    },
+    {
+      "turn": 29,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分，现在是 2:1。"
+    },
+    {
+      "turn": 38,
+      "role": "caster",
+      "text": "c08_ponly_xxl 截下了 GPT-6 Astra 的持旗者！"
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 9.5 格；c08_ponly_xxl 最保守，平均只有 6.0 格。"
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，2:2！",
+      "key": true
+    },
+    {
+      "turn": 74,
+      "role": "caster",
+      "text": "c08_ponly_xl 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 91,
+      "role": "caster",
+      "text": "这一球让 Sonnet 5.5 领先了，3:2！",
+      "key": true
+    },
+    {
+      "turn": 98,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 103,
+      "role": "caster",
+      "text": "GLM 5.3 再下一城，比分 3:3。"
+    },
+    {
+      "turn": 108,
+      "role": "caster",
+      "text": "c08_ponly_xl 交旗成功！3:3。"
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "GLM 5.3 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 129,
+      "role": "caster",
+      "text": "这一球让 GLM 5.3 领先了，4:3！",
+      "key": true
+    },
+    {
+      "turn": 135,
+      "role": "caster",
+      "text": "Sonnet 5.5 扳平比分，4:4！",
+      "key": true
+    },
+    {
+      "turn": 149,
+      "role": "caster",
+      "text": "c08_ponly_xxl 扳平比分，4:4！",
+      "key": true
+    },
+    {
+      "turn": 157,
+      "role": "caster",
+      "text": "这一球让 GLM 5.3 领先了，5:4！",
+      "key": true
+    },
+    {
+      "turn": 162,
+      "role": "caster",
+      "text": "Sonnet 5.5 扳平比分，5:5！",
+      "key": true
+    },
+    {
+      "turn": 173,
+      "role": "caster",
+      "text": "关键拦截！Fable 5.1 放倒了 Sonnet 5.5 的持旗单位。"
+    },
+    {
+      "turn": 179,
+      "role": "caster",
+      "text": "这一球让 Sonnet 5.5 领先了，6:5！",
+      "key": true
+    },
+    {
+      "turn": 193,
+      "role": "caster",
+      "text": "GLM 5.3 扳平比分，6:6！",
+      "key": true
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：GLM 5.3 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_xxl 以 7 次击杀主导了交火。"
+    },
+    {
+      "turn": 214,
+      "role": "caster",
+      "text": "GLM 5.3 得分并反超！7:6！",
+      "key": true
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "现在主动权在 GLM 5.3 手里：7 分，领先 Sonnet 5.5 1 分。"
+    },
+    {
+      "turn": 232,
+      "role": "caster",
+      "text": "Qwen 3.8 Max 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "Fable 5.1 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "GLM 5.3 站位最靠前，单位平均离本方基地约 15.5 格；c08_ponly_xxl 最保守，平均只有 9.5 格。"
+    },
+    {
+      "turn": 274,
+      "role": "caster",
+      "text": "Fable 5.1 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 280,
+      "role": "caster",
+      "text": "Sonnet 5.5 截下了 GLM 5.3 的持旗者！"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：GLM 5.3 拾旗 4 次转化 1 次，是这一段转化率最高的队伍；Sonnet 5.5 以 8 次击杀主导了交火。"
+    },
+    {
+      "turn": 306,
+      "role": "caster",
+      "text": "Sonnet 5.5 截下了 GLM 5.3 的持旗者！"
+    },
+    {
+      "turn": 316,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "这一段打得很谨慎，第 301 到 325 回合没有人得分，防守占了上风。"
+    },
+    {
+      "turn": 331,
+      "role": "caster",
+      "text": "Qwen 3.8 Max 再下一城，比分 8:6。"
+    },
+    {
+      "turn": 338,
+      "role": "caster",
+      "text": "c08_ponly_xl 得分，现在是 8:6。"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "c08_ponly_xl 站位最靠前，单位平均离本方基地约 11.5 格；Qwen 3.8 Max 最保守，平均只有 4.0 格。"
+    },
+    {
+      "turn": 357,
+      "role": "caster",
+      "text": "GLM 5.3 交旗成功！9:6。"
+    },
+    {
+      "turn": 366,
+      "role": "caster",
+      "text": "Fable 5.1 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 375,
+      "role": "caster",
+      "text": "GPT-6 Astra 交旗成功！9:6。"
+    },
+    {
+      "turn": 381,
+      "role": "caster",
+      "text": "c08_ponly_xxl 交旗成功！9:7。"
+    },
+    {
+      "turn": 389,
+      "role": "caster",
+      "text": "c08_ponly_xl 得分，现在是 9:7。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：GLM 5.3 以 9 分收官，全场拾旗转化率 53%。"
+    }
+  ]
+}

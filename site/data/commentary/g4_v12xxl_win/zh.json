@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "match": "g4_v12xxl_win",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "c08_ponly_xxl 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 23,
+      "role": "caster",
+      "text": "这一球让 v12_ponly_xxl 领先了，2:1！",
+      "key": true
+    },
+    {
+      "turn": 37,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 3:1。"
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 10.0 格；c08_ponly_xxl 最保守，平均只有 4.0 格。"
+    },
+    {
+      "turn": 64,
+      "role": "caster",
+      "text": "GPT-6 Astra 再下一城，比分 4:2。"
+    },
+    {
+      "turn": 77,
+      "role": "caster",
+      "text": "v12_ponly_xxl 得分，现在是 5:3。"
+    },
+    {
+      "turn": 91,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 5:3。"
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "第 51–100 回合：c08_ponly_xxl 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_xxl 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 6:4。"
+    },
+    {
+      "turn": 127,
+      "role": "caster",
+      "text": "GPT-6 Astra 再下一城，比分 6:4。"
+    },
+    {
+      "turn": 132,
+      "role": "caster",
+      "text": "GPT-6 Astra 交旗成功！6:4。"
+    },
+    {
+      "turn": 140,
+      "role": "caster",
+      "text": "v12_ponly_xxl 得分，现在是 7:4。"
+    },
+    {
+      "turn": 145,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 7:5。"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 9.0 格；GPT-6.1 Sol 最保守，平均只有 7.0 格。"
+    },
+    {
+      "turn": 168,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！8:6。"
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "现在主动权在 v12_ponly_xxl 手里：8 分，领先 GPT-6.1 Sol 1 分。"
+    },
+    {
+      "turn": 182,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分，现在是 8:7。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：GPT-6 Astra 拾旗 1 次转化 1 次，是这一段转化率最高的队伍；c08_ponly_xxl 以 7 次击杀主导了交火。"
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "关键拦截！GPT-6.1 Sol 放倒了 c08_ponly_xxl 的持旗单位。"
+    },
+    {
+      "turn": 221,
+      "role": "caster",
+      "text": "这一球让 GPT-6.1 Sol 领先了，9:8！",
+      "key": true
+    },
+    {
+      "turn": 237,
+      "role": "caster",
+      "text": "v12_ponly_xxl 交旗成功！10:9。"
+    },
+    {
+      "turn": 250,
+      "role": "caster",
+      "text": "v12_ponly_xxl 扳平比分，10:10！",
+      "key": true
+    },
+    {
+      "turn": 260,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分，现在是 10:10。"
+    },
+    {
+      "turn": 273,
+      "role": "caster",
+      "text": "GPT-6 Astra 交旗成功！10:10。"
+    },
+    {
+      "turn": 290,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分并反超！11:10！",
+      "key": true
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：c08_ponly_xxl 拾旗 1 次转化 1 次，是这一段转化率最高的队伍；v12_ponly_xxl 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 305,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分，现在是 11:10。"
+    },
+    {
+      "turn": 313,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，11:11！",
+      "key": true
+    },
+    {
+      "turn": 319,
+      "role": "caster",
+      "text": "关键拦截！GPT-6 Astra 放倒了 c08_ponly_xxl 的持旗单位。"
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "v12_ponly_xxl 扳平比分，11:11！",
+      "key": true
+    },
+    {
+      "turn": 334,
+      "role": "caster",
+      "text": "v12_ponly_xxl 得分并反超！12:11！",
+      "key": true
+    },
+    {
+      "turn": 341,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分，现在是 12:11。"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "c08_ponly_xxl 站位最靠前，单位平均离本方基地约 9.3 格；v12_ponly_xxl 最保守，平均只有 6.0 格。"
+    },
+    {
+      "turn": 360,
+      "role": "caster",
+      "text": "GPT-6 Astra 交旗成功！14:12。"
+    },
+    {
+      "turn": 374,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分，现在是 14:12。"
+    },
+    {
+      "turn": 379,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 14:12。"
+    },
+    {
+      "turn": 387,
+      "role": "caster",
+      "text": "v12_ponly_xxl 交旗成功！15:12。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：v12_ponly_xxl 以 15 分收官，全场拾旗转化率 79%。"
+    }
+  ]
+}

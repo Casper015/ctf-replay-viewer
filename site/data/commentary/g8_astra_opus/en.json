@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "match": "g8_astra_opus",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 25,
+      "role": "color",
+      "text": "Dead even at the top, Player5 and Fable 5.1 and GPT-6 Astra on 1 each."
+    },
+    {
+      "turn": 31,
+      "role": "caster",
+      "text": "That capture puts Fable 5.1 in front. 2–1!",
+      "key": true
+    },
+    {
+      "turn": 36,
+      "role": "caster",
+      "text": "Opus 5.5 stops GPT-6 Astra's flag carrier!"
+    },
+    {
+      "turn": 45,
+      "role": "caster",
+      "text": "That capture puts Fable 5.1 in front. 3–2!",
+      "key": true
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "Player5 played furthest forward, about 15.0 cells from home on average; GPT-6 Astra stayed closest to base at 5.5."
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 72,
+      "role": "caster",
+      "text": "Player6 stops Fable 5.1's flag carrier!"
+    },
+    {
+      "turn": 82,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 98,
+      "role": "caster",
+      "text": "Opus 5.5 scores and takes the lead! 4–3.",
+      "key": true
+    },
+    {
+      "turn": 108,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 5–3."
+    },
+    {
+      "turn": 114,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 5–3."
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 5–4."
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 5, 1 clear of Player5."
+    },
+    {
+      "turn": 137,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 6–4 now."
+    },
+    {
+      "turn": 142,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 6–5."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Player5 played furthest forward, about 8.7 cells from home on average; Opus 5.5 stayed closest to base at 6.0."
+    },
+    {
+      "turn": 158,
+      "role": "caster",
+      "text": "Baseline stops Player5's flag carrier!"
+    },
+    {
+      "turn": 169,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 7–6."
+    },
+    {
+      "turn": 179,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 8–6 now."
+    },
+    {
+      "turn": 189,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 8–7."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: Opus 5.5 turned 2 of 2 pickups into points, the best conversion in this stretch. Player5 led the fighting with 7 kills."
+    },
+    {
+      "turn": 209,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 8–7 now."
+    },
+    {
+      "turn": 218,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 9–8 now."
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 9, 1 clear of Player5."
+    },
+    {
+      "turn": 230,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 9–8 now."
+    },
+    {
+      "turn": 243,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 9–9!",
+      "key": true
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Opus 5.5 played furthest forward, about 10.3 cells from home on average; Player5 stayed closest to base at 6.0."
+    },
+    {
+      "turn": 261,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 10–9!",
+      "key": true
+    },
+    {
+      "turn": 269,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 10–10!",
+      "key": true
+    },
+    {
+      "turn": 275,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 11–10!",
+      "key": true
+    },
+    {
+      "turn": 281,
+      "role": "caster",
+      "text": "Big stop: Opus 5.5 takes down the GPT-6 Astra carrier."
+    },
+    {
+      "turn": 291,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 13–10."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: Player5 turned 1 of 1 pickups into points, the best conversion in this stretch. Player5 led the fighting with 9 kills."
+    },
+    {
+      "turn": 314,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 14–11 now."
+    },
+    {
+      "turn": 319,
+      "role": "caster",
+      "text": "Capture for Opus 5.5, and it's 14–12."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 14, 2 clear of Opus 5.5."
+    },
+    {
+      "turn": 331,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 14–12."
+    },
+    {
+      "turn": 345,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 14–14!",
+      "key": true
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "Player5 played furthest forward, about 21.5 cells from home on average; Opus 5.5 stayed closest to base at 11.5."
+    },
+    {
+      "turn": 360,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 14–14."
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "Dead even at the top, Opus 5.5 and GPT-6 Astra on 14 each."
+    },
+    {
+      "turn": 383,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 15–14!",
+      "key": true
+    },
+    {
+      "turn": 388,
+      "role": "caster",
+      "text": "Baseline stops Player5's flag carrier!"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: GPT-6 Astra finish on 15. Across the match they converted 68% of their pickups."
+    }
+  ]
+}

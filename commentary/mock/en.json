@@ -1,0 +1,43 @@
+{
+  "$help": "Templates for the offline 'mock' provider. {placeholders} are filled from replay facts. Several variants per key are rotated so lines don't repeat.",
+  "caster.capture": [
+    "{team} brings the flag home! {score}.",
+    "Capture for {team}, and it's {score}.",
+    "{team} scores again. {score} now."
+  ],
+  "caster.capture_lead": [
+    "{team} scores and takes the lead! {score}.",
+    "That capture puts {team} in front. {score}!"
+  ],
+  "caster.capture_tie": [
+    "{team} scores to level it up. {score}!"
+  ],
+  "caster.stop": [
+    "{by} stops {victim}'s flag carrier!",
+    "Big stop: {by} takes down the {victim} carrier."
+  ],
+  "caster.brawl": [
+    "{count} units go down this turn. What a fight in the middle!"
+  ],
+  "color.leading": [
+    "{leader} have {lead_score} and a {gap}-point cushion over {second}. {hot} made the most noise in this stretch with {hot_caps} captures.",
+    "It's {leader}'s match to lose right now: {lead_score}, {gap} clear of {second}."
+  ],
+  "color.tied": [
+    "Nothing to separate them: {tied} are level on {lead_score}. Every capture from here is a lead change.",
+    "Dead even at the top, {tied} on {lead_score} each."
+  ],
+  "color.quiet": [
+    "A cagey stretch. Nobody scored between turns {t0} and {t1}; the defences are winning."
+  ],
+  "analyst.window": [
+    "Turns {t0}–{t1}: {best} turned {best_caps} of {best_picks} pickups into points, the best conversion in this stretch. {killer} led the fighting with {kills} kills.",
+    "Over turns {t0}–{t1}, {killer} won the fights ({kills} kills), but {best} won the scoreboard with {best_caps} captures from {best_picks} pickups."
+  ],
+  "analyst.push": [
+    "{pusher} played furthest forward, about {dist} cells from home on average; {turtle} stayed closest to base at {dist2}."
+  ],
+  "analyst.final": [
+    "Final verdict: {leader} finish on {lead_score}. Across the match they converted {conv}% of their pickups."
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "match": "g8_record",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "GPT-6 Astra scores and takes the lead! 1–0.",
+      "key": true
+    },
+    {
+      "turn": 24,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 35,
+      "role": "caster",
+      "text": "That capture puts GPT-6.1 Sol in front. 2–1!",
+      "key": true
+    },
+    {
+      "turn": 42,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "DeepSeek V4.1 Flash played furthest forward, about 9.3 cells from home on average; Opus 5.5 stayed closest to base at 4.5."
+    },
+    {
+      "turn": 60,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 5, 2 clear of Opus 5.5."
+    },
+    {
+      "turn": 81,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 5–4."
+    },
+    {
+      "turn": 99,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 5–5!",
+      "key": true
+    },
+    {
+      "turn": 109,
+      "role": "caster",
+      "text": "That capture puts GPT-6.1 Sol in front. 6–5!",
+      "key": true
+    },
+    {
+      "turn": 116,
+      "role": "caster",
+      "text": "GPT-6 Astra stops Sonnet 5.5's flag carrier!"
+    },
+    {
+      "turn": 125,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 6–5 now."
+    },
+    {
+      "turn": 131,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 6–5 now."
+    },
+    {
+      "turn": 141,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 150,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 161,
+      "role": "caster",
+      "text": "That capture puts Opus 5.5 in front. 7–6!",
+      "key": true
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 7, 1 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 182,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 8–6 now."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: Opus 5.5 turned 3 of 3 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 4 kills."
+    },
+    {
+      "turn": 205,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 9–7."
+    },
+    {
+      "turn": 225,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 9–7."
+    },
+    {
+      "turn": 234,
+      "role": "caster",
+      "text": "Player3 stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 245,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 9–8 now."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Opus 5.5 played furthest forward, about 13.3 cells from home on average; GPT-6.1 Sol stayed closest to base at 5.7."
+    },
+    {
+      "turn": 259,
+      "role": "caster",
+      "text": "Capture for Sonnet 5.5, and it's 9–8."
+    },
+    {
+      "turn": 279,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash brings the flag home! 11–9."
+    },
+    {
+      "turn": 288,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 12–9."
+    },
+    {
+      "turn": 295,
+      "role": "caster",
+      "text": "Capture for DeepSeek V4.1 Flash, and it's 12–9."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: Opus 5.5 turned 3 of 2 pickups into points, the best conversion in this stretch. Opus 5.5 led the fighting with 5 kills."
+    },
+    {
+      "turn": 317,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 12–10 now."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 12, 2 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 11.0 cells from home on average; Opus 5.5 stayed closest to base at 8.0."
+    },
+    {
+      "turn": 355,
+      "role": "caster",
+      "text": "Capture for DeepSeek V4.1 Flash, and it's 12–10."
+    },
+    {
+      "turn": 367,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 12–11."
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 12, 1 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 385,
+      "role": "caster",
+      "text": "Capture for Opus 5.5, and it's 13–11."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Opus 5.5 finish on 13. Across the match they converted 81% of their pickups."
+    }
+  ]
+}

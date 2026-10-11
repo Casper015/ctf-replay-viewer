@@ -8,6 +8,10 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Local Claude Code state (launch.json for previews is shared)
+# Local Claude Code state (launch.json and skills are shared)
 .claude/*
 !.claude/launch.json
+!.claude/skills/
+
+# Offline commentary briefs (regenerate with tools/commentate.py export)
+commentary/briefs/

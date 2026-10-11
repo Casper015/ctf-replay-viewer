@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "match": "g4_ponly_pxl_comeback",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 1–0.",
+      "key": true
+    },
+    {
+      "turn": 25,
+      "role": "caster",
+      "text": "c08_ponly_pxl scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 30,
+      "role": "caster",
+      "text": "Player5 stops baseline's flag carrier!"
+    },
+    {
+      "turn": 38,
+      "role": "caster",
+      "text": "v12_control scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 46,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 2–1.",
+      "key": true
+    },
+    {
+      "turn": 52,
+      "role": "caster",
+      "text": "Capture for baseline, and it's 2–1."
+    },
+    {
+      "turn": 59,
+      "role": "caster",
+      "text": "v12_control scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 65,
+      "role": "caster",
+      "text": "That capture puts v12_control in front. 3–2!",
+      "key": true
+    },
+    {
+      "turn": 72,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 77,
+      "role": "caster",
+      "text": "Big stop: c08_ponly_pxl takes down the v12_control carrier."
+    },
+    {
+      "turn": 86,
+      "role": "caster",
+      "text": "baseline scores again. 3–3 now."
+    },
+    {
+      "turn": 101,
+      "role": "caster",
+      "text": "That capture puts Player5 in front. 4–3!",
+      "key": true
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "Capture for baseline, and it's 5–3."
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "Player5 stops v12_control's flag carrier!"
+    },
+    {
+      "turn": 129,
+      "role": "caster",
+      "text": "Big stop: baseline takes down the v12_control carrier."
+    },
+    {
+      "turn": 138,
+      "role": "caster",
+      "text": "baseline brings the flag home! 5–4."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "baseline played furthest forward, about 9.0 cells from home on average; v12_control stayed closest to base at 4.5."
+    },
+    {
+      "turn": 164,
+      "role": "caster",
+      "text": "v12_control scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 177,
+      "role": "caster",
+      "text": "That capture puts v12_control in front. 7–6!",
+      "key": true
+    },
+    {
+      "turn": 189,
+      "role": "caster",
+      "text": "c08_ponly_pxl brings the flag home! 7–6."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: v12_control turned 3 of 3 pickups into points, the best conversion in this stretch. Player5 led the fighting with 6 kills."
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "Big stop: baseline takes down the Player5 carrier."
+    },
+    {
+      "turn": 213,
+      "role": "caster",
+      "text": "c08_ponly_pxl brings the flag home! 7–6."
+    },
+    {
+      "turn": 218,
+      "role": "caster",
+      "text": "Player5 stops v12_control's flag carrier!"
+    },
+    {
+      "turn": 226,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 7–7!",
+      "key": true
+    },
+    {
+      "turn": 232,
+      "role": "caster",
+      "text": "3 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "v12_control stops Player5's flag carrier!"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "c08_ponly_pxl played furthest forward, about 10.0 cells from home on average; Player5 stayed closest to base at 5.0."
+    },
+    {
+      "turn": 256,
+      "role": "caster",
+      "text": "Capture for c08_ponly_pxl, and it's 8–7."
+    },
+    {
+      "turn": 269,
+      "role": "caster",
+      "text": "Big stop: v12_control takes down the Player5 carrier."
+    },
+    {
+      "turn": 278,
+      "role": "caster",
+      "text": "Player5 scores again. 9–7 now."
+    },
+    {
+      "turn": 286,
+      "role": "caster",
+      "text": "Capture for baseline, and it's 9–8."
+    },
+    {
+      "turn": 291,
+      "role": "caster",
+      "text": "v12_control brings the flag home! 9–8."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: baseline turned 3 of 2 pickups into points, the best conversion in this stretch. Player5 led the fighting with 5 kills."
+    },
+    {
+      "turn": 318,
+      "role": "caster",
+      "text": "baseline brings the flag home! 11–9."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's Player5's match to lose right now: 11, 2 clear of baseline."
+    },
+    {
+      "turn": 332,
+      "role": "caster",
+      "text": "baseline scores again. 11–10 now."
+    },
+    {
+      "turn": 345,
+      "role": "caster",
+      "text": "v12_control brings the flag home! 11–10."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "c08_ponly_pxl played furthest forward, about 7.0 cells from home on average; baseline stayed closest to base at 6.0."
+    },
+    {
+      "turn": 358,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 13–10."
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "baseline brings the flag home! 13–11."
+    },
+    {
+      "turn": 388,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 14–11."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Player5 finish on 14. Across the match they converted 70% of their pickups."
+    }
+  ]
+}

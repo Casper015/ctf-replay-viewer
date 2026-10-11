@@ -1,0 +1,288 @@
+{
+  "version": 1,
+  "match": "g15_p5",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 24,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 29,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 40,
+      "role": "caster",
+      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "Opus 5.5 played furthest forward, about 16.7 cells from home on average; Player5 stayed closest to base at 4.0."
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 68,
+      "role": "caster",
+      "text": "Opus 5.5 scores and takes the lead! 3–2.",
+      "key": true
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 3, 1 clear of DeepSeek V4.1 Flash."
+    },
+    {
+      "turn": 80,
+      "role": "caster",
+      "text": "Player4 scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 91,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: Player4 turned 2 of 1 pickups into points, the best conversion in this stretch. DeepSeek V4.1 Flash led the fighting with 8 kills."
+    },
+    {
+      "turn": 108,
+      "role": "caster",
+      "text": "Baseline stops DeepSeek V4.1 Flash's flag carrier!"
+    },
+    {
+      "turn": 119,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the GPT-6.1 Sol carrier."
+    },
+    {
+      "turn": 126,
+      "role": "caster",
+      "text": "Sonnet 5.5 brings the flag home! 5–3."
+    },
+    {
+      "turn": 131,
+      "role": "caster",
+      "text": "Big stop: Player1 takes down the Opus 5.5 carrier."
+    },
+    {
+      "turn": 141,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the Sonnet 5.5 carrier."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 14.0 cells from home on average; Player4 stayed closest to base at 8.5."
+    },
+    {
+      "turn": 155,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores again. 6–4 now."
+    },
+    {
+      "turn": 161,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores again. 7–4 now."
+    },
+    {
+      "turn": 167,
+      "role": "caster",
+      "text": "Big stop: Kimi K3 takes down the Sonnet 5.5 carrier."
+    },
+    {
+      "turn": 172,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 7–5."
+    },
+    {
+      "turn": 179,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 7–5 now."
+    },
+    {
+      "turn": 185,
+      "role": "caster",
+      "text": "Player4 scores again. 7–6 now."
+    },
+    {
+      "turn": 194,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores again. 8–6 now."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: Sonnet 5.5 turned 4 of 4 pickups into points, the best conversion in this stretch. Player4 led the fighting with 7 kills."
+    },
+    {
+      "turn": 209,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 9–7 now."
+    },
+    {
+      "turn": 219,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 9–7."
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's Sonnet 5.5's match to lose right now: 9, 2 clear of Player4."
+    },
+    {
+      "turn": 233,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 9–7 now."
+    },
+    {
+      "turn": 239,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 9–7 now."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Fable 5.1 played furthest forward, about 15.3 cells from home on average; Sonnet 5.5 stayed closest to base at 6.0."
+    },
+    {
+      "turn": 258,
+      "role": "caster",
+      "text": "Opus 5.5 stops Player4's flag carrier!"
+    },
+    {
+      "turn": 265,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 9–8."
+    },
+    {
+      "turn": 270,
+      "role": "caster",
+      "text": "Fable 5.1 stops Sonnet 5.5's flag carrier!"
+    },
+    {
+      "turn": 276,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 9–9!",
+      "key": true
+    },
+    {
+      "turn": 287,
+      "role": "caster",
+      "text": "That capture puts Sonnet 5.5 in front. 10–9!",
+      "key": true
+    },
+    {
+      "turn": 302,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 10–10!",
+      "key": true
+    },
+    {
+      "turn": 314,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 11–10.",
+      "key": true
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "Player4 brings the flag home! 11–10."
+    },
+    {
+      "turn": 336,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 12–10."
+    },
+    {
+      "turn": 342,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 13–10."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 8.0 cells from home on average; Player4 stayed closest to base at 6.0."
+    },
+    {
+      "turn": 361,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 14–10."
+    },
+    {
+      "turn": 370,
+      "role": "caster",
+      "text": "Capture for Player4, and it's 14–10."
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 14, 4 clear of Sonnet 5.5."
+    },
+    {
+      "turn": 390,
+      "role": "caster",
+      "text": "Sonnet 5.5 brings the flag home! 14–11."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: GPT-6.1 Sol finish on 16. Across the match they converted 76% of their pickups."
+    }
+  ]
+}

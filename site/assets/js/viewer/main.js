@@ -23,6 +23,7 @@ import { mountChart } from './ui/chart.js';
 import { mountFeed } from './ui/feed.js';
 import { mountStats } from './ui/stats.js';
 import { mountUnitCard } from './ui/unit-card.js';
+import { mountCommentary } from './ui/commentary.js';
 
 const root = $('#viewer');
 
@@ -65,11 +66,18 @@ async function start() {
     tab: getPref('tab', 'standings'),
     chartMode: getPref('chartMode', 'lines'),
     immersive: false,
+    commentary: null,
+    commentaryLang: getPref('commentaryLang', 'auto'),
+    captions: getPref('captions', true),
+    hiddenRoles: getPref('hiddenRoles', []),
   });
-  store.subscribe(['speed', 'tab', 'chartMode'], (s) => {
+  store.subscribe(['speed', 'tab', 'chartMode', 'commentaryLang', 'captions', 'hiddenRoles'], (s) => {
     setPref('speed', s.speed);
     setPref('tab', s.tab);
     setPref('chartMode', s.chartMode);
+    setPref('commentaryLang', s.commentaryLang);
+    setPref('captions', s.captions);
+    setPref('hiddenRoles', s.hiddenRoles);
   });
 
   const playback = createPlayback(store);
@@ -85,6 +93,7 @@ async function start() {
   mountFeed(store, { playback });
   mountStats(store);
   mountUnitCard(store);
+  mountCommentary(store, { playback });
   mountKeyboard(store, { playback, board, toggleImmersive });
   syncUrl(store);
   applyI18n();

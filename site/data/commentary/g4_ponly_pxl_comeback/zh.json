@@ -1,0 +1,274 @@
+{
+  "version": 1,
+  "match": "g4_ponly_pxl_comeback",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "Player5 得分并反超！1:0！",
+      "key": true
+    },
+    {
+      "turn": 25,
+      "role": "caster",
+      "text": "c08_ponly_pxl 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 30,
+      "role": "caster",
+      "text": "Player5 截下了 baseline 的持旗者！"
+    },
+    {
+      "turn": 38,
+      "role": "caster",
+      "text": "v12_control 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 46,
+      "role": "caster",
+      "text": "Player5 得分并反超！2:1！",
+      "key": true
+    },
+    {
+      "turn": 52,
+      "role": "caster",
+      "text": "baseline 再下一城，比分 2:1。"
+    },
+    {
+      "turn": 59,
+      "role": "caster",
+      "text": "v12_control 扳平比分，2:2！",
+      "key": true
+    },
+    {
+      "turn": 65,
+      "role": "caster",
+      "text": "这一球让 v12_control 领先了，3:2！",
+      "key": true
+    },
+    {
+      "turn": 72,
+      "role": "caster",
+      "text": "Player5 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 77,
+      "role": "caster",
+      "text": "关键拦截！c08_ponly_pxl 放倒了 v12_control 的持旗单位。"
+    },
+    {
+      "turn": 86,
+      "role": "caster",
+      "text": "baseline 得分，现在是 3:3。"
+    },
+    {
+      "turn": 101,
+      "role": "caster",
+      "text": "这一球让 Player5 领先了，4:3！",
+      "key": true
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "baseline 再下一城，比分 5:3。"
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "Player5 截下了 v12_control 的持旗者！"
+    },
+    {
+      "turn": 129,
+      "role": "caster",
+      "text": "关键拦截！baseline 放倒了 v12_control 的持旗单位。"
+    },
+    {
+      "turn": 138,
+      "role": "caster",
+      "text": "baseline 交旗成功！5:4。"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "baseline 站位最靠前，单位平均离本方基地约 9.0 格；v12_control 最保守，平均只有 4.5 格。"
+    },
+    {
+      "turn": 164,
+      "role": "caster",
+      "text": "v12_control 扳平比分，6:6！",
+      "key": true
+    },
+    {
+      "turn": 177,
+      "role": "caster",
+      "text": "这一球让 v12_control 领先了，7:6！",
+      "key": true
+    },
+    {
+      "turn": 189,
+      "role": "caster",
+      "text": "c08_ponly_pxl 交旗成功！7:6。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：v12_control 拾旗 3 次转化 3 次，是这一段转化率最高的队伍；Player5 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "关键拦截！baseline 放倒了 Player5 的持旗单位。"
+    },
+    {
+      "turn": 213,
+      "role": "caster",
+      "text": "c08_ponly_pxl 交旗成功！7:6。"
+    },
+    {
+      "turn": 218,
+      "role": "caster",
+      "text": "Player5 截下了 v12_control 的持旗者！"
+    },
+    {
+      "turn": 226,
+      "role": "caster",
+      "text": "Player5 扳平比分，7:7！",
+      "key": true
+    },
+    {
+      "turn": 232,
+      "role": "caster",
+      "text": "这一回合倒下了 3 个单位，中路打得太激烈了！"
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "v12_control 截下了 Player5 的持旗者！"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "c08_ponly_pxl 站位最靠前，单位平均离本方基地约 10.0 格；Player5 最保守，平均只有 5.0 格。"
+    },
+    {
+      "turn": 256,
+      "role": "caster",
+      "text": "c08_ponly_pxl 再下一城，比分 8:7。"
+    },
+    {
+      "turn": 269,
+      "role": "caster",
+      "text": "关键拦截！v12_control 放倒了 Player5 的持旗单位。"
+    },
+    {
+      "turn": 278,
+      "role": "caster",
+      "text": "Player5 得分，现在是 9:7。"
+    },
+    {
+      "turn": 286,
+      "role": "caster",
+      "text": "baseline 再下一城，比分 9:8。"
+    },
+    {
+      "turn": 291,
+      "role": "caster",
+      "text": "v12_control 交旗成功！9:8。"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：baseline 拾旗 2 次转化 3 次，是这一段转化率最高的队伍；Player5 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 318,
+      "role": "caster",
+      "text": "baseline 交旗成功！11:9。"
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "现在主动权在 Player5 手里：11 分，领先 baseline 2 分。"
+    },
+    {
+      "turn": 332,
+      "role": "caster",
+      "text": "baseline 得分，现在是 11:10。"
+    },
+    {
+      "turn": 345,
+      "role": "caster",
+      "text": "v12_control 交旗成功！11:10。"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "c08_ponly_pxl 站位最靠前，单位平均离本方基地约 7.0 格；baseline 最保守，平均只有 6.0 格。"
+    },
+    {
+      "turn": 358,
+      "role": "caster",
+      "text": "Player5 再下一城，比分 13:10。"
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "baseline 交旗成功！13:11。"
+    },
+    {
+      "turn": 388,
+      "role": "caster",
+      "text": "Player5 再下一城，比分 14:11。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：Player5 以 14 分收官，全场拾旗转化率 70%。"
+    }
+  ]
+}

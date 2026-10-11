@@ -1,0 +1,243 @@
+{
+  "version": 1,
+  "match": "g8_record",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分并反超！1:0！",
+      "key": true
+    },
+    {
+      "turn": 24,
+      "role": "caster",
+      "text": "Opus 5.5 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 35,
+      "role": "caster",
+      "text": "这一球让 GPT-6.1 Sol 领先了，2:1！",
+      "key": true
+    },
+    {
+      "turn": 42,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash 扳平比分，2:2！",
+      "key": true
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "DeepSeek V4.1 Flash 站位最靠前，单位平均离本方基地约 9.3 格；Opus 5.5 最保守，平均只有 4.5 格。"
+    },
+    {
+      "turn": 60,
+      "role": "caster",
+      "text": "Opus 5.5 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "现在主动权在 GPT-6.1 Sol 手里：5 分，领先 Opus 5.5 2 分。"
+    },
+    {
+      "turn": 81,
+      "role": "caster",
+      "text": "Opus 5.5 交旗成功！5:4。"
+    },
+    {
+      "turn": 99,
+      "role": "caster",
+      "text": "Opus 5.5 扳平比分，5:5！",
+      "key": true
+    },
+    {
+      "turn": 109,
+      "role": "caster",
+      "text": "这一球让 GPT-6.1 Sol 领先了，6:5！",
+      "key": true
+    },
+    {
+      "turn": 116,
+      "role": "caster",
+      "text": "GPT-6 Astra 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 125,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash 得分，现在是 6:5。"
+    },
+    {
+      "turn": 131,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash 得分，现在是 6:5。"
+    },
+    {
+      "turn": 141,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash 扳平比分，6:6！",
+      "key": true
+    },
+    {
+      "turn": 150,
+      "role": "caster",
+      "text": "Opus 5.5 扳平比分，6:6！",
+      "key": true
+    },
+    {
+      "turn": 161,
+      "role": "caster",
+      "text": "这一球让 Opus 5.5 领先了，7:6！",
+      "key": true
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "现在主动权在 Opus 5.5 手里：7 分，领先 GPT-6.1 Sol 1 分。"
+    },
+    {
+      "turn": 182,
+      "role": "caster",
+      "text": "Opus 5.5 得分，现在是 8:6。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：Opus 5.5 拾旗 3 次转化 3 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 4 次击杀主导了交火。"
+    },
+    {
+      "turn": 205,
+      "role": "caster",
+      "text": "GPT-6 Astra 再下一城，比分 9:7。"
+    },
+    {
+      "turn": 225,
+      "role": "caster",
+      "text": "GPT-6 Astra 交旗成功！9:7。"
+    },
+    {
+      "turn": 234,
+      "role": "caster",
+      "text": "Player3 截下了 GPT-6.1 Sol 的持旗者！"
+    },
+    {
+      "turn": 245,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分，现在是 9:8。"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Opus 5.5 站位最靠前，单位平均离本方基地约 13.3 格；GPT-6.1 Sol 最保守，平均只有 5.7 格。"
+    },
+    {
+      "turn": 259,
+      "role": "caster",
+      "text": "Sonnet 5.5 再下一城，比分 9:8。"
+    },
+    {
+      "turn": 279,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash 交旗成功！11:9。"
+    },
+    {
+      "turn": 288,
+      "role": "caster",
+      "text": "Opus 5.5 交旗成功！12:9。"
+    },
+    {
+      "turn": 295,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash 再下一城，比分 12:9。"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：Opus 5.5 拾旗 2 次转化 3 次，是这一段转化率最高的队伍；Opus 5.5 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 317,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 12:10。"
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "现在主动权在 Opus 5.5 手里：12 分，领先 GPT-6.1 Sol 2 分。"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 11.0 格；Opus 5.5 最保守，平均只有 8.0 格。"
+    },
+    {
+      "turn": 355,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash 再下一城，比分 12:10。"
+    },
+    {
+      "turn": 367,
+      "role": "caster",
+      "text": "GPT-6 Astra 再下一城，比分 12:11。"
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "现在主动权在 Opus 5.5 手里：12 分，领先 GPT-6.1 Sol 1 分。"
+    },
+    {
+      "turn": 385,
+      "role": "caster",
+      "text": "Opus 5.5 再下一城，比分 13:11。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：Opus 5.5 以 13 分收官，全场拾旗转化率 81%。"
+    }
+  ]
+}

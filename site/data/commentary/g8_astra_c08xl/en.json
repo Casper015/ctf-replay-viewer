@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "match": "g8_astra_c08xl",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "c08_ponly_xxl stops c08_ponly_xl's flag carrier!"
+    },
+    {
+      "turn": 20,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores and takes the lead! 1–0.",
+      "key": true
+    },
+    {
+      "turn": 25,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 33,
+      "role": "caster",
+      "text": "c08_ponly_xl brings the flag home! 2–1."
+    },
+    {
+      "turn": 46,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 51,
+      "role": "caster",
+      "text": "v12_ponly_xl brings the flag home! 2–2."
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "c08_ponly_xl stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "Big stop: c08_ponly_xxl takes down the c08_ponly_xl carrier."
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 3–2!",
+      "key": true
+    },
+    {
+      "turn": 79,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 96,
+      "role": "caster",
+      "text": "c08_ponly_xl brings the flag home! 3–3."
+    },
+    {
+      "turn": 101,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 4–3!",
+      "key": true
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "c08_ponly_xl stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 112,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 4–3."
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "Capture for v12_ponly_xxl, and it's 4–3."
+    },
+    {
+      "turn": 127,
+      "role": "caster",
+      "text": "Capture for c08_ponly_xl, and it's 4–3."
+    },
+    {
+      "turn": 145,
+      "role": "caster",
+      "text": "v12_ponly_xl scores to level it up. 4–4!",
+      "key": true
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 15.0 cells from home on average; v12_ponly_xl stayed closest to base at 7.0."
+    },
+    {
+      "turn": 155,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 4–4 now."
+    },
+    {
+      "turn": 165,
+      "role": "caster",
+      "text": "c08_ponly_xl scores to level it up. 4–4!",
+      "key": true
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "Dead even at the top, c08_ponly_xl and c08_ponly_xxl and v12_ponly_xl on 4 each."
+    },
+    {
+      "turn": 180,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores and takes the lead! 5–4.",
+      "key": true
+    },
+    {
+      "turn": 190,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 5–5!",
+      "key": true
+    },
+    {
+      "turn": 195,
+      "role": "caster",
+      "text": "Big stop: c08_ponly_xl takes down the Fable 5.1 carrier."
+    },
+    {
+      "turn": 201,
+      "role": "caster",
+      "text": "That capture puts c08_ponly_xxl in front. 6–5!",
+      "key": true
+    },
+    {
+      "turn": 206,
+      "role": "caster",
+      "text": "v12_ponly_xl scores again. 6–5 now."
+    },
+    {
+      "turn": 212,
+      "role": "caster",
+      "text": "v12_ponly_xl scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 229,
+      "role": "caster",
+      "text": "Capture for c08_ponly_xl, and it's 6–6."
+    },
+    {
+      "turn": 235,
+      "role": "caster",
+      "text": "Big stop: c08_ponly_xxl takes down the v12_ponly_xl carrier."
+    },
+    {
+      "turn": 243,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "c08_ponly_xxl played furthest forward, about 11.0 cells from home on average; v12_ponly_xl stayed closest to base at 6.0."
+    },
+    {
+      "turn": 257,
+      "role": "caster",
+      "text": "Big stop: c08_ponly_xl takes down the v12_ponly_xl carrier."
+    },
+    {
+      "turn": 264,
+      "role": "caster",
+      "text": "c08_ponly_xl brings the flag home! 7–6."
+    },
+    {
+      "turn": 271,
+      "role": "caster",
+      "text": "Big stop: v12_ponly_xxl takes down the c08_ponly_xxl carrier."
+    },
+    {
+      "turn": 278,
+      "role": "caster",
+      "text": "c08_ponly_xxl stops v12_ponly_xl's flag carrier!"
+    },
+    {
+      "turn": 284,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 7–7!",
+      "key": true
+    },
+    {
+      "turn": 298,
+      "role": "caster",
+      "text": "c08_ponly_xl scores to level it up. 7–7!",
+      "key": true
+    },
+    {
+      "turn": 305,
+      "role": "caster",
+      "text": "That capture puts c08_ponly_xl in front. 8–7!",
+      "key": true
+    },
+    {
+      "turn": 319,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 8–8!",
+      "key": true
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "That capture puts c08_ponly_xl in front. 9–8!",
+      "key": true
+    },
+    {
+      "turn": 339,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 9–9!",
+      "key": true
+    },
+    {
+      "turn": 344,
+      "role": "caster",
+      "text": "c08_ponly_xl scores and takes the lead! 10–9.",
+      "key": true
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 12.0 cells from home on average; v12_ponly_xl stayed closest to base at 7.0."
+    },
+    {
+      "turn": 362,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 10–10!",
+      "key": true
+    },
+    {
+      "turn": 373,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 11–10!",
+      "key": true
+    },
+    {
+      "turn": 392,
+      "role": "caster",
+      "text": "v12_ponly_xxl stops GPT-6 Astra's flag carrier!"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: GPT-6 Astra finish on 11. Across the match they converted 58% of their pickups."
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "version": 1,
+  "match": "g12_c08xl_qwen_thriller",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 22,
+      "role": "caster",
+      "text": "Qwen 3.8 Max scores and takes the lead! 1–0.",
+      "key": true
+    },
+    {
+      "turn": 27,
+      "role": "caster",
+      "text": "GLM 5.3 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 39,
+      "role": "caster",
+      "text": "c08_ponly_xl scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 48,
+      "role": "caster",
+      "text": "c08_ponly_xl stops Qwen 3.8 Max's flag carrier!"
+    },
+    {
+      "turn": 54,
+      "role": "caster",
+      "text": "GPT-6 Astra scores and takes the lead! 2–1.",
+      "key": true
+    },
+    {
+      "turn": 60,
+      "role": "caster",
+      "text": "Qwen 3.8 Max scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 76,
+      "role": "caster",
+      "text": "c08_ponly_xxl stops c08_ponly_xl's flag carrier!"
+    },
+    {
+      "turn": 81,
+      "role": "caster",
+      "text": "That capture puts Qwen 3.8 Max in front. 3–2!",
+      "key": true
+    },
+    {
+      "turn": 94,
+      "role": "caster",
+      "text": "c08_ponly_xl stops Qwen 3.8 Max's flag carrier!"
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: GPT-6 Astra turned 2 of 2 pickups into points, the best conversion in this stretch. c08_ponly_xl led the fighting with 6 kills."
+    },
+    {
+      "turn": 105,
+      "role": "caster",
+      "text": "c08_ponly_xl scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "c08_ponly_xxl stops c08_ponly_xl's flag carrier!"
+    },
+    {
+      "turn": 127,
+      "role": "caster",
+      "text": "Capture for Qwen 3.8 Max, and it's 6–3."
+    },
+    {
+      "turn": 132,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 6–4."
+    },
+    {
+      "turn": 144,
+      "role": "caster",
+      "text": "c08_ponly_xl stops Qwen 3.8 Max's flag carrier!"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "c08_ponly_xl played furthest forward, about 12.3 cells from home on average; Qwen 3.8 Max stayed closest to base at 6.0."
+    },
+    {
+      "turn": 159,
+      "role": "caster",
+      "text": "c08_ponly_xl brings the flag home! 6–5."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's Qwen 3.8 Max's match to lose right now: 6, 1 clear of c08_ponly_xl."
+    },
+    {
+      "turn": 197,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 202,
+      "role": "caster",
+      "text": "c08_ponly_xl stops Qwen 3.8 Max's flag carrier!"
+    },
+    {
+      "turn": 212,
+      "role": "caster",
+      "text": "GPT-6 Astra scores and takes the lead! 7–6.",
+      "key": true
+    },
+    {
+      "turn": 219,
+      "role": "caster",
+      "text": "c08_ponly_xl brings the flag home! 7–6."
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 7, 1 clear of c08_ponly_xl."
+    },
+    {
+      "turn": 235,
+      "role": "caster",
+      "text": "Big stop: c08_ponly_xl takes down the Qwen 3.8 Max carrier."
+    },
+    {
+      "turn": 244,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops GPT-6 Astra's flag carrier!"
+    },
+    {
+      "turn": 254,
+      "role": "caster",
+      "text": "c08_ponly_xl scores to level it up. 7–7!",
+      "key": true
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "Dead even at the top, c08_ponly_xl and GPT-6 Astra and Qwen 3.8 Max on 7 each."
+    },
+    {
+      "turn": 282,
+      "role": "caster",
+      "text": "Qwen 3.8 Max scores and takes the lead! 8–7.",
+      "key": true
+    },
+    {
+      "turn": 291,
+      "role": "caster",
+      "text": "Big stop: v12_ponly_xxl takes down the GPT-6 Astra carrier."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: c08_ponly_xl turned 2 of 1 pickups into points, the best conversion in this stretch. c08_ponly_xl led the fighting with 4 kills."
+    },
+    {
+      "turn": 310,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 8–8!",
+      "key": true
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "Dead even at the top, c08_ponly_xl and GPT-6 Astra and Qwen 3.8 Max on 8 each."
+    },
+    {
+      "turn": 340,
+      "role": "caster",
+      "text": "c08_ponly_xl scores and takes the lead! 9–8.",
+      "key": true
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 12.7 cells from home on average; Qwen 3.8 Max stayed closest to base at 10.0."
+    },
+    {
+      "turn": 360,
+      "role": "caster",
+      "text": "Qwen 3.8 Max scores to level it up. 9–9!",
+      "key": true
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "c08_ponly_xl scores to level it up. 10–10!",
+      "key": true
+    },
+    {
+      "turn": 378,
+      "role": "caster",
+      "text": "c08_ponly_xl scores and takes the lead! 11–10.",
+      "key": true
+    },
+    {
+      "turn": 391,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the GPT-6 Astra carrier."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: c08_ponly_xl finish on 11. Across the match they converted 73% of their pickups."
+    }
+  ]
+}

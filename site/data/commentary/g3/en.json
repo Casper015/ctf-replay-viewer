@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "match": "g3",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 12,
+      "role": "caster",
+      "text": "Player1 scores and takes the lead! 1–0.",
+      "key": true
+    },
+    {
+      "turn": 21,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 27,
+      "role": "caster",
+      "text": "That capture puts Player1 in front. 2–1!",
+      "key": true
+    },
+    {
+      "turn": 34,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 40,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 3–2.",
+      "key": true
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 10.7 cells from home on average; Fable 5.1 stayed closest to base at 3.7."
+    },
+    {
+      "turn": 57,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 3–2."
+    },
+    {
+      "turn": 72,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 4–2."
+    },
+    {
+      "turn": 85,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 5–2."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: Fable 5.1 turned 2 of 1 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 5 kills."
+    },
+    {
+      "turn": 111,
+      "role": "caster",
+      "text": "Big stop: Fable 5.1 takes down the GPT-6.1 Sol carrier."
+    },
+    {
+      "turn": 117,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 7–3."
+    },
+    {
+      "turn": 126,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 7–4."
+    },
+    {
+      "turn": 132,
+      "role": "caster",
+      "text": "Player1 brings the flag home! 7–4."
+    },
+    {
+      "turn": 139,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 8–4."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 9.3 cells from home on average; Player1 stayed closest to base at 7.0."
+    },
+    {
+      "turn": 162,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 9–5."
+    },
+    {
+      "turn": 176,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 9–5 now."
+    },
+    {
+      "turn": 191,
+      "role": "caster",
+      "text": "Player1 scores again. 9–6 now."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: Fable 5.1 turned 2 of 2 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 2 kills."
+    },
+    {
+      "turn": 206,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 11–6 now."
+    },
+    {
+      "turn": 222,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 13–6."
+    },
+    {
+      "turn": 237,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 14–7."
+    },
+    {
+      "turn": 245,
+      "role": "caster",
+      "text": "Player1 scores again. 14–7 now."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Fable 5.1 played furthest forward, about 14.7 cells from home on average; Player1 stayed closest to base at 5.3."
+    },
+    {
+      "turn": 263,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 14–8 now."
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 14, 5 clear of Player1."
+    },
+    {
+      "turn": 281,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 14–9 now."
+    },
+    {
+      "turn": 295,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 15–10."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: Player1 turned 3 of 2 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 3 kills."
+    },
+    {
+      "turn": 310,
+      "role": "caster",
+      "text": "Capture for Player1, and it's 15–11."
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 15–12."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "Fable 5.1 played furthest forward, about 7.3 cells from home on average; GPT-6.1 Sol stayed closest to base at 5.0."
+    },
+    {
+      "turn": 365,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 15–15!",
+      "key": true
+    },
+    {
+      "turn": 379,
+      "role": "caster",
+      "text": "That capture puts Fable 5.1 in front. 16–15!",
+      "key": true
+    },
+    {
+      "turn": 393,
+      "role": "caster",
+      "text": "That capture puts Fable 5.1 in front. 17–16!",
+      "key": true
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Fable 5.1 finish on 17. Across the match they converted 100% of their pickups."
+    }
+  ]
+}

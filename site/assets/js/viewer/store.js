@@ -10,9 +10,13 @@
 //   focusTeam    team index to highlight, or -1 for none
 //   selectedUnit unit id shown in the unit card, or null
 //   follow       camera follows selectedUnit while zoomed
-//   tab          'standings' | 'chart' | 'feed' | 'stats'
+//   tab          'standings' | 'chart' | 'feed' | 'stats' | 'commentary'
 //   chartMode    'lines' | 'orbit'
 //   immersive    board-only fullscreen layout
+//   commentary   loaded commentary track (normalized by ui/commentary.js) or null
+//   commentaryLang 'auto' (follow the interface language) or a language code
+//   captions     show commentary lines as subtitles on the board
+//   hiddenRoles  commentary role ids the viewer has switched off
 
 export function createStore(initial) {
   let state = { ...initial };

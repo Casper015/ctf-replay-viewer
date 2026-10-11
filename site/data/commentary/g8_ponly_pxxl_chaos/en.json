@@ -1,0 +1,262 @@
+{
+  "version": 1,
+  "match": "g8_ponly_pxxl_chaos",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "deepseek-v4.1 scores and takes the lead! 1–0.",
+      "key": true
+    },
+    {
+      "turn": 29,
+      "role": "caster",
+      "text": "Big stop: c08_ponly_pxxl takes down the deepseek-v4.1 carrier."
+    },
+    {
+      "turn": 40,
+      "role": "caster",
+      "text": "c08_control scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 51,
+      "role": "caster",
+      "text": "Player3 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 58,
+      "role": "caster",
+      "text": "Capture for c08_control, and it's 3–1."
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "Capture for v12_ponly_pxl, and it's 3–1."
+    },
+    {
+      "turn": 75,
+      "role": "caster",
+      "text": "c08_ponly_pxxl brings the flag home! 3–2."
+    },
+    {
+      "turn": 80,
+      "role": "caster",
+      "text": "Player4 scores again. 3–2 now."
+    },
+    {
+      "turn": 86,
+      "role": "caster",
+      "text": "Player3 scores again. 3–2 now."
+    },
+    {
+      "turn": 93,
+      "role": "caster",
+      "text": "Player4 scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: c08_control turned 2 of 1 pickups into points, the best conversion in this stretch. c08_ponly_pxxl led the fighting with 6 kills."
+    },
+    {
+      "turn": 121,
+      "role": "caster",
+      "text": "That capture puts c08_ponly_pxxl in front. 4–3!",
+      "key": true
+    },
+    {
+      "turn": 134,
+      "role": "caster",
+      "text": "Player4 scores to level it up. 4–4!",
+      "key": true
+    },
+    {
+      "turn": 143,
+      "role": "caster",
+      "text": "Big stop: deepseek-v4.1 takes down the v12_ponly_pxl carrier."
+    },
+    {
+      "turn": 148,
+      "role": "caster",
+      "text": "Player4 scores and takes the lead! 5–4.",
+      "key": true
+    },
+    {
+      "turn": 155,
+      "role": "caster",
+      "text": "gpt-6.1-sol scores again. 5–4 now."
+    },
+    {
+      "turn": 165,
+      "role": "caster",
+      "text": "c08_control brings the flag home! 5–4."
+    },
+    {
+      "turn": 170,
+      "role": "caster",
+      "text": "Player5 stops c08_ponly_pxxl's flag carrier!"
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's Player4's match to lose right now: 5, 1 clear of c08_control."
+    },
+    {
+      "turn": 182,
+      "role": "caster",
+      "text": "v12_ponly_pxl scores again. 5–4 now."
+    },
+    {
+      "turn": 191,
+      "role": "caster",
+      "text": "Player4 scores again. 6–4 now."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: c08_control turned 2 of 4 pickups into points, the best conversion in this stretch. c08_control led the fighting with 5 kills."
+    },
+    {
+      "turn": 208,
+      "role": "caster",
+      "text": "c08_ponly_pxxl scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 223,
+      "role": "caster",
+      "text": "Big stop: c08_ponly_pxxl takes down the c08_control carrier."
+    },
+    {
+      "turn": 235,
+      "role": "caster",
+      "text": "That capture puts c08_control in front. 7–6!",
+      "key": true
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Player4 played furthest forward, about 10.0 cells from home on average; c08_ponly_pxxl stayed closest to base at 10.0."
+    },
+    {
+      "turn": 258,
+      "role": "caster",
+      "text": "Player4 scores to level it up. 7–7!",
+      "key": true
+    },
+    {
+      "turn": 267,
+      "role": "caster",
+      "text": "That capture puts c08_control in front. 8–7!",
+      "key": true
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "It's c08_control's match to lose right now: 8, 1 clear of Player4."
+    },
+    {
+      "turn": 285,
+      "role": "caster",
+      "text": "c08_ponly_pxxl brings the flag home! 8–7."
+    },
+    {
+      "turn": 302,
+      "role": "caster",
+      "text": "c08_ponly_pxxl scores to level it up. 8–8!",
+      "key": true
+    },
+    {
+      "turn": 310,
+      "role": "caster",
+      "text": "c08_control scores and takes the lead! 9–8.",
+      "key": true
+    },
+    {
+      "turn": 317,
+      "role": "caster",
+      "text": "Big stop: Player3 takes down the c08_ponly_pxxl carrier."
+    },
+    {
+      "turn": 322,
+      "role": "caster",
+      "text": "deepseek-v4.1 stops Player4's flag carrier!"
+    },
+    {
+      "turn": 331,
+      "role": "caster",
+      "text": "Capture for Player4, and it's 9–8."
+    },
+    {
+      "turn": 342,
+      "role": "caster",
+      "text": "c08_control brings the flag home! 10–8."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "c08_ponly_pxxl played furthest forward, about 10.0 cells from home on average; c08_control stayed closest to base at 5.7."
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "c08_ponly_pxxl brings the flag home! 10–9."
+    },
+    {
+      "turn": 389,
+      "role": "caster",
+      "text": "c08_ponly_pxxl scores to level it up. 10–10!",
+      "key": true
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: c08_control finish on 10. Across the match they converted 71% of their pickups."
+    }
+  ]
+}

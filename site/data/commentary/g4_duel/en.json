@@ -1,0 +1,289 @@
+{
+  "version": 1,
+  "match": "g4_duel",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "Baseline scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 20,
+      "role": "caster",
+      "text": "3 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 28,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops Player6's flag carrier!"
+    },
+    {
+      "turn": 36,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 2–1.",
+      "key": true
+    },
+    {
+      "turn": 42,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 2–1."
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "Player6 played furthest forward, about 8.0 cells from home on average; Player5 stayed closest to base at 5.0."
+    },
+    {
+      "turn": 55,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 3–2."
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 68,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 4–3.",
+      "key": true
+    },
+    {
+      "turn": 75,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 5–3."
+    },
+    {
+      "turn": 81,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 5–4."
+    },
+    {
+      "turn": 88,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 6–4."
+    },
+    {
+      "turn": 95,
+      "role": "caster",
+      "text": "Baseline scores again. 6–4 now."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: GPT-6.1 Sol turned 3 of 3 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 5 kills."
+    },
+    {
+      "turn": 108,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 7–5."
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 8–5."
+    },
+    {
+      "turn": 126,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 8–6."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Baseline played furthest forward, about 7.3 cells from home on average; Player6 stayed closest to base at 2.0."
+    },
+    {
+      "turn": 158,
+      "role": "caster",
+      "text": "Baseline scores again. 8–7 now."
+    },
+    {
+      "turn": 165,
+      "role": "caster",
+      "text": "Player6 brings the flag home! 8–7."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's Player5's match to lose right now: 8, 1 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 181,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 9–7."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: GPT-6.1 Sol turned 1 of 1 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 7 kills."
+    },
+    {
+      "turn": 208,
+      "role": "caster",
+      "text": "Capture for Player6, and it's 9–8."
+    },
+    {
+      "turn": 218,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops Baseline's flag carrier!"
+    },
+    {
+      "turn": 226,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 9–9!",
+      "key": true
+    },
+    {
+      "turn": 239,
+      "role": "caster",
+      "text": "That capture puts GPT-6.1 Sol in front. 10–9!",
+      "key": true
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 9.0 cells from home on average; Baseline stayed closest to base at 4.5."
+    },
+    {
+      "turn": 266,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 12–10 now."
+    },
+    {
+      "turn": 279,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 12–12!",
+      "key": true
+    },
+    {
+      "turn": 286,
+      "role": "caster",
+      "text": "Capture for Baseline, and it's 12–12."
+    },
+    {
+      "turn": 292,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 13–12.",
+      "key": true
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: Baseline turned 2 of 1 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 3 kills."
+    },
+    {
+      "turn": 305,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 13–13!",
+      "key": true
+    },
+    {
+      "turn": 320,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 14–13.",
+      "key": true
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "Dead even at the top, GPT-6.1 Sol and Player5 on 14 each."
+    },
+    {
+      "turn": 333,
+      "role": "caster",
+      "text": "That capture puts Player5 in front. 15–14!",
+      "key": true
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 11.0 cells from home on average; Player6 stayed closest to base at 6.3."
+    },
+    {
+      "turn": 359,
+      "role": "caster",
+      "text": "That capture puts Player5 in front. 16–15!",
+      "key": true
+    },
+    {
+      "turn": 365,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 16–16!",
+      "key": true
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 17–16.",
+      "key": true
+    },
+    {
+      "turn": 379,
+      "role": "caster",
+      "text": "Capture for Baseline, and it's 17–16."
+    },
+    {
+      "turn": 387,
+      "role": "caster",
+      "text": "Player6 brings the flag home! 17–16."
+    },
+    {
+      "turn": 393,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 17–17!",
+      "key": true
+    },
+    {
+      "turn": 400,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 18–17.",
+      "key": true
+    }
+  ]
+}

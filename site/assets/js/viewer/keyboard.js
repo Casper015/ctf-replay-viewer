@@ -35,7 +35,7 @@ export function mountKeyboard(store, { playback, board, toggleImmersive }) {
       case 'f': case 'F': toggleImmersive(); break;
       case '[': setSpeed(-1); break;
       case ']': setSpeed(1); break;
-      case '1': case '2': case '3': case '4': store.set({ tab: TABS[Number(e.key) - 1] }); break;
+      case '1': case '2': case '3': case '4': case '5': store.set({ tab: TABS[Number(e.key) - 1] }); break;
       case 'Escape':
         if (s.selectedUnit !== null) store.set({ selectedUnit: null, follow: false });
         else if (s.focusTeam >= 0) store.set({ focusTeam: -1 });

@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "match": "g15_opus_v12xl_third",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 24,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 29,
+      "role": "caster",
+      "text": "Kimi K3 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 42,
+      "role": "caster",
+      "text": "Kimi K3 scores and takes the lead! 2–1.",
+      "key": true
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "Opus 5.5 played furthest forward, about 7.7 cells from home on average; v12_ponly_xl stayed closest to base at 3.0."
+    },
+    {
+      "turn": 56,
+      "role": "caster",
+      "text": "Kimi K3 scores and takes the lead! 3–2.",
+      "key": true
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 78,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 87,
+      "role": "caster",
+      "text": "That capture puts Kimi K3 in front. 4–3!",
+      "key": true
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: Fable 5.1 turned 2 of 2 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 6 kills."
+    },
+    {
+      "turn": 110,
+      "role": "caster",
+      "text": "Opus 5.5 scores and takes the lead! 5–4.",
+      "key": true
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "Big stop: GLM 5.3 takes down the Fable 5.1 carrier."
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 6–4."
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 6, 2 clear of Kimi K3."
+    },
+    {
+      "turn": 135,
+      "role": "caster",
+      "text": "Big stop: Qwen 3.8 Max takes down the Opus 5.5 carrier."
+    },
+    {
+      "turn": 144,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 6–4."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Kimi K3 played furthest forward, about 13.7 cells from home on average; Fable 5.1 stayed closest to base at 4.3."
+    },
+    {
+      "turn": 158,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 7–4 now."
+    },
+    {
+      "turn": 171,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 8–4."
+    },
+    {
+      "turn": 177,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 8–5."
+    },
+    {
+      "turn": 188,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 9–5 now."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: Fable 5.1 turned 2 of 2 pickups into points, the best conversion in this stretch. v12_ponly_xl led the fighting with 8 kills."
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 11–5."
+    },
+    {
+      "turn": 215,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 11–6 now."
+    },
+    {
+      "turn": 220,
+      "role": "caster",
+      "text": "Qwen 3.8 Max stops Opus 5.5's flag carrier!"
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 11, 5 clear of Fable 5.1."
+    },
+    {
+      "turn": 233,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 12–6 now."
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "v12_ponly_xl brings the flag home! 12–6."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Fable 5.1 played furthest forward, about 8.7 cells from home on average; Opus 5.5 stayed closest to base at 4.0."
+    },
+    {
+      "turn": 269,
+      "role": "caster",
+      "text": "Big stop: Kimi K3 takes down the Opus 5.5 carrier."
+    },
+    {
+      "turn": 277,
+      "role": "caster",
+      "text": "Big stop: GLM 5.3 takes down the Fable 5.1 carrier."
+    },
+    {
+      "turn": 284,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 14–6 now."
+    },
+    {
+      "turn": 291,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 14–7."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: Opus 5.5 turned 2 of 2 pickups into points, the best conversion in this stretch. Opus 5.5 led the fighting with 5 kills."
+    },
+    {
+      "turn": 315,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 14–8."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 15, 7 clear of Fable 5.1."
+    },
+    {
+      "turn": 331,
+      "role": "caster",
+      "text": "Big stop: v12_ponly_xl takes down the Fable 5.1 carrier."
+    },
+    {
+      "turn": 342,
+      "role": "caster",
+      "text": "v12_ponly_xl brings the flag home! 15–8."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "v12_ponly_xl played furthest forward, about 15.0 cells from home on average; Fable 5.1 stayed closest to base at 6.5."
+    },
+    {
+      "turn": 361,
+      "role": "caster",
+      "text": "Capture for Opus 5.5, and it's 16–9."
+    },
+    {
+      "turn": 368,
+      "role": "caster",
+      "text": "c08_ponly_xxl stops v12_ponly_xl's flag carrier!"
+    },
+    {
+      "turn": 377,
+      "role": "caster",
+      "text": "v12_ponly_xl scores again. 16–9 now."
+    },
+    {
+      "turn": 388,
+      "role": "caster",
+      "text": "Capture for Opus 5.5, and it's 17–9."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Opus 5.5 finish on 17. Across the match they converted 65% of their pickups."
+    }
+  ]
+}

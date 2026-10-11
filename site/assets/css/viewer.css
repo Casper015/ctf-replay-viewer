@@ -364,7 +364,8 @@
   margin: var(--s-2);
 }
 .tabs button { flex: 1; justify-content: center; padding: 0 6px; }
-@media (max-width: 380px) { .tabs .icon { display: none; } }
+/* Five tabs: labels only, so they fit the 400px rail and phones */
+.tabs .icon { display: none; }
 
 .panes { flex: 1; min-height: 0; overflow: auto; overscroll-behavior: contain; }
 .pane { padding: var(--s-1) var(--s-3) var(--s-4); }
@@ -631,4 +632,83 @@
   -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 0 0 1px var(--line);
   padding-bottom: calc(var(--s-2) + var(--safe-b));
+}
+
+/* ---------------- Commentary ---------------- */
+.tabs { overflow-x: auto; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tabs button { flex: 1 0 auto; }
+
+.commentary-head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: var(--s-1) 0 var(--s-2); }
+.select--sm { height: 30px; font-size: var(--fs-xs); max-width: 180px; }
+.chip-btn, .role-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: var(--r-chip);
+  background: var(--ink-2);
+  color: var(--text-3);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background var(--dur-fast), color var(--dur-fast);
+}
+.chip-btn:hover, .role-chip:hover { color: var(--text); }
+.chip-btn[aria-pressed="true"], .role-chip[aria-pressed="true"] { background: var(--ink-4); color: var(--text); }
+.role-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.role-chip[aria-pressed="false"] { text-decoration: line-through; opacity: 0.6; }
+.commentary-note { margin-top: var(--s-2); }
+.commentary-note.is-error { color: var(--kill); }
+
+#pane-commentary:not([hidden]) { display: flex; flex-direction: column; height: 100%; padding-bottom: var(--s-2); }
+.commentary-list { flex: 1; min-height: 140px; display: flex; flex-direction: column; gap: 2px; overflow: auto; margin: var(--s-2) calc(-1 * var(--s-1)) 0; }
+.cline {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  grid-template-areas: "turn role" "turn text";
+  column-gap: 8px;
+  row-gap: 2px;
+  padding: 8px var(--s-1);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.cline:hover { background: var(--ink-2); }
+.cline__turn { grid-area: turn; color: var(--text-3); text-align: right; font-size: var(--fs-sm); line-height: 1.4; }
+.cline__role { grid-area: role; display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 700; color: var(--text-3); }
+.cline__text { grid-area: text; font-size: var(--fs-sm); color: var(--text); line-height: var(--lh-snug); }
+.cline--analyst .cline__text { color: var(--text-2); }
+.commentary-empty { padding: var(--s-4) 0; color: var(--text-3); font-size: var(--fs-xs); line-height: var(--lh-snug); }
+.commentary-empty strong { color: var(--text-2); }
+.commentary-empty p + p { margin-top: 4px; }
+.commentary-empty code { color: var(--text-2); }
+
+/* Captions sit at the bottom of the board, clear of the zoom tools; they move up while the unit card is open */
+.board-caption {
+  position: absolute;
+  left: 50%;
+  bottom: var(--s-3);
+  translate: -50% 0;
+  width: max-content;
+  max-width: calc(100% - 120px);
+  display: grid;
+  gap: 2px;
+  padding: 8px 14px;
+  border-radius: var(--r-control);
+  background: rgba(8, 10, 30, 0.82);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 0 0 1px var(--line);
+  text-align: center;
+  pointer-events: none;
+}
+.board-caption.is-new { animation: caption-in var(--dur) var(--ease-out); }
+@keyframes caption-in { from { opacity: 0; transform: translateY(4px); } }
+.board-caption__role { display: inline-flex; align-items: center; justify-content: center; gap: 4px; font-size: 11px; font-weight: 700; color: var(--text-3); }
+.board-caption__text { font-size: var(--fs-sm); font-weight: 600; line-height: var(--lh-snug); }
+.board-frame:has(.unit-card:not([hidden])) .board-caption { bottom: auto; top: 48px; }
+@media (max-width: 719px) {
+  .board-caption { max-width: calc(100% - 64px); left: calc(50% - 22px); padding: 6px 10px; }
+  .board-caption__text { font-size: var(--fs-xs); }
 }

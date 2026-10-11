@@ -20,6 +20,7 @@ Turn-by-turn replays of AI agents playing capture the flag. Pick a match in the 
 - **Zoom and follow.** Pinch, scroll or double-tap to zoom; tap a unit to see its health, order and respawn timer, then press **Follow** to keep the camera on it.
 - **Understand the game.** Live standings, a score-race chart (lines or orbit view), a feed of key moments, and per-team stats (captures, kills, assists, deaths, KDA) that add up as the match plays.
 - **Share a moment.** The URL keeps the match and turn (`match.html?m=g2&t=378`).
+- **AI commentary booth.** A caster, a color commentator and an analyst comment on the match turn by turn, written by any LLM or offline, in Chinese, English or any language you add. Lines appear in the **Commentary** panel and as captions on the board. See [commentary/README.md](commentary/README.md).
 
 ### Run it locally
 
@@ -132,6 +133,7 @@ Each `content/matches/<key>.json` has `tag`, `title` and `desc`, each with `zh` 
 
 ```
 content/matches/<key>.json    match metadata, one file per match (edit these)
+commentary/                   AI commentary: config.json, roles/<role>/ skills, mock templates
 site/                         the website that GitHub Pages publishes
   index.html                  lobby
   match.html                  viewer
@@ -148,11 +150,22 @@ tools/
   build_catalog.py            rebuild site/data/catalog.json
   build_replays.py            re-simulate matches with the arena engine
   check.mjs                   site checks (text keys, imports, icons, links)
+  commentate.py               AI commentary: generate, export, import, check
   serve.py                    local server with caching turned off
   templates/match.json        metadata template
 docs/data-format.md           replay and catalog formats
 AGENTS.md                     how the code is organized, for contributors and AI agents
 ```
+
+### Add AI commentary
+
+```bash
+python3 tools/commentate.py generate <key> --provider claude     # or deepseek, qwen, ollama, mock
+python3 tools/commentate.py export <key> --lang zh               # offline: a whole-match brief for any LLM
+python3 tools/commentate.py import <key>.zh.json                 # publish an offline-written file
+```
+
+Roles, languages and providers are configured in `commentary/config.json`. The full guide is in [commentary/README.md](commentary/README.md).
 
 ### Translating interface text
 
@@ -179,6 +192,7 @@ MIT. See [LICENSE](LICENSE).
 - **缩放与跟随。** 双指、滚轮或双击缩放；点击单位查看血量、指令和重生倒计时，按 **镜头跟随** 让镜头一直跟着它。
 - **看懂整场比赛。** 实时排名、比分走势图（折线或星盘）、关键时刻战报，以及随回合累计的各队数据（得分、击杀、助攻、阵亡、KDA）。
 - **分享精彩瞬间。** 网址会记住对局和回合（`match.html?m=g2&t=378`）。
+- **AI 解说席。** 解说、嘉宾点评和战术分析师逐回合点评比赛，可由任意大模型在线生成或离线撰写，支持中文、英文以及之后添加的任何语言；台词显示在**解说**面板，并作为字幕显示在棋盘上。详见 [commentary/README.md](commentary/README.md)。
 
 ### 本地运行
 
@@ -278,6 +292,7 @@ python3 tools/add_match.py add path/to/replay.json --meta my_match.json
 
 ```
 content/matches/<key>.json    比赛元数据，每场一个文件（需要编辑的是这些）
+commentary/                   AI 解说：config.json、roles/<角色>/ 技能、mock 模板
 site/                         GitHub Pages 发布的网站
   index.html                  大厅
   match.html                  观战页
@@ -294,11 +309,22 @@ tools/
   build_catalog.py            重新生成 site/data/catalog.json
   build_replays.py            用竞技场引擎重新模拟比赛
   check.mjs                   网站检查（文字键名、模块导入、图标、链接）
+  commentate.py               AI 解说：生成、导出、导入、检查
   serve.py                    关闭缓存的本地服务器
   templates/match.json        元数据模板
 docs/data-format.md           回放与索引的数据格式
 AGENTS.md                     代码组织说明，供贡献者和 AI 智能体协作参考
 ```
+
+### 添加 AI 解说
+
+```bash
+python3 tools/commentate.py generate <对局> --provider claude    # 或 deepseek、qwen、ollama、mock
+python3 tools/commentate.py export <对局> --lang zh              # 离线：导出整场比赛简报给任意大模型
+python3 tools/commentate.py import <对局>.zh.json                # 发布离线撰写的解说文件
+```
+
+角色、语言和模型服务在 `commentary/config.json` 中配置，完整说明见 [commentary/README.md](commentary/README.md)。
 
 ### 翻译界面文字
 

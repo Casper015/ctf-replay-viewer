@@ -1,0 +1,256 @@
+{
+  "version": 1,
+  "match": "g8_p5_sol",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "Player2 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 27,
+      "role": "caster",
+      "text": "Player4 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 35,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 48,
+      "role": "caster",
+      "text": "Baseline scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 56,
+      "role": "caster",
+      "text": "Player2 scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "GLM 5.3 stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "That capture puts Player5 in front. 3–2!",
+      "key": true
+    },
+    {
+      "turn": 78,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 89,
+      "role": "caster",
+      "text": "That capture puts Player5 in front. 4–3!",
+      "key": true
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: GPT-6.1 Sol turned 2 of 2 pickups into points, the best conversion in this stretch. Player5 led the fighting with 4 kills."
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 5–4."
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "Player2 brings the flag home! 6–4."
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "It's Player5's match to lose right now: 6, 2 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 133,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 6–4."
+    },
+    {
+      "turn": 142,
+      "role": "caster",
+      "text": "Player2 stops Player5's flag carrier!"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Fable 5.1 played furthest forward, about 13.7 cells from home on average; GPT-6.1 Sol stayed closest to base at 3.0."
+    },
+    {
+      "turn": 167,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 7–5 now."
+    },
+    {
+      "turn": 173,
+      "role": "caster",
+      "text": "Big stop: Player3 takes down the Player2 carrier."
+    },
+    {
+      "turn": 193,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 8–5."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: Player2 turned 2 of 2 pickups into points, the best conversion in this stretch. Player5 led the fighting with 7 kills."
+    },
+    {
+      "turn": 210,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 9–6."
+    },
+    {
+      "turn": 220,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 9–7."
+    },
+    {
+      "turn": 225,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 9–7."
+    },
+    {
+      "turn": 243,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 9–7."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 13.3 cells from home on average; Player5 stayed closest to base at 7.0."
+    },
+    {
+      "turn": 258,
+      "role": "caster",
+      "text": "Player2 brings the flag home! 9–8."
+    },
+    {
+      "turn": 267,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 9–8."
+    },
+    {
+      "turn": 276,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 9–9!",
+      "key": true
+    },
+    {
+      "turn": 286,
+      "role": "caster",
+      "text": "Capture for Player2, and it's 10–9."
+    },
+    {
+      "turn": 304,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 10–10!",
+      "key": true
+    },
+    {
+      "turn": 320,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 11–10.",
+      "key": true
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's Player5's match to lose right now: 11, 1 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 338,
+      "role": "caster",
+      "text": "Player3 stops Player2's flag carrier!"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 13.7 cells from home on average; Player2 stayed closest to base at 6.0."
+    },
+    {
+      "turn": 358,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 11–11!",
+      "key": true
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 12–11.",
+      "key": true
+    },
+    {
+      "turn": 382,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 12–11."
+    },
+    {
+      "turn": 390,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 13–11."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Player5 finish on 13. Across the match they converted 76% of their pickups."
+    }
+  ]
+}

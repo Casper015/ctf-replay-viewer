@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "match": "g2_v12xl_astra_thriller",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 7,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 1–0!",
+      "key": true
+    },
+    {
+      "turn": 13,
+      "role": "caster",
+      "text": "v12_ponly_xl scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 24,
+      "role": "caster",
+      "text": "v12_ponly_xl scores and takes the lead! 2–1.",
+      "key": true
+    },
+    {
+      "turn": 35,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the v12_ponly_xl carrier."
+    },
+    {
+      "turn": 44,
+      "role": "caster",
+      "text": "GPT-6 Astra scores and takes the lead! 3–2.",
+      "key": true
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 6.7 cells from home on average; v12_ponly_xl stayed closest to base at 4.3."
+    },
+    {
+      "turn": 55,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 4–3!",
+      "key": true
+    },
+    {
+      "turn": 66,
+      "role": "caster",
+      "text": "v12_ponly_xl scores and takes the lead! 5–4.",
+      "key": true
+    },
+    {
+      "turn": 78,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 6–5."
+    },
+    {
+      "turn": 84,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 89,
+      "role": "caster",
+      "text": "That capture puts v12_ponly_xl in front. 7–6!",
+      "key": true
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: GPT-6 Astra turned 3 of 3 pickups into points, the best conversion in this stretch. v12_ponly_xl led the fighting with 5 kills."
+    },
+    {
+      "turn": 119,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 9–7 now."
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "It's v12_ponly_xl's match to lose right now: 9, 1 clear of GPT-6 Astra."
+    },
+    {
+      "turn": 132,
+      "role": "caster",
+      "text": "GPT-6 Astra stops v12_ponly_xl's flag carrier!"
+    },
+    {
+      "turn": 138,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 9–9!",
+      "key": true
+    },
+    {
+      "turn": 145,
+      "role": "caster",
+      "text": "That capture puts v12_ponly_xl in front. 10–9!",
+      "key": true
+    },
+    {
+      "turn": 153,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 10–10!",
+      "key": true
+    },
+    {
+      "turn": 159,
+      "role": "caster",
+      "text": "That capture puts v12_ponly_xl in front. 11–10!",
+      "key": true
+    },
+    {
+      "turn": 172,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 11–11!",
+      "key": true
+    },
+    {
+      "turn": 179,
+      "role": "caster",
+      "text": "3 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 185,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 13–12 now."
+    },
+    {
+      "turn": 196,
+      "role": "caster",
+      "text": "v12_ponly_xl scores to level it up. 13–13!",
+      "key": true
+    },
+    {
+      "turn": 208,
+      "role": "caster",
+      "text": "v12_ponly_xl scores and takes the lead! 14–13.",
+      "key": true
+    },
+    {
+      "turn": 220,
+      "role": "caster",
+      "text": "v12_ponly_xl scores and takes the lead! 15–14.",
+      "key": true
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "Dead even at the top, v12_ponly_xl and GPT-6 Astra on 15 each."
+    },
+    {
+      "turn": 231,
+      "role": "caster",
+      "text": "That capture puts v12_ponly_xl in front. 16–15!",
+      "key": true
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "v12_ponly_xl played furthest forward, about 4.5 cells from home on average; GPT-6 Astra stayed closest to base at 4.5."
+    },
+    {
+      "turn": 258,
+      "role": "caster",
+      "text": "v12_ponly_xl brings the flag home! 19–16."
+    },
+    {
+      "turn": 263,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 19–17 now."
+    },
+    {
+      "turn": 269,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 19–18 now."
+    },
+    {
+      "turn": 274,
+      "role": "caster",
+      "text": "Capture for v12_ponly_xl, and it's 20–18."
+    },
+    {
+      "turn": 280,
+      "role": "caster",
+      "text": "Capture for v12_ponly_xl, and it's 21–18."
+    },
+    {
+      "turn": 288,
+      "role": "caster",
+      "text": "GPT-6 Astra stops v12_ponly_xl's flag carrier!"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: GPT-6 Astra turned 4 of 4 pickups into points, the best conversion in this stretch. GPT-6 Astra led the fighting with 5 kills."
+    },
+    {
+      "turn": 313,
+      "role": "caster",
+      "text": "Capture for v12_ponly_xl, and it's 22–20."
+    },
+    {
+      "turn": 318,
+      "role": "caster",
+      "text": "v12_ponly_xl brings the flag home! 23–20."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's v12_ponly_xl's match to lose right now: 23, 3 clear of GPT-6 Astra."
+    },
+    {
+      "turn": 332,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 23–21 now."
+    },
+    {
+      "turn": 341,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 23–22 now."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "v12_ponly_xl played furthest forward, about 5.0 cells from home on average; GPT-6 Astra stayed closest to base at 5.0."
+    },
+    {
+      "turn": 358,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 25–23."
+    },
+    {
+      "turn": 364,
+      "role": "caster",
+      "text": "Capture for v12_ponly_xl, and it's 26–23."
+    },
+    {
+      "turn": 373,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 26–24."
+    },
+    {
+      "turn": 385,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the v12_ponly_xl carrier."
+    },
+    {
+      "turn": 390,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 26–26!",
+      "key": true
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: v12_ponly_xl finish on 27. Across the match they converted 82% of their pickups."
+    }
+  ]
+}

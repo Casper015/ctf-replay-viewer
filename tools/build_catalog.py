@@ -75,6 +75,8 @@ def catalog_entry(meta: dict, replay: dict, size_bytes: int) -> dict:
         "flagSpots": header["flag_spots"],
         "file": f"data/matches/{meta['key']}.json",
         "bytes": size_bytes,
+        # Languages with AI commentary: site/data/commentary/<key>/<lang>.json
+        "commentary": sorted(p.stem for p in (SITE / "data" / "commentary" / meta["key"]).glob("*.json")),
     }
 
 
