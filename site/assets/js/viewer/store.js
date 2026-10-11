@@ -17,6 +17,7 @@
 //   commentaryLang 'auto' (follow the interface language) or a language code
 //   captions     show commentary lines as subtitles on the board
 //   hiddenRoles  commentary role ids the viewer has switched off
+//   danmaku      show crowd bullet comments flying across the board
 
 export function createStore(initial) {
   let state = { ...initial };

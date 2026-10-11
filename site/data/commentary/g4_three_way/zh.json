@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,10 +67,20 @@
       "key": true
     },
     {
+      "turn": 10,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
       "turn": 24,
       "role": "caster",
       "text": "Player3 扳平比分，1:1！",
       "key": true
+    },
+    {
+      "turn": 24,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
     },
     {
       "turn": 31,
@@ -63,9 +89,24 @@
       "key": true
     },
     {
+      "turn": 31,
+      "role": "crowd",
+      "text": "Fable 5.1 领先了！"
+    },
+    {
       "turn": 40,
       "role": "caster",
       "text": "Fable 5.1 再下一城，比分 3:1。"
+    },
+    {
+      "turn": 40,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
+      "turn": 44,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 50,
@@ -78,9 +119,24 @@
       "text": "Fable 5.1 交旗成功！4:1。"
     },
     {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 70,
       "role": "caster",
       "text": "GPT-6.1 Sol 再下一城，比分 5:2。"
+    },
+    {
+      "turn": 70,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
     },
     {
       "turn": 75,
@@ -93,9 +149,24 @@
       "text": "Player3 交旗成功！6:2。"
     },
     {
+      "turn": 84,
+      "role": "crowd",
+      "text": "Player3 牛！"
+    },
+    {
+      "turn": 85,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "第 51–100 回合：Fable 5.1 拾旗 2 次转化 3 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 4 次击杀主导了交火。"
+    },
+    {
+      "turn": 102,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 121,
@@ -103,14 +174,39 @@
       "text": "DeepSeek V4.1 Flash 再下一城，比分 6:4。"
     },
     {
+      "turn": 121,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 131,
       "role": "caster",
       "text": "Fable 5.1 得分，现在是 7:4。"
     },
     {
+      "turn": 131,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
+      "turn": 134,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 144,
       "role": "caster",
       "text": "Fable 5.1 交旗成功！8:4。"
+    },
+    {
+      "turn": 144,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
+      "turn": 147,
+      "role": "crowd",
+      "text": "稳！"
     },
     {
       "turn": 150,
@@ -123,9 +219,19 @@
       "text": "GPT-6.1 Sol 再下一城，比分 8:5。"
     },
     {
+      "turn": 157,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 162,
       "role": "caster",
       "text": "Player3 交旗成功！8:5。"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Player3 牛！"
     },
     {
       "turn": 168,
@@ -133,14 +239,39 @@
       "text": "Fable 5.1 截下了 DeepSeek V4.1 Flash 的持旗者！"
     },
     {
+      "turn": 168,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 175,
       "role": "caster",
       "text": "GPT-6.1 Sol 再下一城，比分 8:6。"
     },
     {
+      "turn": 175,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 184,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 187,
       "role": "caster",
       "text": "GPT-6.1 Sol 再下一城，比分 8:7。"
+    },
+    {
+      "turn": 187,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 189,
+      "role": "crowd",
+      "text": "Player3 牛！"
     },
     {
       "turn": 201,
@@ -149,10 +280,25 @@
       "key": true
     },
     {
+      "turn": 201,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 219,
       "role": "caster",
       "text": "这一球让 GPT-6.1 Sol 领先了，9:8！",
       "key": true
+    },
+    {
+      "turn": 219,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
+      "turn": 221,
+      "role": "crowd",
+      "text": "稳！"
     },
     {
       "turn": 225,
@@ -166,6 +312,16 @@
       "key": true
     },
     {
+      "turn": 233,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 247,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 250,
       "role": "analyst",
       "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 10.7 格；Player3 最保守，平均只有 4.5 格。"
@@ -177,14 +333,29 @@
       "key": true
     },
     {
+      "turn": 256,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
       "turn": 261,
       "role": "caster",
       "text": "Player3 交旗成功！10:9。"
     },
     {
+      "turn": 261,
+      "role": "crowd",
+      "text": "Player3 牛！"
+    },
+    {
       "turn": 269,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 得分，现在是 10:9。"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "稳！"
     },
     {
       "turn": 276,
@@ -193,10 +364,20 @@
       "key": true
     },
     {
+      "turn": 276,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 282,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分并反超！11:10！",
       "key": true
+    },
+    {
+      "turn": 282,
+      "role": "crowd",
+      "text": "反超了！！"
     },
     {
       "turn": 289,
@@ -204,9 +385,19 @@
       "text": "DeepSeek V4.1 Flash 再下一城，比分 11:10。"
     },
     {
+      "turn": 289,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合：GPT-6.1 Sol 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 7 次击杀主导了交火。"
+    },
+    {
+      "turn": 301,
+      "role": "crowd",
+      "text": "Player3 牛！"
     },
     {
       "turn": 316,
@@ -214,15 +405,45 @@
       "text": "DeepSeek V4.1 Flash 再下一城，比分 11:10。"
     },
     {
+      "turn": 316,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 320,
+      "role": "crowd",
+      "text": "Player3 牛！"
+    },
+    {
       "turn": 329,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 得分，现在是 11:10。"
+    },
+    {
+      "turn": 329,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 333,
+      "role": "crowd",
+      "text": "扳平了！"
     },
     {
       "turn": 343,
       "role": "caster",
       "text": "这一球让 Fable 5.1 领先了，12:11！",
       "key": true
+    },
+    {
+      "turn": 343,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 350,
@@ -236,9 +457,24 @@
       "key": true
     },
     {
+      "turn": 356,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
       "turn": 368,
       "role": "caster",
       "text": "GPT-6.1 Sol 截下了 Fable 5.1 的持旗者！"
+    },
+    {
+      "turn": 368,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 371,
+      "role": "crowd",
+      "text": "Player3 牛！"
     },
     {
       "turn": 376,
@@ -246,10 +482,20 @@
       "text": "Player3 截下了 GPT-6.1 Sol 的持旗者！"
     },
     {
+      "turn": 376,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 390,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 扳平比分，12:12！",
       "key": true
+    },
+    {
+      "turn": 390,
+      "role": "crowd",
+      "text": "又平了"
     },
     {
       "turn": 400,

@@ -116,6 +116,7 @@
 
 .hero__caption { display: grid; gap: 6px; }
 .hero__caption-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.hero__shuffle { margin-left: auto; height: 28px; }
 .hero__caption-title { font-size: var(--fs-sm); font-weight: 600; color: var(--text-2); line-height: var(--lh-snug); }
 .hero__caption-title a:hover { color: var(--text); }
 

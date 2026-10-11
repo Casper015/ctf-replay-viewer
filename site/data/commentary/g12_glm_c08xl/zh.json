@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -50,10 +66,35 @@
       "text": "v12_ponly_xl 截下了 c08_ponly_xxl 的持旗者！"
     },
     {
+      "turn": 16,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 19,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 22,
       "role": "caster",
       "text": "Sonnet 5.5 得分并反超！1:0！",
       "key": true
+    },
+    {
+      "turn": 22,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
+      "turn": 23,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 26,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 29,
@@ -61,14 +102,49 @@
       "text": "c08_ponly_xxl 得分，现在是 2:1。"
     },
     {
+      "turn": 31,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 38,
       "role": "caster",
       "text": "c08_ponly_xxl 截下了 GPT-6 Astra 的持旗者！"
     },
     {
+      "turn": 38,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 41,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 48,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 50,
       "role": "analyst",
       "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 9.5 格；c08_ponly_xxl 最保守，平均只有 6.0 格。"
+    },
+    {
+      "turn": 50,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 51,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 63,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 67,
@@ -77,15 +153,40 @@
       "key": true
     },
     {
+      "turn": 67,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 74,
       "role": "caster",
       "text": "c08_ponly_xl 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 74,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 91,
       "role": "caster",
       "text": "这一球让 Sonnet 5.5 领先了，3:2！",
       "key": true
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "逆转来了"
+    },
+    {
+      "turn": 92,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 94,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 98,
@@ -99,14 +200,49 @@
       "text": "GLM 5.3 再下一城，比分 3:3。"
     },
     {
+      "turn": 103,
+      "role": "crowd",
+      "text": "GLM 5.3 牛！"
+    },
+    {
       "turn": 108,
       "role": "caster",
       "text": "c08_ponly_xl 交旗成功！3:3。"
     },
     {
+      "turn": 108,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 111,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 118,
       "role": "caster",
       "text": "GLM 5.3 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 118,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 122,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 128,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 129,
@@ -115,10 +251,20 @@
       "key": true
     },
     {
+      "turn": 132,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 135,
       "role": "caster",
       "text": "Sonnet 5.5 扳平比分，4:4！",
       "key": true
+    },
+    {
+      "turn": 135,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
     },
     {
       "turn": 149,
@@ -127,10 +273,20 @@
       "key": true
     },
     {
+      "turn": 149,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 157,
       "role": "caster",
       "text": "这一球让 GLM 5.3 领先了，5:4！",
       "key": true
+    },
+    {
+      "turn": 157,
+      "role": "crowd",
+      "text": "GLM 5.3 领先了！"
     },
     {
       "turn": 162,
@@ -139,9 +295,24 @@
       "key": true
     },
     {
+      "turn": 162,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 173,
       "role": "caster",
       "text": "关键拦截！Fable 5.1 放倒了 Sonnet 5.5 的持旗单位。"
+    },
+    {
+      "turn": 173,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 175,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 179,
@@ -150,10 +321,35 @@
       "key": true
     },
     {
+      "turn": 179,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
+      "turn": 182,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 186,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 193,
       "role": "caster",
       "text": "GLM 5.3 扳平比分，6:6！",
       "key": true
+    },
+    {
+      "turn": 193,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 196,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 200,
@@ -167,6 +363,16 @@
       "key": true
     },
     {
+      "turn": 214,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 225,
       "role": "color",
       "text": "现在主动权在 GLM 5.3 手里：7 分，领先 Sonnet 5.5 1 分。"
@@ -177,9 +383,24 @@
       "text": "Qwen 3.8 Max 截下了 c08_ponly_xxl 的持旗者！"
     },
     {
+      "turn": 232,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 240,
       "role": "caster",
       "text": "Fable 5.1 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 240,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 242,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 250,
@@ -187,9 +408,24 @@
       "text": "GLM 5.3 站位最靠前，单位平均离本方基地约 15.5 格；c08_ponly_xxl 最保守，平均只有 9.5 格。"
     },
     {
+      "turn": 253,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 274,
       "role": "caster",
       "text": "Fable 5.1 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 274,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 276,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 280,
@@ -197,9 +433,24 @@
       "text": "Sonnet 5.5 截下了 GLM 5.3 的持旗者！"
     },
     {
+      "turn": 280,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 283,
+      "role": "crowd",
+      "text": "GLM 5.3 牛！"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合：GLM 5.3 拾旗 4 次转化 1 次，是这一段转化率最高的队伍；Sonnet 5.5 以 8 次击杀主导了交火。"
+    },
+    {
+      "turn": 301,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 306,
@@ -207,9 +458,19 @@
       "text": "Sonnet 5.5 截下了 GLM 5.3 的持旗者！"
     },
     {
+      "turn": 306,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 316,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 325,
@@ -222,9 +483,24 @@
       "text": "Qwen 3.8 Max 再下一城，比分 8:6。"
     },
     {
+      "turn": 331,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 338,
       "role": "caster",
       "text": "c08_ponly_xl 得分，现在是 8:6。"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 346,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 350,
@@ -232,9 +508,24 @@
       "text": "c08_ponly_xl 站位最靠前，单位平均离本方基地约 11.5 格；Qwen 3.8 Max 最保守，平均只有 4.0 格。"
     },
     {
+      "turn": 351,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 355,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 357,
       "role": "caster",
       "text": "GLM 5.3 交旗成功！9:6。"
+    },
+    {
+      "turn": 357,
+      "role": "crowd",
+      "text": "GLM 5.3 牛！"
     },
     {
       "turn": 366,
@@ -242,9 +533,29 @@
       "text": "Fable 5.1 截下了 Sonnet 5.5 的持旗者！"
     },
     {
+      "turn": 366,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 375,
       "role": "caster",
       "text": "GPT-6 Astra 交旗成功！9:6。"
+    },
+    {
+      "turn": 375,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 376,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 381,
@@ -252,9 +563,24 @@
       "text": "c08_ponly_xxl 交旗成功！9:7。"
     },
     {
+      "turn": 381,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 389,
       "role": "caster",
       "text": "c08_ponly_xl 得分，现在是 9:7。"
+    },
+    {
+      "turn": 389,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 398,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 400,

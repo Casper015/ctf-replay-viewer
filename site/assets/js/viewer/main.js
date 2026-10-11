@@ -24,6 +24,7 @@ import { mountFeed } from './ui/feed.js';
 import { mountStats } from './ui/stats.js';
 import { mountUnitCard } from './ui/unit-card.js';
 import { mountCommentary } from './ui/commentary.js';
+import { mountDanmaku } from './ui/danmaku.js';
 
 const root = $('#viewer');
 
@@ -70,8 +71,10 @@ async function start() {
     commentaryLang: getPref('commentaryLang', 'auto'),
     captions: getPref('captions', true),
     hiddenRoles: getPref('hiddenRoles', []),
+    danmaku: getPref('danmaku', true),
   });
-  store.subscribe(['speed', 'tab', 'chartMode', 'commentaryLang', 'captions', 'hiddenRoles'], (s) => {
+  store.subscribe(['speed', 'tab', 'chartMode', 'commentaryLang', 'captions', 'hiddenRoles', 'danmaku'], (s) => {
+    setPref('danmaku', s.danmaku);
     setPref('speed', s.speed);
     setPref('tab', s.tab);
     setPref('chartMode', s.chartMode);
@@ -94,6 +97,7 @@ async function start() {
   mountStats(store);
   mountUnitCard(store);
   mountCommentary(store, { playback });
+  mountDanmaku(store);
   mountKeyboard(store, { playback, board, toggleImmersive });
   syncUrl(store);
   applyI18n();

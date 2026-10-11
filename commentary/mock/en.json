@@ -39,5 +39,40 @@
   ],
   "analyst.final": [
     "Final verdict: {leader} finish on {lead_score}. Across the match they converted {conv}% of their pickups."
+  ],
+  "crowd.capture": [
+    "{team}!!!",
+    "What a run",
+    "Let's go {team}",
+    "Clean capture",
+    "Another one",
+    "Easy money",
+    "GG {team}"
+  ],
+  "crowd.lead": [
+    "LEAD CHANGE",
+    "{team} in front!",
+    "Here we go",
+    "Comeback is real",
+    "Unreal"
+  ],
+  "crowd.tie": [
+    "Tied again!",
+    "Level!",
+    "This is insane",
+    "Can't look away"
+  ],
+  "crowd.stop": [
+    "Huge stop",
+    "DENIED",
+    "So close",
+    "Defense wins",
+    "Big save"
+  ],
+  "crowd.late": [
+    "Final stretch!",
+    "Hold on!",
+    "Nerves",
+    "Who blinks first"
   ]
 }

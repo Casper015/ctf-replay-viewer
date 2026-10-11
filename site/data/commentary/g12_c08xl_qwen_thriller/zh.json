@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -49,6 +65,21 @@
       "role": "caster",
       "text": "Qwen 3.8 Max 得分并反超！1:0！",
       "key": true
+    },
+    {
+      "turn": 22,
+      "role": "crowd",
+      "text": "Qwen 3.8 Max 领先了！"
+    },
+    {
+      "turn": 25,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 26,
+      "role": "crowd",
+      "text": "又平了"
     },
     {
       "turn": 27,
@@ -63,9 +94,34 @@
       "key": true
     },
     {
+      "turn": 39,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 40,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 42,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
       "turn": 48,
       "role": "caster",
       "text": "c08_ponly_xl 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 48,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 53,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 54,
@@ -74,15 +130,40 @@
       "key": true
     },
     {
+      "turn": 54,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
+      "turn": 56,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 60,
       "role": "caster",
       "text": "Qwen 3.8 Max 扳平比分，2:2！",
       "key": true
     },
     {
+      "turn": 61,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 63,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 76,
       "role": "caster",
       "text": "c08_ponly_xxl 截下了 c08_ponly_xl 的持旗者！"
+    },
+    {
+      "turn": 76,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 81,
@@ -91,14 +172,34 @@
       "key": true
     },
     {
+      "turn": 81,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
+      "turn": 85,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 94,
       "role": "caster",
       "text": "c08_ponly_xl 截下了 Qwen 3.8 Max 的持旗者！"
     },
     {
+      "turn": 94,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "第 51–100 回合：GPT-6 Astra 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_xl 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 100,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 105,
@@ -107,9 +208,24 @@
       "key": true
     },
     {
+      "turn": 105,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 106,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
       "turn": 118,
       "role": "caster",
       "text": "c08_ponly_xxl 截下了 c08_ponly_xl 的持旗者！"
+    },
+    {
+      "turn": 118,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 127,
@@ -117,14 +233,39 @@
       "text": "Qwen 3.8 Max 再下一城，比分 6:3。"
     },
     {
+      "turn": 127,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 132,
       "role": "caster",
       "text": "GPT-6 Astra 交旗成功！6:4。"
     },
     {
+      "turn": 132,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 133,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 144,
       "role": "caster",
       "text": "c08_ponly_xl 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 144,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 150,
@@ -135,6 +276,21 @@
       "turn": 159,
       "role": "caster",
       "text": "c08_ponly_xl 交旗成功！6:5。"
+    },
+    {
+      "turn": 159,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 160,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 163,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 175,
@@ -148,9 +304,29 @@
       "key": true
     },
     {
+      "turn": 197,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 199,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 202,
       "role": "caster",
       "text": "c08_ponly_xl 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 202,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 206,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 212,
@@ -159,9 +335,19 @@
       "key": true
     },
     {
+      "turn": 212,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
       "turn": 219,
       "role": "caster",
       "text": "c08_ponly_xl 交旗成功！7:6。"
+    },
+    {
+      "turn": 219,
+      "role": "crowd",
+      "text": "稳！"
     },
     {
       "turn": 225,
@@ -174,9 +360,24 @@
       "text": "关键拦截！c08_ponly_xl 放倒了 Qwen 3.8 Max 的持旗单位。"
     },
     {
+      "turn": 235,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 238,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 244,
       "role": "caster",
       "text": "GPT-6.1 Sol 截下了 GPT-6 Astra 的持旗者！"
+    },
+    {
+      "turn": 244,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 254,
@@ -185,9 +386,24 @@
       "key": true
     },
     {
+      "turn": 254,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 258,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 275,
       "role": "color",
       "text": "榜首胶着，c08_ponly_xl、GPT-6 Astra、Qwen 3.8 Max 都是 7 分。"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 282,
@@ -196,9 +412,24 @@
       "key": true
     },
     {
+      "turn": 282,
+      "role": "crowd",
+      "text": "Qwen 3.8 Max 领先了！"
+    },
+    {
+      "turn": 283,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 291,
       "role": "caster",
       "text": "关键拦截！v12_ponly_xxl 放倒了 GPT-6 Astra 的持旗单位。"
+    },
+    {
+      "turn": 291,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 300,
@@ -212,6 +443,11 @@
       "key": true
     },
     {
+      "turn": 310,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 325,
       "role": "color",
       "text": "榜首胶着，c08_ponly_xl、GPT-6 Astra、Qwen 3.8 Max 都是 8 分。"
@@ -223,9 +459,19 @@
       "key": true
     },
     {
+      "turn": 340,
+      "role": "crowd",
+      "text": "逆转来了"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 12.7 格；Qwen 3.8 Max 最保守，平均只有 10.0 格。"
+    },
+    {
+      "turn": 358,
+      "role": "crowd",
+      "text": "差一点就进了"
     },
     {
       "turn": 360,
@@ -234,10 +480,40 @@
       "key": true
     },
     {
+      "turn": 360,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 363,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
+      "turn": 364,
+      "role": "crowd",
+      "text": "谁顶得住"
+    },
+    {
       "turn": 372,
       "role": "caster",
       "text": "c08_ponly_xl 扳平比分，10:10！",
       "key": true
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "心跳加速"
+    },
+    {
+      "turn": 376,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 378,
@@ -249,6 +525,16 @@
       "turn": 391,
       "role": "caster",
       "text": "关键拦截！GPT-6.1 Sol 放倒了 GPT-6 Astra 的持旗单位。"
+    },
+    {
+      "turn": 391,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 398,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 400,

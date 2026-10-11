@@ -20,7 +20,7 @@ Turn-by-turn replays of AI agents playing capture the flag. Pick a match in the 
 - **Zoom and follow.** Pinch, scroll or double-tap to zoom; tap a unit to see its health, order and respawn timer, then press **Follow** to keep the camera on it.
 - **Understand the game.** Live standings, a score-race chart (lines or orbit view), a feed of key moments, and per-team stats (captures, kills, assists, deaths, KDA) that add up as the match plays.
 - **Share a moment.** The URL keeps the match and turn (`match.html?m=g2&t=378`).
-- **AI commentary booth.** A caster, a color commentator and an analyst comment on the match turn by turn, written by any LLM or offline, in Chinese, English or any language you add. Lines appear in the **Commentary** panel and as captions on the board. See [commentary/README.md](commentary/README.md).
+- **AI commentary booth.** A caster, a color commentator and an analyst comment on the match turn by turn, written by any LLM or offline, in Chinese, English or any language you add. Lines appear in the **Commentary** panel and as captions on the board, and the crowd's bullet comments (弹幕) fly across it. See [commentary/README.md](commentary/README.md).
 
 ### Run it locally
 
@@ -192,7 +192,7 @@ MIT. See [LICENSE](LICENSE).
 - **缩放与跟随。** 双指、滚轮或双击缩放；点击单位查看血量、指令和重生倒计时，按 **镜头跟随** 让镜头一直跟着它。
 - **看懂整场比赛。** 实时排名、比分走势图（折线或星盘）、关键时刻战报，以及随回合累计的各队数据（得分、击杀、助攻、阵亡、KDA）。
 - **分享精彩瞬间。** 网址会记住对局和回合（`match.html?m=g2&t=378`）。
-- **AI 解说席。** 解说、嘉宾点评和战术分析师逐回合点评比赛，可由任意大模型在线生成或离线撰写，支持中文、英文以及之后添加的任何语言；台词显示在**解说**面板，并作为字幕显示在棋盘上。详见 [commentary/README.md](commentary/README.md)。
+- **AI 解说席。** 解说、嘉宾点评和战术分析师逐回合点评比赛，可由任意大模型在线生成或离线撰写，支持中文、英文以及之后添加的任何语言；台词显示在**解说**面板，并作为字幕显示在棋盘上，观众弹幕从棋盘上飞过。详见 [commentary/README.md](commentary/README.md)。
 
 ### 本地运行
 

@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -49,6 +65,21 @@
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 扳平比分，1:1！",
       "key": true
+    },
+    {
+      "turn": 24,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 25,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "悬念拉满"
     },
     {
       "turn": 29,
@@ -62,15 +93,60 @@
       "text": "Fable 5.1 截下了 DeepSeek V4.1 Flash 的持旗者！"
     },
     {
+      "turn": 40,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 44,
+      "role": "crowd",
+      "text": "Kimi K3 牛！"
+    },
+    {
+      "turn": 48,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 50,
       "role": "analyst",
       "text": "Opus 5.5 站位最靠前，单位平均离本方基地约 16.7 格；Player5 最保守，平均只有 4.0 格。"
+    },
+    {
+      "turn": 51,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 54,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 62,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 扳平比分，2:2！",
       "key": true
+    },
+    {
+      "turn": 62,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 63,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
     },
     {
       "turn": 68,
@@ -90,15 +166,45 @@
       "key": true
     },
     {
+      "turn": 80,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 82,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 91,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 扳平比分，3:3！",
       "key": true
     },
     {
+      "turn": 91,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
+      "turn": 99,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "第 51–100 回合：Player4 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；DeepSeek V4.1 Flash 以 8 次击杀主导了交火。"
+    },
+    {
+      "turn": 101,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 102,
+      "role": "crowd",
+      "text": "全场起立"
     },
     {
       "turn": 108,
@@ -111,9 +217,24 @@
       "text": "关键拦截！GPT-6 Astra 放倒了 GPT-6.1 Sol 的持旗单位。"
     },
     {
+      "turn": 119,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 126,
       "role": "caster",
       "text": "Sonnet 5.5 交旗成功！5:3。"
+    },
+    {
+      "turn": 126,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 130,
+      "role": "crowd",
+      "text": "Player4 牛！"
     },
     {
       "turn": 131,
@@ -121,9 +242,19 @@
       "text": "关键拦截！Player1 放倒了 Opus 5.5 的持旗单位。"
     },
     {
+      "turn": 131,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 141,
       "role": "caster",
       "text": "关键拦截！GPT-6 Astra 放倒了 Sonnet 5.5 的持旗单位。"
+    },
+    {
+      "turn": 141,
+      "role": "crowd",
+      "text": "差一点就进了"
     },
     {
       "turn": 150,
@@ -131,9 +262,24 @@
       "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 14.0 格；Player4 最保守，平均只有 8.5 格。"
     },
     {
+      "turn": 153,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 155,
       "role": "caster",
       "text": "Sonnet 5.5 得分，现在是 6:4。"
+    },
+    {
+      "turn": 155,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 156,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 161,
@@ -141,9 +287,24 @@
       "text": "Sonnet 5.5 得分，现在是 7:4。"
     },
     {
+      "turn": 161,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
       "turn": 167,
       "role": "caster",
       "text": "关键拦截！Kimi K3 放倒了 Sonnet 5.5 的持旗单位。"
+    },
+    {
+      "turn": 167,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 172,
@@ -151,9 +312,24 @@
       "text": "Player5 再下一城，比分 7:5。"
     },
     {
+      "turn": 172,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 179,
       "role": "caster",
       "text": "Fable 5.1 得分，现在是 7:5。"
+    },
+    {
+      "turn": 179,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
     },
     {
       "turn": 185,
@@ -161,9 +337,24 @@
       "text": "Player4 得分，现在是 7:6。"
     },
     {
+      "turn": 185,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
+      "turn": 188,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 194,
       "role": "caster",
       "text": "Sonnet 5.5 得分，现在是 8:6。"
+    },
+    {
+      "turn": 194,
+      "role": "crowd",
+      "text": "这球漂亮"
     },
     {
       "turn": 200,
@@ -171,9 +362,34 @@
       "text": "第 151–200 回合：Sonnet 5.5 拾旗 4 次转化 4 次，是这一段转化率最高的队伍；Player4 以 7 次击杀主导了交火。"
     },
     {
+      "turn": 200,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 204,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
       "turn": 209,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 得分，现在是 9:7。"
+    },
+    {
+      "turn": 209,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 218,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 219,
@@ -181,9 +397,29 @@
       "text": "Fable 5.1 交旗成功！9:7。"
     },
     {
+      "turn": 219,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
+      "turn": 220,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 222,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 225,
       "role": "color",
       "text": "现在主动权在 Sonnet 5.5 手里：9 分，领先 Player4 2 分。"
+    },
+    {
+      "turn": 225,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 233,
@@ -191,9 +427,19 @@
       "text": "Fable 5.1 得分，现在是 9:7。"
     },
     {
+      "turn": 233,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 239,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分，现在是 9:7。"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 250,
@@ -201,9 +447,19 @@
       "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 15.3 格；Sonnet 5.5 最保守，平均只有 6.0 格。"
     },
     {
+      "turn": 252,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 258,
       "role": "caster",
       "text": "Opus 5.5 截下了 Player4 的持旗者！"
+    },
+    {
+      "turn": 258,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 265,
@@ -211,9 +467,24 @@
       "text": "Fable 5.1 再下一城，比分 9:8。"
     },
     {
+      "turn": 265,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 270,
       "role": "caster",
       "text": "Fable 5.1 截下了 Sonnet 5.5 的持旗者！"
+    },
+    {
+      "turn": 270,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 273,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 276,
@@ -222,10 +493,20 @@
       "key": true
     },
     {
+      "turn": 276,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
       "turn": 287,
       "role": "caster",
       "text": "这一球让 Sonnet 5.5 领先了，10:9！",
       "key": true
+    },
+    {
+      "turn": 287,
+      "role": "crowd",
+      "text": "全场起立"
     },
     {
       "turn": 302,
@@ -234,10 +515,25 @@
       "key": true
     },
     {
+      "turn": 302,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 313,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
+    },
+    {
       "turn": 314,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分并反超！11:10！",
       "key": true
+    },
+    {
+      "turn": 314,
+      "role": "crowd",
+      "text": "全场起立"
     },
     {
       "turn": 327,
@@ -245,9 +541,34 @@
       "text": "Player4 交旗成功！11:10。"
     },
     {
+      "turn": 327,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
+      "turn": 329,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 331,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 332,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
       "turn": 336,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！12:10。"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 342,
@@ -255,9 +576,29 @@
       "text": "GPT-6.1 Sol 交旗成功！13:10。"
     },
     {
+      "turn": 342,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 343,
+      "role": "crowd",
+      "text": "Player4 牛！"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 8.0 格；Player4 最保守，平均只有 6.0 格。"
+    },
+    {
+      "turn": 351,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 352,
+      "role": "crowd",
+      "text": "Fable 5.1 冲冲冲"
     },
     {
       "turn": 361,
@@ -265,9 +606,19 @@
       "text": "GPT-6.1 Sol 再下一城，比分 14:10。"
     },
     {
+      "turn": 361,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 370,
       "role": "caster",
       "text": "Player4 再下一城，比分 14:10。"
+    },
+    {
+      "turn": 370,
+      "role": "crowd",
+      "text": "Player4 牛！"
     },
     {
       "turn": 375,
@@ -278,6 +629,21 @@
       "turn": 390,
       "role": "caster",
       "text": "Sonnet 5.5 交旗成功！14:11。"
+    },
+    {
+      "turn": 390,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 392,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 398,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 400,

@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "offline",
       "model": "claude-opus-5-5（根据 commentary/briefs/g2.zh.md 撰写）",
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,10 +67,30 @@
       "key": true
     },
     {
+      "turn": 6,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
+      "turn": 7,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 17,
       "role": "caster",
       "text": "Player5 再次交旗，2:1 反超！",
       "key": true
+    },
+    {
+      "turn": 17,
+      "role": "crowd",
+      "text": "Player5 领先了！"
+    },
+    {
+      "turn": 18,
+      "role": "crowd",
+      "text": "悬念拉满"
     },
     {
       "turn": 23,
@@ -66,6 +102,21 @@
       "role": "caster",
       "text": "Player5 截下 Opus 持旗者，同一回合自己还交旗得分，3:2！",
       "key": true
+    },
+    {
+      "turn": 29,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 41,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 42,
@@ -83,9 +134,19 @@
       "text": "Opus 5.5 终于追回一球，5:3。"
     },
     {
+      "turn": 56,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 61,
       "role": "caster",
       "text": "又进一球！Opus 追到只差一分，5:4。"
+    },
+    {
+      "turn": 61,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 67,
@@ -93,9 +154,19 @@
       "text": "Player5 重新拉开两分，6:4。"
     },
     {
+      "turn": 67,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 72,
       "role": "caster",
       "text": "Opus 5.5 再下一城，6:5，就是甩不掉！"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 78,
@@ -103,9 +174,24 @@
       "text": "Player5 回击，7:5。"
     },
     {
+      "turn": 78,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 88,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 89,
       "role": "caster",
       "text": "Opus 扳到 7:6，Player5 下一回合立刻回应，8:6！"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 100,
@@ -113,9 +199,24 @@
       "text": "第 51–100 回合纸面上很平均，Opus 4 球、Player5 3 球，但站位反转了：Player5 平均离家 8.0 格，Opus 退到 4.5 格。Opus 在旗点蹲守，Player5 改为护送持旗者回家。"
     },
     {
+      "turn": 102,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 106,
       "role": "caster",
       "text": "Player5 回应，9:7。"
+    },
+    {
+      "turn": 106,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 118,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 120,
@@ -128,9 +229,19 @@
       "text": "第 118 和 120 回合的连续得分是第一道真正的裂缝。之前 Opus 每球都能跟上，现在一下落后了 4 分。"
     },
     {
+      "turn": 129,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 134,
       "role": "caster",
       "text": "Opus 止住颓势，12:8。"
+    },
+    {
+      "turn": 134,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 141,
@@ -138,9 +249,24 @@
       "text": "Player5 马上回敬，13:8。"
     },
     {
+      "turn": 141,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 148,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 150,
       "role": "analyst",
       "text": "第 101–150 回合的 8 球里 Player5 拿下 5 球，全部来自干净的护送，这一段没有丢过一个持旗者。Opus 击杀数不落下风，但不针对持旗者的击杀改变不了比分。"
+    },
+    {
+      "turn": 154,
+      "role": "crowd",
+      "text": "断了！"
     },
     {
       "turn": 159,
@@ -148,9 +274,24 @@
       "text": "Opus 第 154 回合截下 Player5 的持旗者，现在把它变成了分数，13:10。"
     },
     {
+      "turn": 159,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
+      "turn": 161,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 170,
       "role": "caster",
       "text": "Opus 得分，14:11。"
+    },
+    {
+      "turn": 170,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 175,
@@ -158,9 +299,19 @@
       "text": "Opus 开始专门猎杀持旗者，而不是一味比速度。思路是对的，只是次数还不够多。"
     },
     {
+      "turn": 175,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 181,
       "role": "caster",
       "text": "Player5 打成 16:11。"
+    },
+    {
+      "turn": 181,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 186,
@@ -168,14 +319,34 @@
       "text": "Opus 回应，16:12。"
     },
     {
+      "turn": 186,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 191,
       "role": "caster",
       "text": "Opus 截下 Player5 的持旗者！"
     },
     {
+      "turn": 191,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 193,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "半场 16:12，Player5 领先。但最后 10 回合比比分更重要：Opus 3 次击杀、2 次截杀持旗且零阵亡，第 200 回合 Player5 三个单位全部倒地。下半场开局，中路在 Opus 手里。"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 206,
@@ -188,10 +359,35 @@
       "text": "Opus 5.5 连下三城！16:15！"
     },
     {
+      "turn": 214,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
+      "turn": 218,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 221,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 222,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 225,
       "role": "caster",
       "text": "Opus 第 222 回合扳成 16 平，但 Player5 立刻重新领先，17:16。",
       "key": true
+    },
+    {
+      "turn": 225,
+      "role": "crowd",
+      "text": "逆转来了"
     },
     {
       "turn": 230,
@@ -199,14 +395,34 @@
       "text": "Opus 从 12 分一路连追 4 球追到 16 平，这就是我们整场一直在等的势头逆转。"
     },
     {
+      "turn": 236,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 237,
       "role": "caster",
       "text": "Opus 拦下一个持旗者，但 Player5 还是得分了，18:16。"
     },
     {
+      "turn": 237,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 245,
       "role": "caster",
       "text": "Opus 5.5 回应，18:17。"
+    },
+    {
+      "turn": 245,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
+      "turn": 248,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 250,
@@ -219,9 +435,19 @@
       "text": "Opus 追回一球，19:18。"
     },
     {
+      "turn": 256,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 261,
       "role": "caster",
       "text": "Opus 扳成 19 平！"
+    },
+    {
+      "turn": 261,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
     },
     {
       "turn": 268,
@@ -230,9 +456,24 @@
       "key": true
     },
     {
+      "turn": 268,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
+      "turn": 272,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 275,
       "role": "color",
       "text": "从 7:12 落后到 21:19 领先。一支队伍不再赢下交火，另一支从来没放弃，就会是这个结果。"
+    },
+    {
+      "turn": 279,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 283,
@@ -240,9 +481,19 @@
       "text": "Player5 终于回应，22:20。"
     },
     {
+      "turn": 283,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
       "turn": 290,
       "role": "caster",
       "text": "Opus，23:20。"
+    },
+    {
+      "turn": 290,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 295,
@@ -250,9 +501,19 @@
       "text": "24:20，Opus 5.5 领先 4 分！"
     },
     {
+      "turn": 295,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合 Opus 打进 7 球，Player5 只有 1 球。Player5 单位平均离家只有 3.0 格，一直在守自家基地而不是争夺旗点，在那里是拿不到分的。"
+    },
+    {
+      "turn": 301,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 308,
@@ -260,9 +521,19 @@
       "text": "Player5 截下 Opus 的持旗者！"
     },
     {
+      "turn": 308,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 315,
       "role": "caster",
       "text": "Player5 得分，24:22。"
+    },
+    {
+      "turn": 315,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 326,
@@ -271,10 +542,25 @@
       "key": true
     },
     {
+      "turn": 326,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 334,
       "role": "caster",
       "text": "Opus 回应，25:24 再度领先。",
       "key": true
+    },
+    {
+      "turn": 334,
+      "role": "crowd",
+      "text": "Opus 5.5 领先了！"
+    },
+    {
+      "turn": 337,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 345,
@@ -282,9 +568,24 @@
       "text": "Player5 回敬，26:25。"
     },
     {
+      "turn": 345,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 348,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "第 301–350 回合 Player5 以 5:3 占优，站位又一次反转：Player5 回到平均离家 5.0 格，Opus 退到 3.5 格。最后 50 回合谁控制中路，谁就赢。"
+    },
+    {
+      "turn": 356,
+      "role": "crowd",
+      "text": "Player5 牛！"
     },
     {
       "turn": 359,
@@ -293,10 +594,25 @@
       "key": true
     },
     {
+      "turn": 359,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 367,
       "role": "caster",
       "text": "Player5 重新领先，28:27！",
       "key": true
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "Player5 领先了！"
+    },
+    {
+      "turn": 368,
+      "role": "crowd",
+      "text": "心跳加速"
     },
     {
       "turn": 373,
@@ -305,10 +621,25 @@
       "key": true
     },
     {
+      "turn": 373,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 374,
+      "role": "crowd",
+      "text": "稳住啊"
+    },
+    {
       "turn": 378,
       "role": "caster",
       "text": "Player5 再度领先，29:28！",
       "key": true
+    },
+    {
+      "turn": 378,
+      "role": "crowd",
+      "text": "名场面"
     },
     {
       "turn": 386,
@@ -316,10 +647,25 @@
       "text": "Player5 打成 30:28，还剩 14 回合，领先两分！"
     },
     {
+      "turn": 386,
+      "role": "crowd",
+      "text": "Player5 牛！"
+    },
+    {
+      "turn": 389,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 397,
       "role": "caster",
       "text": "只剩 3 回合，Player5 交旗！31:29，比赛就此锁定！",
       "key": true
+    },
+    {
+      "turn": 397,
+      "role": "crowd",
+      "text": "Player5 牛！"
     }
   ]
 }

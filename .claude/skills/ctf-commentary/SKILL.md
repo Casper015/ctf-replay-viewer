@@ -29,6 +29,7 @@ Each role has a persona file at `commentary/roles/<role>/skill.<lang>.md` and pa
 
 - **caster:** what just happened. Captures first, then carrier stops, then dangerous pickups and big fights. Short, present tense, names every team. Silence beats filler.
 - **color:** the story. Momentum, rivalries, comebacks, what the scoreline means. Opinion, then the fact behind it.
+- **crowd:** audience bullet comments (弹幕) flying across the board. A few words each, reactions only, cheering contenders by name, bunched right after big moments and silent otherwise. Crowd lines are exempt from the booth's 5-turn rule (they have `"display": "danmaku"`), but keep them friendly and never repeat a line.
 - **analyst:** why. Conversion (captures ÷ pickups), fights, positions relative to bases, the bots' own intent notes. Calm, cites numbers. Gives a verdict at halftime and at the end.
 
 Things that make commentary good here:

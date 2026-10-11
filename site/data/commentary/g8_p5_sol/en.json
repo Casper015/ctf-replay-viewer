@@ -9,21 +9,32 @@
       "name": "Caster",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "Crowd",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,10 +67,30 @@
       "key": true
     },
     {
+      "turn": 16,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
+      "turn": 19,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 27,
       "role": "caster",
       "text": "Player4 scores to level it up. 1–1!",
       "key": true
+    },
+    {
+      "turn": 27,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
+      "turn": 29,
+      "role": "crowd",
+      "text": "Huge stop"
     },
     {
       "turn": 35,
@@ -63,10 +99,30 @@
       "key": true
     },
     {
+      "turn": 35,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
+      "turn": 45,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 48,
       "role": "caster",
       "text": "Baseline scores to level it up. 1–1!",
       "key": true
+    },
+    {
+      "turn": 48,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "LEAD CHANGE"
     },
     {
       "turn": 56,
@@ -75,9 +131,24 @@
       "key": true
     },
     {
+      "turn": 56,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 62,
       "role": "caster",
       "text": "GLM 5.3 stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 62,
+      "role": "crowd",
+      "text": "DENIED"
     },
     {
       "turn": 73,
@@ -86,10 +157,25 @@
       "key": true
     },
     {
+      "turn": 73,
+      "role": "crowd",
+      "text": "Comeback is real"
+    },
+    {
       "turn": 78,
       "role": "caster",
       "text": "GPT-6.1 Sol scores to level it up. 3–3!",
       "key": true
+    },
+    {
+      "turn": 78,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
+      "turn": 86,
+      "role": "crowd",
+      "text": "Player4!!!"
     },
     {
       "turn": 89,
@@ -98,9 +184,29 @@
       "key": true
     },
     {
+      "turn": 89,
+      "role": "crowd",
+      "text": "LEAD CHANGE"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "Turns 51–100: GPT-6.1 Sol turned 2 of 2 pickups into points, the best conversion in this stretch. Player5 led the fighting with 4 kills."
+    },
+    {
+      "turn": 100,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
+      "turn": 104,
+      "role": "crowd",
+      "text": "Player2!!!"
     },
     {
       "turn": 115,
@@ -108,9 +214,24 @@
       "text": "Capture for GPT-6.1 Sol, and it's 5–4."
     },
     {
+      "turn": 115,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 116,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
       "turn": 120,
       "role": "caster",
       "text": "Player2 brings the flag home! 6–4."
+    },
+    {
+      "turn": 120,
+      "role": "crowd",
+      "text": "Player2!!!"
     },
     {
       "turn": 125,
@@ -123,9 +244,34 @@
       "text": "Capture for Fable 5.1, and it's 6–4."
     },
     {
+      "turn": 133,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
+      "turn": 134,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
       "turn": 142,
       "role": "caster",
       "text": "Player2 stops Player5's flag carrier!"
+    },
+    {
+      "turn": 142,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
+      "turn": 144,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
+      "turn": 148,
+      "role": "crowd",
+      "text": "Player5!!!"
     },
     {
       "turn": 150,
@@ -133,9 +279,19 @@
       "text": "Fable 5.1 played furthest forward, about 13.7 cells from home on average; GPT-6.1 Sol stayed closest to base at 3.0."
     },
     {
+      "turn": 153,
+      "role": "crowd",
+      "text": "Player2!!!"
+    },
+    {
       "turn": 167,
       "role": "caster",
       "text": "Fable 5.1 scores again. 7–5 now."
+    },
+    {
+      "turn": 167,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
     },
     {
       "turn": 173,
@@ -143,9 +299,29 @@
       "text": "Big stop: Player3 takes down the Player2 carrier."
     },
     {
+      "turn": 173,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 193,
       "role": "caster",
       "text": "Capture for Player5, and it's 8–5."
+    },
+    {
+      "turn": 193,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
+      "turn": 196,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "Player2!!!"
     },
     {
       "turn": 200,
@@ -158,9 +334,29 @@
       "text": "Player5 brings the flag home! 9–6."
     },
     {
+      "turn": 210,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
+      "turn": 211,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
+      "turn": 212,
+      "role": "crowd",
+      "text": "Player2!!!"
+    },
+    {
       "turn": 220,
       "role": "caster",
       "text": "Capture for Fable 5.1, and it's 9–7."
+    },
+    {
+      "turn": 220,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
     },
     {
       "turn": 225,
@@ -168,9 +364,29 @@
       "text": "Fable 5.1 brings the flag home! 9–7."
     },
     {
+      "turn": 225,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
+      "turn": 242,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 243,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 9–7."
+    },
+    {
+      "turn": 243,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 245,
+      "role": "crowd",
+      "text": "So close"
     },
     {
       "turn": 250,
@@ -183,9 +399,29 @@
       "text": "Player2 brings the flag home! 9–8."
     },
     {
+      "turn": 258,
+      "role": "crowd",
+      "text": "Player2!!!"
+    },
+    {
+      "turn": 266,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
       "turn": 267,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 9–8."
+    },
+    {
+      "turn": 267,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 274,
+      "role": "crowd",
+      "text": "DENIED"
     },
     {
       "turn": 276,
@@ -194,9 +430,24 @@
       "key": true
     },
     {
+      "turn": 276,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
+      "turn": 280,
+      "role": "crowd",
+      "text": "Here we go"
+    },
+    {
       "turn": 286,
       "role": "caster",
       "text": "Capture for Player2, and it's 10–9."
+    },
+    {
+      "turn": 286,
+      "role": "crowd",
+      "text": "Player2!!!"
     },
     {
       "turn": 304,
@@ -205,10 +456,25 @@
       "key": true
     },
     {
+      "turn": 304,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
       "turn": 320,
       "role": "caster",
       "text": "Player5 scores and takes the lead! 11–10.",
       "key": true
+    },
+    {
+      "turn": 320,
+      "role": "crowd",
+      "text": "Here we go"
+    },
+    {
+      "turn": 322,
+      "role": "crowd",
+      "text": "Player2!!!"
     },
     {
       "turn": 325,
@@ -221,9 +487,24 @@
       "text": "Player3 stops Player2's flag carrier!"
     },
     {
+      "turn": 338,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
+      "turn": 342,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "GPT-6.1 Sol played furthest forward, about 13.7 cells from home on average; Player2 stayed closest to base at 6.0."
+    },
+    {
+      "turn": 356,
+      "role": "crowd",
+      "text": "Big save"
     },
     {
       "turn": 358,
@@ -232,10 +513,30 @@
       "key": true
     },
     {
+      "turn": 358,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
+      "turn": 362,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 372,
       "role": "caster",
       "text": "Player5 scores and takes the lead! 12–11.",
       "key": true
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Player5 in front!"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "Hold on!"
     },
     {
       "turn": 382,
@@ -243,9 +544,24 @@
       "text": "Capture for Fable 5.1, and it's 12–11."
     },
     {
+      "turn": 382,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
       "turn": 390,
       "role": "caster",
       "text": "Player5 brings the flag home! 13–11."
+    },
+    {
+      "turn": 390,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
+      "turn": 397,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 400,

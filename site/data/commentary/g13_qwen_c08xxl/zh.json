@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,15 +67,35 @@
       "key": true
     },
     {
+      "turn": 23,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
+      "turn": 26,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 32,
       "role": "caster",
       "text": "Opus 5.5 扳平比分，1:1！",
       "key": true
     },
     {
+      "turn": 32,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 42,
       "role": "caster",
       "text": "GPT-6.1 Sol 截下了 GPT-6 Astra 的持旗者！"
+    },
+    {
+      "turn": 42,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 51,
@@ -68,10 +104,20 @@
       "key": true
     },
     {
+      "turn": 51,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 60,
       "role": "caster",
       "text": "Sonnet 5.5 扳平比分，1:1！",
       "key": true
+    },
+    {
+      "turn": 60,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 65,
@@ -80,10 +126,25 @@
       "key": true
     },
     {
+      "turn": 65,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 73,
       "role": "caster",
       "text": "这一球让 Qwen 3.8 Max 领先了，2:1！",
       "key": true
+    },
+    {
+      "turn": 73,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
+      "turn": 74,
+      "role": "crowd",
+      "text": "稳！"
     },
     {
       "turn": 81,
@@ -91,9 +152,44 @@
       "text": "Qwen 3.8 Max 交旗成功！4:1。"
     },
     {
+      "turn": 81,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 82,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 90,
       "role": "caster",
       "text": "c08_ponly_xxl 交旗成功！4:1。"
+    },
+    {
+      "turn": 90,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
+      "turn": 92,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 94,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 97,
+      "role": "crowd",
+      "text": "差一点就进了"
     },
     {
       "turn": 100,
@@ -101,9 +197,29 @@
       "text": "第 51–100 回合：Qwen 3.8 Max 拾旗 4 次转化 4 次，是这一段转化率最高的队伍；v12_ponly_xl 以 9 次击杀主导了交火。"
     },
     {
+      "turn": 103,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
       "turn": 110,
       "role": "caster",
       "text": "Sonnet 5.5 得分，现在是 4:2。"
+    },
+    {
+      "turn": 110,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 111,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "稳！"
     },
     {
       "turn": 127,
@@ -111,9 +227,24 @@
       "text": "关键拦截！Fable 5.1 放倒了 Sonnet 5.5 的持旗单位。"
     },
     {
+      "turn": 127,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 133,
       "role": "caster",
       "text": "Qwen 3.8 Max 再下一城，比分 6:2。"
+    },
+    {
+      "turn": 133,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 139,
@@ -121,9 +252,39 @@
       "text": "关键拦截！GPT-6.1 Sol 放倒了 Opus 5.5 的持旗单位。"
     },
     {
+      "turn": 139,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 143,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 146,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 150,
       "role": "analyst",
       "text": "Qwen 3.8 Max 站位最靠前，单位平均离本方基地约 13.0 格；c08_ponly_xxl 最保守，平均只有 3.0 格。"
+    },
+    {
+      "turn": 153,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 157,
+      "role": "crowd",
+      "text": "GLM 5.3 牛！"
     },
     {
       "turn": 158,
@@ -131,9 +292,34 @@
       "text": "DeepSeek V4.1 Flash 截下了 Qwen 3.8 Max 的持旗者！"
     },
     {
+      "turn": 158,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 161,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 168,
       "role": "caster",
       "text": "Sonnet 5.5 截下了 DeepSeek V4.1 Flash 的持旗者！"
+    },
+    {
+      "turn": 168,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
+      "turn": 169,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 173,
@@ -141,9 +327,24 @@
       "text": "关键拦截！v12_ponly_xl 放倒了 c08_ponly_xxl 的持旗单位。"
     },
     {
+      "turn": 173,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 178,
       "role": "caster",
       "text": "Sonnet 5.5 再下一城，比分 6:3。"
+    },
+    {
+      "turn": 178,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 184,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 188,
@@ -151,9 +352,34 @@
       "text": "GPT-6 Astra 得分，现在是 6:3。"
     },
     {
+      "turn": 188,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 189,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
+      "turn": 191,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
+      "turn": 199,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "第 151–200 回合：c08_ponly_xl 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；Sonnet 5.5 以 7 次击杀主导了交火。"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "GLM 5.3 牛！"
     },
     {
       "turn": 212,
@@ -161,9 +387,29 @@
       "text": "DeepSeek V4.1 Flash 得分，现在是 6:3。"
     },
     {
+      "turn": 212,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 213,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
       "turn": 220,
       "role": "caster",
       "text": "Kimi K3 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 220,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 223,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 225,
@@ -171,14 +417,44 @@
       "text": "现在主动权在 Qwen 3.8 Max 手里：6 分，领先 c08_ponly_xxl 2 分。"
     },
     {
+      "turn": 227,
+      "role": "crowd",
+      "text": "好截！"
+    },
+    {
       "turn": 230,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分，现在是 6:4。"
     },
     {
+      "turn": 230,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 233,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 240,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 交旗成功！6:4。"
+    },
+    {
+      "turn": 240,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
+      "turn": 248,
+      "role": "crowd",
+      "text": "GLM 5.3 牛！"
+    },
+    {
+      "turn": 249,
+      "role": "crowd",
+      "text": "拦得漂亮"
     },
     {
       "turn": 250,
@@ -191,9 +467,24 @@
       "text": "Sonnet 5.5 交旗成功！6:5。"
     },
     {
+      "turn": 264,
+      "role": "crowd",
+      "text": "这球漂亮"
+    },
+    {
+      "turn": 266,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 273,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！6:5。"
+    },
+    {
+      "turn": 273,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 279,
@@ -201,9 +492,24 @@
       "text": "Qwen 3.8 Max 交旗成功！7:5。"
     },
     {
+      "turn": 279,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 287,
       "role": "caster",
       "text": "c08_ponly_xxl 得分，现在是 7:6。"
+    },
+    {
+      "turn": 287,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
+      "turn": 288,
+      "role": "crowd",
+      "text": "稳！"
     },
     {
       "turn": 300,
@@ -211,14 +517,44 @@
       "text": "第 251–300 回合：c08_ponly_xxl 拾旗 1 次转化 1 次，是这一段转化率最高的队伍；v12_ponly_xl 以 7 次击杀主导了交火。"
     },
     {
+      "turn": 300,
+      "role": "crowd",
+      "text": "GLM 5.3 牛！"
+    },
+    {
+      "turn": 314,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 316,
       "role": "caster",
       "text": "GLM 5.3 再下一城，比分 7:6。"
     },
     {
+      "turn": 316,
+      "role": "crowd",
+      "text": "GLM 5.3 牛！"
+    },
+    {
+      "turn": 319,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 328,
       "role": "caster",
       "text": "Kimi K3 截下了 Qwen 3.8 Max 的持旗者！"
+    },
+    {
+      "turn": 328,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 330,
+      "role": "crowd",
+      "text": "防守赢了"
     },
     {
       "turn": 338,
@@ -227,14 +563,44 @@
       "key": true
     },
     {
+      "turn": 338,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "GLM 5.3 站位最靠前，单位平均离本方基地约 15.0 格；c08_ponly_xxl 最保守，平均只有 11.0 格。"
     },
     {
+      "turn": 350,
+      "role": "crowd",
+      "text": "拦得漂亮"
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "进了进了！"
+    },
+    {
+      "turn": 356,
+      "role": "crowd",
+      "text": "差一点就进了"
+    },
+    {
+      "turn": 357,
+      "role": "crowd",
+      "text": "稳！"
+    },
+    {
       "turn": 359,
       "role": "caster",
       "text": "Opus 5.5 得分，现在是 7:7。"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "进了进了！"
     },
     {
       "turn": 379,
@@ -243,10 +609,30 @@
       "key": true
     },
     {
+      "turn": 379,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 380,
+      "role": "crowd",
+      "text": "最后时刻！"
+    },
+    {
+      "turn": 386,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 387,
       "role": "caster",
       "text": "这一球让 Qwen 3.8 Max 领先了，8:7！",
       "key": true
+    },
+    {
+      "turn": 387,
+      "role": "crowd",
+      "text": "Qwen 3.8 Max 领先了！"
     },
     {
       "turn": 400,

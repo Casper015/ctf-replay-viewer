@@ -9,21 +9,32 @@
       "name": "Caster",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "Crowd",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,10 +67,20 @@
       "key": true
     },
     {
+      "turn": 12,
+      "role": "crowd",
+      "text": "Player1 in front!"
+    },
+    {
       "turn": 21,
       "role": "caster",
       "text": "GPT-6.1 Sol scores to level it up. 1–1!",
       "key": true
+    },
+    {
+      "turn": 21,
+      "role": "crowd",
+      "text": "This is insane"
     },
     {
       "turn": 27,
@@ -63,16 +89,36 @@
       "key": true
     },
     {
+      "turn": 27,
+      "role": "crowd",
+      "text": "Player1 in front!"
+    },
+    {
       "turn": 34,
       "role": "caster",
       "text": "GPT-6.1 Sol scores to level it up. 2–2!",
       "key": true
     },
     {
+      "turn": 34,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 40,
       "role": "caster",
       "text": "GPT-6.1 Sol scores and takes the lead! 3–2.",
       "key": true
+    },
+    {
+      "turn": 40,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol in front!"
+    },
+    {
+      "turn": 48,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
     },
     {
       "turn": 50,
@@ -85,9 +131,19 @@
       "text": "Fable 5.1 brings the flag home! 3–2."
     },
     {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
       "turn": 72,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 4–2."
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 85,
@@ -95,9 +151,29 @@
       "text": "Capture for GPT-6.1 Sol, and it's 5–2."
     },
     {
+      "turn": 85,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 86,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "Turns 51–100: Fable 5.1 turned 2 of 1 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 5 kills."
+    },
+    {
+      "turn": 101,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
+      "turn": 103,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 111,
@@ -105,9 +181,19 @@
       "text": "Big stop: Fable 5.1 takes down the GPT-6.1 Sol carrier."
     },
     {
+      "turn": 111,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 117,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 7–3."
+    },
+    {
+      "turn": 117,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 126,
@@ -115,14 +201,34 @@
       "text": "Fable 5.1 brings the flag home! 7–4."
     },
     {
+      "turn": 126,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
       "turn": 132,
       "role": "caster",
       "text": "Player1 brings the flag home! 7–4."
     },
     {
+      "turn": 132,
+      "role": "crowd",
+      "text": "Player1!!!"
+    },
+    {
       "turn": 139,
       "role": "caster",
       "text": "Capture for GPT-6.1 Sol, and it's 8–4."
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 147,
+      "role": "crowd",
+      "text": "Player1!!!"
     },
     {
       "turn": 150,
@@ -135,9 +241,24 @@
       "text": "GPT-6.1 Sol brings the flag home! 9–5."
     },
     {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 176,
       "role": "caster",
       "text": "Fable 5.1 scores again. 9–5 now."
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
+      "turn": 180,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
     },
     {
       "turn": 191,
@@ -145,9 +266,24 @@
       "text": "Player1 scores again. 9–6 now."
     },
     {
+      "turn": 191,
+      "role": "crowd",
+      "text": "Player1!!!"
+    },
+    {
+      "turn": 196,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "Turns 151–200: Fable 5.1 turned 2 of 2 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 2 kills."
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "DENIED"
     },
     {
       "turn": 206,
@@ -155,9 +291,24 @@
       "text": "GPT-6.1 Sol scores again. 11–6 now."
     },
     {
+      "turn": 206,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 222,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 13–6."
+    },
+    {
+      "turn": 222,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
     },
     {
       "turn": 237,
@@ -165,9 +316,19 @@
       "text": "GPT-6.1 Sol brings the flag home! 14–7."
     },
     {
+      "turn": 237,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 245,
       "role": "caster",
       "text": "Player1 scores again. 14–7 now."
+    },
+    {
+      "turn": 245,
+      "role": "crowd",
+      "text": "Player1!!!"
     },
     {
       "turn": 250,
@@ -175,9 +336,24 @@
       "text": "Fable 5.1 played furthest forward, about 14.7 cells from home on average; Player1 stayed closest to base at 5.3."
     },
     {
+      "turn": 252,
+      "role": "crowd",
+      "text": "Player1!!!"
+    },
+    {
       "turn": 263,
       "role": "caster",
       "text": "Fable 5.1 scores again. 14–8 now."
+    },
+    {
+      "turn": 263,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
+      "turn": 267,
+      "role": "crowd",
+      "text": "Player1!!!"
     },
     {
       "turn": 275,
@@ -190,9 +366,24 @@
       "text": "Fable 5.1 scores again. 14–9 now."
     },
     {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
+      "turn": 282,
+      "role": "crowd",
+      "text": "Player1!!!"
+    },
+    {
       "turn": 295,
       "role": "caster",
       "text": "Capture for Fable 5.1, and it's 15–10."
+    },
+    {
+      "turn": 295,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
     },
     {
       "turn": 300,
@@ -205,14 +396,39 @@
       "text": "Capture for Player1, and it's 15–11."
     },
     {
+      "turn": 310,
+      "role": "crowd",
+      "text": "Player1!!!"
+    },
+    {
+      "turn": 314,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
       "turn": 327,
       "role": "caster",
       "text": "Fable 5.1 brings the flag home! 15–12."
     },
     {
+      "turn": 327,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "Let's go Fable 5.1"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "Fable 5.1 played furthest forward, about 7.3 cells from home on average; GPT-6.1 Sol stayed closest to base at 5.0."
+    },
+    {
+      "turn": 352,
+      "role": "crowd",
+      "text": "Player1!!!"
     },
     {
       "turn": 365,
@@ -221,16 +437,56 @@
       "key": true
     },
     {
+      "turn": 365,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "Nerves"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "Player1!!!"
+    },
+    {
       "turn": 379,
       "role": "caster",
       "text": "That capture puts Fable 5.1 in front. 16–15!",
       "key": true
     },
     {
+      "turn": 379,
+      "role": "crowd",
+      "text": "Here we go"
+    },
+    {
+      "turn": 380,
+      "role": "crowd",
+      "text": "Final stretch!"
+    },
+    {
       "turn": 393,
       "role": "caster",
       "text": "That capture puts Fable 5.1 in front. 17–16!",
       "key": true
+    },
+    {
+      "turn": 393,
+      "role": "crowd",
+      "text": "LEAD CHANGE"
+    },
+    {
+      "turn": 394,
+      "role": "crowd",
+      "text": "Nerves"
+    },
+    {
+      "turn": 395,
+      "role": "crowd",
+      "text": "Player1!!!"
     },
     {
       "turn": 400,

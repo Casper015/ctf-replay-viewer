@@ -178,7 +178,7 @@ def cmd_export(args) -> None:
         f"- `role` is one of: {', '.join(f'`{r}`' for r in role_ids)}.",
         f"- Every `text` is written in {language['english_name']} and at most {language['max_chars']} characters.",
         "- Follow each role's pacing below: how many lines per window and the minimum gap between its lines.",
-        f"- Across all roles, at most one line every {min_gap_any(config)} turns. Where two roles would speak within "
+        f"- Across all booth roles (every role except bullet-comment roles marked display=danmaku), at most one line every {min_gap_any(config)} turns. Where two roles would speak within "
         f"{min_gap_any(config)} turns, keep the higher-priority one: "
         + " > ".join(f"`{r}`" for r in sorted(role_ids, key=lambda r: -role_priorities(config).get(r, 0))) + ". "
         "Lines closer than that are dropped on import.",
@@ -315,7 +315,8 @@ def cmd_check(_args) -> None:
                     continue
                 data = read_json(f)
                 errs += [f"{rel}: {e}" for e in validate_offline(data, config, total, lang)]
-                turns = sorted(ln["turn"] for ln in data.get("lines", []))
+                danmaku = {r["id"] for r in data.get("roles", []) if r.get("display") == "danmaku"}
+                turns = sorted(ln["turn"] for ln in data.get("lines", []) if ln.get("role") not in danmaku)
                 gap = min_gap_any(config)
                 close = [(a, b) for a, b in zip(turns, turns[1:]) if b - a < gap]
                 if close:

@@ -60,12 +60,14 @@
           </div>
 
           <div class="board-tools" role="group" data-i18n-attr="aria-label:viewer.zoomTools">
+            <button class="icon-btn icon-btn--glass" id="btn-danmaku" type="button" hidden></button>
             <button class="icon-btn icon-btn--glass" id="zoom-in" type="button" data-i18n-attr="aria-label:viewer.zoomIn,title:viewer.zoomIn"><span data-icon="zoomIn"></span></button>
             <button class="icon-btn icon-btn--glass" id="zoom-out" type="button" data-i18n-attr="aria-label:viewer.zoomOut,title:viewer.zoomOut"><span data-icon="zoomOut"></span></button>
             <button class="icon-btn icon-btn--glass" id="zoom-fit" type="button" data-i18n-attr="aria-label:viewer.zoomFit,title:viewer.zoomFit"><span data-icon="fit"></span></button>
             <button class="icon-btn icon-btn--glass" id="btn-exit-immersive" type="button" data-i18n-attr="aria-label:viewer.exitImmersive,title:viewer.exitImmersive"><span data-icon="minimize"></span></button>
           </div>
 
+          <div class="danmaku-layer" id="danmaku" aria-hidden="true"></div>
           <div class="board-caption" id="board-caption" hidden aria-hidden="true"></div>
           <div class="unit-card" id="unit-card" hidden aria-live="polite"></div>
           <div class="board-tip" id="board-tip" hidden></div>

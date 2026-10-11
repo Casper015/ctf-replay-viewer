@@ -9,21 +9,32 @@
       "name": "Caster",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "Crowd",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,15 +67,40 @@
       "key": true
     },
     {
+      "turn": 10,
+      "role": "crowd",
+      "text": "Here we go"
+    },
+    {
+      "turn": 11,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
       "turn": 25,
       "role": "caster",
       "text": "c08_ponly_pxl scores to level it up. 1–1!",
       "key": true
     },
     {
+      "turn": 25,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
+      "turn": 27,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 30,
       "role": "caster",
       "text": "Player5 stops baseline's flag carrier!"
+    },
+    {
+      "turn": 30,
+      "role": "crowd",
+      "text": "So close"
     },
     {
       "turn": 38,
@@ -68,15 +109,30 @@
       "key": true
     },
     {
+      "turn": 38,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
       "turn": 46,
       "role": "caster",
       "text": "Player5 scores and takes the lead! 2–1.",
       "key": true
     },
     {
+      "turn": 46,
+      "role": "crowd",
+      "text": "Unreal"
+    },
+    {
       "turn": 52,
       "role": "caster",
       "text": "Capture for baseline, and it's 2–1."
+    },
+    {
+      "turn": 52,
+      "role": "crowd",
+      "text": "What a run"
     },
     {
       "turn": 59,
@@ -85,10 +141,20 @@
       "key": true
     },
     {
+      "turn": 59,
+      "role": "crowd",
+      "text": "Tied again!"
+    },
+    {
       "turn": 65,
       "role": "caster",
       "text": "That capture puts v12_control in front. 3–2!",
       "key": true
+    },
+    {
+      "turn": 65,
+      "role": "crowd",
+      "text": "v12_control in front!"
     },
     {
       "turn": 72,
@@ -97,14 +163,39 @@
       "key": true
     },
     {
+      "turn": 72,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
       "turn": 77,
       "role": "caster",
       "text": "Big stop: c08_ponly_pxl takes down the v12_control carrier."
     },
     {
+      "turn": 77,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 79,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
+      "turn": 81,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
       "turn": 86,
       "role": "caster",
       "text": "baseline scores again. 3–3 now."
+    },
+    {
+      "turn": 86,
+      "role": "crowd",
+      "text": "What a run"
     },
     {
       "turn": 101,
@@ -113,9 +204,24 @@
       "key": true
     },
     {
+      "turn": 101,
+      "role": "crowd",
+      "text": "Unreal"
+    },
+    {
+      "turn": 103,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
       "turn": 115,
       "role": "caster",
       "text": "Capture for baseline, and it's 5–3."
+    },
+    {
+      "turn": 115,
+      "role": "crowd",
+      "text": "What a run"
     },
     {
       "turn": 120,
@@ -123,9 +229,39 @@
       "text": "Player5 stops v12_control's flag carrier!"
     },
     {
+      "turn": 120,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 124,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
+      "turn": 125,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 129,
       "role": "caster",
       "text": "Big stop: baseline takes down the v12_control carrier."
+    },
+    {
+      "turn": 129,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
+      "turn": 132,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 135,
+      "role": "crowd",
+      "text": "DENIED"
     },
     {
       "turn": 138,
@@ -133,9 +269,29 @@
       "text": "baseline brings the flag home! 5–4."
     },
     {
+      "turn": 138,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
+      "turn": 147,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 150,
       "role": "analyst",
       "text": "baseline played furthest forward, about 9.0 cells from home on average; v12_control stayed closest to base at 4.5."
+    },
+    {
+      "turn": 151,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
+      "turn": 161,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 164,
@@ -144,10 +300,25 @@
       "key": true
     },
     {
+      "turn": 164,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
+      "turn": 175,
+      "role": "crowd",
+      "text": "GG c08_ponly_pxl"
+    },
+    {
       "turn": 177,
       "role": "caster",
       "text": "That capture puts v12_control in front. 7–6!",
       "key": true
+    },
+    {
+      "turn": 177,
+      "role": "crowd",
+      "text": "LEAD CHANGE"
     },
     {
       "turn": 189,
@@ -155,9 +326,29 @@
       "text": "c08_ponly_pxl brings the flag home! 7–6."
     },
     {
+      "turn": 189,
+      "role": "crowd",
+      "text": "GG c08_ponly_pxl"
+    },
+    {
+      "turn": 199,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "Turns 151–200: v12_control turned 3 of 3 pickups into points, the best conversion in this stretch. Player5 led the fighting with 6 kills."
+    },
+    {
+      "turn": 202,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 205,
+      "role": "crowd",
+      "text": "DENIED"
     },
     {
       "turn": 207,
@@ -165,9 +356,19 @@
       "text": "Big stop: baseline takes down the Player5 carrier."
     },
     {
+      "turn": 207,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
       "turn": 213,
       "role": "caster",
       "text": "c08_ponly_pxl brings the flag home! 7–6."
+    },
+    {
+      "turn": 213,
+      "role": "crowd",
+      "text": "GG c08_ponly_pxl"
     },
     {
       "turn": 218,
@@ -175,10 +376,25 @@
       "text": "Player5 stops v12_control's flag carrier!"
     },
     {
+      "turn": 218,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 226,
       "role": "caster",
       "text": "Player5 scores to level it up. 7–7!",
       "key": true
+    },
+    {
+      "turn": 226,
+      "role": "crowd",
+      "text": "Level!"
+    },
+    {
+      "turn": 227,
+      "role": "crowd",
+      "text": "Player5 in front!"
     },
     {
       "turn": 232,
@@ -191,6 +407,16 @@
       "text": "v12_control stops Player5's flag carrier!"
     },
     {
+      "turn": 240,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
+      "turn": 242,
+      "role": "crowd",
+      "text": "GG c08_ponly_pxl"
+    },
+    {
       "turn": 250,
       "role": "analyst",
       "text": "c08_ponly_pxl played furthest forward, about 10.0 cells from home on average; Player5 stayed closest to base at 5.0."
@@ -201,9 +427,29 @@
       "text": "Capture for c08_ponly_pxl, and it's 8–7."
     },
     {
+      "turn": 256,
+      "role": "crowd",
+      "text": "GG c08_ponly_pxl"
+    },
+    {
+      "turn": 258,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
       "turn": 269,
       "role": "caster",
       "text": "Big stop: v12_control takes down the Player5 carrier."
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
+      "turn": 272,
+      "role": "crowd",
+      "text": "What a run"
     },
     {
       "turn": 278,
@@ -211,9 +457,19 @@
       "text": "Player5 scores again. 9–7 now."
     },
     {
+      "turn": 278,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
       "turn": 286,
       "role": "caster",
       "text": "Capture for baseline, and it's 9–8."
+    },
+    {
+      "turn": 286,
+      "role": "crowd",
+      "text": "What a run"
     },
     {
       "turn": 291,
@@ -221,14 +477,29 @@
       "text": "v12_control brings the flag home! 9–8."
     },
     {
+      "turn": 291,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "Turns 251–300: baseline turned 3 of 2 pickups into points, the best conversion in this stretch. Player5 led the fighting with 5 kills."
     },
     {
+      "turn": 304,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
       "turn": 318,
       "role": "caster",
       "text": "baseline brings the flag home! 11–9."
+    },
+    {
+      "turn": 318,
+      "role": "crowd",
+      "text": "What a run"
     },
     {
       "turn": 325,
@@ -241,9 +512,24 @@
       "text": "baseline scores again. 11–10 now."
     },
     {
+      "turn": 332,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
       "turn": 345,
       "role": "caster",
       "text": "v12_control brings the flag home! 11–10."
+    },
+    {
+      "turn": 345,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "Player5!!!"
     },
     {
       "turn": 350,
@@ -256,14 +542,44 @@
       "text": "Capture for Player5, and it's 13–10."
     },
     {
+      "turn": 358,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
+      "turn": 361,
+      "role": "crowd",
+      "text": "GG c08_ponly_pxl"
+    },
+    {
       "turn": 372,
       "role": "caster",
       "text": "baseline brings the flag home! 13–11."
     },
     {
+      "turn": 372,
+      "role": "crowd",
+      "text": "What a run"
+    },
+    {
+      "turn": 375,
+      "role": "crowd",
+      "text": "GG c08_ponly_pxl"
+    },
+    {
       "turn": 388,
       "role": "caster",
       "text": "Capture for Player5, and it's 14–11."
+    },
+    {
+      "turn": 388,
+      "role": "crowd",
+      "text": "Player5!!!"
+    },
+    {
+      "turn": 391,
+      "role": "crowd",
+      "text": "What a run"
     },
     {
       "turn": 400,

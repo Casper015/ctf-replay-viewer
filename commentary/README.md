@@ -13,11 +13,12 @@ Every match can have a commentary booth of three roles, written by any LLM (or b
 | **Caster** (`caster`) | Play-by-play: captures, carrier stops, big fights | Often, short lines |
 | **Color commentator** (`color`) | Momentum, rivalries, what the score means | Every ~25 turns |
 | **Analyst** (`analyst`) | Why: conversion, fights, positioning, the bots' intent | Every ~50 turns, plus halftime and the end |
+| **Crowd** (`crowd`) | Audience bullet comments (弹幕) that fly across the board | Bursts after big moments, up to 4 per 10 turns |
 
 Viewers see the lines in the **Commentary** panel as the replay reaches each turn (no spoilers), and caster/color lines appear as **captions** on the board.
 
 Two rules keep the booth watchable (both in `config.json` → `generation`):
-- **At most one line every 5 turns**, across all roles (`min_turns_between_lines`). Lines marked `"key": true` (lead changes, ties, the winner) keep their slot first, then analyst > caster > color.
+- **At most one line every 5 turns**, across all booth roles (`min_turns_between_lines`). The crowd's bullet comments (`"display": "danmaku"` in its `role.json`) don't count; they have their own pacing and an on/off **弹幕** toggle in the viewer. Lines marked `"key": true` (lead changes, ties, the winner) keep their slot first, then analyst > caster > color.
 - **Big matches follow the contenders** (`focus`): with more than 4 teams, roles only receive and talk about the top 3 teams by score. Others are mentioned only when they stop a contender's carrier.
 
 ### Files
@@ -102,11 +103,12 @@ python3 tools/commentate.py check     # config, roles, skills and every commenta
 | **解说**（`caster`） | 实况：交旗、截杀持旗、混战 | 频繁、短句 |
 | **嘉宾点评**（`color`） | 势头、对抗、比分意味着什么 | 约每 25 回合 |
 | **战术分析师**（`analyst`） | 为什么：转化率、交火、站位、机器人的意图 | 约每 50 回合，以及半场和终场 |
+| **观众弹幕**（`crowd`） | 从棋盘上飞过的观众弹幕 | 关键时刻后集中出现，每 10 回合最多 4 条 |
 
 观众在**解说**面板中看到台词，回放到哪一回合才显示到哪一回合（不剧透）；解说和嘉宾的台词还会作为**字幕**显示在棋盘上。
 
 两条规则让解说不会过于密集（都在 `config.json` → `generation` 中）：
-- **每 5 个回合最多一句**，所有角色共用（`min_turns_between_lines`）。标记了 `"key": true` 的台词（领先易主、扳平、制胜球）优先保留，其次按 分析师 > 解说 > 嘉宾 的顺序。
+- **每 5 个回合最多一句**，解说席角色共用（`min_turns_between_lines`）。观众弹幕（`role.json` 中 `"display": "danmaku"`）不计入，有自己的节奏，观战页可用 **弹幕** 开关打开或关闭。标记了 `"key": true` 的台词（领先易主、扳平、制胜球）优先保留，其次按 分析师 > 解说 > 嘉宾 的顺序。
 - **大型比赛只跟踪争冠队伍**（`focus`）：超过 4 支队伍时，角色只拿到、也只评论得分前三的队伍；其他队伍只有在截下争冠队伍的持旗者时才会被提及。
 
 ### 文件

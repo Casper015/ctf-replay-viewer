@@ -9,21 +9,32 @@
       "name": "Caster",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "Crowd",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,10 +67,25 @@
       "key": true
     },
     {
+      "turn": 10,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
       "turn": 23,
       "role": "caster",
       "text": "That capture puts v12_ponly_xxl in front. 2–1!",
       "key": true
+    },
+    {
+      "turn": 23,
+      "role": "crowd",
+      "text": "Unreal"
+    },
+    {
+      "turn": 24,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 37,
@@ -62,9 +93,24 @@
       "text": "Capture for GPT-6.1 Sol, and it's 3–1."
     },
     {
+      "turn": 37,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 50,
       "role": "analyst",
       "text": "GPT-6 Astra played furthest forward, about 10.0 cells from home on average; c08_ponly_xxl stayed closest to base at 4.0."
+    },
+    {
+      "turn": 50,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
+    },
+    {
+      "turn": 51,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 64,
@@ -72,9 +118,29 @@
       "text": "Capture for GPT-6 Astra, and it's 4–2."
     },
     {
+      "turn": 64,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 65,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 77,
       "role": "caster",
       "text": "v12_ponly_xxl scores again. 5–3 now."
+    },
+    {
+      "turn": 77,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
+    },
+    {
+      "turn": 78,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 91,
@@ -82,9 +148,24 @@
       "text": "Capture for GPT-6.1 Sol, and it's 5–3."
     },
     {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 100,
       "role": "analyst",
       "text": "Turns 51–100: c08_ponly_xxl turned 2 of 1 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 6 kills."
+    },
+    {
+      "turn": 102,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
+    },
+    {
+      "turn": 114,
+      "role": "crowd",
+      "text": "Big save"
     },
     {
       "turn": 118,
@@ -92,9 +173,19 @@
       "text": "Capture for GPT-6.1 Sol, and it's 6–4."
     },
     {
+      "turn": 118,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 127,
       "role": "caster",
       "text": "Capture for GPT-6 Astra, and it's 6–4."
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 132,
@@ -102,9 +193,19 @@
       "text": "GPT-6 Astra brings the flag home! 6–4."
     },
     {
+      "turn": 132,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 140,
       "role": "caster",
       "text": "v12_ponly_xxl scores again. 7–4 now."
+    },
+    {
+      "turn": 140,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
     },
     {
       "turn": 145,
@@ -112,14 +213,34 @@
       "text": "Capture for GPT-6.1 Sol, and it's 7–5."
     },
     {
+      "turn": 145,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 150,
       "role": "analyst",
       "text": "GPT-6 Astra played furthest forward, about 9.0 cells from home on average; GPT-6.1 Sol stayed closest to base at 7.0."
     },
     {
+      "turn": 153,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
+    },
+    {
+      "turn": 156,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 168,
       "role": "caster",
       "text": "GPT-6.1 Sol brings the flag home! 8–6."
+    },
+    {
+      "turn": 168,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 175,
@@ -132,14 +253,54 @@
       "text": "GPT-6 Astra scores again. 8–7 now."
     },
     {
+      "turn": 182,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 185,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
+      "turn": 195,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
+      "turn": 197,
+      "role": "crowd",
+      "text": "So close"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
       "turn": 200,
       "role": "analyst",
       "text": "Turns 151–200: GPT-6 Astra turned 1 of 1 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 7 kills."
     },
     {
+      "turn": 200,
+      "role": "crowd",
+      "text": "DENIED"
+    },
+    {
       "turn": 207,
       "role": "caster",
       "text": "Big stop: GPT-6.1 Sol takes down the c08_ponly_xxl carrier."
+    },
+    {
+      "turn": 207,
+      "role": "crowd",
+      "text": "Huge stop"
+    },
+    {
+      "turn": 211,
+      "role": "crowd",
+      "text": "Tied again!"
     },
     {
       "turn": 221,
@@ -148,9 +309,29 @@
       "key": true
     },
     {
+      "turn": 221,
+      "role": "crowd",
+      "text": "Comeback is real"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 237,
       "role": "caster",
       "text": "v12_ponly_xxl brings the flag home! 10–9."
+    },
+    {
+      "turn": 237,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
+    },
+    {
+      "turn": 246,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 250,
@@ -159,9 +340,24 @@
       "key": true
     },
     {
+      "turn": 250,
+      "role": "crowd",
+      "text": "Can't look away"
+    },
+    {
       "turn": 260,
       "role": "caster",
       "text": "c08_ponly_xxl scores again. 10–10 now."
+    },
+    {
+      "turn": 260,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
+      "turn": 263,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 273,
@@ -169,10 +365,30 @@
       "text": "GPT-6 Astra brings the flag home! 10–10."
     },
     {
+      "turn": 273,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
+      "turn": 277,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 290,
       "role": "caster",
       "text": "GPT-6.1 Sol scores and takes the lead! 11–10.",
       "key": true
+    },
+    {
+      "turn": 290,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol in front!"
+    },
+    {
+      "turn": 292,
+      "role": "crowd",
+      "text": "Another one"
     },
     {
       "turn": 300,
@@ -185,15 +401,35 @@
       "text": "GPT-6 Astra scores again. 11–10 now."
     },
     {
+      "turn": 305,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 313,
       "role": "caster",
       "text": "GPT-6 Astra scores to level it up. 11–11!",
       "key": true
     },
     {
+      "turn": 313,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
+      "turn": 315,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 319,
       "role": "caster",
       "text": "Big stop: GPT-6 Astra takes down the c08_ponly_xxl carrier."
+    },
+    {
+      "turn": 319,
+      "role": "crowd",
+      "text": "Big save"
     },
     {
       "turn": 327,
@@ -202,10 +438,25 @@
       "key": true
     },
     {
+      "turn": 327,
+      "role": "crowd",
+      "text": "This is insane"
+    },
+    {
+      "turn": 328,
+      "role": "crowd",
+      "text": "Big save"
+    },
+    {
       "turn": 334,
       "role": "caster",
       "text": "v12_ponly_xxl scores and takes the lead! 12–11.",
       "key": true
+    },
+    {
+      "turn": 334,
+      "role": "crowd",
+      "text": "v12_ponly_xxl in front!"
     },
     {
       "turn": 341,
@@ -213,9 +464,24 @@
       "text": "c08_ponly_xxl scores again. 12–11 now."
     },
     {
+      "turn": 341,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
+    },
+    {
       "turn": 350,
       "role": "analyst",
       "text": "c08_ponly_xxl played furthest forward, about 9.3 cells from home on average; v12_ponly_xxl stayed closest to base at 6.0."
+    },
+    {
+      "turn": 354,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
     },
     {
       "turn": 360,
@@ -223,9 +489,19 @@
       "text": "GPT-6 Astra brings the flag home! 14–12."
     },
     {
+      "turn": 360,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 374,
       "role": "caster",
       "text": "c08_ponly_xxl scores again. 14–12 now."
+    },
+    {
+      "turn": 374,
+      "role": "crowd",
+      "text": "GG c08_ponly_xxl"
     },
     {
       "turn": 379,
@@ -233,14 +509,34 @@
       "text": "Capture for GPT-6.1 Sol, and it's 14–12."
     },
     {
+      "turn": 379,
+      "role": "crowd",
+      "text": "Another one"
+    },
+    {
       "turn": 387,
       "role": "caster",
       "text": "v12_ponly_xxl brings the flag home! 15–12."
     },
     {
+      "turn": 387,
+      "role": "crowd",
+      "text": "GG v12_ponly_xxl"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "Defense wins"
+    },
+    {
       "turn": 400,
       "role": "analyst",
       "text": "Final verdict: v12_ponly_xxl finish on 15. Across the match they converted 79% of their pickups."
+    },
+    {
+      "turn": 400,
+      "role": "crowd",
+      "text": "Another one"
     }
   ]
 }

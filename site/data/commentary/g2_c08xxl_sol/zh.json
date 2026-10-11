@@ -9,21 +9,32 @@
       "name": "解说",
       "icon": "mic",
       "caption": true,
-      "priority": 2
+      "priority": 2,
+      "display": "booth"
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
       "caption": true,
-      "priority": 1
+      "priority": 1,
+      "display": "booth"
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
       "caption": false,
-      "priority": 3
+      "priority": 3,
+      "display": "booth"
+    },
+    {
+      "id": "crowd",
+      "name": "观众弹幕",
+      "icon": "chat",
+      "caption": false,
+      "priority": 0,
+      "display": "danmaku"
     }
   ],
   "sources": {
@@ -41,6 +52,11 @@
       "provider": "mock",
       "model": null,
       "generated": "2026-10-11"
+    },
+    "crowd": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
     }
   },
   "lines": [
@@ -51,15 +67,30 @@
       "key": true
     },
     {
+      "turn": 6,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 21,
       "role": "caster",
       "text": "这一球让 c08_ponly_xxl 领先了，2:1！",
       "key": true
     },
     {
+      "turn": 21,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
       "turn": 26,
       "role": "caster",
       "text": "GPT-6.1 Sol 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 26,
+      "role": "crowd",
+      "text": "差一点就进了"
     },
     {
       "turn": 32,
@@ -68,9 +99,29 @@
       "key": true
     },
     {
+      "turn": 32,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
+      "turn": 33,
+      "role": "crowd",
+      "text": "全场起立"
+    },
+    {
       "turn": 43,
       "role": "caster",
       "text": "c08_ponly_xxl 再下一城，比分 4:2。"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 50,
@@ -84,14 +135,34 @@
       "key": true
     },
     {
+      "turn": 61,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 65,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
       "turn": 73,
       "role": "caster",
       "text": "c08_ponly_xxl 再下一城，比分 6:4。"
     },
     {
+      "turn": 73,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 82,
       "role": "caster",
       "text": "GPT-6.1 Sol 再下一城，比分 6:5。"
+    },
+    {
+      "turn": 82,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 88,
@@ -100,10 +171,20 @@
       "key": true
     },
     {
+      "turn": 88,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
       "turn": 94,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分并反超！7:6！",
       "key": true
+    },
+    {
+      "turn": 94,
+      "role": "crowd",
+      "text": "全场起立"
     },
     {
       "turn": 99,
@@ -112,15 +193,35 @@
       "key": true
     },
     {
+      "turn": 99,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
       "turn": 106,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分并反超！8:7！",
       "key": true
     },
     {
+      "turn": 106,
+      "role": "crowd",
+      "text": "名场面"
+    },
+    {
       "turn": 117,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！9:7。"
+    },
+    {
+      "turn": 117,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 125,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 129,
@@ -129,10 +230,25 @@
       "key": true
     },
     {
+      "turn": 129,
+      "role": "crowd",
+      "text": "扳平了！"
+    },
+    {
       "turn": 142,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分并反超！10:9！",
       "key": true
+    },
+    {
+      "turn": 142,
+      "role": "crowd",
+      "text": "反超了！！"
+    },
+    {
+      "turn": 143,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 150,
@@ -140,9 +256,19 @@
       "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 5.5 格；c08_ponly_xxl 最保守，平均只有 4.5 格。"
     },
     {
+      "turn": 153,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 158,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分，现在是 12:10。"
+    },
+    {
+      "turn": 158,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 164,
@@ -150,9 +276,19 @@
       "text": "GPT-6.1 Sol 得分，现在是 13:10。"
     },
     {
+      "turn": 164,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 169,
       "role": "caster",
       "text": "c08_ponly_xxl 再下一城，比分 13:11。"
+    },
+    {
+      "turn": 169,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 175,
@@ -163,6 +299,16 @@
       "turn": 182,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分，现在是 14:11。"
+    },
+    {
+      "turn": 182,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 196,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 200,
@@ -176,9 +322,29 @@
       "key": true
     },
     {
+      "turn": 207,
+      "role": "crowd",
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 210,
+      "role": "crowd",
+      "text": "GPT-6.1 Sol 领先了！"
+    },
+    {
       "turn": 218,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分，现在是 16:14。"
+    },
+    {
+      "turn": 218,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 222,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 229,
@@ -186,9 +352,19 @@
       "text": "c08_ponly_xxl 再下一城，比分 17:15。"
     },
     {
+      "turn": 229,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 234,
       "role": "caster",
       "text": "c08_ponly_xxl 交旗成功！17:16。"
+    },
+    {
+      "turn": 234,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 240,
@@ -197,9 +373,24 @@
       "key": true
     },
     {
+      "turn": 240,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
+      "turn": 248,
+      "role": "crowd",
+      "text": "防守赢了"
+    },
+    {
       "turn": 250,
       "role": "analyst",
       "text": "c08_ponly_xxl 站位最靠前，单位平均离本方基地约 8.0 格；GPT-6.1 Sol 最保守，平均只有 5.0 格。"
+    },
+    {
+      "turn": 251,
+      "role": "crowd",
+      "text": "好截！"
     },
     {
       "turn": 259,
@@ -208,9 +399,29 @@
       "key": true
     },
     {
+      "turn": 259,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 领先了！"
+    },
+    {
+      "turn": 263,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 270,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！19:18。"
+    },
+    {
+      "turn": 270,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 274,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 275,
@@ -223,9 +434,24 @@
       "text": "GPT-6.1 Sol 得分，现在是 20:19。"
     },
     {
+      "turn": 281,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 285,
+      "role": "crowd",
+      "text": "断了！"
+    },
+    {
       "turn": 287,
       "role": "caster",
       "text": "c08_ponly_xxl 得分，现在是 21:19。"
+    },
+    {
+      "turn": 287,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 295,
@@ -233,14 +459,29 @@
       "text": "GPT-6.1 Sol 再下一城，比分 21:20。"
     },
     {
+      "turn": 295,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
       "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合：GPT-6.1 Sol 拾旗 3 次转化 3 次，是这一段转化率最高的队伍；c08_ponly_xxl 以 5 次击杀主导了交火。"
     },
     {
+      "turn": 300,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 312,
       "role": "caster",
       "text": "GPT-6.1 Sol 交旗成功！22:21。"
+    },
+    {
+      "turn": 312,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 324,
@@ -249,10 +490,20 @@
       "key": true
     },
     {
+      "turn": 324,
+      "role": "crowd",
+      "text": "这比赛太刺激了"
+    },
+    {
       "turn": 330,
       "role": "caster",
       "text": "c08_ponly_xxl 得分并反超！23:22！",
       "key": true
+    },
+    {
+      "turn": 330,
+      "role": "crowd",
+      "text": "名场面"
     },
     {
       "turn": 338,
@@ -261,10 +512,20 @@
       "key": true
     },
     {
+      "turn": 338,
+      "role": "crowd",
+      "text": "又平了"
+    },
+    {
       "turn": 347,
       "role": "caster",
       "text": "这一球让 c08_ponly_xxl 领先了，24:23！",
       "key": true
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
+      "text": "逆转来了"
     },
     {
       "turn": 353,
@@ -272,9 +533,19 @@
       "text": "c08_ponly_xxl 得分，现在是 25:23。"
     },
     {
+      "turn": 353,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 358,
       "role": "caster",
       "text": "c08_ponly_xxl 再下一城，比分 26:23。"
+    },
+    {
+      "turn": 358,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
     },
     {
       "turn": 366,
@@ -282,9 +553,19 @@
       "text": "c08_ponly_xxl 交旗成功！27:23。"
     },
     {
+      "turn": 366,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 374,
       "role": "caster",
       "text": "GPT-6.1 Sol 得分，现在是 27:24。"
+    },
+    {
+      "turn": 374,
+      "role": "crowd",
+      "text": "又进一个"
     },
     {
       "turn": 388,
@@ -292,9 +573,24 @@
       "text": "GPT-6.1 Sol 再下一城，比分 27:25。"
     },
     {
+      "turn": 388,
+      "role": "crowd",
+      "text": "又进一个"
+    },
+    {
+      "turn": 389,
+      "role": "crowd",
+      "text": "c08_ponly_xxl 好样的"
+    },
+    {
       "turn": 400,
       "role": "analyst",
       "text": "终场结论：c08_ponly_xxl 以 28 分收官，全场拾旗转化率 93%。"
+    },
+    {
+      "turn": 400,
+      "role": "crowd",
+      "text": "又进一个"
     }
   ]
 }

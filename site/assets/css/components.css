@@ -218,3 +218,21 @@ kbd {
   animation: spin 0.9s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+
+/* ---------- Chip buttons (toggles, small actions) ---------- */
+.chip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: var(--r-chip);
+  background: var(--ink-2);
+  color: var(--text-3);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  white-space: nowrap;
+  transition: background var(--dur-fast), color var(--dur-fast);
+}
+.chip-btn:hover { color: var(--text); }
+.chip-btn[aria-pressed="true"] { background: var(--ink-4); color: var(--text); }
