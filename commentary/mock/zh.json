@@ -1,43 +1,44 @@
 {
-  "$help": "离线 mock 模式使用的模板。{占位符} 会用回放中的事实填充；同一键有多个版本时会轮流使用，避免重复。",
+  "$help": "离线 mock 模式使用的模板。{占位符} 会用回放中的事实填充；同一键有多个版本时会轮流使用，避免重复。口吻与 roles/*/skill.zh.md 一致：机器直播间式解说。",
   "caster.capture": [
-    "{team} 交旗成功！{score}。",
-    "{team} 再下一城，比分 {score}。",
-    "{team} 得分，现在是 {score}。"
+    "进了！{team} 交旗，{score}！",
+    "{team} 又下一旗，{score}，拦不住啊！",
+    "旗送回家了！{team} 得分，{score}。"
   ],
   "caster.capture_lead": [
-    "{team} 得分并反超！{score}！",
-    "这一球让 {team} 领先了，{score}！"
+    "反超了！{team} 交旗，{score}！",
+    "这球直接改写比赛！{team} 领先，{score}！"
   ],
   "caster.capture_tie": [
-    "{team} 扳平比分，{score}！"
+    "扳平了兄弟们！{team} 交旗，{score}！"
   ],
   "caster.stop": [
-    "{by} 截下了 {victim} 的持旗者！",
-    "关键拦截！{by} 放倒了 {victim} 的持旗单位。"
+    "门口直接按死！{by} 截下 {victim} 的持旗者！",
+    "{victim} 的持旗大哥倒了！{by} 这下太关键了！"
   ],
   "caster.brawl": [
-    "这一回合倒下了 {count} 个单位，中路打得太激烈了！"
+    "这一回合躺下 {count} 个，兄弟们打疯了！"
   ],
   "color.leading": [
-    "{leader} 拿到 {lead_score} 分，领先 {second} {gap} 分。这一段最活跃的是 {hot}，打进 {hot_caps} 球。",
-    "现在主动权在 {leader} 手里：{lead_score} 分，领先 {second} {gap} 分。"
+    "{leader} 手握 {lead_score} 分，领先 {second} {gap} 分。这一段最能搞事的是 {hot}，打进 {hot_caps} 球。",
+    "这局现在是 {leader} 说了算：{lead_score} 分，压着 {second} {gap} 分，好吧。"
   ],
   "color.tied": [
-    "难分高下：{tied} 同为 {lead_score} 分，接下来每一球都会改变领先者。",
-    "榜首胶着，{tied} 都是 {lead_score} 分。"
+    "榜首绞肉机：{tied} 同为 {lead_score} 分，接下来每一球都是领先易主。",
+    "难分高下，{tied} 都是 {lead_score} 分，这剧本我喜欢。"
   ],
   "color.quiet": [
-    "这一段打得很谨慎，第 {t0} 到 {t1} 回合没有人得分，防守占了上风。"
+    "第 {t0} 到 {t1} 回合没人得分，防守占了上风，双方都收着打。"
   ],
   "analyst.window": [
-    "第 {t0}–{t1} 回合：{best} 拾旗 {best_picks} 次转化 {best_caps} 次，是这一段转化率最高的队伍；{killer} 以 {kills} 次击杀主导了交火。",
-    "第 {t0}–{t1} 回合，{killer} 赢下了交火（{kills} 次击杀），但比分上的赢家是 {best}，{best_picks} 次拾旗打进 {best_caps} 球。"
+    "第 {t0}–{t1} 回合：{best} 拾旗 {best_picks} 次转化 {best_caps} 次，这一段就数它效率高；交火是 {killer} 说了算，{kills} 次击杀。",
+    "看数据：{killer} 赢了交火（{kills} 次击杀），但比分上占便宜的是 {best}，{best_picks} 次拾旗打进 {best_caps} 球。"
   ],
   "analyst.push": [
-    "{pusher} 站位最靠前，单位平均离本方基地约 {dist} 格；{turtle} 最保守，平均只有 {dist2} 格。"
+    "{pusher} 压得最凶，单位平均离家 {dist} 格；{turtle} 最保守，平均只有 {dist2} 格。"
   ],
   "analyst.final": [
+<<<<<<< Updated upstream
     "终场结论：{leader} 以 {lead_score} 分收官，全场拾旗转化率 {conv}%。"
   ],
   "crowd.capture": [
@@ -74,5 +75,8 @@
     "稳住啊",
     "心跳加速",
     "谁顶得住"
+=======
+    "终场定论：{leader} 收下 {lead_score} 分，全场拾旗转化率 {conv}%，账就是这么算平的。"
+>>>>>>> Stashed changes
   ]
 }

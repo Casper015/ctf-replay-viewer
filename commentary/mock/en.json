@@ -1,43 +1,44 @@
 {
-  "$help": "Templates for the offline 'mock' provider. {placeholders} are filled from replay facts. Several variants per key are rotated so lines don't repeat.",
+  "$help": "Templates for the offline 'mock' provider. {placeholders} are filled from replay facts. Several variants per key are rotated so lines don't repeat. Voice matches roles/*/skill.en.md: hype stream-caster booth.",
   "caster.capture": [
-    "{team} brings the flag home! {score}.",
-    "Capture for {team}, and it's {score}.",
-    "{team} scores again. {score} now."
+    "He scores! {team} brings it home. {score}!",
+    "{team} again! {score}. Nobody stops him!",
+    "Flag in! {team} banks another one. {score}."
   ],
   "caster.capture_lead": [
-    "{team} scores and takes the lead! {score}.",
-    "That capture puts {team} in front. {score}!"
+    "And that's the lead! {team} scores, {score}!",
+    "{team} takes over the whole game! {score}!"
   ],
   "caster.capture_tie": [
-    "{team} scores to level it up. {score}!"
+    "Back level, chat! {team} scores, {score}!"
   ],
   "caster.stop": [
-    "{by} stops {victim}'s flag carrier!",
-    "Big stop: {by} takes down the {victim} carrier."
+    "Stopped at the door! {by} deletes the {victim} carrier!",
+    "{victim}'s flag man is down! {by} with the huge stop!"
   ],
   "caster.brawl": [
-    "{count} units go down this turn. What a fight in the middle!"
+    "{count} bodies on the floor this turn. Total chaos!"
   ],
   "color.leading": [
-    "{leader} have {lead_score} and a {gap}-point cushion over {second}. {hot} made the most noise in this stretch with {hot_caps} captures.",
-    "It's {leader}'s match to lose right now: {lead_score}, {gap} clear of {second}."
+    "{leader} on {lead_score}, {gap} clear of {second}. The troublemaker here is {hot} with {hot_caps} captures.",
+    "This is {leader}'s game right now: {lead_score}, keeping {second} {gap} back. I'm just saying."
   ],
   "color.tied": [
-    "Nothing to separate them: {tied} are level on {lead_score}. Every capture from here is a lead change.",
-    "Dead even at the top, {tied} on {lead_score} each."
+    "Absolute meat grinder at the top: {tied} on {lead_score} each. Every capture from here is a lead change.",
+    "Dead even, {tied} both on {lead_score}. I love this script."
   ],
   "color.quiet": [
-    "A cagey stretch. Nobody scored between turns {t0} and {t1}; the defences are winning."
+    "Nobody scored between turns {t0} and {t1}. The defence is winning this stretch."
   ],
   "analyst.window": [
-    "Turns {t0}–{t1}: {best} turned {best_caps} of {best_picks} pickups into points, the best conversion in this stretch. {killer} led the fighting with {kills} kills.",
-    "Over turns {t0}–{t1}, {killer} won the fights ({kills} kills), but {best} won the scoreboard with {best_caps} captures from {best_picks} pickups."
+    "Turns {t0}–{t1}: {best} turned {best_picks} pickups into {best_caps} goals, the sharpest team in this stretch. {killer} owned the fights with {kills} kills.",
+    "The numbers say {killer} won the fights ({kills} kills), but {best} won the scoreboard: {best_caps} captures from {best_picks} pickups."
   ],
   "analyst.push": [
-    "{pusher} played furthest forward, about {dist} cells from home on average; {turtle} stayed closest to base at {dist2}."
+    "{pusher} pushed furthest, averaging {dist} cells from home; {turtle} never left the porch at {dist2}."
   ],
   "analyst.final": [
+<<<<<<< Updated upstream
     "Final verdict: {leader} finish on {lead_score}. Across the match they converted {conv}% of their pickups."
   ],
   "crowd.capture": [
@@ -74,5 +75,8 @@
     "Hold on!",
     "Nerves",
     "Who blinks first"
+=======
+    "Final verdict: {leader} take it with {lead_score}. {conv}% pickup conversion across the match — that's the whole ball game."
+>>>>>>> Stashed changes
   ]
 }

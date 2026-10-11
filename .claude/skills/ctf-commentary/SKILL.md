@@ -25,12 +25,18 @@ To check everything after any change, run `python3 tools/commentate.py check`.
 
 ## Writing the lines
 
-Each role has a persona file at `commentary/roles/<role>/skill.<lang>.md` and pacing in `role.json`. The brief embeds them. In short:
+Each role has a persona file at `commentary/roles/<role>/skill.<lang>.md` and pacing in `role.json`. The brief embeds them. The booth voice is modeled on the Chinese CS stream-caster **玩机器**: a livestream booth that chats with the viewers during quiet stretches and erupts on the big play. In short:
 
+<<<<<<< Updated upstream
 - **caster:** what just happened. Captures first, then carrier stops, then dangerous pickups and big fights. Short, present tense, names every team. Silence beats filler.
 - **color:** the story. Momentum, rivalries, comebacks, what the scoreline means. Opinion, then the fact behind it.
 - **crowd:** audience bullet comments (弹幕) flying across the board. A few words each, reactions only, cheering contenders by name, bunched right after big moments and silent otherwise. Crowd lines are exempt from the booth's 5-turn rule (they have `"display": "danmaku"`), but keep them friendly and never repeat a line.
 - **analyst:** why. Conversion (captures ÷ pickups), fights, positions relative to bases, the bots' own intent notes. Calm, cites numbers. Gives a verdict at halftime and at the end.
+=======
+- **caster:** what just happened. Captures first, then carrier stops, then dangerous pickups and big fights. Short explosive lines that name every team, stacked exclamations on the huge plays ("交了！交了！"), chat-facing asides ("兄弟们", "好吧", "这什么啊"). Silence beats filler.
+- **color:** the story. Momentum, rivalries, comebacks, what the scoreline means. The booth's opinion guy: hot takes, playful jabs, memes, self-aware flags ("这话我先放这儿，打脸我认"), every take backed by a fact.
+- **analyst:** why. Conversion (captures ÷ pickups), fights, positions relative to bases, the bots' own intent notes. The numbers guy who still talks like the stream: evidence first, verdict second, brutal where the data backs it, quiet where it doesn't. Gives a verdict at halftime and at the end.
+>>>>>>> Stashed changes
 
 Things that make commentary good here:
 - **Stay on the turn.** A line at turn 120 may only use what is known by turn 120. The brief shows the final result so you understand the arc, but foreshadowing the winner spoils the replay for viewers.
@@ -38,6 +44,7 @@ Things that make commentary good here:
 - **One line every 5 turns at most, for the whole booth.** That's the hard rule (`generation.min_turns_between_lines` in `commentary/config.json`; import drops anything closer). Mark the few defining moments (lead changes, ties at the top, the winning capture) with `"key": true` so they're never dropped; otherwise, when two roles want the same moment, the analyst wins, then the caster, then the color commentator. Within that budget, pick the moments that change the story; a 400-turn match gets at most 80 lines in total, usually far fewer.
 - **In big matches, follow the contenders, not everyone.** With more than 4 teams (`generation.focus`), talk only about the top teams fighting for first. They're listed under `focus` in each window and they change as the match goes. Don't read out the whole table or narrate a mid-table team's capture; another team earns a mention only when it directly affects a contender, for example by stopping the leader's carrier. Viewers of a 15-team match want the title race, not a roll call.
 - **Write natively.** Use the language's style rules from `commentary/config.json` (Chinese scores `31:29`, English `31–29`). Keep team and model names exactly as given. In English, the team `基准` is shown as "Baseline".
+- **Sound like the booth, not a textbook.** The persona files define the register: stream-caster energy, memes, self-deprecation, sudden hype bursts, hard contrast between the quiet stretch and the big play. Learn the feel from their examples ("学感觉，别照抄") — never copy the sample lines. Style never outranks the persona's hard rules: length limits, no spoilers, no invented facts.
 - **Make 400 turns interesting.** Note when a lead changes, when someone goes cold, when a deficit shrinks. Don't narrate every pickup.
 
 ## Adding a role or a language
