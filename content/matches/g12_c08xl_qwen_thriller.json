@@ -1,0 +1,19 @@
+{
+  "$note": "Auto-drafted tag.zh, tag.en, title.zh, title.en, desc.zh, desc.en from replay facts on 2026-10-11. Edit freely, then run tools/build_catalog.py.",
+  "key": "g12_c08xl_qwen_thriller",
+  "id": "mac-seed-20261345",
+  "order": 6,
+  "featured": false,
+  "tag": {
+    "zh": "11:10 一分险胜",
+    "en": "11–10 thriller"
+  },
+  "title": {
+    "zh": "c08_ponly_xl 11:10 险胜 Qwen 3.8 Max",
+    "en": "c08_ponly_xl edges Qwen 3.8 Max 11–10"
+  },
+  "desc": {
+    "zh": "第 200 回合 GPT-6 Astra、Qwen 3.8 Max 以 6 分并列领先。c08_ponly_xl 第 378 回合取得领先后再未落后。终局 c08_ponly_xl 11、Qwen 3.8 Max 10、GPT-6 Astra 8，全场共 72 次交旗。 2026-10-11 在开发用 Mac 上按官方 2 秒 / 50 毫秒限制对局（种子 20261345），无故障，用于展示最新的 P-only 机器人，不是基准成绩。",
+    "en": "GPT-6 Astra and Qwen 3.8 Max shared the lead on 6 at turn 200. c08_ponly_xl went ahead for good on turn 378. Final: c08_ponly_xl 11, Qwen 3.8 Max 10, GPT-6 Astra 8. 72 captures in all. Played on 2026-10-11 on a development Mac under the official 2 s / 50 ms limits (seed 20261345), with no faults: a showcase of the newest P-only bots, not a benchmark result."
+  }
+}

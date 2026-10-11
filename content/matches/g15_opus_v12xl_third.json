@@ -1,0 +1,19 @@
+{
+  "$note": "Auto-drafted tag.zh, tag.en, title.zh, title.en, desc.zh, desc.en from replay facts on 2026-10-11. Edit freely, then run tools/build_catalog.py.",
+  "key": "g15_opus_v12xl_third",
+  "id": "mac-seed-20261340",
+  "order": 9,
+  "featured": false,
+  "tag": {
+    "zh": "15 队混战",
+    "en": "15-team battle"
+  },
+  "title": {
+    "zh": "Opus 5.5 以 17 分夺冠，Fable 5.1 9 分次之",
+    "en": "Opus 5.5 wins with 17, ahead of Fable 5.1 on 9"
+  },
+  "desc": {
+    "zh": "第 200 回合 Opus 5.5 以 10 分领先。Opus 5.5 第 110 回合取得领先后再未落后。终局 Opus 5.5 17、Fable 5.1 9、v12_ponly_xl 8，全场共 75 次交旗。 2026-10-11 在开发用 Mac 上按官方 2 秒 / 50 毫秒限制对局（种子 20261340），无故障，用于展示最新的 P-only 机器人，不是基准成绩。",
+    "en": "Opus 5.5 led with 10 at turn 200. Opus 5.5 went ahead for good on turn 110. Final: Opus 5.5 17, Fable 5.1 9, v12_ponly_xl 8. 75 captures in all. Played on 2026-10-11 on a development Mac under the official 2 s / 50 ms limits (seed 20261340), with no faults: a showcase of the newest P-only bots, not a benchmark result."
+  }
+}
