@@ -1,0 +1,19 @@
+{
+  "$note": "Auto-drafted tag.zh, tag.en, title.zh, title.en, desc.zh, desc.en from replay facts on 2026-10-10. Edit freely, then run tools/build_catalog.py.",
+  "key": "g8_astra_c08xl",
+  "id": "mac-seed-20261338",
+  "order": 5,
+  "featured": false,
+  "tag": {
+    "zh": "11:10 一分险胜",
+    "en": "11–10 thriller"
+  },
+  "title": {
+    "zh": "GPT-6 Astra 11:10 险胜 c08_ponly_xl",
+    "en": "GPT-6 Astra edges c08_ponly_xl 11–10"
+  },
+  "desc": {
+    "zh": "第 200 回合 c08_ponly_xxl、GPT-6 Astra 以 5 分并列领先。GPT-6 Astra 第 373 回合取得领先后再未落后。终局 GPT-6 Astra 11、c08_ponly_xl 10、c08_ponly_xxl 8，全场共 59 次交旗。 2026-10-11 在开发用 Mac 上按官方 2 秒 / 50 毫秒限制对局（种子 20261338），用于展示最新的 P-only 机器人，不是基准成绩。",
+    "en": "c08_ponly_xxl and GPT-6 Astra shared the lead on 5 at turn 200. GPT-6 Astra went ahead for good on turn 373. Final: GPT-6 Astra 11, c08_ponly_xl 10, c08_ponly_xxl 8. 59 captures in all. Played on 2026-10-11 on a development Mac under the official 2 s / 50 ms limits (seed 20261338): a showcase of the newest P-only bots, not a benchmark result."
+  }
+}

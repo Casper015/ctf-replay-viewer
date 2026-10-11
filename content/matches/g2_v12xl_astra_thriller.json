@@ -1,0 +1,19 @@
+{
+  "$note": "Auto-drafted tag.zh, tag.en, title.zh, title.en, desc.zh, desc.en from replay facts on 2026-10-10. Edit freely, then run tools/build_catalog.py.",
+  "key": "g2_v12xl_astra_thriller",
+  "id": "mac-seed-20261314",
+  "order": 2,
+  "featured": false,
+  "tag": {
+    "zh": "末段绝杀",
+    "en": "Late winner"
+  },
+  "title": {
+    "zh": "v12_ponly_xl 第 393 回合交旗，27:26 绝杀 GPT-6 Astra",
+    "en": "v12_ponly_xl beats GPT-6 Astra 27–26 with a capture on turn 393"
+  },
+  "desc": {
+    "zh": "第 200 回合 v12_ponly_xl、GPT-6 Astra 以 13 分并列领先。终局 v12_ponly_xl 27、GPT-6 Astra 26，全场共 53 次交旗。 2026-10-11 在开发用 Mac 上按官方 2 秒 / 50 毫秒限制对局（种子 20261314），用于展示最新的 P-only 机器人，不是基准成绩。",
+    "en": "v12_ponly_xl and GPT-6 Astra shared the lead on 13 at turn 200. Final: v12_ponly_xl 27, GPT-6 Astra 26. 53 captures in all. Played on 2026-10-11 on a development Mac under the official 2 s / 50 ms limits (seed 20261314): a showcase of the newest P-only bots, not a benchmark result."
+  }
+}

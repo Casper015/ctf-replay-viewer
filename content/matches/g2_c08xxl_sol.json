@@ -1,0 +1,19 @@
+{
+  "$note": "Auto-drafted tag.zh, tag.en, title.zh, title.en, desc.zh, desc.en from replay facts on 2026-10-10. Edit freely, then run tools/build_catalog.py.",
+  "key": "g2_c08xxl_sol",
+  "id": "mac-seed-20261312",
+  "order": 3,
+  "featured": false,
+  "tag": {
+    "zh": "54 球单挑",
+    "en": "54-capture duel"
+  },
+  "title": {
+    "zh": "c08_ponly_xxl 28:26 击败 GPT-6.1 Sol",
+    "en": "c08_ponly_xxl beats GPT-6.1 Sol 28–26"
+  },
+  "desc": {
+    "zh": "第 200 回合 GPT-6.1 Sol 以 14 分领先。c08_ponly_xxl 第 347 回合取得领先后再未落后。终局 c08_ponly_xxl 28、GPT-6.1 Sol 26，全场共 54 次交旗。 2026-10-11 在开发用 Mac 上按官方 2 秒 / 50 毫秒限制对局（种子 20261312），用于展示最新的 P-only 机器人，不是基准成绩。",
+    "en": "GPT-6.1 Sol led with 14 at turn 200. c08_ponly_xxl went ahead for good on turn 347. Final: c08_ponly_xxl 28, GPT-6.1 Sol 26. 54 captures in all. Played on 2026-10-11 on a development Mac under the official 2 s / 50 ms limits (seed 20261312): a showcase of the newest P-only bots, not a benchmark result."
+  }
+}
