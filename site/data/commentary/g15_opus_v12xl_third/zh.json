@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "match": "g15_opus_v12xl_third",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 24,
+      "role": "caster",
+      "text": "Fable 5.1 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 29,
+      "role": "caster",
+      "text": "Kimi K3 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 42,
+      "role": "caster",
+      "text": "Kimi K3 得分并反超！2:1！",
+      "key": true
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "Opus 5.5 站位最靠前，单位平均离本方基地约 7.7 格；v12_ponly_xl 最保守，平均只有 3.0 格。"
+    },
+    {
+      "turn": 56,
+      "role": "caster",
+      "text": "Kimi K3 得分并反超！3:2！",
+      "key": true
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "Fable 5.1 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 78,
+      "role": "caster",
+      "text": "Opus 5.5 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 87,
+      "role": "caster",
+      "text": "这一球让 Kimi K3 领先了，4:3！",
+      "key": true
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "第 51–100 回合：Fable 5.1 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；Fable 5.1 以 6 次击杀主导了交火。"
+    },
+    {
+      "turn": 110,
+      "role": "caster",
+      "text": "Opus 5.5 得分并反超！5:4！",
+      "key": true
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "关键拦截！GLM 5.3 放倒了 Fable 5.1 的持旗单位。"
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "Opus 5.5 交旗成功！6:4。"
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "现在主动权在 Opus 5.5 手里：6 分，领先 Kimi K3 2 分。"
+    },
+    {
+      "turn": 135,
+      "role": "caster",
+      "text": "关键拦截！Qwen 3.8 Max 放倒了 Opus 5.5 的持旗单位。"
+    },
+    {
+      "turn": 144,
+      "role": "caster",
+      "text": "GPT-6 Astra 交旗成功！6:4。"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Kimi K3 站位最靠前，单位平均离本方基地约 13.7 格；Fable 5.1 最保守，平均只有 4.3 格。"
+    },
+    {
+      "turn": 158,
+      "role": "caster",
+      "text": "Opus 5.5 得分，现在是 7:4。"
+    },
+    {
+      "turn": 171,
+      "role": "caster",
+      "text": "Opus 5.5 交旗成功！8:4。"
+    },
+    {
+      "turn": 177,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！8:5。"
+    },
+    {
+      "turn": 188,
+      "role": "caster",
+      "text": "GPT-6 Astra 得分，现在是 9:5。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：Fable 5.1 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；v12_ponly_xl 以 8 次击杀主导了交火。"
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "Opus 5.5 交旗成功！11:5。"
+    },
+    {
+      "turn": 215,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 11:6。"
+    },
+    {
+      "turn": 220,
+      "role": "caster",
+      "text": "Qwen 3.8 Max 截下了 Opus 5.5 的持旗者！"
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "现在主动权在 Opus 5.5 手里：11 分，领先 Fable 5.1 5 分。"
+    },
+    {
+      "turn": 233,
+      "role": "caster",
+      "text": "Opus 5.5 得分，现在是 12:6。"
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "v12_ponly_xl 交旗成功！12:6。"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 8.7 格；Opus 5.5 最保守，平均只有 4.0 格。"
+    },
+    {
+      "turn": 269,
+      "role": "caster",
+      "text": "关键拦截！Kimi K3 放倒了 Opus 5.5 的持旗单位。"
+    },
+    {
+      "turn": 277,
+      "role": "caster",
+      "text": "关键拦截！GLM 5.3 放倒了 Fable 5.1 的持旗单位。"
+    },
+    {
+      "turn": 284,
+      "role": "caster",
+      "text": "Opus 5.5 得分，现在是 14:6。"
+    },
+    {
+      "turn": 291,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！14:7。"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：Opus 5.5 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；Opus 5.5 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 315,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！14:8。"
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "现在主动权在 Opus 5.5 手里：15 分，领先 Fable 5.1 7 分。"
+    },
+    {
+      "turn": 331,
+      "role": "caster",
+      "text": "关键拦截！v12_ponly_xl 放倒了 Fable 5.1 的持旗单位。"
+    },
+    {
+      "turn": 342,
+      "role": "caster",
+      "text": "v12_ponly_xl 交旗成功！15:8。"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "v12_ponly_xl 站位最靠前，单位平均离本方基地约 15.0 格；Fable 5.1 最保守，平均只有 6.5 格。"
+    },
+    {
+      "turn": 361,
+      "role": "caster",
+      "text": "Opus 5.5 再下一城，比分 16:9。"
+    },
+    {
+      "turn": 368,
+      "role": "caster",
+      "text": "c08_ponly_xxl 截下了 v12_ponly_xl 的持旗者！"
+    },
+    {
+      "turn": 377,
+      "role": "caster",
+      "text": "v12_ponly_xl 得分，现在是 16:9。"
+    },
+    {
+      "turn": 388,
+      "role": "caster",
+      "text": "Opus 5.5 再下一城，比分 17:9。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：Opus 5.5 以 17 分收官，全场拾旗转化率 65%。"
+    }
+  ]
+}

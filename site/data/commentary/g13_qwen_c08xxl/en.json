@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "match": "g13_qwen_c08xxl",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 23,
+      "role": "caster",
+      "text": "That capture puts DeepSeek V4.1 Flash in front. 1–0!",
+      "key": true
+    },
+    {
+      "turn": 32,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 42,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops GPT-6 Astra's flag carrier!"
+    },
+    {
+      "turn": 51,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 60,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 65,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "That capture puts Qwen 3.8 Max in front. 2–1!",
+      "key": true
+    },
+    {
+      "turn": 81,
+      "role": "caster",
+      "text": "Qwen 3.8 Max brings the flag home! 4–1."
+    },
+    {
+      "turn": 90,
+      "role": "caster",
+      "text": "c08_ponly_xxl brings the flag home! 4–1."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: Qwen 3.8 Max turned 4 of 4 pickups into points, the best conversion in this stretch. v12_ponly_xl led the fighting with 9 kills."
+    },
+    {
+      "turn": 110,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores again. 4–2 now."
+    },
+    {
+      "turn": 127,
+      "role": "caster",
+      "text": "Big stop: Fable 5.1 takes down the Sonnet 5.5 carrier."
+    },
+    {
+      "turn": 133,
+      "role": "caster",
+      "text": "Capture for Qwen 3.8 Max, and it's 6–2."
+    },
+    {
+      "turn": 139,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the Opus 5.5 carrier."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Qwen 3.8 Max played furthest forward, about 13.0 cells from home on average; c08_ponly_xxl stayed closest to base at 3.0."
+    },
+    {
+      "turn": 158,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash stops Qwen 3.8 Max's flag carrier!"
+    },
+    {
+      "turn": 168,
+      "role": "caster",
+      "text": "Sonnet 5.5 stops DeepSeek V4.1 Flash's flag carrier!"
+    },
+    {
+      "turn": 173,
+      "role": "caster",
+      "text": "Big stop: v12_ponly_xl takes down the c08_ponly_xxl carrier."
+    },
+    {
+      "turn": 178,
+      "role": "caster",
+      "text": "Capture for Sonnet 5.5, and it's 6–3."
+    },
+    {
+      "turn": 188,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 6–3 now."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: c08_ponly_xl turned 2 of 2 pickups into points, the best conversion in this stretch. Sonnet 5.5 led the fighting with 7 kills."
+    },
+    {
+      "turn": 212,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 6–3 now."
+    },
+    {
+      "turn": 220,
+      "role": "caster",
+      "text": "Kimi K3 stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's Qwen 3.8 Max's match to lose right now: 6, 2 clear of c08_ponly_xxl."
+    },
+    {
+      "turn": 230,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 6–4 now."
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash brings the flag home! 6–4."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "DeepSeek V4.1 Flash played furthest forward, about 36.0 cells from home on average; c08_ponly_xxl stayed closest to base at 5.3."
+    },
+    {
+      "turn": 264,
+      "role": "caster",
+      "text": "Sonnet 5.5 brings the flag home! 6–5."
+    },
+    {
+      "turn": 273,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 6–5."
+    },
+    {
+      "turn": 279,
+      "role": "caster",
+      "text": "Qwen 3.8 Max brings the flag home! 7–5."
+    },
+    {
+      "turn": 287,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores again. 7–6 now."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: c08_ponly_xxl turned 1 of 1 pickups into points, the best conversion in this stretch. v12_ponly_xl led the fighting with 7 kills."
+    },
+    {
+      "turn": 316,
+      "role": "caster",
+      "text": "Capture for GLM 5.3, and it's 7–6."
+    },
+    {
+      "turn": 328,
+      "role": "caster",
+      "text": "Kimi K3 stops Qwen 3.8 Max's flag carrier!"
+    },
+    {
+      "turn": 338,
+      "role": "caster",
+      "text": "GLM 5.3 scores to level it up. 7–7!",
+      "key": true
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GLM 5.3 played furthest forward, about 15.0 cells from home on average; c08_ponly_xxl stayed closest to base at 11.0."
+    },
+    {
+      "turn": 359,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 7–7 now."
+    },
+    {
+      "turn": 379,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores to level it up. 7–7!",
+      "key": true
+    },
+    {
+      "turn": 387,
+      "role": "caster",
+      "text": "That capture puts Qwen 3.8 Max in front. 8–7!",
+      "key": true
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Qwen 3.8 Max finish on 8. Across the match they converted 36% of their pickups."
+    }
+  ]
+}

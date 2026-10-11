@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "match": "g12_glm_c08xl",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "v12_ponly_xl stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 22,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores and takes the lead! 1–0.",
+      "key": true
+    },
+    {
+      "turn": 29,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores again. 2–1 now."
+    },
+    {
+      "turn": 38,
+      "role": "caster",
+      "text": "c08_ponly_xxl stops GPT-6 Astra's flag carrier!"
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 9.5 cells from home on average; c08_ponly_xxl stayed closest to base at 6.0."
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 2–2!",
+      "key": true
+    },
+    {
+      "turn": 74,
+      "role": "caster",
+      "text": "c08_ponly_xl stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 91,
+      "role": "caster",
+      "text": "That capture puts Sonnet 5.5 in front. 3–2!",
+      "key": true
+    },
+    {
+      "turn": 98,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 3–3!",
+      "key": true
+    },
+    {
+      "turn": 103,
+      "role": "caster",
+      "text": "Capture for GLM 5.3, and it's 3–3."
+    },
+    {
+      "turn": 108,
+      "role": "caster",
+      "text": "c08_ponly_xl brings the flag home! 3–3."
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "GLM 5.3 stops Qwen 3.8 Max's flag carrier!"
+    },
+    {
+      "turn": 129,
+      "role": "caster",
+      "text": "That capture puts GLM 5.3 in front. 4–3!",
+      "key": true
+    },
+    {
+      "turn": 135,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores to level it up. 4–4!",
+      "key": true
+    },
+    {
+      "turn": 149,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores to level it up. 4–4!",
+      "key": true
+    },
+    {
+      "turn": 157,
+      "role": "caster",
+      "text": "That capture puts GLM 5.3 in front. 5–4!",
+      "key": true
+    },
+    {
+      "turn": 162,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores to level it up. 5–5!",
+      "key": true
+    },
+    {
+      "turn": 173,
+      "role": "caster",
+      "text": "Big stop: Fable 5.1 takes down the Sonnet 5.5 carrier."
+    },
+    {
+      "turn": 179,
+      "role": "caster",
+      "text": "That capture puts Sonnet 5.5 in front. 6–5!",
+      "key": true
+    },
+    {
+      "turn": 193,
+      "role": "caster",
+      "text": "GLM 5.3 scores to level it up. 6–6!",
+      "key": true
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: GLM 5.3 turned 2 of 1 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 7 kills."
+    },
+    {
+      "turn": 214,
+      "role": "caster",
+      "text": "GLM 5.3 scores and takes the lead! 7–6.",
+      "key": true
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's GLM 5.3's match to lose right now: 7, 1 clear of Sonnet 5.5."
+    },
+    {
+      "turn": 232,
+      "role": "caster",
+      "text": "Qwen 3.8 Max stops c08_ponly_xxl's flag carrier!"
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "Fable 5.1 stops Sonnet 5.5's flag carrier!"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "GLM 5.3 played furthest forward, about 15.5 cells from home on average; c08_ponly_xxl stayed closest to base at 9.5."
+    },
+    {
+      "turn": 274,
+      "role": "caster",
+      "text": "Fable 5.1 stops Sonnet 5.5's flag carrier!"
+    },
+    {
+      "turn": 280,
+      "role": "caster",
+      "text": "Sonnet 5.5 stops GLM 5.3's flag carrier!"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: GLM 5.3 turned 1 of 4 pickups into points, the best conversion in this stretch. Sonnet 5.5 led the fighting with 8 kills."
+    },
+    {
+      "turn": 306,
+      "role": "caster",
+      "text": "Sonnet 5.5 stops GLM 5.3's flag carrier!"
+    },
+    {
+      "turn": 316,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash stops Sonnet 5.5's flag carrier!"
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "A cagey stretch. Nobody scored between turns 301 and 325; the defences are winning."
+    },
+    {
+      "turn": 331,
+      "role": "caster",
+      "text": "Capture for Qwen 3.8 Max, and it's 8–6."
+    },
+    {
+      "turn": 338,
+      "role": "caster",
+      "text": "c08_ponly_xl scores again. 8–6 now."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "c08_ponly_xl played furthest forward, about 11.5 cells from home on average; Qwen 3.8 Max stayed closest to base at 4.0."
+    },
+    {
+      "turn": 357,
+      "role": "caster",
+      "text": "GLM 5.3 brings the flag home! 9–6."
+    },
+    {
+      "turn": 366,
+      "role": "caster",
+      "text": "Fable 5.1 stops Sonnet 5.5's flag carrier!"
+    },
+    {
+      "turn": 375,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 9–6."
+    },
+    {
+      "turn": 381,
+      "role": "caster",
+      "text": "c08_ponly_xxl brings the flag home! 9–7."
+    },
+    {
+      "turn": 389,
+      "role": "caster",
+      "text": "c08_ponly_xl scores again. 9–7 now."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: GLM 5.3 finish on 9. Across the match they converted 53% of their pickups."
+    }
+  ]
+}
