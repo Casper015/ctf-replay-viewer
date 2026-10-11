@@ -1,0 +1,19 @@
+{
+  "$note": "Auto-drafted tag.zh, tag.en, title.zh, title.en, desc.zh, desc.en from replay facts on 2026-10-10. Edit freely, then run tools/build_catalog.py.",
+  "key": "g4_v12xxl_win",
+  "id": "mac-seed-20261328",
+  "order": 4,
+  "featured": false,
+  "tag": {
+    "zh": "4 队混战",
+    "en": "4-team battle"
+  },
+  "title": {
+    "zh": "v12_ponly_xxl 以 15 分夺冠，GPT-6.1 Sol 13 分次之",
+    "en": "v12_ponly_xxl wins with 15, ahead of GPT-6.1 Sol on 13"
+  },
+  "desc": {
+    "zh": "第 200 回合 v12_ponly_xxl 以 8 分领先。v12_ponly_xxl 第 334 回合取得领先后再未落后。终局 v12_ponly_xxl 15、GPT-6.1 Sol 13、GPT-6 Astra 12，全场共 48 次交旗。 2026-10-11 在开发用 Mac 上按官方 2 秒 / 50 毫秒限制对局（种子 20261328），用于展示最新的 P-only 机器人，不是基准成绩。",
+    "en": "v12_ponly_xxl led with 8 at turn 200. v12_ponly_xxl went ahead for good on turn 334. Final: v12_ponly_xxl 15, GPT-6.1 Sol 13, GPT-6 Astra 12. 48 captures in all. Played on 2026-10-11 on a development Mac under the official 2 s / 50 ms limits (seed 20261328): a showcase of the newest P-only bots, not a benchmark result."
+  }
+}

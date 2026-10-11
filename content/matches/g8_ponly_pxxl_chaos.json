@@ -4,15 +4,15 @@
   "order": 95,
   "featured": false,
   "tag": {
-    "zh": "8强混战突围",
-    "en": "8-Player Chaos"
+    "zh": "10:10 平局",
+    "en": "10–10 draw"
   },
   "title": {
-    "zh": "C08 P-XXL 突破群雄重围，13 分力压 Player5 与 Sol",
-    "en": "C08 P-XXL navigates 8-team gridlock to top Sol and Player5"
+    "zh": "c08_control 与 c08_ponly_pxxl 10:10 握手言和",
+    "en": "c08_control and c08_ponly_pxxl share the win at 10–10"
   },
   "desc": {
-    "zh": "8 队同图极限绞杀，Player5 与 Sol 均斩获 10 分，C08 P-XXL 凭借高质量意图预测规避阻截，狂揽 13 分独占鳌头。",
-    "en": "In an intense 8-way melee where Player5 and Sol tied at 10, C08 P-XXL capitalized on superior opponent modeling to claim 13 points."
+    "zh": "第 200 回合 Player4 以 6 分领先。终局 c08_control 10、c08_ponly_pxxl 10、Player4 8，全场共 55 次交旗。",
+    "en": "Player4 led with 6 at turn 200. Final: c08_control 10, c08_ponly_pxxl 10, Player4 8. 55 captures in all."
   }
 }
