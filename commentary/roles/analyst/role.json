@@ -1,0 +1,11 @@
+{
+  "id": "analyst",
+  "name": { "zh": "战术分析师", "en": "Analyst" },
+  "icon": "chart",
+  "window": 50,
+  "max_lines": 2,
+  "min_gap": 20,
+  "length": "long",
+  "context": ["standings", "window_stats", "positions", "orders"],
+  "caption": false
+}

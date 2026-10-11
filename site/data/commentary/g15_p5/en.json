@@ -1,0 +1,684 @@
+{
+  "version": 1,
+  "match": "g15_p5",
+  "language": "en",
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    }
+  },
+  "lines": [
+    {
+      "turn": 6,
+      "role": "caster",
+      "text": "3 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 13,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the GLM 5.3 carrier."
+    },
+    {
+      "turn": 16,
+      "role": "caster",
+      "text": "Opus 5.5 stops GLM 5.3's flag carrier!"
+    },
+    {
+      "turn": 18,
+      "role": "caster",
+      "text": "GPT-6 Astra stops Player5's flag carrier!"
+    },
+    {
+      "turn": 24,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 1–1!"
+    },
+    {
+      "turn": 25,
+      "role": "color",
+      "text": "Dead even at the top, DeepSeek V4.1 Flash and Player5 and Player4 on 1 each."
+    },
+    {
+      "turn": 28,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores to level it up. 1–1!"
+    },
+    {
+      "turn": 30,
+      "role": "caster",
+      "text": "Opus 5.5 scores and takes the lead! 2–1."
+    },
+    {
+      "turn": 35,
+      "role": "caster",
+      "text": "Big stop: Player5 takes down the GPT-6 Astra carrier."
+    },
+    {
+      "turn": 39,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the Player2 carrier."
+    },
+    {
+      "turn": 44,
+      "role": "caster",
+      "text": "Kimi K3 scores again. 2–1 now."
+    },
+    {
+      "turn": 49,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 2–1."
+    },
+    {
+      "turn": 50,
+      "role": "color",
+      "text": "Opus 5.5 have 2 and a 1-point cushion over Kimi K3. Opus 5.5 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "Opus 5.5 played furthest forward, about 16.7 cells from home on average; Player5 stayed closest to base at 4.0."
+    },
+    {
+      "turn": 51,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 2–2!"
+    },
+    {
+      "turn": 54,
+      "role": "caster",
+      "text": "Player4 scores to level it up. 2–2!"
+    },
+    {
+      "turn": 57,
+      "role": "caster",
+      "text": "Big stop: Sonnet 5.5 takes down the Fable 5.1 carrier."
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 2–2!"
+    },
+    {
+      "turn": 66,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash stops Baseline's flag carrier!"
+    },
+    {
+      "turn": 68,
+      "role": "caster",
+      "text": "Opus 5.5 scores and takes the lead! 3–2."
+    },
+    {
+      "turn": 75,
+      "role": "caster",
+      "text": "Big stop: Baseline takes down the DeepSeek V4.1 Flash carrier."
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "It's Opus 5.5's match to lose right now: 3, 1 clear of DeepSeek V4.1 Flash."
+    },
+    {
+      "turn": 79,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 3–2."
+    },
+    {
+      "turn": 83,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 3–3 now."
+    },
+    {
+      "turn": 86,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash stops Baseline's flag carrier!"
+    },
+    {
+      "turn": 91,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 3–3!"
+    },
+    {
+      "turn": 95,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the Player2 carrier."
+    },
+    {
+      "turn": 99,
+      "role": "caster",
+      "text": "Big stop: Fable 5.1 takes down the Sonnet 5.5 carrier."
+    },
+    {
+      "turn": 100,
+      "role": "color",
+      "text": "Nothing to separate them: DeepSeek V4.1 Flash and Sonnet 5.5 and Opus 5.5 are level on 3. Every capture from here is a lead change."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: Player4 turned 2 of 1 pickups into points, the best conversion in this stretch. DeepSeek V4.1 Flash led the fighting with 8 kills."
+    },
+    {
+      "turn": 101,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 3–3!"
+    },
+    {
+      "turn": 108,
+      "role": "caster",
+      "text": "Baseline stops DeepSeek V4.1 Flash's flag carrier!"
+    },
+    {
+      "turn": 112,
+      "role": "caster",
+      "text": "Player5 stops Player2's flag carrier!"
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the Player5 carrier."
+    },
+    {
+      "turn": 117,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 4–3."
+    },
+    {
+      "turn": 122,
+      "role": "caster",
+      "text": "GPT-6 Astra stops Player2's flag carrier!"
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "It's Sonnet 5.5's match to lose right now: 4, 1 clear of DeepSeek V4.1 Flash."
+    },
+    {
+      "turn": 126,
+      "role": "caster",
+      "text": "Sonnet 5.5 brings the flag home! 5–3."
+    },
+    {
+      "turn": 130,
+      "role": "caster",
+      "text": "Capture for Player4, and it's 5–4."
+    },
+    {
+      "turn": 133,
+      "role": "caster",
+      "text": "Capture for GLM 5.3, and it's 5–4."
+    },
+    {
+      "turn": 140,
+      "role": "caster",
+      "text": "Fable 5.1 stops GPT-6 Astra's flag carrier!"
+    },
+    {
+      "turn": 143,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the Player5 carrier."
+    },
+    {
+      "turn": 148,
+      "role": "caster",
+      "text": "Capture for Player2, and it's 5–4."
+    },
+    {
+      "turn": 150,
+      "role": "color",
+      "text": "Sonnet 5.5 have 5 and a 1-point cushion over Player4. Kimi K3 made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Player1 played furthest forward, about 14.7 cells from home on average; Player2 stayed closest to base at 3.0."
+    },
+    {
+      "turn": 153,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the Player5 carrier."
+    },
+    {
+      "turn": 155,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores again. 6–4 now."
+    },
+    {
+      "turn": 159,
+      "role": "caster",
+      "text": "Baseline brings the flag home! 6–4."
+    },
+    {
+      "turn": 161,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores again. 7–4 now."
+    },
+    {
+      "turn": 166,
+      "role": "caster",
+      "text": "GPT-6 Astra stops Player2's flag carrier!"
+    },
+    {
+      "turn": 172,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 7–5."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's Sonnet 5.5's match to lose right now: 7, 2 clear of Player4."
+    },
+    {
+      "turn": 176,
+      "role": "caster",
+      "text": "Baseline stops Fable 5.1's flag carrier!"
+    },
+    {
+      "turn": 178,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 7–5."
+    },
+    {
+      "turn": 185,
+      "role": "caster",
+      "text": "Player4 scores again. 7–6 now."
+    },
+    {
+      "turn": 188,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 7–6 now."
+    },
+    {
+      "turn": 192,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash stops Baseline's flag carrier!"
+    },
+    {
+      "turn": 194,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores again. 8–6 now."
+    },
+    {
+      "turn": 200,
+      "role": "caster",
+      "text": "Sonnet 5.5 scores again. 9–6 now."
+    },
+    {
+      "turn": 200,
+      "role": "color",
+      "text": "Sonnet 5.5 have 9 and a 3-point cushion over Player4. Fable 5.1 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: Sonnet 5.5 turned 4 of 4 pickups into points, the best conversion in this stretch. GPT-6 Astra led the fighting with 9 kills."
+    },
+    {
+      "turn": 203,
+      "role": "caster",
+      "text": "GLM 5.3 scores again. 9–6 now."
+    },
+    {
+      "turn": 209,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 9–7 now."
+    },
+    {
+      "turn": 213,
+      "role": "caster",
+      "text": "Big stop: Kimi K3 takes down the Player6 carrier."
+    },
+    {
+      "turn": 219,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 9–7."
+    },
+    {
+      "turn": 222,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 9–7."
+    },
+    {
+      "turn": 225,
+      "role": "caster",
+      "text": "Big stop: Sonnet 5.5 takes down the Fable 5.1 carrier."
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's Sonnet 5.5's match to lose right now: 9, 2 clear of Player4."
+    },
+    {
+      "turn": 227,
+      "role": "caster",
+      "text": "Player5 scores again. 9–7 now."
+    },
+    {
+      "turn": 231,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the GLM 5.3 carrier."
+    },
+    {
+      "turn": 233,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 9–7 now."
+    },
+    {
+      "turn": 239,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 9–7 now."
+    },
+    {
+      "turn": 246,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash brings the flag home! 9–7."
+    },
+    {
+      "turn": 250,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops Opus 5.5's flag carrier!"
+    },
+    {
+      "turn": 250,
+      "role": "color",
+      "text": "Sonnet 5.5 have 9 and a 2-point cushion over Player4. DeepSeek V4.1 Flash made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Opus 5.5 played furthest forward, about 15.5 cells from home on average; Baseline stayed closest to base at 3.3."
+    },
+    {
+      "turn": 252,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 9–7."
+    },
+    {
+      "turn": 256,
+      "role": "caster",
+      "text": "Kimi K3 stops Player3's flag carrier!"
+    },
+    {
+      "turn": 260,
+      "role": "caster",
+      "text": "Baseline scores again. 9–7 now."
+    },
+    {
+      "turn": 263,
+      "role": "caster",
+      "text": "Big stop: Player3 takes down the DeepSeek V4.1 Flash carrier."
+    },
+    {
+      "turn": 265,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 9–8."
+    },
+    {
+      "turn": 269,
+      "role": "caster",
+      "text": "Big stop: Player3 takes down the Baseline carrier."
+    },
+    {
+      "turn": 271,
+      "role": "caster",
+      "text": "Big stop: Player3 takes down the Kimi K3 carrier."
+    },
+    {
+      "turn": 273,
+      "role": "caster",
+      "text": "Big stop: Fable 5.1 takes down the Sonnet 5.5 carrier."
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "It's Sonnet 5.5's match to lose right now: 9, 1 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 276,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 9–9!"
+    },
+    {
+      "turn": 281,
+      "role": "caster",
+      "text": "Kimi K3 scores again. 9–9 now."
+    },
+    {
+      "turn": 285,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash brings the flag home! 9–9."
+    },
+    {
+      "turn": 287,
+      "role": "caster",
+      "text": "That capture puts Sonnet 5.5 in front. 10–9!"
+    },
+    {
+      "turn": 292,
+      "role": "caster",
+      "text": "4 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 296,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 10–9 now."
+    },
+    {
+      "turn": 299,
+      "role": "caster",
+      "text": "Big stop: Baseline takes down the Player3 carrier."
+    },
+    {
+      "turn": 300,
+      "role": "color",
+      "text": "Sonnet 5.5 have 10 and a 1-point cushion over GPT-6.1 Sol. Kimi K3 made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: GPT-6.1 Sol turned 3 of 3 pickups into points, the best conversion in this stretch. Player3 led the fighting with 10 kills."
+    },
+    {
+      "turn": 302,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 10–10!"
+    },
+    {
+      "turn": 306,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops Player2's flag carrier!"
+    },
+    {
+      "turn": 312,
+      "role": "caster",
+      "text": "Kimi K3 brings the flag home! 10–10."
+    },
+    {
+      "turn": 314,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 11–10."
+    },
+    {
+      "turn": 318,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash brings the flag home! 11–10."
+    },
+    {
+      "turn": 322,
+      "role": "caster",
+      "text": "GPT-6 Astra stops Player5's flag carrier!"
+    },
+    {
+      "turn": 324,
+      "role": "caster",
+      "text": "Baseline brings the flag home! 11–10."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 11, 1 clear of Sonnet 5.5."
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "Player4 brings the flag home! 11–10."
+    },
+    {
+      "turn": 331,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the GLM 5.3 carrier."
+    },
+    {
+      "turn": 336,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 12–10."
+    },
+    {
+      "turn": 339,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the GLM 5.3 carrier."
+    },
+    {
+      "turn": 342,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 13–10."
+    },
+    {
+      "turn": 345,
+      "role": "caster",
+      "text": "Big stop: Player5 takes down the GPT-6 Astra carrier."
+    },
+    {
+      "turn": 348,
+      "role": "caster",
+      "text": "GLM 5.3 brings the flag home! 13–10."
+    },
+    {
+      "turn": 350,
+      "role": "color",
+      "text": "GPT-6.1 Sol have 13 and a 3-point cushion over Sonnet 5.5. GPT-6.1 Sol made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 14.0 cells from home on average; Kimi K3 stayed closest to base at 3.0."
+    },
+    {
+      "turn": 352,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 13–10."
+    },
+    {
+      "turn": 354,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash stops Baseline's flag carrier!"
+    },
+    {
+      "turn": 361,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 14–10."
+    },
+    {
+      "turn": 363,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash brings the flag home! 14–10."
+    },
+    {
+      "turn": 370,
+      "role": "caster",
+      "text": "Capture for Player4, and it's 14–10."
+    },
+    {
+      "turn": 373,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the Player5 carrier."
+    },
+    {
+      "turn": 375,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 14–10."
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 14, 4 clear of Sonnet 5.5."
+    },
+    {
+      "turn": 377,
+      "role": "caster",
+      "text": "Big stop: Baseline takes down the Fable 5.1 carrier."
+    },
+    {
+      "turn": 382,
+      "role": "caster",
+      "text": "Sonnet 5.5 stops DeepSeek V4.1 Flash's flag carrier!"
+    },
+    {
+      "turn": 385,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the GLM 5.3 carrier."
+    },
+    {
+      "turn": 390,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 14–11."
+    },
+    {
+      "turn": 392,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 15–11 now."
+    },
+    {
+      "turn": 395,
+      "role": "caster",
+      "text": "Big stop: Baseline takes down the Kimi K3 carrier."
+    },
+    {
+      "turn": 397,
+      "role": "caster",
+      "text": "Capture for Baseline, and it's 15–11."
+    },
+    {
+      "turn": 400,
+      "role": "color",
+      "text": "GPT-6.1 Sol have 16 and a 5-point cushion over Sonnet 5.5. GPT-6.1 Sol made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: GPT-6.1 Sol finish on 16. Across the match they converted 76% of their pickups."
+    }
+  ]
+}

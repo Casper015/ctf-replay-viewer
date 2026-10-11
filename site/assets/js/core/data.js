@@ -27,3 +27,12 @@ export async function findEntry(key) {
   const { matches } = await loadCatalog();
   return matches.find((m) => m.key === key) || null;
 }
+
+/**
+ * AI commentary for a match in one language, or null when there is none.
+ * @returns {Promise<Commentary|null>} see docs/data-format.md (Commentary)
+ */
+export async function loadCommentary(entry, lang) {
+  if (!entry.commentary?.includes(lang)) return null;
+  return getJson(`data/commentary/${encodeURIComponent(entry.key)}/${encodeURIComponent(lang)}.json`);
+}

@@ -1,0 +1,43 @@
+{
+  "$help": "离线 mock 模式使用的模板。{占位符} 会用回放中的事实填充；同一键有多个版本时会轮流使用，避免重复。",
+  "caster.capture": [
+    "{team} 交旗成功！{score}。",
+    "{team} 再下一城，比分 {score}。",
+    "{team} 得分，现在是 {score}。"
+  ],
+  "caster.capture_lead": [
+    "{team} 得分并反超！{score}！",
+    "这一球让 {team} 领先了，{score}！"
+  ],
+  "caster.capture_tie": [
+    "{team} 扳平比分，{score}！"
+  ],
+  "caster.stop": [
+    "{by} 截下了 {victim} 的持旗者！",
+    "关键拦截！{by} 放倒了 {victim} 的持旗单位。"
+  ],
+  "caster.brawl": [
+    "这一回合倒下了 {count} 个单位，中路打得太激烈了！"
+  ],
+  "color.leading": [
+    "{leader} 拿到 {lead_score} 分，领先 {second} {gap} 分。这一段最活跃的是 {hot}，打进 {hot_caps} 球。",
+    "现在主动权在 {leader} 手里：{lead_score} 分，领先 {second} {gap} 分。"
+  ],
+  "color.tied": [
+    "难分高下：{tied} 同为 {lead_score} 分，接下来每一球都会改变领先者。",
+    "榜首胶着，{tied} 都是 {lead_score} 分。"
+  ],
+  "color.quiet": [
+    "这一段打得很谨慎，第 {t0} 到 {t1} 回合没有人得分，防守占了上风。"
+  ],
+  "analyst.window": [
+    "第 {t0}–{t1} 回合：{best} 拾旗 {best_picks} 次转化 {best_caps} 次，是这一段转化率最高的队伍；{killer} 以 {kills} 次击杀主导了交火。",
+    "第 {t0}–{t1} 回合，{killer} 赢下了交火（{kills} 次击杀），但比分上的赢家是 {best}，{best_picks} 次拾旗打进 {best_caps} 球。"
+  ],
+  "analyst.push": [
+    "{pusher} 站位最靠前，单位平均离本方基地约 {dist} 格；{turtle} 最保守，平均只有 {dist2} 格。"
+  ],
+  "analyst.final": [
+    "终场结论：{leader} 以 {lead_score} 分收官，全场拾旗转化率 {conv}%。"
+  ]
+}

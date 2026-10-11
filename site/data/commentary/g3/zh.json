@@ -1,0 +1,389 @@
+{
+  "version": 1,
+  "match": "g3",
+  "language": "zh",
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    }
+  },
+  "lines": [
+    {
+      "turn": 12,
+      "role": "caster",
+      "text": "Player1 得分并反超！1:0！"
+    },
+    {
+      "turn": 21,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，1:1！"
+    },
+    {
+      "turn": 25,
+      "role": "color",
+      "text": "榜首胶着，GPT-6.1 Sol、Player1 都是 1 分。"
+    },
+    {
+      "turn": 27,
+      "role": "caster",
+      "text": "这一球让 Player1 领先了，2:1！"
+    },
+    {
+      "turn": 34,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 扳平比分，2:2！"
+    },
+    {
+      "turn": 40,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分并反超！3:2！"
+    },
+    {
+      "turn": 48,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！3:2。"
+    },
+    {
+      "turn": 50,
+      "role": "color",
+      "text": "GPT-6.1 Sol 拿到 3 分，领先 Player1 1 分。这一段最活跃的是 GPT-6.1 Sol，打进 2 球。"
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 10.7 格；Fable 5.1 最保守，平均只有 3.7 格。"
+    },
+    {
+      "turn": 57,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！3:2。"
+    },
+    {
+      "turn": 72,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！4:2。"
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "现在主动权在 GPT-6.1 Sol 手里：4 分，领先 Fable 5.1 2 分。"
+    },
+    {
+      "turn": 85,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 5:2。"
+    },
+    {
+      "turn": 100,
+      "role": "color",
+      "text": "GPT-6.1 Sol 拿到 5 分，领先 Fable 5.1 2 分。这一段最活跃的是 Fable 5.1，打进 1 球。"
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "第 51–100 回合：Fable 5.1 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；Fable 5.1 以 5 次击杀主导了交火。"
+    },
+    {
+      "turn": 101,
+      "role": "caster",
+      "text": "关键拦截！GPT-6.1 Sol 放倒了 Player1 的持旗单位。"
+    },
+    {
+      "turn": 103,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 6:3。"
+    },
+    {
+      "turn": 111,
+      "role": "caster",
+      "text": "关键拦截！Fable 5.1 放倒了 GPT-6.1 Sol 的持旗单位。"
+    },
+    {
+      "turn": 117,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！7:3。"
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "现在主动权在 GPT-6.1 Sol 手里：7 分，领先 Fable 5.1 4 分。"
+    },
+    {
+      "turn": 126,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！7:4。"
+    },
+    {
+      "turn": 132,
+      "role": "caster",
+      "text": "Player1 交旗成功！7:4。"
+    },
+    {
+      "turn": 139,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 8:4。"
+    },
+    {
+      "turn": 147,
+      "role": "caster",
+      "text": "Player1 交旗成功！8:4。"
+    },
+    {
+      "turn": 150,
+      "role": "color",
+      "text": "GPT-6.1 Sol 拿到 8 分，领先 Fable 5.1 4 分。这一段最活跃的是 Player1，打进 2 球。"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 9.3 格；Player1 最保守，平均只有 7.0 格。"
+    },
+    {
+      "turn": 162,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！9:5。"
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "现在主动权在 GPT-6.1 Sol 手里：9 分，领先 Player1 4 分。"
+    },
+    {
+      "turn": 176,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 9:5。"
+    },
+    {
+      "turn": 180,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！9:6。"
+    },
+    {
+      "turn": 191,
+      "role": "caster",
+      "text": "Player1 得分，现在是 9:6。"
+    },
+    {
+      "turn": 196,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 10:6。"
+    },
+    {
+      "turn": 200,
+      "role": "color",
+      "text": "GPT-6.1 Sol 拿到 10 分，领先 Fable 5.1 4 分。这一段最活跃的是 Fable 5.1，打进 2 球。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：Fable 5.1 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；Fable 5.1 以 2 次击杀主导了交火。"
+    },
+    {
+      "turn": 201,
+      "role": "caster",
+      "text": "关键拦截！Fable 5.1 放倒了 GPT-6.1 Sol 的持旗单位。"
+    },
+    {
+      "turn": 206,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 11:6。"
+    },
+    {
+      "turn": 209,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 得分，现在是 12:6。"
+    },
+    {
+      "turn": 222,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！13:6。"
+    },
+    {
+      "turn": 224,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 13:7。"
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "现在主动权在 GPT-6.1 Sol 手里：13 分，领先 Fable 5.1 6 分。"
+    },
+    {
+      "turn": 237,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 交旗成功！14:7。"
+    },
+    {
+      "turn": 245,
+      "role": "caster",
+      "text": "Player1 得分，现在是 14:7。"
+    },
+    {
+      "turn": 250,
+      "role": "color",
+      "text": "GPT-6.1 Sol 拿到 14 分，领先 Fable 5.1 7 分。这一段最活跃的是 GPT-6.1 Sol，打进 1 球。"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 14.7 格；Player1 最保守，平均只有 5.3 格。"
+    },
+    {
+      "turn": 252,
+      "role": "caster",
+      "text": "Player1 交旗成功！14:8。"
+    },
+    {
+      "turn": 263,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 14:8。"
+    },
+    {
+      "turn": 267,
+      "role": "caster",
+      "text": "Player1 交旗成功！14:9。"
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "现在主动权在 GPT-6.1 Sol 手里：14 分，领先 Player1 5 分。"
+    },
+    {
+      "turn": 281,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 14:9。"
+    },
+    {
+      "turn": 295,
+      "role": "caster",
+      "text": "Fable 5.1 再下一城，比分 15:10。"
+    },
+    {
+      "turn": 300,
+      "role": "color",
+      "text": "GPT-6.1 Sol 拿到 15 分，领先 Fable 5.1 5 分。这一段最活跃的是 Fable 5.1，打进 2 球。"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合：Player1 拾旗 2 次转化 3 次，是这一段转化率最高的队伍；Fable 5.1 以 3 次击杀主导了交火。"
+    },
+    {
+      "turn": 310,
+      "role": "caster",
+      "text": "Player1 再下一城，比分 15:11。"
+    },
+    {
+      "turn": 314,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 15:11。"
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "现在主动权在 GPT-6.1 Sol 手里：15 分，领先 Fable 5.1 4 分。"
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "Fable 5.1 交旗成功！15:12。"
+    },
+    {
+      "turn": 329,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 15:13。"
+    },
+    {
+      "turn": 347,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 15:14。"
+    },
+    {
+      "turn": 350,
+      "role": "color",
+      "text": "GPT-6.1 Sol 拿到 15 分，领先 Fable 5.1 1 分。这一段最活跃的是 Fable 5.1，打进 3 球。"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 7.3 格；GPT-6.1 Sol 最保守，平均只有 5.0 格。"
+    },
+    {
+      "turn": 352,
+      "role": "caster",
+      "text": "Player1 再下一城，比分 15:14。"
+    },
+    {
+      "turn": 365,
+      "role": "caster",
+      "text": "Fable 5.1 扳平比分，15:15！"
+    },
+    {
+      "turn": 367,
+      "role": "caster",
+      "text": "Player1 再下一城，比分 15:15。"
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "榜首胶着，Fable 5.1、GPT-6.1 Sol 都是 15 分。"
+    },
+    {
+      "turn": 379,
+      "role": "caster",
+      "text": "这一球让 Fable 5.1 领先了，16:15！"
+    },
+    {
+      "turn": 393,
+      "role": "caster",
+      "text": "这一球让 Fable 5.1 领先了，17:16！"
+    },
+    {
+      "turn": 395,
+      "role": "caster",
+      "text": "Player1 得分，现在是 17:16。"
+    },
+    {
+      "turn": 400,
+      "role": "color",
+      "text": "Fable 5.1 拿到 17 分，领先 GPT-6.1 Sol 1 分。这一段最活跃的是 Fable 5.1，打进 2 球。"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：Fable 5.1 以 17 分收官，全场拾旗转化率 100%。"
+    }
+  ]
+}

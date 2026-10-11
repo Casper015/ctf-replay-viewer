@@ -44,6 +44,9 @@ jobs:
             exit 1
           fi
 
+      - name: Check AI commentary (config, roles, skills, files)
+        run: python3 tools/commentate.py check
+
       - name: Check site (i18n keys, imports, icons, links)
         run: node tools/check.mjs
 

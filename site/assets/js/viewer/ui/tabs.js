@@ -2,7 +2,7 @@
 
 import { $$ } from '../../core/dom.js';
 
-export const TABS = ['standings', 'chart', 'feed', 'stats'];
+export const TABS = ['standings', 'chart', 'feed', 'stats', 'commentary'];
 
 export function mountTabs(store) {
   const buttons = $$('#tabs [role="tab"]');

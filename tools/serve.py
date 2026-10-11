@@ -25,10 +25,16 @@ class NoCacheHandler(http.server.SimpleHTTPRequestHandler):
         super().end_headers()
 
 
+class Server(http.server.ThreadingHTTPServer):
+    # The browser fetches ~40 ES modules at once; the default backlog of 5 makes some reset
+    request_queue_size = 128
+    daemon_threads = True
+
+
 def main() -> None:
     port = int(sys.argv[1]) if len(sys.argv) > 1 else 8000
     handler = functools.partial(NoCacheHandler, directory=str(SITE))
-    with http.server.ThreadingHTTPServer(("127.0.0.1", port), handler) as httpd:
+    with Server(("127.0.0.1", port), handler) as httpd:
         print(f"serving {SITE} at http://localhost:{port}  (Ctrl+C to stop)")
         httpd.serve_forever()
 

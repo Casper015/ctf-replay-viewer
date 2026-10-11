@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "match": "g4_three_way",
+  "language": "en",
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 1–1!"
+    },
+    {
+      "turn": 24,
+      "role": "caster",
+      "text": "Player3 scores to level it up. 1–1!"
+    },
+    {
+      "turn": 25,
+      "role": "color",
+      "text": "Dead even at the top, Player3 and Fable 5.1 and GPT-6.1 Sol on 1 each."
+    },
+    {
+      "turn": 31,
+      "role": "caster",
+      "text": "That capture puts Fable 5.1 in front. 2–1!"
+    },
+    {
+      "turn": 40,
+      "role": "caster",
+      "text": "Capture for Fable 5.1, and it's 3–1."
+    },
+    {
+      "turn": 42,
+      "role": "caster",
+      "text": "3 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 44,
+      "role": "caster",
+      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
+    },
+    {
+      "turn": 50,
+      "role": "color",
+      "text": "Fable 5.1 have 3 and a 2-point cushion over Player3. Fable 5.1 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 13.0 cells from home on average; DeepSeek V4.1 Flash stayed closest to base at 5.5."
+    },
+    {
+      "turn": 57,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 4–1."
+    },
+    {
+      "turn": 59,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 5–1 now."
+    },
+    {
+      "turn": 70,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 5–2."
+    },
+    {
+      "turn": 72,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 6–2."
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "It's Fable 5.1's match to lose right now: 6, 4 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 84,
+      "role": "caster",
+      "text": "Player3 brings the flag home! 6–2."
+    },
+    {
+      "turn": 100,
+      "role": "color",
+      "text": "Fable 5.1 have 6 and a 4-point cushion over Player3. Player3 made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: Fable 5.1 turned 3 of 2 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 4 kills."
+    },
+    {
+      "turn": 102,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 6–3."
+    },
+    {
+      "turn": 105,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 6–4."
+    },
+    {
+      "turn": 121,
+      "role": "caster",
+      "text": "Capture for DeepSeek V4.1 Flash, and it's 6–4."
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "It's Fable 5.1's match to lose right now: 6, 2 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 131,
+      "role": "caster",
+      "text": "Fable 5.1 scores again. 7–4 now."
+    },
+    {
+      "turn": 134,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 7–4 now."
+    },
+    {
+      "turn": 144,
+      "role": "caster",
+      "text": "Fable 5.1 brings the flag home! 8–4."
+    },
+    {
+      "turn": 147,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash brings the flag home! 8–4."
+    },
+    {
+      "turn": 150,
+      "role": "color",
+      "text": "Fable 5.1 have 8 and a 4-point cushion over DeepSeek V4.1 Flash. Fable 5.1 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Player3 played furthest forward, about 9.7 cells from home on average; DeepSeek V4.1 Flash stayed closest to base at 5.3."
+    },
+    {
+      "turn": 157,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 8–5."
+    },
+    {
+      "turn": 162,
+      "role": "caster",
+      "text": "Player3 brings the flag home! 8–5."
+    },
+    {
+      "turn": 168,
+      "role": "caster",
+      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
+    },
+    {
+      "turn": 175,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 8–6."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's Fable 5.1's match to lose right now: 8, 2 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 184,
+      "role": "caster",
+      "text": "Fable 5.1 stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 187,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 8–7."
+    },
+    {
+      "turn": 189,
+      "role": "caster",
+      "text": "Player3 brings the flag home! 8–7."
+    },
+    {
+      "turn": 200,
+      "role": "color",
+      "text": "Fable 5.1 have 8 and a 1-point cushion over GPT-6.1 Sol. Player3 made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: Player3 turned 2 of 2 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 10 kills."
+    },
+    {
+      "turn": 201,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 8–8!"
+    },
+    {
+      "turn": 219,
+      "role": "caster",
+      "text": "That capture puts GPT-6.1 Sol in front. 9–8!"
+    },
+    {
+      "turn": 221,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 9–8 now."
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 9, 1 clear of Fable 5.1."
+    },
+    {
+      "turn": 233,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 9–9!"
+    },
+    {
+      "turn": 236,
+      "role": "caster",
+      "text": "3 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 247,
+      "role": "caster",
+      "text": "Capture for DeepSeek V4.1 Flash, and it's 9–9."
+    },
+    {
+      "turn": 250,
+      "role": "color",
+      "text": "Nothing to separate them: Fable 5.1 and GPT-6.1 Sol are level on 9. Every capture from here is a lead change."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Fable 5.1 played furthest forward, about 10.7 cells from home on average; Player3 stayed closest to base at 4.5."
+    },
+    {
+      "turn": 256,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 10–9."
+    },
+    {
+      "turn": 261,
+      "role": "caster",
+      "text": "Player3 brings the flag home! 10–9."
+    },
+    {
+      "turn": 269,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 10–9 now."
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 10, 1 clear of Fable 5.1."
+    },
+    {
+      "turn": 276,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 10–10!"
+    },
+    {
+      "turn": 282,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 11–10."
+    },
+    {
+      "turn": 289,
+      "role": "caster",
+      "text": "Capture for DeepSeek V4.1 Flash, and it's 11–10."
+    },
+    {
+      "turn": 300,
+      "role": "color",
+      "text": "GPT-6.1 Sol have 11 and a 1-point cushion over Fable 5.1. Fable 5.1 made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: GPT-6.1 Sol turned 2 of 1 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 7 kills."
+    },
+    {
+      "turn": 301,
+      "role": "caster",
+      "text": "Capture for Player3, and it's 11–10."
+    },
+    {
+      "turn": 304,
+      "role": "caster",
+      "text": "Capture for Player3, and it's 11–10."
+    },
+    {
+      "turn": 316,
+      "role": "caster",
+      "text": "Capture for DeepSeek V4.1 Flash, and it's 11–10."
+    },
+    {
+      "turn": 320,
+      "role": "caster",
+      "text": "Player3 scores again. 11–10 now."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 11, 1 clear of Fable 5.1."
+    },
+    {
+      "turn": 329,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores again. 11–10 now."
+    },
+    {
+      "turn": 333,
+      "role": "caster",
+      "text": "Fable 5.1 scores to level it up. 11–11!"
+    },
+    {
+      "turn": 343,
+      "role": "caster",
+      "text": "That capture puts Fable 5.1 in front. 12–11!"
+    },
+    {
+      "turn": 347,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the DeepSeek V4.1 Flash carrier."
+    },
+    {
+      "turn": 350,
+      "role": "caster",
+      "text": "4 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 350,
+      "role": "color",
+      "text": "Fable 5.1 have 12 and a 1-point cushion over GPT-6.1 Sol. Fable 5.1 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "DeepSeek V4.1 Flash played furthest forward, about 8.5 cells from home on average; Fable 5.1 stayed closest to base at 6.5."
+    },
+    {
+      "turn": 356,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 12–12!"
+    },
+    {
+      "turn": 368,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops Fable 5.1's flag carrier!"
+    },
+    {
+      "turn": 371,
+      "role": "caster",
+      "text": "Player3 scores again. 12–12 now."
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "Dead even at the top, Fable 5.1 and GPT-6.1 Sol on 12 each."
+    },
+    {
+      "turn": 376,
+      "role": "caster",
+      "text": "Player3 stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 390,
+      "role": "caster",
+      "text": "DeepSeek V4.1 Flash scores to level it up. 12–12!"
+    },
+    {
+      "turn": 400,
+      "role": "color",
+      "text": "Nothing to separate them: Fable 5.1 and DeepSeek V4.1 Flash and GPT-6.1 Sol are level on 12. Every capture from here is a lead change."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Fable 5.1 finish on 12. Across the match they converted 92% of their pickups."
+    }
+  ]
+}

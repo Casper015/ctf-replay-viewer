@@ -1,0 +1,419 @@
+{
+  "version": 1,
+  "match": "g4_record",
+  "language": "en",
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "GPT-6 Astra scores and takes the lead! 1–0."
+    },
+    {
+      "turn": 23,
+      "role": "caster",
+      "text": "Opus 5.5 scores to level it up. 1–1!"
+    },
+    {
+      "turn": 25,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 2–1!"
+    },
+    {
+      "turn": 25,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 2, 1 clear of Player5."
+    },
+    {
+      "turn": 34,
+      "role": "caster",
+      "text": "GPT-6 Astra stops Player5's flag carrier!"
+    },
+    {
+      "turn": 38,
+      "role": "caster",
+      "text": "Player5 stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 41,
+      "role": "caster",
+      "text": "Big stop: Player5 takes down the GPT-6.1 Sol carrier."
+    },
+    {
+      "turn": 48,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 3–1."
+    },
+    {
+      "turn": 50,
+      "role": "color",
+      "text": "GPT-6 Astra have 3 and a 2-point cushion over Player5. GPT-6 Astra made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "Opus 5.5 played furthest forward, about 9.5 cells from home on average; Player5 stayed closest to base at 4.7."
+    },
+    {
+      "turn": 51,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 3–2."
+    },
+    {
+      "turn": 61,
+      "role": "caster",
+      "text": "Capture for Opus 5.5, and it's 3–2."
+    },
+    {
+      "turn": 64,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 3–2."
+    },
+    {
+      "turn": 74,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 3–2 now."
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 3, 1 clear of Player5."
+    },
+    {
+      "turn": 83,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores to level it up. 3–3!"
+    },
+    {
+      "turn": 86,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops Player5's flag carrier!"
+    },
+    {
+      "turn": 93,
+      "role": "caster",
+      "text": "That capture puts GPT-6.1 Sol in front. 4–3!"
+    },
+    {
+      "turn": 96,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 4–3."
+    },
+    {
+      "turn": 100,
+      "role": "color",
+      "text": "GPT-6.1 Sol have 4 and a 1-point cushion over Player5. GPT-6.1 Sol made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: Player5 turned 2 of 2 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 5 kills."
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 5–3."
+    },
+    {
+      "turn": 112,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 6–3."
+    },
+    {
+      "turn": 119,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 6–4 now."
+    },
+    {
+      "turn": 125,
+      "role": "caster",
+      "text": "Player5 scores again. 6–4 now."
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 6, 2 clear of Player5."
+    },
+    {
+      "turn": 132,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 7–4."
+    },
+    {
+      "turn": 138,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 7–4."
+    },
+    {
+      "turn": 145,
+      "role": "caster",
+      "text": "Capture for Opus 5.5, and it's 7–4."
+    },
+    {
+      "turn": 150,
+      "role": "color",
+      "text": "GPT-6.1 Sol have 7 and a 3-point cushion over Player5. Opus 5.5 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 8.3 cells from home on average; Player5 stayed closest to base at 2.0."
+    },
+    {
+      "turn": 151,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 7–5."
+    },
+    {
+      "turn": 158,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 7–5 now."
+    },
+    {
+      "turn": 164,
+      "role": "caster",
+      "text": "Player5 stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 171,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 7–5."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 8, 3 clear of Player5."
+    },
+    {
+      "turn": 185,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 8–6 now."
+    },
+    {
+      "turn": 191,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 8–6 now."
+    },
+    {
+      "turn": 198,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 9–6."
+    },
+    {
+      "turn": 200,
+      "role": "color",
+      "text": "GPT-6.1 Sol have 9 and a 3-point cushion over Opus 5.5. GPT-6.1 Sol made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: GPT-6 Astra turned 2 of 2 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 3 kills."
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "Big stop: Player5 takes down the GPT-6 Astra carrier."
+    },
+    {
+      "turn": 214,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 9–7."
+    },
+    {
+      "turn": 216,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 9–7."
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 9, 2 clear of GPT-6 Astra."
+    },
+    {
+      "turn": 228,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 9–8."
+    },
+    {
+      "turn": 232,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 9–9!"
+    },
+    {
+      "turn": 241,
+      "role": "caster",
+      "text": "That capture puts GPT-6.1 Sol in front. 10–9!"
+    },
+    {
+      "turn": 245,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 10–10!"
+    },
+    {
+      "turn": 250,
+      "role": "color",
+      "text": "Nothing to separate them: GPT-6.1 Sol and GPT-6 Astra are level on 10. Every capture from here is a lead change."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Player5 played furthest forward, about 9.0 cells from home on average; GPT-6.1 Sol stayed closest to base at 6.0."
+    },
+    {
+      "turn": 259,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 10–10."
+    },
+    {
+      "turn": 273,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 10–10."
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 11, 1 clear of GPT-6 Astra."
+    },
+    {
+      "turn": 287,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 12–10 now."
+    },
+    {
+      "turn": 300,
+      "role": "caster",
+      "text": "Opus 5.5 brings the flag home! 12–10."
+    },
+    {
+      "turn": 300,
+      "role": "color",
+      "text": "GPT-6.1 Sol have 12 and a 2-point cushion over Player5. Opus 5.5 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: Player5 turned 4 of 3 pickups into points, the best conversion in this stretch. Player5 led the fighting with 3 kills."
+    },
+    {
+      "turn": 313,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 13–11."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's GPT-6.1 Sol's match to lose right now: 13, 2 clear of GPT-6 Astra."
+    },
+    {
+      "turn": 326,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 13–12 now."
+    },
+    {
+      "turn": 339,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 13–12."
+    },
+    {
+      "turn": 344,
+      "role": "caster",
+      "text": "Opus 5.5 scores again. 13–12 now."
+    },
+    {
+      "turn": 350,
+      "role": "color",
+      "text": "GPT-6.1 Sol have 13 and a 1-point cushion over Player5. Player5 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 11.3 cells from home on average; GPT-6 Astra stayed closest to base at 7.0."
+    },
+    {
+      "turn": 353,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 13–13!"
+    },
+    {
+      "turn": 356,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops Player5's flag carrier!"
+    },
+    {
+      "turn": 367,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 14–13!"
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 15, 2 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 381,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 16–14."
+    },
+    {
+      "turn": 392,
+      "role": "caster",
+      "text": "Opus 5.5 stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 394,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 16–14."
+    },
+    {
+      "turn": 400,
+      "role": "caster",
+      "text": "Capture for Opus 5.5, and it's 16–14."
+    },
+    {
+      "turn": 400,
+      "role": "color",
+      "text": "GPT-6 Astra have 16 and a 2-point cushion over GPT-6.1 Sol. Player5 made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: GPT-6 Astra finish on 16. Across the match they converted 94% of their pickups."
+    }
+  ]
+}

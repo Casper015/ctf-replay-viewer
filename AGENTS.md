@@ -8,6 +8,7 @@ A static, bilingual (zh/en) replay viewer for AI capture-the-flag matches. Plain
 python3 tools/build_catalog.py --check   # metadata + replays valid
 python3 tools/build_catalog.py           # regenerate catalog after any content/ or replay change
 node tools/check.mjs                     # i18n keys, imports, icons, links, catalog
+python3 tools/commentate.py check        # commentary config, roles, skills, files
 python3 tools/serve.py                   # look at it: http://localhost:8000 (no caching)
 ```
 
@@ -25,6 +26,7 @@ Each lane can be worked on in parallel. Stay inside your lane; if you must cross
 | Viewer panels | `site/assets/js/viewer/ui/*.js` | the store (`viewer/store.js`) |
 | Viewer core | `site/assets/js/viewer/{main,store,derive,playback,keyboard,url-state}.js` | store keys documented in `store.js` |
 | Lobby | `site/assets/js/lobby/`, `site/index.html`, `assets/css/lobby.css` | `core/data.js` (catalog) |
+| AI commentary | `commentary/`, `tools/commentate.py`, `tools/commentary_lib.py`, `viewer/ui/commentary.js`, `.claude/skills/ctf-commentary/` | `site/data/commentary/<key>/<lang>.json` (format in `docs/data-format.md`) |
 | Text & translation | `site/assets/js/locales/zh-CN.js`, `en.js` | `t(key)` in `core/i18n.js` |
 | Design system | `site/assets/css/tokens.css`, `base.css`, `components.css` | CSS custom properties |
 

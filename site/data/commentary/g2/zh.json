@@ -1,0 +1,484 @@
+{
+  "version": 1,
+  "match": "g2",
+  "language": "zh",
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "offline",
+      "model": "claude-opus-5-5（根据 commentary/briefs/g2.zh.md 撰写）",
+      "generated": "2026-10-10"
+    },
+    "color": {
+      "provider": "offline",
+      "model": "claude-opus-5-5（根据 commentary/briefs/g2.zh.md 撰写）",
+      "generated": "2026-10-10"
+    },
+    "analyst": {
+      "provider": "offline",
+      "model": "claude-opus-5-5（根据 commentary/briefs/g2.zh.md 撰写）",
+      "generated": "2026-10-10"
+    }
+  },
+  "lines": [
+    {
+      "turn": 6,
+      "role": "caster",
+      "text": "开场六回合，Opus 5.5 率先交旗，1:0！"
+    },
+    {
+      "turn": 7,
+      "role": "caster",
+      "text": "Player5 马上回敬一球，1:1。"
+    },
+    {
+      "turn": 17,
+      "role": "caster",
+      "text": "Player5 再次交旗，2:1 反超！"
+    },
+    {
+      "turn": 18,
+      "role": "caster",
+      "text": "Opus 下一回合就扳平，2:2，这是一场对攻战！"
+    },
+    {
+      "turn": 25,
+      "role": "color",
+      "text": "18 个回合打进 4 球，两边都不怎么防守，就是比谁抢旗跑得快。"
+    },
+    {
+      "turn": 29,
+      "role": "caster",
+      "text": "Player5 截下 Opus 持旗者，同一回合自己还交旗得分，3:2！"
+    },
+    {
+      "turn": 32,
+      "role": "caster",
+      "text": "Player5 又一次拦截！Opus 的旗就是运不出中路。"
+    },
+    {
+      "turn": 41,
+      "role": "caster",
+      "text": "Player5 打成 4:2。"
+    },
+    {
+      "turn": 42,
+      "role": "caster",
+      "text": "连续得分！5:2，Player5 这是在宣告实力！"
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "前 50 回合，Player5 拾旗 5 次全部转化，Opus 5 次只转化 2 次。差距就来自第 29、32 回合的两次截杀；Opus 单位平均离家 8.5 格，比 Player5 的 5.0 格压得更深，持旗者也更容易暴露。"
+    },
+    {
+      "turn": 56,
+      "role": "caster",
+      "text": "Opus 5.5 终于追回一球，5:3。"
+    },
+    {
+      "turn": 61,
+      "role": "caster",
+      "text": "又进一球！Opus 追到只差一分，5:4。"
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "Player5 重新拉开两分，6:4。"
+    },
+    {
+      "turn": 72,
+      "role": "caster",
+      "text": "Opus 5.5 再下一城，6:5，就是甩不掉！"
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "这个节奏太好看了：Player5 每次拉开差距，Opus 都能一点点追回来，看得出它相信自己能赢下这场赛跑。"
+    },
+    {
+      "turn": 78,
+      "role": "caster",
+      "text": "Player5 回击，7:5。"
+    },
+    {
+      "turn": 88,
+      "role": "caster",
+      "text": "Opus 得分，7:6……"
+    },
+    {
+      "turn": 89,
+      "role": "caster",
+      "text": "……Player5 下一回合立刻回应，8:6！"
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "第 51–100 回合纸面上很平均，Opus 4 球、Player5 3 球，但站位反转了：Player5 平均离家 8.0 格，Opus 退到 4.5 格。Opus 在旗点蹲守，Player5 改为护送持旗者回家。"
+    },
+    {
+      "turn": 102,
+      "role": "caster",
+      "text": "Opus 5.5 追回一球，8:7。"
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "Player5 回应，9:7。"
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "Player5 再进一球！10:7。"
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "三回合两球！11:7，本场最大分差！"
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "第 118 和 120 回合的连续得分是第一道真正的裂缝。之前 Opus 每球都能跟上，现在一下落后了 4 分。"
+    },
+    {
+      "turn": 129,
+      "role": "caster",
+      "text": "12:7，Player5 要跑远了！"
+    },
+    {
+      "turn": 134,
+      "role": "caster",
+      "text": "Opus 止住颓势，12:8。"
+    },
+    {
+      "turn": 141,
+      "role": "caster",
+      "text": "Player5 马上回敬，13:8。"
+    },
+    {
+      "turn": 148,
+      "role": "caster",
+      "text": "Opus 5.5 回应，13:9。"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "第 101–150 回合的 8 球里 Player5 拿下 5 球，全部来自干净的护送，这一段没有丢过一个持旗者。Opus 击杀数不落下风，但不针对持旗者的击杀改变不了比分。"
+    },
+    {
+      "turn": 154,
+      "role": "caster",
+      "text": "Opus 放倒了 Player5 的持旗者！这是 Opus 的第一次关键拦截！"
+    },
+    {
+      "turn": 159,
+      "role": "caster",
+      "text": "Opus 把这次拦截变成了分数，13:10。"
+    },
+    {
+      "turn": 161,
+      "role": "caster",
+      "text": "Player5 立刻回击，14:10。"
+    },
+    {
+      "turn": 170,
+      "role": "caster",
+      "text": "Opus 得分，14:11。"
+    },
+    {
+      "turn": 175,
+      "role": "caster",
+      "text": "Player5，15:11。"
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "Opus 开始专门猎杀持旗者，而不是一味比速度。思路是对的，只是次数还不够多。"
+    },
+    {
+      "turn": 181,
+      "role": "caster",
+      "text": "Player5 打成 16:11。"
+    },
+    {
+      "turn": 186,
+      "role": "caster",
+      "text": "Opus 回应，16:12。"
+    },
+    {
+      "turn": 191,
+      "role": "caster",
+      "text": "Opus 截下 Player5 的持旗者！"
+    },
+    {
+      "turn": 193,
+      "role": "caster",
+      "text": "又一次！Opus 把门关上了！"
+    },
+    {
+      "turn": 200,
+      "role": "color",
+      "text": "领先 4 分听起来很稳，可 Player5 全队都在等重生，一点都不稳。"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "半场 16:12，Player5 领先。但最后 10 回合比比分更重要：Opus 3 次击杀、2 次截杀持旗且零阵亡，第 200 回合 Player5 三个单位全部倒地。下半场开局，中路在 Opus 手里。"
+    },
+    {
+      "turn": 203,
+      "role": "caster",
+      "text": "Opus 趁势得分，16:13。"
+    },
+    {
+      "turn": 206,
+      "role": "caster",
+      "text": "Opus 再进一球！16:14，只差两分！"
+    },
+    {
+      "turn": 214,
+      "role": "caster",
+      "text": "Opus 5.5 连下三城！16:15！"
+    },
+    {
+      "turn": 218,
+      "role": "caster",
+      "text": "Player5 截下 Opus 持旗者，这一下太需要了！"
+    },
+    {
+      "turn": 221,
+      "role": "caster",
+      "text": "Player5 又一次拦截，可 Opus 还在往前压……"
+    },
+    {
+      "turn": 222,
+      "role": "caster",
+      "text": "Opus 扳平了！16:16！"
+    },
+    {
+      "turn": 225,
+      "role": "caster",
+      "text": "Player5 立刻重新领先，17:16。"
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "Opus 从 12 分一路连追 4 球追到 16 平，这就是我们整场一直在等的势头逆转。"
+    },
+    {
+      "turn": 236,
+      "role": "caster",
+      "text": "Opus 放倒了 Player5 的持旗者！"
+    },
+    {
+      "turn": 237,
+      "role": "caster",
+      "text": "但 Player5 还是得分了，18:16。"
+    },
+    {
+      "turn": 245,
+      "role": "caster",
+      "text": "Opus 5.5 回应，18:17。"
+    },
+    {
+      "turn": 248,
+      "role": "caster",
+      "text": "Player5 重新拉开两分，19:17。"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "第 201–250 回合 Opus 以 5:3 占优。关键在防守端：Opus 平均离家 6.0 格，Player5 只有 4.5 格，Player5 第一次被压回了自家半场。"
+    },
+    {
+      "turn": 256,
+      "role": "caster",
+      "text": "Opus 追回一球，19:18。"
+    },
+    {
+      "turn": 261,
+      "role": "caster",
+      "text": "Opus 扳成 19 平！"
+    },
+    {
+      "turn": 268,
+      "role": "caster",
+      "text": "Opus 5.5 自第 6 回合后首次领先！20:19！"
+    },
+    {
+      "turn": 272,
+      "role": "caster",
+      "text": "21:19，Opus！"
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "从 7:12 落后到 21:19 领先。一支队伍不再赢下交火，另一支从来没放弃，就会是这个结果。"
+    },
+    {
+      "turn": 279,
+      "role": "caster",
+      "text": "Opus 再进一球，22:19，Player5 被打懵了！"
+    },
+    {
+      "turn": 283,
+      "role": "caster",
+      "text": "Player5 终于回应，22:20。"
+    },
+    {
+      "turn": 290,
+      "role": "caster",
+      "text": "Opus，23:20。"
+    },
+    {
+      "turn": 295,
+      "role": "caster",
+      "text": "24:20，Opus 5.5 领先 4 分！"
+    },
+    {
+      "turn": 300,
+      "role": "color",
+      "text": "还剩 100 回合，Player5 要连追 5 球才能反超。它做得到，只是这场之前从没需要这么做。"
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "第 251–300 回合 Opus 打进 7 球，Player5 只有 1 球。Player5 单位平均离家只有 3.0 格，一直在守自家基地而不是争夺旗点，在那里是拿不到分的。"
+    },
+    {
+      "turn": 301,
+      "role": "caster",
+      "text": "Player5 追回一球，24:21。"
+    },
+    {
+      "turn": 308,
+      "role": "caster",
+      "text": "Player5 截下 Opus 的持旗者！"
+    },
+    {
+      "turn": 315,
+      "role": "caster",
+      "text": "Player5 得分，24:22。"
+    },
+    {
+      "turn": 317,
+      "role": "caster",
+      "text": "又进了！24:23，Player5 杀回来了！"
+    },
+    {
+      "turn": 326,
+      "role": "caster",
+      "text": "Player5 扳平！24:24！连进四球！"
+    },
+    {
+      "turn": 330,
+      "role": "color",
+      "text": "这回轮到 Player5 连进四球了。这场比赛的局面从来稳定不了二十回合。"
+    },
+    {
+      "turn": 334,
+      "role": "caster",
+      "text": "Opus 回应，25:24 再度领先。"
+    },
+    {
+      "turn": 337,
+      "role": "caster",
+      "text": "26:24，Opus！"
+    },
+    {
+      "turn": 345,
+      "role": "caster",
+      "text": "Player5 回敬，26:25。"
+    },
+    {
+      "turn": 348,
+      "role": "caster",
+      "text": "Opus 5.5，27:25，还剩 50 回合。"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "第 301–350 回合 Player5 以 5:3 占优，站位又一次反转：Player5 回到平均离家 5.0 格，Opus 退到 3.5 格。最后 50 回合谁控制中路，谁就赢。"
+    },
+    {
+      "turn": 356,
+      "role": "caster",
+      "text": "Player5 追到只差一分，27:26。"
+    },
+    {
+      "turn": 359,
+      "role": "caster",
+      "text": "又扳平了！27:27！"
+    },
+    {
+      "turn": 360,
+      "role": "color",
+      "text": "27 平，还剩 40 回合，剧本都不敢这么写。"
+    },
+    {
+      "turn": 367,
+      "role": "caster",
+      "text": "Player5 重新领先，28:27！"
+    },
+    {
+      "turn": 373,
+      "role": "caster",
+      "text": "Opus 扳平，28:28！"
+    },
+    {
+      "turn": 378,
+      "role": "caster",
+      "text": "Player5 再度领先，29:28！"
+    },
+    {
+      "turn": 386,
+      "role": "caster",
+      "text": "Player5 打成 30:28，还剩 14 回合，领先两分！"
+    },
+    {
+      "turn": 389,
+      "role": "caster",
+      "text": "Opus 立刻回应，30:29！"
+    },
+    {
+      "turn": 390,
+      "role": "color",
+      "text": "从第 334 回合起，没有人领先超过两分。总有一方要先眨眼。"
+    },
+    {
+      "turn": 397,
+      "role": "caster",
+      "text": "Player5 得分！31:29，只剩 3 回合，应该锁定胜局了！"
+    },
+    {
+      "turn": 400,
+      "role": "caster",
+      "text": "比赛结束！Player5 以 31:29 拿下这场 60 球大战！"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "结论：最后 50 回合 Player5 以 6:2 胜出，靠的是重新回到中路，而 Opus 选择了后撤。Opus 赢下了半场前后的交火，并在第 295 回合以 24:20 领先，却没能守住站位。"
+    }
+  ]
+}

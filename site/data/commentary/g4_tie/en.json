@@ -1,0 +1,459 @@
+{
+  "version": 1,
+  "match": "g4_tie",
+  "language": "en",
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-10"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 1–1!"
+    },
+    {
+      "turn": 21,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the Baseline carrier."
+    },
+    {
+      "turn": 25,
+      "role": "color",
+      "text": "Dead even at the top, Player5 and GPT-6 Astra on 1 each."
+    },
+    {
+      "turn": 28,
+      "role": "caster",
+      "text": "Baseline scores to level it up. 1–1!"
+    },
+    {
+      "turn": 30,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 2–1."
+    },
+    {
+      "turn": 38,
+      "role": "caster",
+      "text": "GPT-6 Astra stops GPT-6.1 Sol's flag carrier!"
+    },
+    {
+      "turn": 43,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 3–1."
+    },
+    {
+      "turn": 50,
+      "role": "color",
+      "text": "Player5 have 3 and a 2-point cushion over GPT-6 Astra. Player5 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "Baseline played furthest forward, about 12.0 cells from home on average; Player5 stayed closest to base at 5.5."
+    },
+    {
+      "turn": 54,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 3–2."
+    },
+    {
+      "turn": 56,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 3–2 now."
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 3–3!"
+    },
+    {
+      "turn": 70,
+      "role": "caster",
+      "text": "Capture for Baseline, and it's 3–3."
+    },
+    {
+      "turn": 75,
+      "role": "color",
+      "text": "Dead even at the top, Player5 and GPT-6 Astra on 3 each."
+    },
+    {
+      "turn": 83,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 4–3!"
+    },
+    {
+      "turn": 96,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 4–4!"
+    },
+    {
+      "turn": 98,
+      "role": "caster",
+      "text": "Player5 stops GPT-6 Astra's flag carrier!"
+    },
+    {
+      "turn": 100,
+      "role": "color",
+      "text": "Nothing to separate them: Player5 and GPT-6 Astra are level on 4. Every capture from here is a lead change."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: GPT-6 Astra turned 3 of 3 pickups into points, the best conversion in this stretch. Player5 led the fighting with 6 kills."
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 5–4."
+    },
+    {
+      "turn": 109,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 5–4."
+    },
+    {
+      "turn": 119,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 5–5!"
+    },
+    {
+      "turn": 124,
+      "role": "caster",
+      "text": "Capture for Baseline, and it's 5–5."
+    },
+    {
+      "turn": 125,
+      "role": "color",
+      "text": "Dead even at the top, Player5 and GPT-6 Astra on 5 each."
+    },
+    {
+      "turn": 137,
+      "role": "caster",
+      "text": "That capture puts GPT-6 Astra in front. 6–5!"
+    },
+    {
+      "turn": 147,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the Baseline carrier."
+    },
+    {
+      "turn": 150,
+      "role": "color",
+      "text": "GPT-6 Astra have 7 and a 2-point cushion over Player5. GPT-6 Astra made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "Player5 played furthest forward, about 10.5 cells from home on average; GPT-6 Astra stayed closest to base at 3.5."
+    },
+    {
+      "turn": 151,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 8–5."
+    },
+    {
+      "turn": 154,
+      "role": "caster",
+      "text": "GPT-6.1 Sol stops Player5's flag carrier!"
+    },
+    {
+      "turn": 162,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 8–6."
+    },
+    {
+      "turn": 164,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 9–6 now."
+    },
+    {
+      "turn": 172,
+      "role": "caster",
+      "text": "3 units go down this turn. What a fight in the middle!"
+    },
+    {
+      "turn": 175,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 9–6."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 9, 3 clear of Player5."
+    },
+    {
+      "turn": 177,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 10–6."
+    },
+    {
+      "turn": 187,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the Player5 carrier."
+    },
+    {
+      "turn": 191,
+      "role": "caster",
+      "text": "Player5 scores again. 10–7 now."
+    },
+    {
+      "turn": 193,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 10–7."
+    },
+    {
+      "turn": 200,
+      "role": "color",
+      "text": "GPT-6 Astra have 10 and a 3-point cushion over Player5. Player5 made the most noise in this stretch with 1 captures."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: GPT-6 Astra turned 3 of 3 pickups into points, the best conversion in this stretch. Player5 led the fighting with 5 kills."
+    },
+    {
+      "turn": 204,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 11–7."
+    },
+    {
+      "turn": 206,
+      "role": "caster",
+      "text": "Player5 scores again. 11–8 now."
+    },
+    {
+      "turn": 217,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 11–8."
+    },
+    {
+      "turn": 219,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 11–9."
+    },
+    {
+      "turn": 225,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 11, 2 clear of Player5."
+    },
+    {
+      "turn": 231,
+      "role": "caster",
+      "text": "Baseline brings the flag home! 11–9."
+    },
+    {
+      "turn": 235,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the Baseline carrier."
+    },
+    {
+      "turn": 240,
+      "role": "caster",
+      "text": "Baseline brings the flag home! 11–9."
+    },
+    {
+      "turn": 250,
+      "role": "color",
+      "text": "GPT-6 Astra have 11 and a 2-point cushion over Player5. Baseline made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "GPT-6.1 Sol played furthest forward, about 9.3 cells from home on average; Baseline stayed closest to base at 7.0."
+    },
+    {
+      "turn": 252,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 12–9."
+    },
+    {
+      "turn": 260,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 13–9 now."
+    },
+    {
+      "turn": 265,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 13–9."
+    },
+    {
+      "turn": 270,
+      "role": "caster",
+      "text": "Player5 stops Baseline's flag carrier!"
+    },
+    {
+      "turn": 273,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the Player5 carrier."
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 13, 4 clear of Player5."
+    },
+    {
+      "turn": 278,
+      "role": "caster",
+      "text": "Player5 scores again. 13–10 now."
+    },
+    {
+      "turn": 287,
+      "role": "caster",
+      "text": "Big stop: Player5 takes down the GPT-6.1 Sol carrier."
+    },
+    {
+      "turn": 292,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 13–11."
+    },
+    {
+      "turn": 295,
+      "role": "caster",
+      "text": "Capture for Baseline, and it's 13–11."
+    },
+    {
+      "turn": 300,
+      "role": "color",
+      "text": "GPT-6 Astra have 13 and a 2-point cushion over Player5. Player5 made the most noise in this stretch with 2 captures."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: Player5 turned 2 of 4 pickups into points, the best conversion in this stretch. Player5 led the fighting with 5 kills."
+    },
+    {
+      "turn": 305,
+      "role": "caster",
+      "text": "Player5 scores again. 13–12 now."
+    },
+    {
+      "turn": 308,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 13–13!"
+    },
+    {
+      "turn": 318,
+      "role": "caster",
+      "text": "GPT-6 Astra scores and takes the lead! 14–13."
+    },
+    {
+      "turn": 325,
+      "role": "color",
+      "text": "It's GPT-6 Astra's match to lose right now: 14, 1 clear of Player5."
+    },
+    {
+      "turn": 330,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 14–14!"
+    },
+    {
+      "turn": 337,
+      "role": "caster",
+      "text": "Capture for Baseline, and it's 14–14."
+    },
+    {
+      "turn": 343,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 14–14."
+    },
+    {
+      "turn": 350,
+      "role": "color",
+      "text": "Nothing to separate them: Player5 and GPT-6 Astra are level on 14. Every capture from here is a lead change."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 9.0 cells from home on average; Baseline stayed closest to base at 5.0."
+    },
+    {
+      "turn": 351,
+      "role": "caster",
+      "text": "Baseline brings the flag home! 14–14."
+    },
+    {
+      "turn": 356,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores again. 14–14 now."
+    },
+    {
+      "turn": 366,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 14–14."
+    },
+    {
+      "turn": 370,
+      "role": "caster",
+      "text": "Player5 scores and takes the lead! 15–14."
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "It's Player5's match to lose right now: 15, 1 clear of GPT-6 Astra."
+    },
+    {
+      "turn": 380,
+      "role": "caster",
+      "text": "Player5 scores again. 16–14 now."
+    },
+    {
+      "turn": 383,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 16–15 now."
+    },
+    {
+      "turn": 393,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 16–16!"
+    },
+    {
+      "turn": 396,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 16–16."
+    },
+    {
+      "turn": 400,
+      "role": "color",
+      "text": "Nothing to separate them: Player5 and GPT-6 Astra are level on 16. Every capture from here is a lead change."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Player5 finish on 16. Across the match they converted 80% of their pickups."
+    }
+  ]
+}

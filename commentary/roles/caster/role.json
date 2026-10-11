@@ -1,0 +1,12 @@
+{
+  "$help": "Play-by-play caster. window = turns covered by one LLM request; max_lines = lines it may write per window; min_gap = turns between two of its lines; length = key into languages.<lang>.length in config.json; context = which facts it receives (events, standings, window_stats, positions, orders).",
+  "id": "caster",
+  "name": { "zh": "解说", "en": "Caster" },
+  "icon": "mic",
+  "window": 10,
+  "max_lines": 3,
+  "min_gap": 2,
+  "length": "short",
+  "context": ["events", "standings"],
+  "caption": true
+}
