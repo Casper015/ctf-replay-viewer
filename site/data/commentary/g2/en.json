@@ -39,23 +39,23 @@
   ],
   "sources": {
     "caster": {
-      "provider": "offline",
-      "model": "claude-opus-5-5 (written from commentary/briefs/g2.en.md)",
-      "generated": "2026-10-11"
-    },
-    "color": {
-      "provider": "offline",
-      "model": "claude-opus-5-5 (written from commentary/briefs/g2.en.md)",
+      "provider": "mock",
+      "model": null,
       "generated": "2026-10-11"
     },
     "analyst": {
-      "provider": "offline",
-      "model": "claude-opus-5-5 (written from commentary/briefs/g2.en.md)",
+      "provider": "mock",
+      "model": null,
       "generated": "2026-10-11"
     },
     "crowd": {
       "provider": "mock",
       "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "offline",
+      "model": "mimo-v2.6-pro",
       "generated": "2026-10-11"
     }
   },
@@ -63,23 +63,23 @@
     {
       "turn": 6,
       "role": "caster",
-      "text": "Opus 5.5 draws first blood on the scoreboard. 1–0 inside six turns!",
+      "text": "And that's the lead! Opus 5.5 scores, 1–0!",
       "key": true
     },
     {
       "turn": 6,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "Instant classic!"
     },
     {
       "turn": 7,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Can't breathe"
     },
     {
       "turn": 17,
       "role": "caster",
-      "text": "Player5 brings the second flag home and edges ahead, 2–1.",
+      "text": "Player5 takes over the whole game! 2–1!",
       "key": true
     },
     {
@@ -90,524 +90,725 @@
     {
       "turn": 18,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Meat grinder!"
     },
     {
-      "turn": 23,
-      "role": "color",
-      "text": "Four captures in eighteen turns. Neither side is wasting time on defence; they're just racing each other to the flags."
+      "turn": 28,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 29,
       "role": "caster",
-      "text": "Player5 cuts down the Opus carrier and scores on the same turn. 3–2!",
+      "text": "Player5 takes over the whole game! 3–2!",
       "key": true
     },
     {
       "turn": 29,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "Instant classic!"
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 32,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 41,
+      "role": "caster",
+      "text": "Player5 again! 4–2. Nobody stops him!"
     },
     {
       "turn": 41,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
     },
     {
       "turn": 42,
-      "role": "caster",
-      "text": "Back to back! 5–2 Player5, and this is turning into a statement."
+      "role": "crowd",
+      "text": "Clean!"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "wait, that exploded?"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "First 50 turns: Player5 converted all 5 of its pickups, Opus only 2 of 5. Two carrier stops at turns 29 and 32 are the whole difference, and Opus pushing deeper, 8.5 cells from home against 5.0, left its carriers exposed."
+      "text": "Opus 5.5 pushed furthest, averaging 8.5 cells from home; Player5 never left the porch at 5.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 56,
       "role": "caster",
-      "text": "Opus 5.5 finally gets one back. 5–3."
+      "text": "He scores! Opus 5.5 brings it home. 5–3!"
     },
     {
       "turn": 56,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 61,
       "role": "caster",
-      "text": "And another! Opus pulls within one, 5–4."
+      "text": "Opus 5.5 again! 5–4. Nobody stops him!"
     },
     {
       "turn": 61,
       "role": "crowd",
-      "text": "What a run"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "Best stream on the web"
     },
     {
       "turn": 67,
       "role": "caster",
-      "text": "Player5 restores the two-point gap, 6–4."
+      "text": "(screaming) Player5 scores! 6–4!"
     },
     {
       "turn": 67,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 is him!"
     },
     {
       "turn": 72,
       "role": "caster",
-      "text": "Opus 5.5 again. 6–5 and it simply won't go away."
+      "text": "He scores! Opus 5.5 brings it home. 6–5!"
     },
     {
       "turn": 72,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
     },
     {
       "turn": 78,
       "role": "caster",
-      "text": "Player5 strikes back, 7–5."
+      "text": "Flag in! Player5 banks another one. 7–5!"
     },
     {
       "turn": 78,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 diff!"
+    },
+    {
+      "turn": 83,
+      "role": "color",
+      "text": "7–5 to Player5 at turn 83. Twelve goals already — nobody in this match plays defence. I love it."
+    },
+    {
+      "turn": 88,
+      "role": "caster",
+      "text": "He scores! Opus 5.5 brings it home. 7–6!"
     },
     {
       "turn": 88,
       "role": "crowd",
-      "text": "What a run"
-    },
-    {
-      "turn": 89,
-      "role": "caster",
-      "text": "Opus makes it 7–6, and Player5 answers a turn later. 8–6!"
+      "text": "LET'S GO!"
     },
     {
       "turn": 89,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "Turns 51–100 were even on paper, 4 captures to 3 for Opus, but the shape flipped: Player5 now sits 8.0 cells from home on average while Opus pulled back to 4.5. Opus is camping the flags; Player5 is escorting carriers in."
+      "text": "Turns 51–100: Opus 5.5 turned 4 pickups into 4 goals, efficiency maxed out. Opus 5.5 owned the fights with 5 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 102,
       "role": "crowd",
-      "text": "What a run"
-    },
-    {
-      "turn": 106,
-      "role": "caster",
-      "text": "Player5 answers, 9–7."
+      "text": "Another one!"
     },
     {
       "turn": 106,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Clean!"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "Flag in! Player5 banks another one. 10–7!"
     },
     {
       "turn": 118,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 diff!"
     },
     {
       "turn": 120,
-      "role": "caster",
-      "text": "Two in three turns! 11–7, the biggest lead of the match."
+      "role": "crowd",
+      "text": "Textbook run"
     },
     {
-      "turn": 125,
-      "role": "color",
-      "text": "That double at turns 118 and 120 is the first real crack. Opus had matched everything until now, and suddenly it's four points adrift."
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 129,
+      "role": "caster",
+      "text": "Player5 again! 12–7. Nobody stops him!"
     },
     {
       "turn": 129,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
     },
     {
       "turn": 134,
       "role": "caster",
-      "text": "Opus stops the bleeding. 12–8."
+      "text": "Flag in! Opus 5.5 banks another one. 12–8!"
     },
     {
       "turn": 134,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Another one!"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "STAND UP"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 141,
       "role": "caster",
-      "text": "Player5 straight back, 13–8."
+      "text": "Player5 again! 13–8. Nobody stops him!"
     },
     {
       "turn": 141,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
     },
     {
       "turn": 148,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 is him!"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "Player5 scored 5 of the 8 captures in turns 101–150, all from clean escorts: it lost no carriers in that stretch. Opus has the kills to compete, but kills away from the carrier don't change the scoreboard."
+      "text": "Player5 pushed furthest, averaging 6.0 cells from home; Opus 5.5 never left the porch at 4.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 154,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "DENIED!"
     },
     {
       "turn": 159,
       "role": "caster",
-      "text": "Opus stopped a Player5 carrier on turn 154 and now turns it into a point. 13–10."
+      "text": "(screaming) Opus 5.5 scores! 13–10!"
     },
     {
       "turn": 159,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 diff!"
     },
     {
       "turn": 161,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
     },
     {
-      "turn": 170,
-      "role": "caster",
-      "text": "Opus scores, 14–11."
-    },
-    {
-      "turn": 170,
+      "turn": 162,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Pog"
     },
     {
-      "turn": 175,
+      "turn": 164,
       "role": "color",
-      "text": "Opus has started hunting carriers instead of racing them. It's the right idea; it just needs a few more of them."
+      "text": "14–10 at turn 164, Player5 stretched it to four. Opus 5.5 still asleep? That's a deep hole, boys."
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "oh? oh? oh?"
+    },
+    {
+      "turn": 170,
+      "role": "caster",
+      "text": "Flag in! Opus 5.5 banks another one. 14–11!"
+    },
+    {
+      "turn": 170,
+      "role": "crowd",
+      "text": "Sheesh"
+    },
+    {
+      "turn": 175,
+      "role": "caster",
+      "text": "(screaming) Player5 scores! 15–11!"
     },
     {
       "turn": 175,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 181,
       "role": "caster",
-      "text": "Player5 makes it 16–11."
+      "text": "Player5 again! 16–11. Nobody stops him!"
     },
     {
       "turn": 181,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 186,
       "role": "caster",
-      "text": "Opus answers, 16–12."
+      "text": "Flag in! Opus 5.5 banks another one. 16–12!"
     },
     {
       "turn": 186,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 191,
       "role": "caster",
-      "text": "Opus stops a Player5 carrier!"
+      "text": "DENIED! Opus 5.5 shuts down Player5. That stop (leans back)!"
     },
     {
       "turn": 191,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Cut down!"
     },
     {
       "turn": 193,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "Halftime, 16–12 Player5. But the last ten turns matter more than the score: Opus had 3 kills and 2 carrier stops with no losses, and all three Player5 units are down at turn 200. The second half starts with Opus holding the middle."
+      "text": "Turns 151–200: Opus 5.5 turned 5 pickups into 3 goals, efficiency maxed out. Opus 5.5 owned the fights with 6 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "High energy incoming"
     },
     {
       "turn": 203,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Clean!"
     },
     {
       "turn": 206,
-      "role": "caster",
-      "text": "Opus again! 16–14, the gap is two."
+      "role": "crowd",
+      "text": "Another one!"
     },
     {
       "turn": 214,
       "role": "caster",
-      "text": "Three straight for Opus 5.5! 16–15."
+      "text": "Flag in! Opus 5.5 banks another one. 16–15!"
     },
     {
       "turn": 214,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Another one!"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
     },
     {
       "turn": 218,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
     },
     {
       "turn": 221,
       "role": "crowd",
-      "text": "Big save"
+      "text": "DENIED!"
+    },
+    {
+      "turn": 222,
+      "role": "caster",
+      "text": "Back level, chat! Opus 5.5 scores, 16–16!",
+      "key": true
     },
     {
       "turn": 222,
       "role": "crowd",
-      "text": "This is insane"
-    },
-    {
-      "turn": 225,
-      "role": "caster",
-      "text": "Opus levelled at 16 on turn 222, but Player5 goes straight back in front, 17–16.",
-      "key": true
+      "text": "My heart lol"
     },
     {
       "turn": 225,
       "role": "crowd",
-      "text": "Here we go"
+      "text": "Player5 in front!"
     },
     {
-      "turn": 230,
+      "turn": 227,
       "role": "color",
-      "text": "Opus scored four unanswered from 12 to 16. That's the momentum swing we've been waiting for all match."
+      "text": "17–16! Opus 5.5 outscored them 6–3 in that stretch and the gap is one. Comeback script loading."
     },
     {
       "turn": 236,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Down bad"
     },
     {
       "turn": 237,
       "role": "caster",
-      "text": "Opus stops one carrier, but Player5 scores anyway. 18–16."
+      "text": "Player5 again! 18–16. Nobody stops him!"
     },
     {
       "turn": 237,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 245,
       "role": "caster",
-      "text": "Opus 5.5 answers, 18–17."
+      "text": "Opus 5.5 again! 18–17. Nobody stops him!"
     },
     {
       "turn": 245,
       "role": "crowd",
-      "text": "What a run"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 248,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Turns 201–250 went 5–3 to Opus. The key change is defensive: Opus now sits 6.0 cells from home and Player5 only 4.5. Player5 has been pushed back toward its own base for the first time."
+      "text": "Opus 5.5 pushed furthest, averaging 6.0 cells from home; Player5 never left the porch at 4.5. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 256,
       "role": "caster",
-      "text": "Opus pulls one back, 19–18."
+      "text": "He scores! Opus 5.5 brings it home. 19–18!"
     },
     {
       "turn": 256,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 261,
       "role": "caster",
-      "text": "Opus levels at 19!"
+      "text": "That's the one! Opus 5.5 ties it, 19–19!",
+      "key": true
     },
     {
       "turn": 261,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Level again!"
     },
     {
       "turn": 268,
       "role": "caster",
-      "text": "And Opus 5.5 leads for the first time since turn 6! 20–19!",
+      "text": "Instant classic loading! Opus 5.5 takes the lead, 20–19!",
       "key": true
     },
     {
       "turn": 268,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "??? oh ??? oh"
     },
     {
       "turn": 272,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
     },
     {
-      "turn": 275,
-      "role": "color",
-      "text": "From 12–7 down to 21–19 up. That's what happens when one team stops winning the fights and the other never stops believing."
+      "turn": 279,
+      "role": "caster",
+      "text": "(screaming) Opus 5.5 scores! 22–19!"
     },
     {
       "turn": 279,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 diff!"
     },
     {
-      "turn": 283,
-      "role": "caster",
-      "text": "Player5 finally answers, 22–20."
+      "turn": 281,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 283,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 is him!"
+    },
+    {
+      "turn": 284,
+      "role": "color",
+      "text": "22–20 at turn 284, Opus 5.5 has flipped it. Climb out of a four-goal hole like it's nothing — steel."
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 290,
       "role": "caster",
-      "text": "Opus, 23–20."
+      "text": "Flag in! Opus 5.5 banks another one. 23–20!"
     },
     {
       "turn": 290,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Sheesh"
     },
     {
       "turn": 295,
       "role": "caster",
-      "text": "24–20 Opus 5.5. A four-point lead!"
+      "text": "(screaming) Opus 5.5 scores! 24–20!"
     },
     {
       "turn": 295,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 diff!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: Opus 7 captures, Player5 1. Player5 is stuck 3.0 cells from home on average, defending its base instead of contesting the flags, and you can't score from there."
+      "text": "Turns 251–300: Opus 5.5 turned 7 pickups into 7 goals, efficiency maxed out. Opus 5.5 owned the fights with 6 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 301,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
     },
     {
       "turn": 308,
       "role": "caster",
-      "text": "Player5 stops the Opus carrier!"
+      "text": "DENIED! Player5 shuts down Opus 5.5. That stop (leans back)!"
     },
     {
       "turn": 308,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 315,
       "role": "caster",
-      "text": "Player5 scores, 24–22."
+      "text": "(screaming) Player5 scores! 24–22!"
     },
     {
       "turn": 315,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 is him!"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 317,
+      "role": "crowd",
+      "text": "Another one!"
     },
     {
       "turn": 326,
       "role": "caster",
-      "text": "Player5 levels it! 24–24! Four straight!",
+      "text": "Back level, chat! Player5 scores, 24–24!",
       "key": true
     },
     {
       "turn": 326,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Meat grinder!"
     },
     {
       "turn": 334,
       "role": "caster",
-      "text": "Opus answers, back in front 25–24.",
+      "text": "Instant classic loading! Opus 5.5 takes the lead, 25–24!",
       "key": true
     },
     {
       "turn": 334,
       "role": "crowd",
-      "text": "Opus 5.5 in front!"
+      "text": "Instant classic!"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 337,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 339,
+      "role": "color",
+      "text": "26–24, Opus 5.5 takes a two-goal cushion into the closing stretch. Hold the door."
     },
     {
       "turn": 345,
       "role": "caster",
-      "text": "Player5 replies, 26–25."
+      "text": "Player5 again! 26–25. Nobody stops him!"
     },
     {
       "turn": 345,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
     },
     {
       "turn": 348,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 is him!"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "Turns 301–350 went 5–3 to Player5, and the shape flipped again: Player5 is back out at 5.0 cells from home while Opus has retreated to 3.5. Whoever controls the middle in the final fifty decides it."
+      "text": "Player5 pushed furthest, averaging 5.0 cells from home; Opus 5.5 never left the porch at 3.5. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "They're nervous"
     },
     {
       "turn": 356,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 359,
       "role": "caster",
-      "text": "Level again! 27–27!",
+      "text": "That's the one! Player5 ties it, 27–27!",
       "key": true
     },
     {
       "turn": 359,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Level again!"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 367,
       "role": "caster",
-      "text": "Player5 retakes the lead, 28–27!",
+      "text": "Instant classic loading! Player5 takes the lead, 28–27!",
       "key": true
     },
     {
       "turn": 367,
       "role": "crowd",
-      "text": "Player5 in front!"
+      "text": "LEAD CHANGE!!"
     },
     {
       "turn": 368,
@@ -617,55 +818,69 @@
     {
       "turn": 373,
       "role": "caster",
-      "text": "Opus levels, 28–28!",
+      "text": "That's the one! Opus 5.5 ties it, 28–28!",
       "key": true
     },
     {
       "turn": 373,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Meat grinder!"
     },
     {
       "turn": 374,
       "role": "crowd",
-      "text": "Hold on!"
+      "text": "Don't throw!"
     },
     {
       "turn": 378,
       "role": "caster",
-      "text": "Player5 in front again, 29–28!",
+      "text": "And that's the lead! Player5 scores, 29–28!",
       "key": true
     },
     {
       "turn": 378,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "IT'S OVER? IT'S ON!"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 386,
       "role": "caster",
-      "text": "Player5 makes it 30–28. A two-point cushion with fourteen to play!"
+      "text": "Flag in! Player5 banks another one. 30–28!"
     },
     {
       "turn": 386,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Clean!"
     },
     {
       "turn": 389,
       "role": "crowd",
-      "text": "What a run"
+      "text": "NOW THIS IS MUSIC"
     },
     {
-      "turn": 397,
-      "role": "caster",
-      "text": "Player5 scores with three turns left! 31–29, and that's the match!",
-      "key": true
+      "turn": 396,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 397,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: Player5 take it with 31. 89% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }

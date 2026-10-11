@@ -61,497 +61,687 @@
   },
   "lines": [
     {
+      "turn": 14,
+      "role": "crowd",
+      "text": "5D chess"
+    },
+    {
       "turn": 24,
       "role": "caster",
-      "text": "Fable 5.1 scores to level it up. 1–1!",
+      "text": "Back level, chat! Fable 5.1 scores, 1–1!",
       "key": true
     },
     {
       "turn": 24,
       "role": "crowd",
-      "text": "Level!"
+      "text": "My heart lol"
     },
     {
       "turn": 28,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "My heart lol"
     },
     {
       "turn": 29,
       "role": "caster",
-      "text": "Kimi K3 scores to level it up. 1–1!",
+      "text": "That's the one! Kimi K3 ties it, 1–1!",
       "key": true
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 42,
       "role": "caster",
-      "text": "Kimi K3 scores and takes the lead! 2–1.",
+      "text": "And that's the lead! Kimi K3 scores, 2–1!",
       "key": true
     },
     {
       "turn": 42,
       "role": "crowd",
-      "text": "Kimi K3 in front!"
+      "text": "IT'S OVER? IT'S ON!"
     },
     {
       "turn": 43,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Cut down!"
     },
     {
       "turn": 46,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Level again!"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "Opus 5.5 played furthest forward, about 7.7 cells from home on average; v12_ponly_xl stayed closest to base at 3.0."
+      "text": "Opus 5.5 pushed furthest, averaging 7.7 cells from home; v12_ponly_xl never left the porch at 3.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 56,
       "role": "caster",
-      "text": "Kimi K3 scores and takes the lead! 3–2.",
+      "text": "Kimi K3 takes over the whole game! 3–2!",
       "key": true
     },
     {
       "turn": 56,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "Comeback script!"
     },
     {
       "turn": 59,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Sheesh"
     },
     {
       "turn": 62,
       "role": "caster",
-      "text": "Fable 5.1 scores to level it up. 3–3!",
+      "text": "Back level, chat! Fable 5.1 scores, 3–3!",
       "key": true
     },
     {
       "turn": 62,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "Best stream on the web"
+    },
+    {
+      "turn": 67,
+      "role": "crowd",
+      "text": "lol. lmao"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 78,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 3–3!",
+      "text": "Back level, chat! Opus 5.5 scores, 3–3!",
       "key": true
     },
     {
       "turn": 78,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Meat grinder!"
     },
     {
       "turn": 87,
       "role": "caster",
-      "text": "That capture puts Kimi K3 in front. 4–3!",
+      "text": "And that's the lead! Kimi K3 scores, 4–3!",
       "key": true
     },
     {
       "turn": 87,
       "role": "crowd",
-      "text": "Kimi K3 in front!"
+      "text": "LEAD CHANGE!!"
     },
     {
       "turn": 90,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "Turns 51–100: Fable 5.1 turned 2 of 2 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 6 kills."
+      "text": "Turns 51–100: Fable 5.1 turned 2 pickups into 2 goals, efficiency maxed out. Fable 5.1 owned the fights with 6 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 110,
       "role": "caster",
-      "text": "Opus 5.5 scores and takes the lead! 5–4.",
+      "text": "Opus 5.5 takes over the whole game! 5–4!",
       "key": true
     },
     {
       "turn": 110,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "Instant classic!"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 115,
       "role": "caster",
-      "text": "Big stop: GLM 5.3 takes down the Fable 5.1 carrier."
+      "text": "Fable 5.1's flag man is down! GLM 5.3 with the huge stop!"
     },
     {
       "turn": 115,
       "role": "crowd",
-      "text": "So close"
+      "text": "SO CLOSE"
     },
     {
       "turn": 120,
       "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 6–4."
+      "text": "He scores! Opus 5.5 brings it home. 6–4!"
     },
     {
       "turn": 120,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
     },
     {
       "turn": 125,
       "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 6, 2 clear of Kimi K3."
+      "text": "This is Opus 5.5's game right now: 6, keeping Kimi K3 2 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 135,
       "role": "caster",
-      "text": "Big stop: Qwen 3.8 Max takes down the Opus 5.5 carrier."
+      "text": "Stopped at the door! Qwen 3.8 Max deletes the Opus 5.5 carrier!"
     },
     {
       "turn": 135,
       "role": "crowd",
-      "text": "So close"
+      "text": "Defence wins"
     },
     {
       "turn": 137,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "DENIED!"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 144,
       "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 6–4."
+      "text": "He scores! GPT-6 Astra brings it home. 6–4!"
     },
     {
       "turn": 144,
       "role": "crowd",
-      "text": "Another one"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 145,
       "role": "crowd",
-      "text": "So close"
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "Kimi K3 played furthest forward, about 13.7 cells from home on average; Fable 5.1 stayed closest to base at 4.3."
+      "text": "Kimi K3 pushed furthest, averaging 13.7 cells from home; Fable 5.1 never left the porch at 4.3. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 151,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Another one!"
     },
     {
       "turn": 152,
       "role": "crowd",
-      "text": "So close"
+      "text": "Down bad"
     },
     {
       "turn": 158,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 7–4 now."
+      "text": "Flag in! Opus 5.5 banks another one. 7–4!"
     },
     {
       "turn": 158,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Another one!"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Pog"
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "oh? oh? oh?"
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "STAND UP"
     },
     {
       "turn": 171,
       "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 8–4."
+      "text": "(screaming) Opus 5.5 scores! 8–4!"
     },
     {
       "turn": 171,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Clean!"
     },
     {
       "turn": 172,
       "role": "crowd",
-      "text": "So close"
+      "text": "What a stop"
     },
     {
       "turn": 173,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Textbook run"
     },
     {
       "turn": 177,
       "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 8–5."
+      "text": "Fable 5.1 again! 8–5. Nobody stops him!"
     },
     {
       "turn": 177,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 184,
       "role": "crowd",
-      "text": "So close"
+      "text": "Cut down!"
     },
     {
       "turn": 187,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "DENIED!"
     },
     {
       "turn": 188,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 9–5 now."
+      "text": "He scores! GPT-6 Astra brings it home. 9–5!"
     },
     {
       "turn": 188,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Textbook run"
     },
     {
       "turn": 196,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 is him!"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "Turns 151–200: Fable 5.1 turned 2 of 2 pickups into points, the best conversion in this stretch. v12_ponly_xl led the fighting with 8 kills."
+      "text": "Turns 151–200: Fable 5.1 turned 2 pickups into 2 goals, efficiency maxed out. v12_ponly_xl owned the fights with 8 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "High energy incoming"
     },
     {
       "turn": 206,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Defence wins"
     },
     {
       "turn": 207,
       "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 11–5."
+      "text": "(screaming) Opus 5.5 scores! 11–5!"
     },
     {
       "turn": 207,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 diff!"
     },
     {
       "turn": 210,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Another one!"
     },
     {
       "turn": 215,
       "role": "caster",
-      "text": "Fable 5.1 scores again. 11–6 now."
+      "text": "(screaming) Fable 5.1 scores! 11–6!"
     },
     {
       "turn": 215,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Another one!"
     },
     {
       "turn": 220,
       "role": "caster",
-      "text": "Qwen 3.8 Max stops Opus 5.5's flag carrier!"
+      "text": "Opus 5.5's flag man is down! Qwen 3.8 Max with the huge stop!"
     },
     {
       "turn": 220,
       "role": "crowd",
-      "text": "So close"
+      "text": "Down bad"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 225,
       "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 11, 5 clear of Fable 5.1."
+      "text": "This is Opus 5.5's game right now: 11, keeping Fable 5.1 5 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 233,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 12–6 now."
+      "text": "Opus 5.5 again! 12–6. Nobody stops him!"
     },
     {
       "turn": 233,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 240,
       "role": "caster",
-      "text": "v12_ponly_xl brings the flag home! 12–6."
+      "text": "He scores! v12_ponly_xl brings it home. 12–6!"
     },
     {
       "turn": 240,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "v12_ponly_xl is him!"
     },
     {
       "turn": 243,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Cut down!"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Fable 5.1 played furthest forward, about 8.7 cells from home on average; Opus 5.5 stayed closest to base at 4.0."
+      "text": "Fable 5.1 pushed furthest, averaging 8.7 cells from home; Opus 5.5 never left the porch at 4.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 252,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 is him!"
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 269,
       "role": "caster",
-      "text": "Big stop: Kimi K3 takes down the Opus 5.5 carrier."
+      "text": "DENIED! Kimi K3 shuts down Opus 5.5. That stop (leans back)!"
     },
     {
       "turn": 269,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "DENIED!"
     },
     {
       "turn": 277,
       "role": "caster",
-      "text": "Big stop: GLM 5.3 takes down the Fable 5.1 carrier."
+      "text": "Fable 5.1's flag man is down! GLM 5.3 with the huge stop!"
     },
     {
       "turn": 277,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 284,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 14–6 now."
+      "text": "He scores! Opus 5.5 brings it home. 14–6!"
     },
     {
       "turn": 284,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 is him!"
     },
     {
       "turn": 291,
       "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 14–7."
+      "text": "(screaming) Fable 5.1 scores! 14–7!"
     },
     {
       "turn": 291,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Sheesh"
     },
     {
       "turn": 292,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Down bad"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: Opus 5.5 turned 2 of 2 pickups into points, the best conversion in this stretch. Opus 5.5 led the fighting with 5 kills."
+      "text": "Turns 251–300: Opus 5.5 turned 2 pickups into 2 goals, efficiency maxed out. Opus 5.5 owned the fights with 5 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 315,
       "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 14–8."
+      "text": "(screaming) Fable 5.1 scores! 14–8!"
     },
     {
       "turn": 315,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Defence wins"
     },
     {
       "turn": 318,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Another one!"
     },
     {
       "turn": 325,
       "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 15, 7 clear of Fable 5.1."
+      "text": "This is Opus 5.5's game right now: 15, keeping Fable 5.1 7 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 331,
       "role": "caster",
-      "text": "Big stop: v12_ponly_xl takes down the Fable 5.1 carrier."
+      "text": "Fable 5.1's flag man is down! v12_ponly_xl with the huge stop!"
     },
     {
       "turn": 331,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Cut down!"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 342,
       "role": "caster",
-      "text": "v12_ponly_xl brings the flag home! 15–8."
+      "text": "Flag in! v12_ponly_xl banks another one. 15–8!"
     },
     {
       "turn": 342,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Sheesh"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "v12_ponly_xl played furthest forward, about 15.0 cells from home on average; Fable 5.1 stayed closest to base at 6.5."
+      "text": "v12_ponly_xl pushed furthest, averaging 15.0 cells from home; Fable 5.1 never left the porch at 6.5. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "They're nervous"
     },
     {
       "turn": 354,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
     },
     {
       "turn": 361,
       "role": "caster",
-      "text": "Capture for Opus 5.5, and it's 16–9."
+      "text": "Opus 5.5 again! 16–9. Nobody stops him!"
     },
     {
       "turn": 361,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 368,
       "role": "caster",
-      "text": "c08_ponly_xxl stops v12_ponly_xl's flag carrier!"
+      "text": "DENIED! c08_ponly_xxl shuts down v12_ponly_xl. That stop (leans back)!"
     },
     {
       "turn": 368,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 377,
       "role": "caster",
-      "text": "v12_ponly_xl scores again. 16–9 now."
+      "text": "v12_ponly_xl again! 16–9. Nobody stops him!"
     },
     {
       "turn": 377,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 388,
       "role": "caster",
-      "text": "Capture for Opus 5.5, and it's 17–9."
+      "text": "He scores! Opus 5.5 brings it home. 17–9!"
     },
     {
       "turn": 388,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 is him!"
     },
     {
       "turn": 391,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "DENIED!"
     },
     {
       "turn": 393,
       "role": "crowd",
-      "text": "So close"
+      "text": "SO CLOSE"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: Opus 5.5 finish on 17. Across the match they converted 65% of their pickups."
+      "text": "Final verdict: Opus 5.5 take it with 17. 65% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }

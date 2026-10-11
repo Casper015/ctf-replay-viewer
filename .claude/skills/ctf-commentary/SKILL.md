@@ -27,16 +27,10 @@ To check everything after any change, run `python3 tools/commentate.py check`.
 
 Each role has a persona file at `commentary/roles/<role>/skill.<lang>.md` and pacing in `role.json`. The brief embeds them. The booth voice is modeled on the Chinese CS stream-caster **玩机器**: a livestream booth that chats with the viewers during quiet stretches and erupts on the big play. In short:
 
-<<<<<<< Updated upstream
-- **caster:** what just happened. Captures first, then carrier stops, then dangerous pickups and big fights. Short, present tense, names every team. Silence beats filler.
-- **color:** the story. Momentum, rivalries, comebacks, what the scoreline means. Opinion, then the fact behind it.
-- **crowd:** audience bullet comments (弹幕) flying across the board. A few words each, reactions only, cheering contenders by name, bunched right after big moments and silent otherwise. Crowd lines are exempt from the booth's 5-turn rule (they have `"display": "danmaku"`), but keep them friendly and never repeat a line.
-- **analyst:** why. Conversion (captures ÷ pickups), fights, positions relative to bases, the bots' own intent notes. Calm, cites numbers. Gives a verdict at halftime and at the end.
-=======
 - **caster:** what just happened. Captures first, then carrier stops, then dangerous pickups and big fights. Short explosive lines that name every team, stacked exclamations on the huge plays ("交了！交了！"), chat-facing asides ("兄弟们", "好吧", "这什么啊"). Silence beats filler.
 - **color:** the story. Momentum, rivalries, comebacks, what the scoreline means. The booth's opinion guy: hot takes, playful jabs, memes, self-aware flags ("这话我先放这儿，打脸我认"), every take backed by a fact.
 - **analyst:** why. Conversion (captures ÷ pickups), fights, positions relative to bases, the bots' own intent notes. The numbers guy who still talks like the stream: evidence first, verdict second, brutal where the data backs it, quiet where it doesn't. Gives a verdict at halftime and at the end.
->>>>>>> Stashed changes
+- **crowd:** audience bullet comments (弹幕) flying across the board. A few words each: reactions to big moments, plus ambient meme spam ("加一", "蹲蹲", "前方高能") that fires at seemingly random turns. Crowd lines are exempt from the booth's 5-turn rule (they have `"display": "danmaku"`), but keep them friendly, never repeat a line, and never add `"key"`.
 
 Things that make commentary good here:
 - **Stay on the turn.** A line at turn 120 may only use what is known by turn 120. The brief shows the final result so you understand the arc, but foreshadowing the winner spoils the replay for viewers.

@@ -61,453 +61,648 @@
   },
   "lines": [
     {
+      "turn": 14,
+      "role": "crowd",
+      "text": "5D chess"
+    },
+    {
       "turn": 16,
       "role": "caster",
-      "text": "deepseek-v4.1 scores and takes the lead! 1–0.",
+      "text": "Instant classic loading! deepseek-v4.1 takes the lead, 1–0!",
       "key": true
     },
     {
       "turn": 16,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "IT'S OVER? IT'S ON!"
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 29,
       "role": "caster",
-      "text": "Big stop: c08_ponly_pxxl takes down the deepseek-v4.1 carrier."
+      "text": "DENIED! c08_ponly_pxxl shuts down deepseek-v4.1. That stop (leans back)!"
     },
     {
       "turn": 29,
       "role": "crowd",
-      "text": "So close"
+      "text": "Cut down!"
     },
     {
       "turn": 31,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "DENIED!"
     },
     {
       "turn": 40,
       "role": "caster",
-      "text": "c08_control scores to level it up. 1–1!",
+      "text": "Back level, chat! c08_control scores, 1–1!",
       "key": true
     },
     {
       "turn": 40,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "wait, that exploded?"
     },
     {
       "turn": 51,
       "role": "caster",
-      "text": "Player3 scores to level it up. 1–1!",
+      "text": "That's the one! Player3 ties it, 1–1!",
       "key": true
     },
     {
       "turn": 51,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Meat grinder!"
     },
     {
       "turn": 53,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Who blinks first"
     },
     {
       "turn": 58,
       "role": "caster",
-      "text": "Capture for c08_control, and it's 3–1."
+      "text": "Flag in! c08_control banks another one. 3–1!"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "Best stream on the web"
     },
     {
       "turn": 67,
       "role": "caster",
-      "text": "Capture for v12_ponly_pxl, and it's 3–1."
+      "text": "(screaming) v12_ponly_pxl scores! 3–1!"
     },
     {
       "turn": 67,
       "role": "crowd",
-      "text": "GG v12_ponly_pxl"
+      "text": "Another one!"
     },
     {
       "turn": 69,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 75,
       "role": "caster",
-      "text": "c08_ponly_pxxl brings the flag home! 3–2."
+      "text": "(screaming) c08_ponly_pxxl scores! 3–2!"
     },
     {
       "turn": 75,
       "role": "crowd",
-      "text": "c08_ponly_pxxl!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 80,
       "role": "caster",
-      "text": "Player4 scores again. 3–2 now."
+      "text": "He scores! Player4 brings it home. 3–2!"
     },
     {
       "turn": 80,
       "role": "crowd",
-      "text": "Player4!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 82,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "DENIED!"
     },
     {
       "turn": 86,
       "role": "caster",
-      "text": "Player3 scores again. 3–2 now."
+      "text": "Flag in! Player3 banks another one. 3–2!"
     },
     {
       "turn": 86,
       "role": "crowd",
-      "text": "Player3!!!"
+      "text": "Player3 diff!"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "High energy incoming"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 93,
       "role": "caster",
-      "text": "Player4 scores to level it up. 3–3!",
+      "text": "That's the one! Player4 ties it, 3–3!",
       "key": true
     },
     {
       "turn": 93,
-      "role": "crowd",
-      "text": "This is insane"
-    },
-    {
-      "turn": 100,
-      "role": "analyst",
-      "text": "Turns 51–100: c08_control turned 2 of 1 pickups into points, the best conversion in this stretch. c08_ponly_pxxl led the fighting with 6 kills."
-    },
-    {
-      "turn": 102,
-      "role": "crowd",
-      "text": "Huge stop"
-    },
-    {
-      "turn": 121,
-      "role": "caster",
-      "text": "That capture puts c08_ponly_pxxl in front. 4–3!",
-      "key": true
-    },
-    {
-      "turn": 121,
-      "role": "crowd",
-      "text": "c08_ponly_pxxl in front!"
-    },
-    {
-      "turn": 124,
-      "role": "crowd",
-      "text": "GG v12_ponly_pxl"
-    },
-    {
-      "turn": 134,
-      "role": "caster",
-      "text": "Player4 scores to level it up. 4–4!",
-      "key": true
-    },
-    {
-      "turn": 134,
-      "role": "crowd",
-      "text": "Level!"
-    },
-    {
-      "turn": 143,
-      "role": "caster",
-      "text": "Big stop: deepseek-v4.1 takes down the v12_ponly_pxl carrier."
-    },
-    {
-      "turn": 143,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 148,
-      "role": "caster",
-      "text": "Player4 scores and takes the lead! 5–4.",
-      "key": true
-    },
-    {
-      "turn": 148,
-      "role": "crowd",
-      "text": "Comeback is real"
-    },
-    {
-      "turn": 155,
-      "role": "caster",
-      "text": "gpt-6.1-sol scores again. 5–4 now."
-    },
-    {
-      "turn": 155,
-      "role": "crowd",
-      "text": "Another one"
-    },
-    {
-      "turn": 158,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 165,
-      "role": "caster",
-      "text": "c08_control brings the flag home! 5–4."
-    },
-    {
-      "turn": 165,
-      "role": "crowd",
-      "text": "Another one"
-    },
-    {
-      "turn": 167,
-      "role": "crowd",
-      "text": "Defense wins"
-    },
-    {
-      "turn": 170,
-      "role": "caster",
-      "text": "Player5 stops c08_ponly_pxxl's flag carrier!"
-    },
-    {
-      "turn": 170,
-      "role": "crowd",
-      "text": "So close"
-    },
-    {
-      "turn": 175,
-      "role": "color",
-      "text": "It's Player4's match to lose right now: 5, 1 clear of c08_control."
-    },
-    {
-      "turn": 182,
-      "role": "caster",
-      "text": "v12_ponly_pxl scores again. 5–4 now."
-    },
-    {
-      "turn": 182,
-      "role": "crowd",
-      "text": "GG v12_ponly_pxl"
-    },
-    {
-      "turn": 191,
-      "role": "caster",
-      "text": "Player4 scores again. 6–4 now."
-    },
-    {
-      "turn": 191,
-      "role": "crowd",
-      "text": "Player4!!!"
-    },
-    {
-      "turn": 197,
-      "role": "crowd",
-      "text": "Another one"
-    },
-    {
-      "turn": 199,
-      "role": "crowd",
-      "text": "c08_ponly_pxxl!!!"
-    },
-    {
-      "turn": 200,
-      "role": "analyst",
-      "text": "Turns 151–200: c08_control turned 2 of 4 pickups into points, the best conversion in this stretch. c08_control led the fighting with 5 kills."
-    },
-    {
-      "turn": 208,
-      "role": "caster",
-      "text": "c08_ponly_pxxl scores to level it up. 6–6!",
-      "key": true
-    },
-    {
-      "turn": 208,
-      "role": "crowd",
-      "text": "This is insane"
-    },
-    {
-      "turn": 210,
-      "role": "crowd",
-      "text": "Tied again!"
-    },
-    {
-      "turn": 223,
-      "role": "caster",
-      "text": "Big stop: c08_ponly_pxxl takes down the c08_control carrier."
-    },
-    {
-      "turn": 223,
-      "role": "crowd",
-      "text": "Huge stop"
-    },
-    {
-      "turn": 235,
-      "role": "caster",
-      "text": "That capture puts c08_control in front. 7–6!",
-      "key": true
-    },
-    {
-      "turn": 235,
-      "role": "crowd",
-      "text": "c08_control in front!"
-    },
-    {
-      "turn": 246,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 250,
-      "role": "analyst",
-      "text": "Player4 played furthest forward, about 10.0 cells from home on average; c08_ponly_pxxl stayed closest to base at 10.0."
-    },
-    {
-      "turn": 258,
-      "role": "caster",
-      "text": "Player4 scores to level it up. 7–7!",
-      "key": true
-    },
-    {
-      "turn": 258,
-      "role": "crowd",
-      "text": "Level!"
-    },
-    {
-      "turn": 267,
-      "role": "caster",
-      "text": "That capture puts c08_control in front. 8–7!",
-      "key": true
-    },
-    {
-      "turn": 267,
-      "role": "crowd",
-      "text": "LEAD CHANGE"
-    },
-    {
-      "turn": 275,
-      "role": "color",
-      "text": "It's c08_control's match to lose right now: 8, 1 clear of Player4."
-    },
-    {
-      "turn": 285,
-      "role": "caster",
-      "text": "c08_ponly_pxxl brings the flag home! 8–7."
-    },
-    {
-      "turn": 285,
-      "role": "crowd",
-      "text": "c08_ponly_pxxl!!!"
-    },
-    {
-      "turn": 302,
-      "role": "caster",
-      "text": "c08_ponly_pxxl scores to level it up. 8–8!",
-      "key": true
-    },
-    {
-      "turn": 302,
-      "role": "crowd",
-      "text": "Tied again!"
-    },
-    {
-      "turn": 310,
-      "role": "caster",
-      "text": "c08_control scores and takes the lead! 9–8.",
-      "key": true
-    },
-    {
-      "turn": 310,
-      "role": "crowd",
-      "text": "c08_control in front!"
-    },
-    {
-      "turn": 317,
-      "role": "caster",
-      "text": "Big stop: Player3 takes down the c08_ponly_pxxl carrier."
-    },
-    {
-      "turn": 317,
-      "role": "crowd",
-      "text": "DENIED"
-    },
-    {
-      "turn": 322,
-      "role": "caster",
-      "text": "deepseek-v4.1 stops Player4's flag carrier!"
-    },
-    {
-      "turn": 322,
-      "role": "crowd",
-      "text": "So close"
-    },
-    {
-      "turn": 331,
-      "role": "caster",
-      "text": "Capture for Player4, and it's 9–8."
-    },
-    {
-      "turn": 331,
-      "role": "crowd",
-      "text": "Player4!!!"
-    },
-    {
-      "turn": 342,
-      "role": "caster",
-      "text": "c08_control brings the flag home! 10–8."
-    },
-    {
-      "turn": 342,
-      "role": "crowd",
-      "text": "Another one"
-    },
-    {
-      "turn": 345,
-      "role": "crowd",
-      "text": "So close"
-    },
-    {
-      "turn": 350,
-      "role": "analyst",
-      "text": "c08_ponly_pxxl played furthest forward, about 10.0 cells from home on average; c08_control stayed closest to base at 5.7."
-    },
-    {
-      "turn": 371,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 372,
-      "role": "caster",
-      "text": "c08_ponly_pxxl brings the flag home! 10–9."
-    },
-    {
-      "turn": 372,
-      "role": "crowd",
-      "text": "c08_ponly_pxxl!!!"
-    },
-    {
-      "turn": 389,
-      "role": "caster",
-      "text": "c08_ponly_pxxl scores to level it up. 10–10!",
-      "key": true
-    },
-    {
-      "turn": 389,
-      "role": "crowd",
-      "text": "Level!"
-    },
-    {
-      "turn": 390,
       "role": "crowd",
       "text": "Who blinks first"
     },
     {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: c08_control turned 1 pickups into 2 goals, efficiency maxed out. c08_ponly_pxxl owned the fights with 6 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 102,
+      "role": "crowd",
+      "text": "What a stop"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
+    },
+    {
+      "turn": 121,
+      "role": "caster",
+      "text": "Instant classic loading! c08_ponly_pxxl takes the lead, 4–3!",
+      "key": true
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "IT'S OVER? IT'S ON!"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
+    },
+    {
+      "turn": 124,
+      "role": "crowd",
+      "text": "v12_ponly_pxl diff!"
+    },
+    {
+      "turn": 134,
+      "role": "caster",
+      "text": "Back level, chat! Player4 scores, 4–4!",
+      "key": true
+    },
+    {
+      "turn": 134,
+      "role": "crowd",
+      "text": "Level again!"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "STAND UP"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
+    },
+    {
+      "turn": 143,
+      "role": "caster",
+      "text": "DENIED! deepseek-v4.1 shuts down v12_ponly_pxl. That stop (leans back)!"
+    },
+    {
+      "turn": 143,
+      "role": "crowd",
+      "text": "DENIED!"
+    },
+    {
+      "turn": 148,
+      "role": "caster",
+      "text": "Instant classic loading! Player4 takes the lead, 5–4!",
+      "key": true
+    },
+    {
+      "turn": 148,
+      "role": "crowd",
+      "text": "STAND UP!"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 155,
+      "role": "caster",
+      "text": "(screaming) gpt-6.1-sol scores! 5–4!"
+    },
+    {
+      "turn": 155,
+      "role": "crowd",
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 158,
+      "role": "crowd",
+      "text": "Defence wins"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Pog"
+    },
+    {
+      "turn": 165,
+      "role": "caster",
+      "text": "c08_control again! 5–4. Nobody stops him!"
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "Sheesh"
+    },
+    {
+      "turn": 167,
+      "role": "crowd",
+      "text": "Cut down!"
+    },
+    {
+      "turn": 170,
+      "role": "caster",
+      "text": "DENIED! Player5 shuts down c08_ponly_pxxl. That stop (leans back)!"
+    },
+    {
+      "turn": 170,
+      "role": "crowd",
+      "text": "Defence wins"
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "This is Player4's game right now: 5, keeping c08_control 1 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 182,
+      "role": "caster",
+      "text": "Flag in! v12_ponly_pxl banks another one. 5–4!"
+    },
+    {
+      "turn": 182,
+      "role": "crowd",
+      "text": "Textbook run"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Pog"
+    },
+    {
+      "turn": 191,
+      "role": "caster",
+      "text": "(screaming) Player4 scores! 6–4!"
+    },
+    {
+      "turn": 191,
+      "role": "crowd",
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 197,
+      "role": "crowd",
+      "text": "Sheesh"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 199,
+      "role": "crowd",
+      "text": "Textbook run"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: c08_control turned 4 pickups into 2 goals, efficiency maxed out. c08_control owned the fights with 5 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 208,
+      "role": "caster",
+      "text": "Back level, chat! c08_ponly_pxxl scores, 6–6!",
+      "key": true
+    },
+    {
+      "turn": 208,
+      "role": "crowd",
+      "text": "Level again!"
+    },
+    {
+      "turn": 210,
+      "role": "crowd",
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
+    },
+    {
+      "turn": 223,
+      "role": "caster",
+      "text": "c08_control's flag man is down! c08_ponly_pxxl with the huge stop!"
+    },
+    {
+      "turn": 223,
+      "role": "crowd",
+      "text": "Defence wins"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 235,
+      "role": "caster",
+      "text": "Instant classic loading! c08_control takes the lead, 7–6!",
+      "key": true
+    },
+    {
+      "turn": 235,
+      "role": "crowd",
+      "text": "LEAD CHANGE!!"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 246,
+      "role": "crowd",
+      "text": "Cut down!"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "Player4 pushed furthest, averaging 10.0 cells from home; c08_ponly_pxxl never left the porch at 10.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 258,
+      "role": "caster",
+      "text": "Back level, chat! Player4 scores, 7–7!",
+      "key": true
+    },
+    {
+      "turn": 258,
+      "role": "crowd",
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
+    },
+    {
+      "turn": 267,
+      "role": "caster",
+      "text": "And that's the lead! c08_control scores, 8–7!",
+      "key": true
+    },
+    {
+      "turn": 267,
+      "role": "crowd",
+      "text": "LEAD CHANGE!!"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "They're nervous"
+    },
+    {
+      "turn": 275,
+      "role": "color",
+      "text": "This is c08_control's game right now: 8, keeping Player4 1 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Classic"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 285,
+      "role": "caster",
+      "text": "c08_ponly_pxxl again! 8–7. Nobody stops him!"
+    },
+    {
+      "turn": 285,
+      "role": "crowd",
+      "text": "c08_ponly_pxxl diff!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
+    },
+    {
+      "turn": 302,
+      "role": "caster",
+      "text": "Back level, chat! c08_ponly_pxxl scores, 8–8!",
+      "key": true
+    },
+    {
+      "turn": 302,
+      "role": "crowd",
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 310,
+      "role": "caster",
+      "text": "Instant classic loading! c08_control takes the lead, 9–8!",
+      "key": true
+    },
+    {
+      "turn": 310,
+      "role": "crowd",
+      "text": "IT'S OVER? IT'S ON!"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 317,
+      "role": "caster",
+      "text": "DENIED! Player3 shuts down c08_ponly_pxxl. That stop (leans back)!"
+    },
+    {
+      "turn": 317,
+      "role": "crowd",
+      "text": "DENIED!"
+    },
+    {
+      "turn": 322,
+      "role": "caster",
+      "text": "Player4's flag man is down! deepseek-v4.1 with the huge stop!"
+    },
+    {
+      "turn": 322,
+      "role": "crowd",
+      "text": "What a stop"
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "waiting room"
+    },
+    {
+      "turn": 331,
+      "role": "caster",
+      "text": "(screaming) Player4 scores! 9–8!"
+    },
+    {
+      "turn": 331,
+      "role": "crowd",
+      "text": "Player4 is him!"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 342,
+      "role": "caster",
+      "text": "Flag in! c08_control banks another one. 10–8!"
+    },
+    {
+      "turn": 342,
+      "role": "crowd",
+      "text": "Clean!"
+    },
+    {
+      "turn": 345,
+      "role": "crowd",
+      "text": "Down bad"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "c08_ponly_pxxl pushed furthest, averaging 10.0 cells from home; c08_control never left the porch at 5.7. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "They're nervous"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 371,
+      "role": "crowd",
+      "text": "DENIED!"
+    },
+    {
+      "turn": 372,
+      "role": "caster",
+      "text": "He scores! c08_ponly_pxxl brings it home. 10–9!"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Another one!"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
+    },
+    {
+      "turn": 389,
+      "role": "caster",
+      "text": "That's the one! c08_ponly_pxxl ties it, 10–10!",
+      "key": true
+    },
+    {
+      "turn": 389,
+      "role": "crowd",
+      "text": "My heart lol"
+    },
+    {
+      "turn": 390,
+      "role": "crowd",
+      "text": "Hold on!"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
+    },
+    {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: c08_control finish on 10. Across the match they converted 71% of their pickups."
+      "text": "Final verdict: c08_control take it with 10. 71% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }

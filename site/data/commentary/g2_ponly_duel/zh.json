@@ -63,173 +63,243 @@
     {
       "turn": 6,
       "role": "caster",
-      "text": "v12_ponly_pxxl 得分并反超！1:0！",
+      "text": "反超了！v12_ponly_pxxl 交旗，1:0！",
       "key": true
     },
     {
       "turn": 6,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 领先了！"
+      "text": "反超了！！"
     },
     {
       "turn": 8,
       "role": "crowd",
-      "text": "差一点就进了"
-    },
-    {
-      "turn": 10,
-      "role": "crowd",
-      "text": "防守赢了"
+      "text": "好截！"
     },
     {
       "turn": 14,
       "role": "caster",
-      "text": "v12_ponly_pxxl 截下了 Player5 的持旗者！"
+      "text": "断了！v12_ponly_pxxl 拦下 Player5，这防守（战术后仰）！"
     },
     {
       "turn": 14,
       "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "好截！"
     },
     {
       "turn": 23,
       "role": "caster",
-      "text": "v12_ponly_pxxl 得分，现在是 2:0。"
+      "text": "（嘶吼）v12_ponly_pxxl 进了！2:0！"
     },
     {
       "turn": 23,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "这跑位爱了"
+    },
+    {
+      "turn": 24,
+      "role": "crowd",
+      "text": "好球！"
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "加一"
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "我裂开了"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "这操作我服了"
     },
     {
       "turn": 35,
       "role": "caster",
-      "text": "Player5 得分，现在是 3:1。"
+      "text": "（嘶吼）Player5 进了！3:1！"
     },
     {
       "turn": 35,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "Player5 冲！"
     },
     {
       "turn": 38,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "进了进了！"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 46,
-      "role": "crowd",
-      "text": "断了！"
-    },
-    {
-      "turn": 48,
       "role": "crowd",
       "text": "好截！"
     },
     {
       "turn": 49,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "稳！😎"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "v12_ponly_pxxl 站位最靠前，单位平均离本方基地约 6.5 格；Player5 最保守，平均只有 5.0 格。"
+      "text": "v12_ponly_pxxl 压得最凶，单位平均离家 6.5 格；Player5 最保守，平均只有 5.0 格。一个在大气层，一个在地下室，站位哲学完全不同。"
     },
     {
       "turn": 51,
       "role": "crowd",
-      "text": "断了！"
+      "text": "好截！"
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "老观众了"
+    },
+    {
+      "turn": 57,
+      "role": "crowd",
+      "text": "不愧是你"
     },
     {
       "turn": 61,
       "role": "caster",
-      "text": "Player5 再下一城，比分 5:2。"
+      "text": "Player5 又下一旗，5:2，拦不住啊！"
     },
     {
       "turn": 61,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "又进一个！"
     },
     {
       "turn": 62,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "进了进了！"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "直播间氛围真好"
+    },
+    {
+      "turn": 67,
+      "role": "crowd",
+      "text": "草（一种植物）"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "退钱！"
     },
     {
       "turn": 73,
       "role": "caster",
-      "text": "Player5 再下一城，比分 6:3。"
+      "text": "Player5 又下一旗，6:3，拦不住啊！"
     },
     {
       "turn": 73,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "好球！"
     },
     {
       "turn": 76,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "又进一个！"
     },
     {
       "turn": 85,
       "role": "caster",
-      "text": "v12_ponly_pxxl 再下一城，比分 8:3。"
+      "text": "v12_ponly_pxxl 又下一旗，8:3，拦不住啊！"
     },
     {
       "turn": 85,
       "role": "crowd",
       "text": "v12_ponly_pxxl 牛！"
+    },
+    {
+      "turn": 87,
+      "role": "crowd",
+      "text": "这跑位爱了"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "高松灯来了🐧"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     },
     {
       "turn": 96,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 98,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "v12_ponly_pxxl 冲！"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "第 51–100 回合：v12_ponly_pxxl 拾旗 5 次转化 5 次，是这一段转化率最高的队伍；v12_ponly_pxxl 以 5 次击杀主导了交火。"
+      "text": "第 51–100 回合：v12_ponly_pxxl 拾旗 5 次转化 5 次，效率拉满；交火是 v12_ponly_pxxl 说了算，5 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
     },
     {
       "turn": 109,
       "role": "caster",
-      "text": "Player5 再下一城，比分 10:5。"
+      "text": "Player5 又下一旗，10:5，拦不住啊！"
     },
     {
       "turn": 109,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "不愧是你"
     },
     {
       "turn": 115,
       "role": "caster",
-      "text": "v12_ponly_pxxl 再下一城，比分 11:5。"
+      "text": "（嘶吼）v12_ponly_pxxl 进了！11:5！"
     },
     {
       "turn": 115,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "爽！这才叫音乐"
     },
     {
       "turn": 120,
       "role": "caster",
-      "text": "v12_ponly_pxxl 交旗成功！12:5。"
+      "text": "进了！v12_ponly_pxxl 交旗，12:5！"
     },
     {
       "turn": 120,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "好球！"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "爽！😎这才叫音乐🎶"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "草（一种植物）"
     },
     {
       "turn": 126,
       "role": "caster",
-      "text": "Player5 交旗成功！12:6。"
+      "text": "旗送回家！Player5 得分，12:6！"
     },
     {
       "turn": 126,
@@ -237,69 +307,109 @@
       "text": "Player5 牛！"
     },
     {
+      "turn": 127,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
+    },
+    {
       "turn": 134,
       "role": "caster",
-      "text": "v12_ponly_pxxl 得分，现在是 13:6。"
+      "text": "旗送回家！v12_ponly_pxxl 得分，13:6！"
     },
     {
       "turn": 134,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "进了进了！"
     },
     {
       "turn": 137,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "好球！"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "老观众了"
     },
     {
       "turn": 145,
       "role": "caster",
-      "text": "Player5 再下一城，比分 13:8。"
+      "text": "Player5 又下一旗，13:8，拦不住啊！"
     },
     {
       "turn": 145,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "好球！"
+    },
+    {
+      "turn": 148,
+      "role": "crowd",
+      "text": "爽！这才叫音乐"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "爽！😎这才叫音乐🎶"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "v12_ponly_pxxl 站位最靠前，单位平均离本方基地约 8.0 格；Player5 最保守，平均只有 6.0 格。"
+      "text": "v12_ponly_pxxl 压得最凶，单位平均离家 8.0 格；Player5 最保守，平均只有 6.0 格。一个在大气层，一个在地下室，站位哲学完全不同。"
     },
     {
       "turn": 156,
       "role": "caster",
-      "text": "v12_ponly_pxxl 交旗成功！14:9。"
+      "text": "进了！v12_ponly_pxxl 交旗，14:9！"
     },
     {
       "turn": 156,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "又进一个！"
     },
     {
       "turn": 159,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "进了进了！"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "前方高能⚠"
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "哦？😮哦？😮"
     },
     {
       "turn": 167,
       "role": "caster",
-      "text": "Player5 得分，现在是 14:11。"
+      "text": "（嘶吼）Player5 进了！14:11！"
     },
     {
       "turn": 167,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "进了进了！"
+    },
+    {
+      "turn": 170,
+      "role": "crowd",
+      "text": "稳！😎"
     },
     {
       "turn": 175,
       "role": "color",
-      "text": "现在主动权在 v12_ponly_pxxl 手里：14 分，领先 Player5 2 分。"
+      "text": "这局现在是 v12_ponly_pxxl 说了算：14 分，压着 Player5 2 分。兄弟们，把'稳'打在公屏上。"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "内行看门道👀"
     },
     {
       "turn": 181,
       "role": "caster",
-      "text": "v12_ponly_pxxl 再下一城，比分 15:12。"
+      "text": "v12_ponly_pxxl 又下一旗，15:12，拦不住啊！"
     },
     {
       "turn": 181,
@@ -312,76 +422,101 @@
       "text": "Player5 牛！"
     },
     {
+      "turn": 183,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "前方高能⚠"
+    },
+    {
       "turn": 192,
       "role": "caster",
-      "text": "Player5 交旗成功！15:14。"
+      "text": "进了！Player5 交旗，15:14！"
     },
     {
       "turn": 192,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 193,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "稳！😎"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "第 151–200 回合：v12_ponly_pxxl 拾旗 3 次转化 3 次，是这一段转化率最高的队伍；v12_ponly_pxxl 以 4 次击杀主导了交火。"
+      "text": "第 151–200 回合：v12_ponly_pxxl 拾旗 3 次转化 3 次，效率拉满；交火是 v12_ponly_pxxl 说了算，4 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "这操作我服了"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "高松灯来了🐧"
     },
     {
       "turn": 204,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "爽！这才叫音乐"
     },
     {
       "turn": 206,
       "role": "caster",
-      "text": "Player5 扳平比分，16:16！",
+      "text": "扳平了兄弟们！Player5 交旗，16:16！",
       "key": true
     },
     {
       "turn": 206,
       "role": "crowd",
-      "text": "又平了"
+      "text": "绞肉机！"
     },
     {
       "turn": 215,
       "role": "caster",
-      "text": "这一球让 Player5 领先了，17:16！",
+      "text": "这球直接改写比赛！Player5 领先，17:16！",
       "key": true
     },
     {
       "turn": 215,
       "role": "crowd",
-      "text": "逆转来了"
+      "text": "反超了！！"
     },
     {
       "turn": 218,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "好截！"
     },
     {
       "turn": 221,
       "role": "crowd",
-      "text": "断了！"
+      "text": "好截！"
     },
     {
       "turn": 224,
       "role": "caster",
-      "text": "Player5 得分，现在是 18:16。"
+      "text": "进了！Player5 交旗，18:16！"
     },
     {
       "turn": 224,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 229,
       "role": "caster",
-      "text": "关键拦截！Player5 放倒了 v12_ponly_pxxl 的持旗单位。"
+      "text": "v12_ponly_pxxl 的持旗大哥倒了！Player5 这下太关键！"
     },
     {
       "turn": 229,
@@ -391,47 +526,52 @@
     {
       "turn": 233,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "好截！"
     },
     {
       "turn": 236,
       "role": "caster",
-      "text": "Player5 得分，现在是 19:16。"
+      "text": "进了！Player5 交旗，19:16！"
     },
     {
       "turn": 236,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "爽！这才叫音乐"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 244,
       "role": "caster",
-      "text": "Player5 再下一城，比分 20:16。"
+      "text": "进了！Player5 交旗，20:16！"
     },
     {
       "turn": 244,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "爽！这才叫音乐"
     },
     {
       "turn": 248,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "v12_ponly_pxxl 站位最靠前，单位平均离本方基地约 5.7 格；Player5 最保守，平均只有 4.3 格。"
+      "text": "v12_ponly_pxxl 压得最凶，单位平均离家 5.7 格；Player5 最保守，平均只有 4.3 格。一个在大气层，一个在地下室，站位哲学完全不同。"
     },
     {
       "turn": 255,
       "role": "caster",
-      "text": "v12_ponly_pxxl 交旗成功！21:17。"
+      "text": "（嘶吼）v12_ponly_pxxl 进了！21:17！"
     },
     {
       "turn": 255,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 258,
@@ -439,79 +579,99 @@
       "text": "好截！"
     },
     {
-      "turn": 260,
-      "role": "caster",
-      "text": "Player5 截下了 v12_ponly_pxxl 的持旗者！"
+      "turn": 259,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     },
     {
       "turn": 260,
-      "role": "crowd",
-      "text": "拦得漂亮"
+      "role": "caster",
+      "text": "断了！Player5 拦下 v12_ponly_pxxl，这防守（战术后仰）！"
     },
     {
       "turn": 268,
       "role": "caster",
-      "text": "v12_ponly_pxxl 再下一城，比分 21:18。"
+      "text": "进了！v12_ponly_pxxl 交旗，21:18！"
     },
     {
       "turn": 268,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "急了急了"
     },
     {
       "turn": 272,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "好截！"
     },
     {
       "turn": 277,
       "role": "caster",
-      "text": "Player5 再下一城，比分 22:18。"
+      "text": "Player5 又下一旗，22:18，拦不住啊！"
     },
     {
       "turn": 277,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "不愧是你"
     },
     {
       "turn": 282,
       "role": "caster",
-      "text": "v12_ponly_pxxl 交旗成功！22:19。"
+      "text": "旗送回家！v12_ponly_pxxl 得分，22:19！"
     },
     {
       "turn": 282,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "v12_ponly_pxxl 冲！"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "这操作我服了"
     },
     {
       "turn": 288,
       "role": "caster",
-      "text": "Player5 交旗成功！23:19。"
+      "text": "进了！Player5 交旗，23:19！"
     },
     {
       "turn": 288,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 293,
       "role": "caster",
-      "text": "Player5 得分，现在是 24:19。"
+      "text": "Player5 又下一旗，24:19，拦不住啊！"
     },
     {
       "turn": 293,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "退钱！"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "第 251–300 回合：v12_ponly_pxxl 拾旗 5 次转化 3 次，是这一段转化率最高的队伍；v12_ponly_pxxl 以 7 次击杀主导了交火。"
+      "text": "第 251–300 回合：v12_ponly_pxxl 拾旗 5 次转化 3 次，效率拉满；交火是 v12_ponly_pxxl 说了算，7 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
     },
     {
       "turn": 303,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 304,
@@ -519,171 +679,191 @@
       "text": "好截！"
     },
     {
-      "turn": 307,
+      "turn": 309,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "不愧是你"
     },
     {
       "turn": 310,
       "role": "caster",
-      "text": "v12_ponly_pxxl 再下一城，比分 24:21。"
+      "text": "旗送回家！v12_ponly_pxxl 得分，24:21！"
     },
     {
       "turn": 310,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "进了进了！"
     },
     {
       "turn": 316,
       "role": "caster",
-      "text": "v12_ponly_pxxl 截下了 Player5 的持旗者！"
+      "text": "Player5 的持旗大哥倒了！v12_ponly_pxxl 这下太关键！"
     },
     {
       "turn": 316,
-      "role": "crowd",
-      "text": "断了！"
-    },
-    {
-      "turn": 318,
       "role": "crowd",
       "text": "好截！"
     },
     {
       "turn": 321,
       "role": "caster",
-      "text": "v12_ponly_pxxl 交旗成功！24:22。"
+      "text": "v12_ponly_pxxl 又下一旗，24:22，拦不住啊！"
     },
     {
       "turn": 321,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "稳！😎"
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "蹲蹲"
     },
     {
       "turn": 330,
       "role": "caster",
-      "text": "v12_ponly_pxxl 交旗成功！24:23。"
+      "text": "旗送回家！v12_ponly_pxxl 得分，24:23！"
     },
     {
       "turn": 330,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "v12_ponly_pxxl 冲！"
     },
     {
       "turn": 332,
       "role": "crowd",
+      "text": "这谁顶得住"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "加一"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
+    },
+    {
+      "turn": 341,
+      "role": "caster",
+      "text": "这球直接改写比赛！v12_ponly_pxxl 领先，25:24！",
+      "key": true
+    },
+    {
+      "turn": 341,
+      "role": "crowd",
+      "text": "领先易主！"
+    },
+    {
+      "turn": 347,
+      "role": "caster",
+      "text": "就差这一下！Player5 扳平，25:25！",
+      "key": true
+    },
+    {
+      "turn": 347,
+      "role": "crowd",
       "text": "悬念拉满"
     },
     {
-      "turn": 341,
-      "role": "caster",
-      "text": "这一球让 v12_ponly_pxxl 领先了，25:24！",
-      "key": true
-    },
-    {
-      "turn": 341,
-      "role": "crowd",
-      "text": "v12_ponly_pxxl 领先了！"
-    },
-    {
-      "turn": 347,
-      "role": "caster",
-      "text": "Player5 扳平比分，25:25！",
-      "key": true
-    },
-    {
-      "turn": 347,
-      "role": "crowd",
-      "text": "扳平了！"
-    },
-    {
       "turn": 353,
       "role": "caster",
-      "text": "这一球让 Player5 领先了，26:25！",
+      "text": "这球直接改写比赛！Player5 领先，26:25！",
       "key": true
     },
     {
       "turn": 353,
       "role": "crowd",
-      "text": "名场面"
+      "text": "Player5 领先！"
     },
     {
       "turn": 358,
       "role": "caster",
-      "text": "v12_ponly_pxxl 扳平比分，26:26！",
+      "text": "扳平了兄弟们！v12_ponly_pxxl 交旗，26:26！",
       "key": true
     },
     {
       "turn": 358,
       "role": "crowd",
-      "text": "扳平了！"
+      "text": "又平了！"
     },
     {
       "turn": 365,
       "role": "caster",
-      "text": "这一球让 v12_ponly_pxxl 领先了，27:26！",
+      "text": "这球直接改写比赛！v12_ponly_pxxl 领先，27:26！",
       "key": true
     },
     {
       "turn": 365,
       "role": "crowd",
-      "text": "全场起立"
+      "text": "领先易主！"
     },
     {
       "turn": 366,
       "role": "crowd",
-      "text": "谁顶得住"
+      "text": "稳住啊！"
     },
     {
       "turn": 369,
       "role": "crowd",
-      "text": "v12_ponly_pxxl 牛！"
+      "text": "稳！😎"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "内行看门道👀"
     },
     {
       "turn": 375,
       "role": "color",
-      "text": "现在主动权在 v12_ponly_pxxl 手里：28 分，领先 Player5 2 分。"
+      "text": "这局现在是 v12_ponly_pxxl 说了算：28 分，压着 Player5 2 分。兄弟们，把'稳'打在公屏上。"
     },
     {
       "turn": 377,
       "role": "crowd",
-      "text": "断了！"
+      "text": "好截！"
     },
     {
       "turn": 380,
       "role": "caster",
-      "text": "Player5 得分，现在是 28:27。"
+      "text": "进了！Player5 交旗，28:27！"
     },
     {
       "turn": 380,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "爽！这才叫音乐"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "蹲蹲"
     },
     {
       "turn": 387,
       "role": "caster",
-      "text": "Player5 扳平比分，28:28！",
+      "text": "就差这一下！Player5 扳平，28:28！",
       "key": true
     },
     {
       "turn": 387,
       "role": "crowd",
-      "text": "扳平了！"
+      "text": "悬念拉满"
     },
     {
       "turn": 388,
       "role": "crowd",
-      "text": "心跳加速"
+      "text": "顶住！"
     },
     {
       "turn": 393,
       "role": "caster",
-      "text": "这一球让 v12_ponly_pxxl 领先了，29:28！",
+      "text": "反超了！v12_ponly_pxxl 交旗，29:28！",
       "key": true
     },
     {
       "turn": 393,
       "role": "crowd",
-      "text": "反超了！！"
+      "text": "爆了！真爆了！"
     },
     {
       "turn": 394,
@@ -693,12 +873,12 @@
     {
       "turn": 397,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "好截！"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "终场结论：v12_ponly_pxxl 以 29 分收官，全场拾旗转化率 78%。"
+      "text": "终场定论：v12_ponly_pxxl 收下 29 分，全场拾旗转化率 78%。抢得多不如转化高，这堂课叫'转化'，好吧。"
     }
   ]
 }

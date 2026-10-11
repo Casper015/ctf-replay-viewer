@@ -63,642 +63,837 @@
     {
       "turn": 6,
       "role": "caster",
-      "text": "v12_ponly_pxxl scores and takes the lead! 1–0.",
+      "text": "And that's the lead! v12_ponly_pxxl scores, 1–0!",
       "key": true
     },
     {
       "turn": 6,
       "role": "crowd",
-      "text": "v12_ponly_pxxl in front!"
+      "text": "LEAD CHANGE!!"
     },
     {
       "turn": 8,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
     },
     {
       "turn": 10,
       "role": "crowd",
-      "text": "Big save"
+      "text": "DENIED!"
     },
     {
       "turn": 14,
       "role": "caster",
-      "text": "v12_ponly_pxxl stops Player5's flag carrier!"
+      "text": "DENIED! v12_ponly_pxxl shuts down Player5. That stop (leans back)!"
     },
     {
       "turn": 14,
       "role": "crowd",
-      "text": "So close"
+      "text": "Down bad"
     },
     {
       "turn": 23,
       "role": "caster",
-      "text": "v12_ponly_pxxl scores again. 2–0 now."
+      "text": "(screaming) v12_ponly_pxxl scores! 2–0!"
     },
     {
       "turn": 23,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 24,
+      "role": "crowd",
+      "text": "Sheesh"
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 35,
       "role": "caster",
-      "text": "Player5 scores again. 3–1 now."
+      "text": "(screaming) Player5 scores! 3–1!"
     },
     {
       "turn": 35,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 is him!"
     },
     {
       "turn": 38,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 46,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "DENIED!"
     },
     {
       "turn": 48,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "SO CLOSE"
     },
     {
       "turn": 49,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Clean!"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "v12_ponly_pxxl played furthest forward, about 6.5 cells from home on average; Player5 stayed closest to base at 5.0."
+      "text": "v12_ponly_pxxl pushed furthest, averaging 6.5 cells from home; Player5 never left the porch at 5.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 51,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "What a stop"
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Old timer here"
+    },
+    {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 61,
       "role": "caster",
-      "text": "Capture for Player5, and it's 5–2."
+      "text": "Player5 again! 5–2. Nobody stops him!"
     },
     {
       "turn": 61,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
     },
     {
       "turn": 62,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "Best stream on the web"
+    },
+    {
+      "turn": 67,
+      "role": "crowd",
+      "text": "lol. lmao"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 73,
       "role": "caster",
-      "text": "Capture for Player5, and it's 6–3."
+      "text": "Player5 again! 6–3. Nobody stops him!"
     },
     {
       "turn": 73,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
     },
     {
       "turn": 76,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Another one!"
     },
     {
       "turn": 85,
       "role": "caster",
-      "text": "Capture for v12_ponly_pxxl, and it's 8–3."
+      "text": "v12_ponly_pxxl again! 8–3. Nobody stops him!"
     },
     {
       "turn": 85,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "v12_ponly_pxxl diff!"
+    },
+    {
+      "turn": 87,
+      "role": "crowd",
+      "text": "Textbook run"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "High energy incoming"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 96,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 98,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "v12_ponly_pxxl is him!"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "Turns 51–100: v12_ponly_pxxl turned 5 of 5 pickups into points, the best conversion in this stretch. v12_ponly_pxxl led the fighting with 5 kills."
+      "text": "Turns 51–100: v12_ponly_pxxl turned 5 pickups into 5 goals, efficiency maxed out. v12_ponly_pxxl owned the fights with 5 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 109,
       "role": "caster",
-      "text": "Capture for Player5, and it's 10–5."
+      "text": "Player5 again! 10–5. Nobody stops him!"
     },
     {
       "turn": 109,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 115,
       "role": "caster",
-      "text": "Capture for v12_ponly_pxxl, and it's 11–5."
+      "text": "(screaming) v12_ponly_pxxl scores! 11–5!"
     },
     {
       "turn": 115,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 120,
       "role": "caster",
-      "text": "v12_ponly_pxxl brings the flag home! 12–5."
+      "text": "He scores! v12_ponly_pxxl brings it home. 12–5!"
     },
     {
       "turn": 120,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
     },
     {
       "turn": 126,
       "role": "caster",
-      "text": "Player5 brings the flag home! 12–6."
+      "text": "Flag in! Player5 banks another one. 12–6!"
     },
     {
       "turn": 126,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 diff!"
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 134,
       "role": "caster",
-      "text": "v12_ponly_pxxl scores again. 13–6 now."
+      "text": "Flag in! v12_ponly_pxxl banks another one. 13–6!"
     },
     {
       "turn": 134,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "LET'S GO!"
     },
     {
       "turn": 137,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 145,
       "role": "caster",
-      "text": "Capture for Player5, and it's 13–8."
+      "text": "Player5 again! 13–8. Nobody stops him!"
     },
     {
       "turn": 145,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 148,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "v12_ponly_pxxl played furthest forward, about 8.0 cells from home on average; Player5 stayed closest to base at 6.0."
+      "text": "v12_ponly_pxxl pushed furthest, averaging 8.0 cells from home; Player5 never left the porch at 6.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 156,
       "role": "caster",
-      "text": "v12_ponly_pxxl brings the flag home! 14–9."
+      "text": "He scores! v12_ponly_pxxl brings it home. 14–9!"
     },
     {
       "turn": 156,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Another one!"
     },
     {
       "turn": 159,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Pog"
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "oh? oh? oh?"
     },
     {
       "turn": 167,
       "role": "caster",
-      "text": "Player5 scores again. 14–11 now."
+      "text": "(screaming) Player5 scores! 14–11!"
     },
     {
       "turn": 167,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 170,
+      "role": "crowd",
+      "text": "Clean!"
     },
     {
       "turn": 175,
       "role": "color",
-      "text": "It's v12_ponly_pxxl's match to lose right now: 14, 2 clear of Player5."
+      "text": "This is v12_ponly_pxxl's game right now: 14, keeping Player5 2 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 181,
       "role": "caster",
-      "text": "Capture for v12_ponly_pxxl, and it's 15–12."
+      "text": "v12_ponly_pxxl again! 15–12. Nobody stops him!"
     },
     {
       "turn": 181,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "v12_ponly_pxxl diff!"
     },
     {
       "turn": 182,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 diff!"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 192,
       "role": "caster",
-      "text": "Player5 brings the flag home! 15–14."
+      "text": "He scores! Player5 brings it home. 15–14!"
     },
     {
       "turn": 192,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 193,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Clean!"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "Turns 151–200: v12_ponly_pxxl turned 3 of 3 pickups into points, the best conversion in this stretch. v12_ponly_pxxl led the fighting with 4 kills."
+      "text": "Turns 151–200: v12_ponly_pxxl turned 3 pickups into 3 goals, efficiency maxed out. v12_ponly_pxxl owned the fights with 4 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "High energy incoming"
     },
     {
       "turn": 204,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 206,
       "role": "caster",
-      "text": "Player5 scores to level it up. 16–16!",
+      "text": "Back level, chat! Player5 scores, 16–16!",
       "key": true
     },
     {
       "turn": 206,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Meat grinder!"
     },
     {
       "turn": 215,
       "role": "caster",
-      "text": "That capture puts Player5 in front. 17–16!",
+      "text": "Player5 takes over the whole game! 17–16!",
       "key": true
     },
     {
       "turn": 215,
       "role": "crowd",
-      "text": "Here we go"
+      "text": "LEAD CHANGE!!"
     },
     {
       "turn": 218,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
     },
     {
       "turn": 221,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Cut down!"
     },
     {
       "turn": 224,
       "role": "caster",
-      "text": "Player5 scores again. 18–16 now."
+      "text": "He scores! Player5 brings it home. 18–16!"
     },
     {
       "turn": 224,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 229,
       "role": "caster",
-      "text": "Big stop: Player5 takes down the v12_ponly_pxxl carrier."
+      "text": "v12_ponly_pxxl's flag man is down! Player5 with the huge stop!"
     },
     {
       "turn": 229,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "SO CLOSE"
     },
     {
       "turn": 233,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "DENIED!"
     },
     {
       "turn": 236,
       "role": "caster",
-      "text": "Player5 scores again. 19–16 now."
+      "text": "He scores! Player5 brings it home. 19–16!"
     },
     {
       "turn": 236,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 244,
       "role": "caster",
-      "text": "Capture for Player5, and it's 20–16."
+      "text": "He scores! Player5 brings it home. 20–16!"
     },
     {
       "turn": 244,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 248,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "v12_ponly_pxxl played furthest forward, about 5.7 cells from home on average; Player5 stayed closest to base at 4.3."
+      "text": "v12_ponly_pxxl pushed furthest, averaging 5.7 cells from home; Player5 never left the porch at 4.3. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 255,
       "role": "caster",
-      "text": "v12_ponly_pxxl brings the flag home! 21–17."
+      "text": "(screaming) v12_ponly_pxxl scores! 21–17!"
     },
     {
       "turn": 255,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 258,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 260,
       "role": "caster",
-      "text": "Player5 stops v12_ponly_pxxl's flag carrier!"
+      "text": "DENIED! Player5 shuts down v12_ponly_pxxl. That stop (leans back)!"
     },
     {
       "turn": 260,
       "role": "crowd",
-      "text": "So close"
+      "text": "Defence wins"
     },
     {
       "turn": 268,
       "role": "caster",
-      "text": "Capture for v12_ponly_pxxl, and it's 21–18."
+      "text": "He scores! v12_ponly_pxxl brings it home. 21–18!"
     },
     {
       "turn": 268,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "They're nervous"
     },
     {
       "turn": 272,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Down bad"
     },
     {
       "turn": 277,
       "role": "caster",
-      "text": "Capture for Player5, and it's 22–18."
+      "text": "Player5 again! 22–18. Nobody stops him!"
     },
     {
       "turn": 277,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 282,
       "role": "caster",
-      "text": "v12_ponly_pxxl brings the flag home! 22–19."
+      "text": "Flag in! v12_ponly_pxxl banks another one. 22–19!"
     },
     {
       "turn": 282,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "v12_ponly_pxxl is him!"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 288,
       "role": "caster",
-      "text": "Player5 brings the flag home! 23–19."
+      "text": "He scores! Player5 brings it home. 23–19!"
     },
     {
       "turn": 288,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 293,
       "role": "caster",
-      "text": "Player5 scores again. 24–19 now."
+      "text": "Player5 again! 24–19. Nobody stops him!"
     },
     {
       "turn": 293,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: v12_ponly_pxxl turned 3 of 5 pickups into points, the best conversion in this stretch. v12_ponly_pxxl led the fighting with 7 kills."
+      "text": "Turns 251–300: v12_ponly_pxxl turned 5 pickups into 3 goals, efficiency maxed out. v12_ponly_pxxl owned the fights with 7 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 303,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 304,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "What a stop"
     },
     {
       "turn": 307,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
     },
     {
       "turn": 310,
       "role": "caster",
-      "text": "Capture for v12_ponly_pxxl, and it's 24–21."
+      "text": "Flag in! v12_ponly_pxxl banks another one. 24–21!"
     },
     {
       "turn": 310,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "LET'S GO!"
     },
     {
       "turn": 316,
       "role": "caster",
-      "text": "v12_ponly_pxxl stops Player5's flag carrier!"
+      "text": "Player5's flag man is down! v12_ponly_pxxl with the huge stop!"
     },
     {
       "turn": 316,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "DENIED!"
     },
     {
       "turn": 318,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "SO CLOSE"
     },
     {
       "turn": 321,
       "role": "caster",
-      "text": "v12_ponly_pxxl brings the flag home! 24–22."
+      "text": "v12_ponly_pxxl again! 24–22. Nobody stops him!"
     },
     {
       "turn": 321,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Clean!"
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 330,
       "role": "caster",
-      "text": "v12_ponly_pxxl brings the flag home! 24–23."
+      "text": "Flag in! v12_ponly_pxxl banks another one. 24–23!"
     },
     {
       "turn": 330,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "v12_ponly_pxxl is him!"
     },
     {
       "turn": 332,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 341,
       "role": "caster",
-      "text": "That capture puts v12_ponly_pxxl in front. 25–24!",
+      "text": "v12_ponly_pxxl takes over the whole game! 25–24!",
       "key": true
     },
     {
       "turn": 341,
       "role": "crowd",
-      "text": "v12_ponly_pxxl in front!"
+      "text": "They flipped it!"
     },
     {
       "turn": 347,
       "role": "caster",
-      "text": "Player5 scores to level it up. 25–25!",
+      "text": "That's the one! Player5 ties it, 25–25!",
       "key": true
     },
     {
       "turn": 347,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Can't breathe"
     },
     {
       "turn": 353,
       "role": "caster",
-      "text": "That capture puts Player5 in front. 26–25!",
+      "text": "Player5 takes over the whole game! 26–25!",
       "key": true
     },
     {
       "turn": 353,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "Player5 in front!"
     },
     {
       "turn": 358,
       "role": "caster",
-      "text": "v12_ponly_pxxl scores to level it up. 26–26!",
+      "text": "Back level, chat! v12_ponly_pxxl scores, 26–26!",
       "key": true
     },
     {
       "turn": 358,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Level again!"
     },
     {
       "turn": 365,
       "role": "caster",
-      "text": "That capture puts v12_ponly_pxxl in front. 27–26!",
+      "text": "v12_ponly_pxxl takes over the whole game! 27–26!",
       "key": true
     },
     {
       "turn": 365,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "They flipped it!"
     },
     {
       "turn": 366,
       "role": "crowd",
-      "text": "Who blinks first"
+      "text": "Hold on!"
     },
     {
       "turn": 369,
       "role": "crowd",
-      "text": "v12_ponly_pxxl!!!"
+      "text": "Clean!"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 375,
       "role": "color",
-      "text": "It's v12_ponly_pxxl's match to lose right now: 28, 2 clear of Player5."
+      "text": "This is v12_ponly_pxxl's game right now: 28, keeping Player5 2 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 377,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "DENIED!"
     },
     {
       "turn": 380,
       "role": "caster",
-      "text": "Player5 scores again. 28–27 now."
+      "text": "He scores! Player5 brings it home. 28–27!"
     },
     {
       "turn": 380,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 387,
       "role": "caster",
-      "text": "Player5 scores to level it up. 28–28!",
+      "text": "That's the one! Player5 ties it, 28–28!",
       "key": true
     },
     {
       "turn": 387,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Can't breathe"
     },
     {
       "turn": 388,
       "role": "crowd",
-      "text": "Nerves"
+      "text": "CLUTCH UP"
     },
     {
       "turn": 393,
       "role": "caster",
-      "text": "That capture puts v12_ponly_pxxl in front. 29–28!",
+      "text": "And that's the lead! v12_ponly_pxxl scores, 29–28!",
       "key": true
     },
     {
       "turn": 393,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "IT'S OVER? IT'S ON!"
     },
     {
       "turn": 394,
       "role": "crowd",
-      "text": "Who blinks first"
+      "text": "Who wants it"
     },
     {
       "turn": 397,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: v12_ponly_pxxl finish on 29. Across the match they converted 78% of their pickups."
+      "text": "Final verdict: v12_ponly_pxxl take it with 29. 78% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }

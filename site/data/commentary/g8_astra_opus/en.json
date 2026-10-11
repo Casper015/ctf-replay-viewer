@@ -63,519 +63,714 @@
     {
       "turn": 16,
       "role": "caster",
-      "text": "Fable 5.1 scores to level it up. 1–1!",
+      "text": "Back level, chat! Fable 5.1 scores, 1–1!",
       "key": true
     },
     {
       "turn": 16,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Can't breathe"
     },
     {
       "turn": 25,
       "role": "color",
-      "text": "Dead even at the top, Player5 and Fable 5.1 and GPT-6 Astra on 1 each."
+      "text": "Dead even, Player5 and Fable 5.1 and GPT-6 Astra both on 1. My heart can't take this, boys."
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 31,
       "role": "caster",
-      "text": "That capture puts Fable 5.1 in front. 2–1!",
+      "text": "Instant classic loading! Fable 5.1 takes the lead, 2–1!",
       "key": true
     },
     {
       "turn": 31,
       "role": "crowd",
-      "text": "Fable 5.1 in front!"
+      "text": "Instant classic!"
     },
     {
       "turn": 33,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Who blinks first"
     },
     {
       "turn": 36,
       "role": "caster",
-      "text": "Opus 5.5 stops GPT-6 Astra's flag carrier!"
+      "text": "Stopped at the door! Opus 5.5 deletes the GPT-6 Astra carrier!"
     },
     {
       "turn": 45,
       "role": "caster",
-      "text": "That capture puts Fable 5.1 in front. 3–2!",
+      "text": "And that's the lead! Fable 5.1 scores, 3–2!",
       "key": true
     },
     {
       "turn": 45,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "??? oh ??? oh"
     },
     {
       "turn": 46,
       "role": "crowd",
-      "text": "Big save"
+      "text": "What a stop"
     },
     {
       "turn": 48,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "Player5 played furthest forward, about 15.0 cells from home on average; GPT-6 Astra stayed closest to base at 5.5."
+      "text": "Player5 pushed furthest, averaging 15.0 cells from home; GPT-6 Astra never left the porch at 5.5. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Old timer here"
+    },
+    {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 64,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "Best stream on the web"
     },
     {
       "turn": 67,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 3–3!",
+      "text": "That's the one! Opus 5.5 ties it, 3–3!",
       "key": true
     },
     {
       "turn": 67,
       "role": "crowd",
-      "text": "Level!"
+      "text": "My heart lol"
     },
     {
       "turn": 72,
       "role": "caster",
-      "text": "Player6 stops Fable 5.1's flag carrier!"
+      "text": "Stopped at the door! Player6 deletes the Fable 5.1 carrier!"
     },
     {
       "turn": 72,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Cut down!"
     },
     {
       "turn": 82,
       "role": "caster",
-      "text": "Player5 scores to level it up. 3–3!",
+      "text": "Back level, chat! Player5 scores, 3–3!",
       "key": true
     },
     {
       "turn": 82,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "High energy incoming"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 98,
       "role": "caster",
-      "text": "Opus 5.5 scores and takes the lead! 4–3.",
+      "text": "Opus 5.5 takes over the whole game! 4–3!",
       "key": true
     },
     {
       "turn": 98,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "Opus 5.5 in front!"
     },
     {
       "turn": 104,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Down bad"
     },
     {
       "turn": 108,
       "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 5–3."
+      "text": "He scores! Opus 5.5 brings it home. 5–3!"
     },
     {
       "turn": 108,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 is him!"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 114,
       "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 5–3."
+      "text": "Flag in! GPT-6 Astra banks another one. 5–3!"
     },
     {
       "turn": 114,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6 Astra diff!"
     },
     {
       "turn": 120,
       "role": "caster",
-      "text": "Player5 brings the flag home! 5–4."
+      "text": "He scores! Player5 brings it home. 5–4!"
     },
     {
       "turn": 120,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
     },
     {
       "turn": 125,
       "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 5, 1 clear of Player5."
+      "text": "This is Opus 5.5's game right now: 5, keeping Player5 1 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 135,
       "role": "crowd",
-      "text": "So close"
+      "text": "Down bad"
     },
     {
       "turn": 137,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 6–4 now."
+      "text": "Opus 5.5 again! 6–4. Nobody stops him!"
     },
     {
       "turn": 137,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 142,
       "role": "caster",
-      "text": "Capture for Fable 5.1, and it's 6–5."
+      "text": "Flag in! Fable 5.1 banks another one. 6–5!"
     },
     {
       "turn": 142,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 144,
+      "role": "crowd",
+      "text": "Fable 5.1 diff!"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "Player5 played furthest forward, about 8.7 cells from home on average; Opus 5.5 stayed closest to base at 6.0."
+      "text": "Player5 pushed furthest, averaging 8.7 cells from home; Opus 5.5 never left the porch at 6.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 153,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Textbook run"
     },
     {
       "turn": 158,
       "role": "caster",
-      "text": "Baseline stops Player5's flag carrier!"
+      "text": "DENIED! Baseline shuts down Player5. That stop (leans back)!"
     },
     {
       "turn": 158,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Down bad"
     },
     {
       "turn": 162,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Clean!"
     },
     {
       "turn": 163,
       "role": "crowd",
-      "text": "Another one"
+      "text": "LET'S GO!"
     },
     {
       "turn": 169,
       "role": "caster",
-      "text": "Capture for GPT-6 Astra, and it's 7–6."
+      "text": "GPT-6 Astra again! 7–6. Nobody stops him!"
     },
     {
       "turn": 169,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Another one!"
     },
     {
       "turn": 170,
       "role": "crowd",
-      "text": "So close"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 179,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 8–6 now."
+      "text": "(screaming) Opus 5.5 scores! 8–6!"
     },
     {
       "turn": 179,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Clean!"
     },
     {
       "turn": 182,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "What a stop"
     },
     {
       "turn": 183,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "LET'S GO!"
     },
     {
       "turn": 189,
       "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 8–7."
+      "text": "GPT-6 Astra again! 8–7. Nobody stops him!"
     },
     {
       "turn": 189,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 198,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "Turns 151–200: Opus 5.5 turned 2 of 2 pickups into points, the best conversion in this stretch. Player5 led the fighting with 7 kills."
+      "text": "Turns 151–200: Opus 5.5 turned 2 pickups into 2 goals, efficiency maxed out. Player5 owned the fights with 7 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "High energy incoming"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
+    },
+    {
+      "turn": 206,
+      "role": "crowd",
+      "text": "Best stream on the web"
     },
     {
       "turn": 209,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 8–7 now."
+      "text": "GPT-6 Astra again! 8–7. Nobody stops him!"
     },
     {
       "turn": 209,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Another one!"
     },
     {
       "turn": 213,
       "role": "crowd",
-      "text": "What a run"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
     },
     {
       "turn": 216,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 218,
       "role": "caster",
-      "text": "Fable 5.1 scores again. 9–8 now."
+      "text": "Flag in! Fable 5.1 banks another one. 9–8!"
     },
     {
-      "turn": 218,
+      "turn": 224,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Add one"
     },
     {
       "turn": 225,
       "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 9, 1 clear of Player5."
+      "text": "This is Opus 5.5's game right now: 9, keeping Player5 1 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 230,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 9–8 now."
+      "text": "Flag in! GPT-6 Astra banks another one. 9–8!"
     },
     {
       "turn": 230,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 243,
       "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 9–9!",
+      "text": "That's the one! GPT-6 Astra ties it, 9–9!",
       "key": true
     },
     {
       "turn": 243,
       "role": "crowd",
-      "text": "Tied again!"
-    },
-    {
-      "turn": 245,
-      "role": "crowd",
-      "text": "This is insane"
+      "text": "My heart lol"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Opus 5.5 played furthest forward, about 10.3 cells from home on average; Player5 stayed closest to base at 6.0."
+      "text": "Opus 5.5 pushed furthest, averaging 10.3 cells from home; Player5 never left the porch at 6.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 261,
       "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 10–9!",
+      "text": "And that's the lead! GPT-6 Astra scores, 10–9!",
       "key": true
     },
     {
       "turn": 261,
-      "role": "crowd",
-      "text": "Comeback is real"
-    },
-    {
-      "turn": 269,
-      "role": "caster",
-      "text": "Player5 scores to level it up. 10–10!",
-      "key": true
-    },
-    {
-      "turn": 269,
-      "role": "crowd",
-      "text": "This is insane"
-    },
-    {
-      "turn": 275,
-      "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 11–10!",
-      "key": true
-    },
-    {
-      "turn": 275,
       "role": "crowd",
       "text": "GPT-6 Astra in front!"
     },
     {
+      "turn": 269,
+      "role": "caster",
+      "text": "That's the one! Player5 ties it, 10–10!",
+      "key": true
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "Level again!"
+    },
+    {
+      "turn": 275,
+      "role": "caster",
+      "text": "GPT-6 Astra takes over the whole game! 11–10!",
+      "key": true
+    },
+    {
+      "turn": 275,
+      "role": "crowd",
+      "text": "LEAD CHANGE!!"
+    },
+    {
       "turn": 279,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6 Astra is him!"
     },
     {
       "turn": 281,
       "role": "caster",
-      "text": "Big stop: Opus 5.5 takes down the GPT-6 Astra carrier."
+      "text": "DENIED! Opus 5.5 shuts down GPT-6 Astra. That stop (leans back)!"
     },
     {
       "turn": 281,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Cut down!"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 291,
       "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 13–10."
+      "text": "(screaming) GPT-6 Astra scores! 13–10!"
     },
     {
       "turn": 291,
       "role": "crowd",
-      "text": "Another one"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: Player5 turned 1 of 1 pickups into points, the best conversion in this stretch. Player5 led the fighting with 9 kills."
+      "text": "Turns 251–300: Player5 turned 1 pickups into 1 goals, efficiency maxed out. Player5 owned the fights with 9 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
     },
     {
       "turn": 304,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
     },
     {
       "turn": 308,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 314,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 14–11 now."
+      "text": "Flag in! GPT-6 Astra banks another one. 14–11!"
     },
     {
       "turn": 314,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6 Astra diff!"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 319,
       "role": "caster",
-      "text": "Capture for Opus 5.5, and it's 14–12."
+      "text": "(screaming) Opus 5.5 scores! 14–12!"
     },
     {
       "turn": 319,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 diff!"
     },
     {
       "turn": 322,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Textbook run"
     },
     {
       "turn": 325,
       "role": "color",
-      "text": "It's GPT-6 Astra's match to lose right now: 14, 2 clear of Opus 5.5."
+      "text": "This is GPT-6 Astra's game right now: 14, keeping Opus 5.5 2 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 331,
       "role": "caster",
-      "text": "Capture for Player5, and it's 14–12."
+      "text": "(screaming) Player5 scores! 14–12!"
     },
     {
       "turn": 331,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 is him!"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 344,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
     },
     {
       "turn": 345,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 14–14!",
+      "text": "That's the one! Opus 5.5 ties it, 14–14!",
       "key": true
     },
     {
       "turn": 345,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Who blinks first"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "Player5 played furthest forward, about 21.5 cells from home on average; Opus 5.5 stayed closest to base at 11.5."
+      "text": "Player5 pushed furthest, averaging 21.5 cells from home; Opus 5.5 never left the porch at 11.5. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 353,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "DENIED!"
     },
     {
       "turn": 358,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "What a stop"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
     },
     {
       "turn": 360,
       "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 14–14."
+      "text": "He scores! Fable 5.1 brings it home. 14–14!"
     },
     {
       "turn": 360,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Fable 5.1 diff!"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 375,
       "role": "color",
-      "text": "Dead even at the top, Opus 5.5 and GPT-6 Astra on 14 each."
+      "text": "Dead even, Opus 5.5 and GPT-6 Astra both on 14. My heart can't take this, boys."
+    },
+    {
+      "turn": 378,
+      "role": "crowd",
+      "text": "5D chess"
+    },
+    {
+      "turn": 379,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 381,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "What a stop"
     },
     {
       "turn": 383,
       "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 15–14!",
+      "text": "GPT-6 Astra takes over the whole game! 15–14!",
       "key": true
     },
     {
       "turn": 383,
       "role": "crowd",
-      "text": "Here we go"
+      "text": "??? oh ??? oh"
     },
     {
       "turn": 388,
       "role": "caster",
-      "text": "Baseline stops Player5's flag carrier!"
+      "text": "Player5's flag man is down! Baseline with the huge stop!"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 398,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: GPT-6 Astra finish on 15. Across the match they converted 68% of their pickups."
+      "text": "Final verdict: GPT-6 Astra take it with 15. 68% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }

@@ -61,107 +61,137 @@
   },
   "lines": [
     {
+      "turn": 14,
+      "role": "crowd",
+      "text": "这波在大气层☁"
+    },
+    {
       "turn": 16,
       "role": "caster",
-      "text": "deepseek-v4.1 得分并反超！1:0！",
+      "text": "名场面预定！deepseek-v4.1 反超，1:0！",
       "key": true
     },
     {
       "turn": 16,
       "role": "crowd",
-      "text": "反超了！！"
+      "text": "爆了！真爆了！"
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "加一"
     },
     {
       "turn": 29,
       "role": "caster",
-      "text": "关键拦截！c08_ponly_pxxl 放倒了 deepseek-v4.1 的持旗单位。"
+      "text": "断了！c08_ponly_pxxl 拦下 deepseek-v4.1，这防守（战术后仰）！"
     },
     {
       "turn": 29,
       "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "好截！"
     },
     {
       "turn": 31,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "寄！"
     },
     {
       "turn": 40,
       "role": "caster",
-      "text": "c08_control 扳平比分，1:1！",
+      "text": "扳平了兄弟们！c08_control 交旗，1:1！",
       "key": true
     },
     {
       "turn": 40,
-      "role": "crowd",
-      "text": "这比赛太刺激了"
-    },
-    {
-      "turn": 51,
-      "role": "caster",
-      "text": "Player3 扳平比分，1:1！",
-      "key": true
-    },
-    {
-      "turn": 51,
-      "role": "crowd",
-      "text": "扳平了！"
-    },
-    {
-      "turn": 53,
       "role": "crowd",
       "text": "悬念拉满"
     },
     {
+      "turn": 43,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "啊？这爆了吧？"
+    },
+    {
+      "turn": 51,
+      "role": "caster",
+      "text": "就差这一下！Player3 扳平，1:1！",
+      "key": true
+    },
+    {
+      "turn": 51,
+      "role": "crowd",
+      "text": "绞肉机！"
+    },
+    {
+      "turn": 53,
+      "role": "crowd",
+      "text": "这谁顶得住"
+    },
+    {
       "turn": 58,
       "role": "caster",
-      "text": "c08_control 再下一城，比分 3:1。"
+      "text": "旗送回家！c08_control 得分，3:1！"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "直播间氛围真好"
     },
     {
       "turn": 67,
       "role": "caster",
-      "text": "v12_ponly_pxl 再下一城，比分 3:1。"
+      "text": "（嘶吼）v12_ponly_pxl 进了！3:1！"
     },
     {
       "turn": 67,
       "role": "crowd",
-      "text": "v12_ponly_pxl 好样的"
+      "text": "又进一个！"
     },
     {
       "turn": 69,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "好球！"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "退钱！"
     },
     {
       "turn": 75,
       "role": "caster",
-      "text": "c08_ponly_pxxl 交旗成功！3:2。"
+      "text": "（嘶吼）c08_ponly_pxxl 进了！3:2！"
     },
     {
       "turn": 75,
       "role": "crowd",
-      "text": "c08_ponly_pxxl 牛！"
+      "text": "爽！这才叫音乐"
     },
     {
       "turn": 80,
       "role": "caster",
-      "text": "Player4 得分，现在是 3:2。"
+      "text": "进了！Player4 交旗，3:2！"
     },
     {
       "turn": 80,
       "role": "crowd",
-      "text": "Player4 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 82,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "好截！"
     },
     {
       "turn": 86,
       "role": "caster",
-      "text": "Player3 得分，现在是 3:2。"
+      "text": "旗送回家！Player3 得分，3:2！"
     },
     {
       "turn": 86,
@@ -169,174 +199,239 @@
       "text": "Player3 牛！"
     },
     {
+      "turn": 89,
+      "role": "crowd",
+      "text": "高松灯来了🐧"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
+    },
+    {
       "turn": 93,
       "role": "caster",
-      "text": "Player4 扳平比分，3:3！",
+      "text": "就差这一下！Player4 扳平，3:3！",
       "key": true
     },
     {
       "turn": 93,
       "role": "crowd",
-      "text": "悬念拉满"
+      "text": "这谁顶得住"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "第 51–100 回合：c08_control 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；c08_ponly_pxxl 以 6 次击杀主导了交火。"
+      "text": "第 51–100 回合：c08_control 拾旗 1 次转化 2 次，效率拉满；交火是 c08_ponly_pxxl 说了算，6 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
     },
     {
       "turn": 102,
       "role": "crowd",
-      "text": "好截！"
+      "text": "寄！"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "不愧是你"
     },
     {
       "turn": 121,
       "role": "caster",
-      "text": "这一球让 c08_ponly_pxxl 领先了，4:3！",
+      "text": "名场面预定！c08_ponly_pxxl 反超，4:3！",
       "key": true
     },
     {
       "turn": 121,
       "role": "crowd",
-      "text": "c08_ponly_pxxl 领先了！"
+      "text": "爆了！真爆了！"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "草（一种植物）"
     },
     {
       "turn": 124,
       "role": "crowd",
-      "text": "v12_ponly_pxl 好样的"
+      "text": "v12_ponly_pxl 牛！"
     },
     {
       "turn": 134,
       "role": "caster",
-      "text": "Player4 扳平比分，4:4！",
+      "text": "扳平了兄弟们！Player4 交旗，4:4！",
       "key": true
     },
     {
       "turn": 134,
       "role": "crowd",
-      "text": "又平了"
+      "text": "又平了！"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "起立！"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "老观众了"
     },
     {
       "turn": 143,
       "role": "caster",
-      "text": "关键拦截！deepseek-v4.1 放倒了 v12_ponly_pxl 的持旗单位。"
+      "text": "断了！deepseek-v4.1 拦下 v12_ponly_pxl，这防守（战术后仰）！"
     },
     {
       "turn": 143,
       "role": "crowd",
-      "text": "防守赢了"
+      "text": "这拦截绝了"
     },
     {
       "turn": 148,
       "role": "caster",
-      "text": "Player4 得分并反超！5:4！",
+      "text": "名场面预定！Player4 反超，5:4！",
       "key": true
     },
     {
       "turn": 148,
       "role": "crowd",
-      "text": "名场面"
+      "text": "全场起立！"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "爽！😎这才叫音乐🎶"
     },
     {
       "turn": 155,
       "role": "caster",
-      "text": "gpt-6.1-sol 得分，现在是 5:4。"
+      "text": "（嘶吼）gpt-6.1-sol 进了！5:4！"
     },
     {
       "turn": 155,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "进了进了！"
     },
     {
       "turn": 158,
       "role": "crowd",
-      "text": "防守赢了"
+      "text": "这拦截绝了"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "前方高能⚠"
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "哦？😮哦？😮"
     },
     {
       "turn": 165,
       "role": "caster",
-      "text": "c08_control 交旗成功！5:4。"
+      "text": "c08_control 又下一旗，5:4，拦不住啊！"
     },
     {
       "turn": 165,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "好球！"
     },
     {
       "turn": 167,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "好截！"
     },
     {
       "turn": 170,
       "role": "caster",
-      "text": "Player5 截下了 c08_ponly_pxxl 的持旗者！"
-    },
-    {
-      "turn": 170,
-      "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "断了！Player5 拦下 c08_ponly_pxxl，这防守（战术后仰）！"
     },
     {
       "turn": 175,
       "role": "color",
-      "text": "现在主动权在 Player4 手里：5 分，领先 c08_control 1 分。"
+      "text": "这局现在是 Player4 说了算：5 分，压着 c08_control 1 分。兄弟们，把'稳'打在公屏上。"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "内行看门道👀"
     },
     {
       "turn": 182,
       "role": "caster",
-      "text": "v12_ponly_pxl 得分，现在是 5:4。"
+      "text": "旗送回家！v12_ponly_pxl 得分，5:4！"
     },
     {
       "turn": 182,
       "role": "crowd",
-      "text": "v12_ponly_pxl 好样的"
+      "text": "这跑位爱了"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "前方高能⚠"
     },
     {
       "turn": 191,
       "role": "caster",
-      "text": "Player4 得分，现在是 6:4。"
+      "text": "（嘶吼）Player4 进了！6:4！"
     },
     {
       "turn": 191,
       "role": "crowd",
-      "text": "Player4 牛！"
+      "text": "进了进了！"
     },
     {
       "turn": 197,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "好球！"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
     },
     {
       "turn": 199,
       "role": "crowd",
-      "text": "c08_ponly_pxxl 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "第 151–200 回合：c08_control 拾旗 4 次转化 2 次，是这一段转化率最高的队伍；c08_control 以 5 次击杀主导了交火。"
+      "text": "第 151–200 回合：c08_control 拾旗 4 次转化 2 次，效率拉满；交火是 c08_control 说了算，5 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
     },
     {
       "turn": 208,
       "role": "caster",
-      "text": "c08_ponly_pxxl 扳平比分，6:6！",
+      "text": "扳平了兄弟们！c08_ponly_pxxl 交旗，6:6！",
       "key": true
     },
     {
       "turn": 208,
       "role": "crowd",
-      "text": "悬念拉满"
+      "text": "又平了！"
     },
     {
       "turn": 210,
       "role": "crowd",
-      "text": "扳平了！"
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "在？看看实力"
     },
     {
       "turn": 223,
       "role": "caster",
-      "text": "关键拦截！c08_ponly_pxxl 放倒了 c08_control 的持旗单位。"
+      "text": "c08_control 的持旗大哥倒了！c08_ponly_pxxl 这下太关键！"
     },
     {
       "turn": 223,
@@ -344,41 +439,61 @@
       "text": "好截！"
     },
     {
+      "turn": 224,
+      "role": "crowd",
+      "text": "加一"
+    },
+    {
       "turn": 235,
       "role": "caster",
-      "text": "这一球让 c08_control 领先了，7:6！",
+      "text": "名场面预定！c08_control 反超，7:6！",
       "key": true
     },
     {
       "turn": 235,
       "role": "crowd",
-      "text": "c08_control 领先了！"
+      "text": "反超了！！"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 246,
       "role": "crowd",
-      "text": "防守赢了"
+      "text": "好截！"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Player4 站位最靠前，单位平均离本方基地约 10.0 格；c08_ponly_pxxl 最保守，平均只有 10.0 格。"
+      "text": "Player4 压得最凶，单位平均离家 10.0 格；c08_ponly_pxxl 最保守，平均只有 10.0 格。一个在大气层，一个在地下室，站位哲学完全不同。"
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "我裂开了"
     },
     {
       "turn": 258,
       "role": "caster",
-      "text": "Player4 扳平比分，7:7！",
+      "text": "扳平了兄弟们！Player4 交旗，7:7！",
       "key": true
     },
     {
       "turn": 258,
       "role": "crowd",
-      "text": "又平了"
+      "text": "这谁顶得住"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     },
     {
       "turn": 267,
       "role": "caster",
-      "text": "这一球让 c08_control 领先了，8:7！",
+      "text": "反超了！c08_control 交旗，8:7！",
       "key": true
     },
     {
@@ -387,14 +502,29 @@
       "text": "反超了！！"
     },
     {
+      "turn": 269,
+      "role": "crowd",
+      "text": "急了急了"
+    },
+    {
       "turn": 275,
       "role": "color",
-      "text": "现在主动权在 c08_control 手里：8 分，领先 Player4 1 分。"
+      "text": "这局现在是 c08_control 说了算：8 分，压着 Player4 1 分。兄弟们，把'稳'打在公屏上。"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "不愧是你"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "这操作我服了"
     },
     {
       "turn": 285,
       "role": "caster",
-      "text": "c08_ponly_pxxl 交旗成功！8:7。"
+      "text": "c08_ponly_pxxl 又下一旗，8:7，拦不住啊！"
     },
     {
       "turn": 285,
@@ -402,112 +532,177 @@
       "text": "c08_ponly_pxxl 牛！"
     },
     {
+      "turn": 296,
+      "role": "crowd",
+      "text": "退钱！"
+    },
+    {
       "turn": 302,
       "role": "caster",
-      "text": "c08_ponly_pxxl 扳平比分，8:8！",
+      "text": "扳平了兄弟们！c08_ponly_pxxl 交旗，8:8！",
       "key": true
     },
     {
       "turn": 302,
       "role": "crowd",
-      "text": "扳平了！"
+      "text": "这谁顶得住"
     },
     {
       "turn": 310,
       "role": "caster",
-      "text": "c08_control 得分并反超！9:8！",
+      "text": "名场面预定！c08_control 反超，9:8！",
       "key": true
     },
     {
       "turn": 310,
       "role": "crowd",
-      "text": "c08_control 领先了！"
+      "text": "爆了！真爆了！"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "内行看门道👀"
     },
     {
       "turn": 317,
       "role": "caster",
-      "text": "关键拦截！Player3 放倒了 c08_ponly_pxxl 的持旗单位。"
+      "text": "断了！Player3 拦下 c08_ponly_pxxl，这防守（战术后仰）！"
     },
     {
       "turn": 317,
       "role": "crowd",
-      "text": "断了！"
+      "text": "好截！"
     },
     {
       "turn": 322,
       "role": "caster",
-      "text": "deepseek-v4.1 截下了 Player4 的持旗者！"
+      "text": "Player4 的持旗大哥倒了！deepseek-v4.1 这下太关键！"
     },
     {
       "turn": 322,
       "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "这拦截绝了"
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "蹲蹲"
     },
     {
       "turn": 331,
       "role": "caster",
-      "text": "Player4 再下一城，比分 9:8。"
+      "text": "（嘶吼）Player4 进了！9:8！"
     },
     {
       "turn": 331,
       "role": "crowd",
-      "text": "Player4 牛！"
+      "text": "Player4 冲！"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "加一"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
     },
     {
       "turn": 342,
       "role": "caster",
-      "text": "c08_control 交旗成功！10:8。"
+      "text": "旗送回家！c08_control 得分，10:8！"
     },
     {
       "turn": 342,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "稳！😎"
     },
     {
       "turn": 345,
       "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "好截！"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "c08_ponly_pxxl 站位最靠前，单位平均离本方基地约 10.0 格；c08_control 最保守，平均只有 5.7 格。"
+      "text": "c08_ponly_pxxl 压得最凶，单位平均离家 10.0 格；c08_control 最保守，平均只有 5.7 格。一个在大气层，一个在地下室，站位哲学完全不同。"
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "急了急了"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "看不懂但震撼"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "我裂开了"
     },
     {
       "turn": 371,
       "role": "crowd",
-      "text": "防守赢了"
+      "text": "好截！"
     },
     {
       "turn": 372,
       "role": "caster",
-      "text": "c08_ponly_pxxl 交旗成功！10:9。"
+      "text": "进了！c08_ponly_pxxl 交旗，10:9！"
     },
     {
       "turn": 372,
       "role": "crowd",
-      "text": "c08_ponly_pxxl 牛！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "爽！😎这才叫音乐🎶"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "蹲蹲"
     },
     {
       "turn": 389,
       "role": "caster",
-      "text": "c08_ponly_pxxl 扳平比分，10:10！",
+      "text": "就差这一下！c08_ponly_pxxl 扳平，10:10！",
       "key": true
     },
     {
       "turn": 389,
       "role": "crowd",
-      "text": "又平了"
+      "text": "心脏不舒服😩"
     },
     {
       "turn": 390,
       "role": "crowd",
-      "text": "谁顶得住"
+      "text": "稳住啊！"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "这操作我服了"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "终场结论：c08_control 以 10 分收官，全场拾旗转化率 71%。"
+      "text": "终场定论：c08_control 收下 10 分，全场拾旗转化率 71%。抢得多不如转化高，这堂课叫'转化'，好吧。"
     }
   ]
 }

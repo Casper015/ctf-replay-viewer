@@ -63,444 +63,679 @@
     {
       "turn": 10,
       "role": "caster",
-      "text": "Fable 5.1 scores to level it up. 1–1!",
+      "text": "Back level, chat! Fable 5.1 scores, 1–1!",
       "key": true
     },
     {
       "turn": 10,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Meat grinder!"
+    },
+    {
+      "turn": 14,
+      "role": "crowd",
+      "text": "5D chess"
     },
     {
       "turn": 24,
       "role": "caster",
-      "text": "Player3 scores to level it up. 1–1!",
+      "text": "Back level, chat! Player3 scores, 1–1!",
       "key": true
     },
     {
       "turn": 24,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Level again!"
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 31,
       "role": "caster",
-      "text": "That capture puts Fable 5.1 in front. 2–1!",
+      "text": "Instant classic loading! Fable 5.1 takes the lead, 2–1!",
       "key": true
     },
     {
       "turn": 31,
       "role": "crowd",
-      "text": "Fable 5.1 in front!"
+      "text": "Instant classic!"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 40,
       "role": "caster",
-      "text": "Capture for Fable 5.1, and it's 3–1."
+      "text": "He scores! Fable 5.1 brings it home. 3–1!"
     },
     {
       "turn": 40,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Fable 5.1 diff!"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 44,
       "role": "crowd",
-      "text": "So close"
+      "text": "What a stop"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "wait, that exploded?"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "GPT-6.1 Sol played furthest forward, about 13.0 cells from home on average; DeepSeek V4.1 Flash stayed closest to base at 5.5."
+      "text": "GPT-6.1 Sol pushed furthest, averaging 13.0 cells from home; DeepSeek V4.1 Flash never left the porch at 5.5. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 57,
       "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 4–1."
+      "text": "Fable 5.1 again! 4–1. Nobody stops him!"
     },
     {
       "turn": 57,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 59,
+      "role": "crowd",
+      "text": "Sheesh"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "Best stream on the web"
+    },
+    {
+      "turn": 67,
+      "role": "crowd",
+      "text": "lol. lmao"
     },
     {
       "turn": 70,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 5–2."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 5–2!"
     },
     {
       "turn": 70,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
     },
     {
       "turn": 72,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Fable 5.1 diff!"
     },
     {
       "turn": 75,
       "role": "color",
-      "text": "It's Fable 5.1's match to lose right now: 6, 4 clear of GPT-6.1 Sol."
+      "text": "This is Fable 5.1's game right now: 6, keeping GPT-6.1 Sol 4 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 84,
       "role": "caster",
-      "text": "Player3 brings the flag home! 6–2."
+      "text": "He scores! Player3 brings it home. 6–2!"
     },
     {
       "turn": 84,
       "role": "crowd",
-      "text": "Player3!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 85,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "High energy incoming"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "Turns 51–100: Fable 5.1 turned 3 of 2 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 4 kills."
+      "text": "Turns 51–100: Fable 5.1 turned 2 pickups into 3 goals, efficiency maxed out. GPT-6.1 Sol owned the fights with 4 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 102,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 105,
+      "role": "crowd",
+      "text": "Another one!"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 121,
       "role": "caster",
-      "text": "Capture for DeepSeek V4.1 Flash, and it's 6–4."
+      "text": "DeepSeek V4.1 Flash again! 6–4. Nobody stops him!"
     },
     {
       "turn": 121,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Another one!"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 131,
       "role": "caster",
-      "text": "Fable 5.1 scores again. 7–4 now."
+      "text": "(screaming) Fable 5.1 scores! 7–4!"
     },
     {
       "turn": 131,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Sheesh"
     },
     {
       "turn": 134,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Clean!"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "STAND UP"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 144,
       "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 8–4."
+      "text": "He scores! Fable 5.1 brings it home. 8–4!"
     },
     {
       "turn": 144,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Fable 5.1 diff!"
     },
     {
       "turn": 147,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "Player3 played furthest forward, about 9.7 cells from home on average; DeepSeek V4.1 Flash stayed closest to base at 5.3."
+      "text": "Player3 pushed furthest, averaging 9.7 cells from home; DeepSeek V4.1 Flash never left the porch at 5.3. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 157,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 8–5."
+      "text": "GPT-6.1 Sol again! 8–5. Nobody stops him!"
     },
     {
       "turn": 157,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Sheesh"
     },
     {
       "turn": 162,
       "role": "caster",
-      "text": "Player3 brings the flag home! 8–5."
+      "text": "Flag in! Player3 banks another one. 8–5!"
     },
     {
       "turn": 162,
       "role": "crowd",
-      "text": "Player3!!!"
+      "text": "Clean!"
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "oh? oh? oh?"
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "STAND UP"
     },
     {
       "turn": 168,
       "role": "caster",
-      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
+      "text": "Stopped at the door! Fable 5.1 deletes the DeepSeek V4.1 Flash carrier!"
     },
     {
       "turn": 168,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Defence wins"
     },
     {
       "turn": 175,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 8–6."
+      "text": "(screaming) GPT-6.1 Sol scores! 8–6!"
     },
     {
       "turn": 175,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol is him!"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 184,
       "role": "crowd",
-      "text": "So close"
+      "text": "Cut down!"
     },
     {
       "turn": 187,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 8–7."
+      "text": "(screaming) GPT-6.1 Sol scores! 8–7!"
     },
     {
       "turn": 187,
       "role": "crowd",
-      "text": "Another one"
+      "text": "LET'S GO!"
     },
     {
       "turn": 189,
       "role": "crowd",
-      "text": "Player3!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 201,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 8–8!",
+      "text": "That's the one! GPT-6.1 Sol ties it, 8–8!",
       "key": true
     },
     {
       "turn": 201,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
+    },
+    {
+      "turn": 206,
+      "role": "crowd",
+      "text": "Best stream on the web"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
     },
     {
       "turn": 219,
       "role": "caster",
-      "text": "That capture puts GPT-6.1 Sol in front. 9–8!",
+      "text": "And that's the lead! GPT-6.1 Sol scores, 9–8!",
       "key": true
     },
     {
       "turn": 219,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "LEAD CHANGE!!"
     },
     {
       "turn": 221,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 225,
       "role": "color",
-      "text": "It's GPT-6.1 Sol's match to lose right now: 9, 1 clear of Fable 5.1."
+      "text": "This is GPT-6.1 Sol's game right now: 9, keeping Fable 5.1 1 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 233,
       "role": "caster",
-      "text": "Fable 5.1 scores to level it up. 9–9!",
+      "text": "That's the one! Fable 5.1 ties it, 9–9!",
       "key": true
     },
     {
       "turn": 233,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Level again!"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 247,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "DeepSeek V4.1 Flash is him!"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Fable 5.1 played furthest forward, about 10.7 cells from home on average; Player3 stayed closest to base at 4.5."
+      "text": "Fable 5.1 pushed furthest, averaging 10.7 cells from home; Player3 never left the porch at 4.5. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 256,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores and takes the lead! 10–9.",
+      "text": "Instant classic loading! GPT-6.1 Sol takes the lead, 10–9!",
       "key": true
     },
     {
       "turn": 256,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "STAND UP!"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 261,
       "role": "caster",
-      "text": "Player3 brings the flag home! 10–9."
+      "text": "Player3 again! 10–9. Nobody stops him!"
     },
     {
       "turn": 261,
       "role": "crowd",
-      "text": "Player3!!!"
+      "text": "Another one!"
     },
     {
       "turn": 269,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores again. 10–9 now."
+      "text": "DeepSeek V4.1 Flash again! 10–9. Nobody stops him!"
     },
     {
       "turn": 269,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Sheesh"
     },
     {
       "turn": 276,
       "role": "caster",
-      "text": "Fable 5.1 scores to level it up. 10–10!",
+      "text": "Back level, chat! Fable 5.1 scores, 10–10!",
       "key": true
     },
     {
       "turn": 276,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 282,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores and takes the lead! 11–10.",
+      "text": "And that's the lead! GPT-6.1 Sol scores, 11–10!",
       "key": true
     },
     {
       "turn": 282,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "They flipped it!"
     },
     {
       "turn": 289,
       "role": "caster",
-      "text": "Capture for DeepSeek V4.1 Flash, and it's 11–10."
+      "text": "DeepSeek V4.1 Flash again! 11–10. Nobody stops him!"
     },
     {
       "turn": 289,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Another one!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: GPT-6.1 Sol turned 2 of 1 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 7 kills."
+      "text": "Turns 251–300: GPT-6.1 Sol turned 1 pickups into 2 goals, efficiency maxed out. GPT-6.1 Sol owned the fights with 7 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 301,
       "role": "crowd",
-      "text": "Player3!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 304,
+      "role": "crowd",
+      "text": "Textbook run"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 316,
       "role": "caster",
-      "text": "Capture for DeepSeek V4.1 Flash, and it's 11–10."
+      "text": "He scores! DeepSeek V4.1 Flash brings it home. 11–10!"
     },
     {
       "turn": 316,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Textbook run"
     },
     {
       "turn": 320,
       "role": "crowd",
-      "text": "Player3!!!"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 329,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores again. 11–10 now."
+      "text": "DeepSeek V4.1 Flash again! 11–10. Nobody stops him!"
     },
     {
       "turn": 329,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Another one!"
     },
     {
       "turn": 333,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Level again!"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 343,
       "role": "caster",
-      "text": "That capture puts Fable 5.1 in front. 12–11!",
+      "text": "Instant classic loading! Fable 5.1 takes the lead, 12–11!",
       "key": true
     },
     {
       "turn": 343,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "Instant classic!"
     },
     {
       "turn": 347,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Down bad"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "DeepSeek V4.1 Flash played furthest forward, about 8.5 cells from home on average; Fable 5.1 stayed closest to base at 6.5."
+      "text": "DeepSeek V4.1 Flash pushed furthest, averaging 8.5 cells from home; Fable 5.1 never left the porch at 6.5. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "They're nervous"
     },
     {
       "turn": 356,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 12–12!",
+      "text": "Back level, chat! GPT-6.1 Sol scores, 12–12!",
       "key": true
     },
     {
       "turn": 356,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 368,
       "role": "caster",
-      "text": "GPT-6.1 Sol stops Fable 5.1's flag carrier!"
+      "text": "DENIED! GPT-6.1 Sol shuts down Fable 5.1. That stop (leans back)!"
     },
     {
       "turn": 368,
       "role": "crowd",
-      "text": "So close"
+      "text": "Cut down!"
     },
     {
       "turn": 371,
       "role": "crowd",
-      "text": "Player3!!!"
+      "text": "Player3 is him!"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 376,
       "role": "caster",
-      "text": "Player3 stops GPT-6.1 Sol's flag carrier!"
+      "text": "GPT-6.1 Sol's flag man is down! Player3 with the huge stop!"
     },
     {
       "turn": 376,
       "role": "crowd",
-      "text": "Big save"
+      "text": "What a stop"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 390,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores to level it up. 12–12!",
+      "text": "Back level, chat! DeepSeek V4.1 Flash scores, 12–12!",
       "key": true
     },
     {
       "turn": 390,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Meat grinder!"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: Fable 5.1 finish on 12. Across the match they converted 92% of their pickups."
+      "text": "Final verdict: Fable 5.1 take it with 12. 92% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }

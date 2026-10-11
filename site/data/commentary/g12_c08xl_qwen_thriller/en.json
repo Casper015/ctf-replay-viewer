@@ -61,9 +61,14 @@
   },
   "lines": [
     {
+      "turn": 14,
+      "role": "crowd",
+      "text": "5D chess"
+    },
+    {
       "turn": 22,
       "role": "caster",
-      "text": "Qwen 3.8 Max scores and takes the lead! 1–0.",
+      "text": "Instant classic loading! Qwen 3.8 Max takes the lead, 1–0!",
       "key": true
     },
     {
@@ -74,472 +79,622 @@
     {
       "turn": 25,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
     },
     {
       "turn": 26,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Who blinks first"
     },
     {
       "turn": 27,
       "role": "caster",
-      "text": "GLM 5.3 scores to level it up. 1–1!",
+      "text": "That's the one! GLM 5.3 ties it, 1–1!",
       "key": true
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 39,
       "role": "caster",
-      "text": "c08_ponly_xl scores to level it up. 1–1!",
+      "text": "That's the one! c08_ponly_xl ties it, 1–1!",
       "key": true
     },
     {
       "turn": 39,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Level again!"
     },
     {
       "turn": 40,
       "role": "crowd",
-      "text": "Big save"
+      "text": "What a stop"
     },
     {
       "turn": 42,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Who blinks first"
     },
     {
       "turn": 48,
       "role": "caster",
-      "text": "c08_ponly_xl stops Qwen 3.8 Max's flag carrier!"
+      "text": "Stopped at the door! c08_ponly_xl deletes the Qwen 3.8 Max carrier!"
     },
     {
       "turn": 48,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "DENIED!"
+    },
+    {
+      "turn": 50,
+      "role": "crowd",
+      "text": "Defence wins"
     },
     {
       "turn": 53,
       "role": "crowd",
-      "text": "Big save"
+      "text": "DENIED!"
     },
     {
       "turn": 54,
       "role": "caster",
-      "text": "GPT-6 Astra scores and takes the lead! 2–1.",
+      "text": "And that's the lead! GPT-6 Astra scores, 2–1!",
       "key": true
     },
     {
       "turn": 54,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "IT'S OVER? IT'S ON!"
     },
     {
       "turn": 56,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Defence wins"
     },
     {
       "turn": 60,
       "role": "caster",
-      "text": "Qwen 3.8 Max scores to level it up. 2–2!",
+      "text": "Back level, chat! Qwen 3.8 Max scores, 2–2!",
       "key": true
     },
     {
       "turn": 61,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Meat grinder!"
     },
     {
       "turn": 63,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Level again!"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 76,
       "role": "caster",
-      "text": "c08_ponly_xxl stops c08_ponly_xl's flag carrier!"
+      "text": "c08_ponly_xl's flag man is down! c08_ponly_xxl with the huge stop!"
     },
     {
       "turn": 76,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "What a stop"
     },
     {
       "turn": 81,
       "role": "caster",
-      "text": "That capture puts Qwen 3.8 Max in front. 3–2!",
+      "text": "And that's the lead! Qwen 3.8 Max scores, 3–2!",
       "key": true
     },
     {
       "turn": 81,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "STAND UP!"
     },
     {
       "turn": 85,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 94,
       "role": "caster",
-      "text": "c08_ponly_xl stops Qwen 3.8 Max's flag carrier!"
+      "text": "Qwen 3.8 Max's flag man is down! c08_ponly_xl with the huge stop!"
     },
     {
       "turn": 94,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Down bad"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "Turns 51–100: GPT-6 Astra turned 2 of 2 pickups into points, the best conversion in this stretch. c08_ponly_xl led the fighting with 6 kills."
+      "text": "Turns 51–100: GPT-6 Astra turned 2 pickups into 2 goals, efficiency maxed out. c08_ponly_xl owned the fights with 6 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 100,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "SO CLOSE"
     },
     {
       "turn": 105,
       "role": "caster",
-      "text": "c08_ponly_xl scores to level it up. 3–3!",
+      "text": "That's the one! c08_ponly_xl ties it, 3–3!",
       "key": true
     },
     {
       "turn": 105,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "My heart lol"
     },
     {
       "turn": 106,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "Instant classic!"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 118,
       "role": "caster",
-      "text": "c08_ponly_xxl stops c08_ponly_xl's flag carrier!"
+      "text": "c08_ponly_xl's flag man is down! c08_ponly_xxl with the huge stop!"
     },
     {
       "turn": 118,
       "role": "crowd",
-      "text": "Big save"
+      "text": "What a stop"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
     },
     {
       "turn": 127,
       "role": "caster",
-      "text": "Capture for Qwen 3.8 Max, and it's 6–3."
+      "text": "(screaming) Qwen 3.8 Max scores! 6–3!"
     },
     {
       "turn": 127,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Clean!"
     },
     {
       "turn": 132,
       "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 6–4."
+      "text": "He scores! GPT-6 Astra brings it home. 6–4!"
     },
     {
       "turn": 132,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Textbook run"
     },
     {
-      "turn": 133,
+      "turn": 137,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "STAND UP"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 144,
       "role": "caster",
-      "text": "c08_ponly_xl stops Qwen 3.8 Max's flag carrier!"
+      "text": "Stopped at the door! c08_ponly_xl deletes the Qwen 3.8 Max carrier!"
     },
     {
       "turn": 144,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "DENIED!"
     },
     {
       "turn": 149,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "DENIED!"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "c08_ponly_xl played furthest forward, about 12.3 cells from home on average; Qwen 3.8 Max stayed closest to base at 6.0."
+      "text": "c08_ponly_xl pushed furthest, averaging 12.3 cells from home; Qwen 3.8 Max never left the porch at 6.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 159,
       "role": "caster",
-      "text": "c08_ponly_xl brings the flag home! 6–5."
+      "text": "(screaming) c08_ponly_xl scores! 6–5!"
     },
     {
       "turn": 159,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Clean!"
     },
     {
       "turn": 160,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 163,
       "role": "crowd",
-      "text": "Another one"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "oh? oh? oh?"
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "STAND UP"
     },
     {
       "turn": 175,
       "role": "color",
-      "text": "It's Qwen 3.8 Max's match to lose right now: 6, 1 clear of c08_ponly_xl."
+      "text": "This is Qwen 3.8 Max's game right now: 6, keeping c08_ponly_xl 1 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 197,
       "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 6–6!",
+      "text": "That's the one! GPT-6 Astra ties it, 6–6!",
       "key": true
     },
     {
       "turn": 197,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Level again!"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 199,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Cut down!"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "High energy incoming"
     },
     {
       "turn": 202,
       "role": "caster",
-      "text": "c08_ponly_xl stops Qwen 3.8 Max's flag carrier!"
+      "text": "Qwen 3.8 Max's flag man is down! c08_ponly_xl with the huge stop!"
     },
     {
       "turn": 202,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Down bad"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 206,
       "role": "crowd",
-      "text": "Big save"
+      "text": "SO CLOSE"
     },
     {
       "turn": 212,
       "role": "caster",
-      "text": "GPT-6 Astra scores and takes the lead! 7–6.",
+      "text": "GPT-6 Astra takes over the whole game! 7–6!",
       "key": true
     },
     {
       "turn": 212,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "Comeback script!"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
     },
     {
       "turn": 219,
       "role": "caster",
-      "text": "c08_ponly_xl brings the flag home! 7–6."
+      "text": "(screaming) c08_ponly_xl scores! 7–6!"
     },
     {
       "turn": 219,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "c08_ponly_xl diff!"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 225,
       "role": "color",
-      "text": "It's GPT-6 Astra's match to lose right now: 7, 1 clear of c08_ponly_xl."
+      "text": "This is GPT-6 Astra's game right now: 7, keeping c08_ponly_xl 1 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 235,
       "role": "caster",
-      "text": "Big stop: c08_ponly_xl takes down the Qwen 3.8 Max carrier."
+      "text": "Qwen 3.8 Max's flag man is down! c08_ponly_xl with the huge stop!"
     },
     {
       "turn": 235,
       "role": "crowd",
-      "text": "So close"
+      "text": "Cut down!"
     },
     {
       "turn": 238,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Down bad"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 244,
       "role": "caster",
-      "text": "GPT-6.1 Sol stops GPT-6 Astra's flag carrier!"
+      "text": "GPT-6 Astra's flag man is down! GPT-6.1 Sol with the huge stop!"
     },
     {
       "turn": 244,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Defence wins"
     },
     {
       "turn": 254,
       "role": "caster",
-      "text": "c08_ponly_xl scores to level it up. 7–7!",
+      "text": "Back level, chat! c08_ponly_xl scores, 7–7!",
       "key": true
     },
     {
       "turn": 254,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Level again!"
     },
     {
       "turn": 258,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "They're nervous"
     },
     {
       "turn": 275,
       "role": "color",
-      "text": "Dead even at the top, c08_ponly_xl and GPT-6 Astra and Qwen 3.8 Max on 7 each."
+      "text": "Dead even, c08_ponly_xl and GPT-6 Astra and Qwen 3.8 Max both on 7. My heart can't take this, boys."
     },
     {
       "turn": 281,
       "role": "crowd",
-      "text": "Big save"
+      "text": "What a stop"
     },
     {
       "turn": 282,
       "role": "caster",
-      "text": "Qwen 3.8 Max scores and takes the lead! 8–7.",
+      "text": "And that's the lead! Qwen 3.8 Max scores, 8–7!",
       "key": true
     },
     {
       "turn": 282,
       "role": "crowd",
-      "text": "Qwen 3.8 Max in front!"
+      "text": "Instant classic!"
     },
     {
       "turn": 283,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Who blinks first"
     },
     {
       "turn": 291,
       "role": "caster",
-      "text": "Big stop: v12_ponly_xxl takes down the GPT-6 Astra carrier."
+      "text": "Stopped at the door! v12_ponly_xxl deletes the GPT-6 Astra carrier!"
     },
     {
       "turn": 291,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Down bad"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: c08_ponly_xl turned 2 of 1 pickups into points, the best conversion in this stretch. c08_ponly_xl led the fighting with 4 kills."
+      "text": "Turns 251–300: c08_ponly_xl turned 1 pickups into 2 goals, efficiency maxed out. c08_ponly_xl owned the fights with 4 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 310,
       "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 8–8!",
+      "text": "Back level, chat! GPT-6 Astra scores, 8–8!",
       "key": true
     },
     {
       "turn": 310,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 325,
       "role": "color",
-      "text": "Dead even at the top, c08_ponly_xl and GPT-6 Astra and Qwen 3.8 Max on 8 each."
+      "text": "Dead even, c08_ponly_xl and GPT-6 Astra and Qwen 3.8 Max both on 8. My heart can't take this, boys."
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "waiting room"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 340,
       "role": "caster",
-      "text": "c08_ponly_xl scores and takes the lead! 9–8.",
+      "text": "Instant classic loading! c08_ponly_xl takes the lead, 9–8!",
       "key": true
     },
     {
       "turn": 340,
       "role": "crowd",
-      "text": "Here we go"
+      "text": "LEAD CHANGE!!"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "GPT-6 Astra played furthest forward, about 12.7 cells from home on average; Qwen 3.8 Max stayed closest to base at 10.0."
+      "text": "GPT-6 Astra pushed furthest, averaging 12.7 cells from home; Qwen 3.8 Max never left the porch at 10.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 358,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Down bad"
     },
     {
       "turn": 360,
       "role": "caster",
-      "text": "Qwen 3.8 Max scores to level it up. 9–9!",
+      "text": "Back level, chat! Qwen 3.8 Max scores, 9–9!",
       "key": true
     },
     {
       "turn": 360,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "My heart lol"
     },
     {
       "turn": 363,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "They flipped it!"
     },
     {
       "turn": 364,
       "role": "crowd",
-      "text": "Who blinks first"
+      "text": "Don't throw!"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 372,
       "role": "caster",
-      "text": "c08_ponly_xl scores to level it up. 10–10!",
+      "text": "Back level, chat! c08_ponly_xl scores, 10–10!",
       "key": true
     },
     {
       "turn": 372,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Can't breathe"
     },
     {
       "turn": 373,
       "role": "crowd",
-      "text": "Nerves"
+      "text": "Final stretch!"
     },
     {
       "turn": 376,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "DENIED!"
     },
     {
       "turn": 378,
       "role": "caster",
-      "text": "c08_ponly_xl scores and takes the lead! 11–10.",
+      "text": "And that's the lead! c08_ponly_xl scores, 11–10!",
       "key": true
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 391,
       "role": "caster",
-      "text": "Big stop: GPT-6.1 Sol takes down the GPT-6 Astra carrier."
+      "text": "GPT-6 Astra's flag man is down! GPT-6.1 Sol with the huge stop!"
     },
     {
       "turn": 391,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "DENIED!"
     },
     {
       "turn": 398,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Defence wins"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: c08_ponly_xl finish on 11. Across the match they converted 73% of their pickups."
+      "text": "Final verdict: c08_ponly_xl take it with 11. 73% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }

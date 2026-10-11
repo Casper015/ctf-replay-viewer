@@ -63,500 +63,735 @@
     {
       "turn": 10,
       "role": "caster",
-      "text": "GPT-6 Astra scores and takes the lead! 1–0.",
+      "text": "Instant classic loading! GPT-6 Astra takes the lead, 1–0!",
       "key": true
     },
     {
       "turn": 10,
       "role": "crowd",
-      "text": "GPT-6 Astra in front!"
+      "text": "They flipped it!"
     },
     {
       "turn": 11,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Meat grinder!"
+    },
+    {
+      "turn": 14,
+      "role": "crowd",
+      "text": "5D chess"
     },
     {
       "turn": 23,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 1–1!",
+      "text": "That's the one! Opus 5.5 ties it, 1–1!",
       "key": true
     },
     {
       "turn": 23,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Meat grinder!"
     },
     {
       "turn": 25,
       "role": "crowd",
-      "text": "GPT-6 Astra in front!"
+      "text": "Instant classic!"
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 34,
       "role": "caster",
-      "text": "GPT-6 Astra stops Player5's flag carrier!"
+      "text": "Player5's flag man is down! GPT-6 Astra with the huge stop!"
     },
     {
       "turn": 34,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Defence wins"
     },
     {
       "turn": 38,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Defence wins"
     },
     {
       "turn": 41,
       "role": "caster",
-      "text": "Big stop: Player5 takes down the GPT-6.1 Sol carrier."
+      "text": "DENIED! Player5 shuts down GPT-6.1 Sol. That stop (leans back)!"
     },
     {
       "turn": 41,
       "role": "crowd",
-      "text": "Big save"
+      "text": "DENIED!"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 48,
       "role": "crowd",
-      "text": "Another one"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "wait, that exploded?"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "Opus 5.5 played furthest forward, about 9.5 cells from home on average; Player5 stayed closest to base at 4.7."
+      "text": "Opus 5.5 pushed furthest, averaging 9.5 cells from home; Player5 never left the porch at 4.7. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 51,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 is him!"
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Old timer here"
+    },
+    {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 61,
       "role": "caster",
-      "text": "Capture for Opus 5.5, and it's 3–2."
+      "text": "Opus 5.5 again! 3–2. Nobody stops him!"
     },
     {
       "turn": 61,
       "role": "crowd",
-      "text": "What a run"
+      "text": "NOW THIS IS MUSIC"
     },
     {
-      "turn": 64,
+      "turn": 66,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Best stream on the web"
+    },
+    {
+      "turn": 67,
+      "role": "crowd",
+      "text": "lol. lmao"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 74,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 3–2 now."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 3–2!"
     },
     {
       "turn": 74,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol diff!"
     },
     {
       "turn": 83,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 3–3!",
+      "text": "That's the one! GPT-6.1 Sol ties it, 3–3!",
       "key": true
     },
     {
       "turn": 83,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "My heart lol"
     },
     {
       "turn": 84,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Cut down!"
     },
     {
-      "turn": 86,
+      "turn": 89,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "High energy incoming"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 93,
       "role": "caster",
-      "text": "That capture puts GPT-6.1 Sol in front. 4–3!",
+      "text": "And that's the lead! GPT-6.1 Sol scores, 4–3!",
       "key": true
     },
     {
       "turn": 93,
       "role": "crowd",
-      "text": "Here we go"
+      "text": "GPT-6.1 Sol in front!"
     },
     {
       "turn": 96,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "Turns 51–100: Player5 turned 2 of 2 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 5 kills."
+      "text": "Turns 51–100: Player5 turned 2 pickups into 2 goals, efficiency maxed out. GPT-6.1 Sol owned the fights with 5 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 106,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 5–3."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 5–3!"
     },
     {
       "turn": 106,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol diff!"
     },
     {
       "turn": 112,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 6–3."
+      "text": "He scores! GPT-6.1 Sol brings it home. 6–3!"
     },
     {
       "turn": 112,
       "role": "crowd",
-      "text": "Another one"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 119,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 6–4 now."
+      "text": "(screaming) GPT-6 Astra scores! 6–4!"
     },
     {
       "turn": 119,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6 Astra is him!"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
     },
     {
       "turn": 125,
       "role": "caster",
-      "text": "Player5 scores again. 6–4 now."
+      "text": "Player5 again! 6–4. Nobody stops him!"
     },
     {
       "turn": 125,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Another one!"
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 132,
       "role": "caster",
-      "text": "GPT-6.1 Sol brings the flag home! 7–4."
+      "text": "He scores! GPT-6.1 Sol brings it home. 7–4!"
     },
     {
       "turn": 132,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "STAND UP"
     },
     {
       "turn": 138,
       "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 7–4."
+      "text": "Flag in! Opus 5.5 banks another one. 7–4!"
     },
     {
       "turn": 138,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 145,
       "role": "caster",
-      "text": "Capture for Opus 5.5, and it's 7–4."
+      "text": "Opus 5.5 again! 7–4. Nobody stops him!"
     },
     {
       "turn": 145,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "GPT-6.1 Sol played furthest forward, about 8.3 cells from home on average; Player5 stayed closest to base at 2.0."
+      "text": "GPT-6.1 Sol pushed furthest, averaging 8.3 cells from home; Player5 never left the porch at 2.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 151,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "LET'S GO!"
     },
     {
       "turn": 158,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 7–5 now."
+      "text": "Flag in! Opus 5.5 banks another one. 7–5!"
     },
     {
       "turn": 158,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Another one!"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 164,
       "role": "caster",
-      "text": "Player5 stops GPT-6.1 Sol's flag carrier!"
+      "text": "DENIED! Player5 shuts down GPT-6.1 Sol. That stop (leans back)!"
     },
     {
       "turn": 164,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "STAND UP"
     },
     {
       "turn": 171,
       "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 7–5."
+      "text": "(screaming) GPT-6 Astra scores! 7–5!"
     },
     {
       "turn": 171,
       "role": "crowd",
-      "text": "Another one"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 172,
+      "role": "crowd",
+      "text": "Textbook run"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 185,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 8–6 now."
+      "text": "GPT-6 Astra again! 8–6. Nobody stops him!"
     },
     {
       "turn": 185,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Another one!"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 191,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 8–6 now."
+      "text": "(screaming) Opus 5.5 scores! 8–6!"
     },
     {
       "turn": 191,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 diff!"
     },
     {
       "turn": 198,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "Turns 151–200: GPT-6 Astra turned 2 of 2 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 3 kills."
+      "text": "Turns 151–200: GPT-6 Astra turned 2 pickups into 2 goals, efficiency maxed out. GPT-6.1 Sol owned the fights with 3 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "High energy incoming"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
+    },
+    {
+      "turn": 206,
+      "role": "crowd",
+      "text": "Best stream on the web"
     },
     {
       "turn": 207,
       "role": "caster",
-      "text": "Big stop: Player5 takes down the GPT-6 Astra carrier."
+      "text": "Stopped at the door! Player5 deletes the GPT-6 Astra carrier!"
     },
     {
       "turn": 207,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Down bad"
     },
     {
       "turn": 214,
       "role": "caster",
-      "text": "Capture for GPT-6 Astra, and it's 9–7."
+      "text": "Flag in! GPT-6 Astra banks another one. 9–7!"
     },
     {
       "turn": 214,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
     },
     {
       "turn": 216,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 228,
       "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 9–8."
+      "text": "He scores! GPT-6 Astra brings it home. 9–8!"
     },
     {
       "turn": 228,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Textbook run"
     },
     {
       "turn": 232,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Level again!"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 241,
       "role": "caster",
-      "text": "That capture puts GPT-6.1 Sol in front. 10–9!",
+      "text": "Instant classic loading! GPT-6.1 Sol takes the lead, 10–9!",
       "key": true
     },
     {
       "turn": 241,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "Instant classic!"
     },
     {
       "turn": 245,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Can't breathe"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Player5 played furthest forward, about 9.0 cells from home on average; GPT-6.1 Sol stayed closest to base at 6.0."
+      "text": "Player5 pushed furthest, averaging 9.0 cells from home; GPT-6.1 Sol never left the porch at 6.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 259,
       "role": "caster",
-      "text": "Capture for Player5, and it's 10–10."
+      "text": "(screaming) Player5 scores! 10–10!"
     },
     {
       "turn": 259,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 is him!"
+    },
+    {
+      "turn": 260,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "They're nervous"
     },
     {
       "turn": 273,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Sheesh"
     },
     {
       "turn": 274,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores and takes the lead! 11–10.",
+      "text": "Instant classic loading! GPT-6.1 Sol takes the lead, 11–10!",
       "key": true
     },
     {
       "turn": 274,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "They flipped it!"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Classic"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 287,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 12–10 now."
+      "text": "(screaming) GPT-6.1 Sol scores! 12–10!"
     },
     {
       "turn": 287,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol is him!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: Player5 turned 4 of 3 pickups into points, the best conversion in this stretch. Player5 led the fighting with 3 kills."
+      "text": "Turns 251–300: Player5 turned 3 pickups into 4 goals, efficiency maxed out. Player5 owned the fights with 3 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 300,
       "role": "crowd",
-      "text": "What a run"
+      "text": "Opus 5.5 is him!"
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 313,
       "role": "caster",
-      "text": "Capture for GPT-6 Astra, and it's 13–11."
+      "text": "GPT-6 Astra again! 13–11. Nobody stops him!"
     },
     {
       "turn": 313,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Another one!"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 326,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 13–12 now."
+      "text": "Flag in! GPT-6 Astra banks another one. 13–12!"
     },
     {
       "turn": 326,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 339,
       "role": "caster",
-      "text": "Player5 brings the flag home! 13–12."
+      "text": "(screaming) Player5 scores! 13–12!"
     },
     {
       "turn": 339,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Player5 is him!"
     },
     {
       "turn": 344,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 13–12 now."
+      "text": "He scores! Opus 5.5 brings it home. 13–12!"
     },
     {
       "turn": 344,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
     },
     {
       "turn": 353,
       "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 13–13!",
+      "text": "That's the one! GPT-6 Astra ties it, 13–13!",
       "key": true
     },
     {
       "turn": 353,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "My heart lol"
     },
     {
       "turn": 356,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Cut down!"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
     },
     {
       "turn": 367,
       "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 14–13!",
+      "text": "Instant classic loading! GPT-6 Astra takes the lead, 14–13!",
       "key": true
     },
     {
       "turn": 367,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "??? oh ??? oh"
     },
     {
       "turn": 368,
       "role": "crowd",
-      "text": "Nerves"
+      "text": "Final stretch!"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 375,
       "role": "color",
-      "text": "It's GPT-6 Astra's match to lose right now: 15, 2 clear of GPT-6.1 Sol."
+      "text": "This is GPT-6 Astra's game right now: 15, keeping GPT-6.1 Sol 2 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 378,
+      "role": "crowd",
+      "text": "5D chess"
+    },
+    {
+      "turn": 379,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 381,
       "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 16–14."
+      "text": "GPT-6 Astra again! 16–14. Nobody stops him!"
     },
     {
       "turn": 381,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 392,
       "role": "crowd",
-      "text": "So close"
+      "text": "Down bad"
     },
     {
       "turn": 394,
       "role": "caster",
-      "text": "Capture for Player5, and it's 16–14."
+      "text": "Flag in! Player5 banks another one. 16–14!"
     },
     {
       "turn": 394,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "Clean!"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: GPT-6 Astra finish on 16. Across the match they converted 94% of their pickups."
+      "text": "Final verdict: GPT-6 Astra take it with 16. 94% pickup conversion across the match — steal less, convert more. That's the lesson."
     },
     {
       "turn": 400,
       "role": "crowd",
-      "text": "What a run"
+      "text": "LET'S GO!"
     }
   ]
 }

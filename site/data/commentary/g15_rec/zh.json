@@ -61,87 +61,112 @@
   },
   "lines": [
     {
+      "turn": 14,
+      "role": "crowd",
+      "text": "这波在大气层☁"
+    },
+    {
       "turn": 22,
       "role": "caster",
-      "text": "Player5 得分并反超！1:0！",
+      "text": "名场面预定！Player5 反超，1:0！",
       "key": true
     },
     {
       "turn": 22,
       "role": "crowd",
-      "text": "Player5 领先了！"
+      "text": "领先易主！"
     },
     {
       "turn": 23,
       "role": "crowd",
-      "text": "扳平了！"
+      "text": "心脏不舒服😩"
     },
     {
       "turn": 28,
       "role": "caster",
-      "text": "Player6 再下一城，比分 3:1。"
+      "text": "进了！Player6 交旗，3:1！"
     },
     {
       "turn": 31,
       "role": "crowd",
-      "text": "Player4 牛！"
+      "text": "进了进了！"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "这操作我服了"
     },
     {
       "turn": 36,
       "role": "caster",
-      "text": "Player2 交旗成功！3:1。"
+      "text": "进了！Player2 交旗，3:1！"
     },
     {
       "turn": 36,
       "role": "crowd",
-      "text": "Player2 牛！"
+      "text": "爽！这才叫音乐"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "啊？这爆了吧？"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "Player4 站位最靠前，单位平均离本方基地约 12.7 格；Player6 最保守，平均只有 1.5 格。"
+      "text": "Player4 压得最凶，单位平均离家 12.7 格；Player6 最保守，平均只有 1.5 格。一个在大气层，一个在地下室，站位哲学完全不同。"
     },
     {
       "turn": 52,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "这跑位爱了"
     },
     {
       "turn": 55,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "进了进了！"
     },
     {
       "turn": 57,
       "role": "caster",
-      "text": "Player5 扳平比分，3:3！",
+      "text": "就差这一下！Player5 扳平，3:3！",
       "key": true
     },
     {
       "turn": 57,
       "role": "crowd",
-      "text": "这球漂亮"
+      "text": "Sonnet 5.5 牛！"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "直播间氛围真好"
     },
     {
       "turn": 67,
       "role": "caster",
-      "text": "Sonnet 5.5 扳平比分，3:3！",
+      "text": "就差这一下！Sonnet 5.5 扳平，3:3！",
       "key": true
     },
     {
       "turn": 67,
       "role": "crowd",
-      "text": "这比赛太刺激了"
+      "text": "绞肉机！"
     },
     {
       "turn": 78,
       "role": "crowd",
-      "text": "好截！"
+      "text": "差一点！"
     },
     {
       "turn": 79,
       "role": "caster",
-      "text": "这一球让 Player5 领先了，4:3！",
+      "text": "名场面预定！Player5 反超，4:3！",
       "key": true
     },
     {
@@ -152,17 +177,27 @@
     {
       "turn": 80,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 81,
       "role": "crowd",
-      "text": "这球漂亮"
+      "text": "Sonnet 5.5 牛！"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "高松灯来了🐧"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     },
     {
       "turn": 96,
       "role": "crowd",
-      "text": "Player4 牛！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 99,
@@ -172,12 +207,12 @@
     {
       "turn": 100,
       "role": "analyst",
-      "text": "第 51–100 回合：Player5 拾旗 2 次转化 4 次，是这一段转化率最高的队伍；Sonnet 5.5 以 10 次击杀主导了交火。"
+      "text": "第 51–100 回合：Player5 拾旗 2 次转化 4 次，效率拉满；交火是 Sonnet 5.5 说了算，10 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
     },
     {
       "turn": 108,
       "role": "caster",
-      "text": "Sonnet 5.5 扳平比分，5:5！",
+      "text": "扳平了兄弟们！Sonnet 5.5 交旗，5:5！",
       "key": true
     },
     {
@@ -188,28 +223,43 @@
     {
       "turn": 111,
       "role": "crowd",
-      "text": "Player4 牛！"
+      "text": "进了进了！"
     },
     {
       "turn": 113,
       "role": "caster",
-      "text": "这一球让 Player5 领先了，6:5！",
+      "text": "这球直接改写比赛！Player5 领先，6:5！",
       "key": true
     },
     {
       "turn": 113,
       "role": "crowd",
-      "text": "名场面"
+      "text": "Player5 领先！"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "爽！😎这才叫音乐🎶"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "草（一种植物）"
     },
     {
       "turn": 125,
       "role": "color",
-      "text": "现在主动权在 Player5 手里：6 分，领先 Sonnet 5.5 1 分。"
+      "text": "这局现在是 Player5 说了算：6 分，压着 Sonnet 5.5 1 分。兄弟们，把'稳'打在公屏上。"
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 134,
       "role": "caster",
-      "text": "Player4 得分，现在是 6:5。"
+      "text": "旗送回家！Player4 得分，6:5！"
     },
     {
       "turn": 134,
@@ -219,124 +269,179 @@
     {
       "turn": 137,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "好球！"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "老观众了"
     },
     {
       "turn": 141,
       "role": "caster",
-      "text": "Player4 交旗成功！7:6。"
+      "text": "Player4 又下一旗，7:6，拦不住啊！"
     },
     {
       "turn": 141,
       "role": "crowd",
-      "text": "Player4 牛！"
+      "text": "又进一个！"
     },
     {
       "turn": 142,
       "role": "crowd",
-      "text": "断了！"
+      "text": "好截！"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "爽！😎这才叫音乐🎶"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "Player5 站位最靠前，单位平均离本方基地约 12.5 格；Sonnet 5.5 最保守，平均只有 4.5 格。"
+      "text": "Player5 压得最凶，单位平均离家 12.5 格；Sonnet 5.5 最保守，平均只有 4.5 格。一个在大气层，一个在地下室，站位哲学完全不同。"
     },
     {
       "turn": 152,
       "role": "crowd",
-      "text": "这球漂亮"
+      "text": "又进一个！"
     },
     {
       "turn": 161,
       "role": "caster",
-      "text": "Sonnet 5.5 扳平比分，7:7！",
+      "text": "就差这一下！Sonnet 5.5 扳平，7:7！",
       "key": true
     },
     {
       "turn": 161,
       "role": "crowd",
-      "text": "防守赢了"
+      "text": "好截！"
     },
     {
       "turn": 168,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash 截下了 Player4 的持旗者！"
+      "text": "门口直接按死！DeepSeek V4.1 Flash 截下 Player4 的持旗者！"
     },
     {
       "turn": 168,
       "role": "crowd",
-      "text": "好截！"
+      "text": "断了断了！"
     },
     {
       "turn": 175,
       "role": "color",
-      "text": "榜首胶着，Sonnet 5.5、Player5 都是 7 分。"
+      "text": "难分高下，Sonnet 5.5、Player5 都是 7 分。心脏不舒服😩，谁顶得住啊。"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "内行看门道👀"
     },
     {
       "turn": 183,
       "role": "caster",
-      "text": "这一球让 Player5 领先了，8:7！",
+      "text": "反超了！Player5 交旗，8:7！",
       "key": true
     },
     {
       "turn": 183,
       "role": "crowd",
-      "text": "名场面"
+      "text": "反超了！！"
     },
     {
       "turn": 184,
       "role": "crowd",
-      "text": "Player4 牛！"
+      "text": "这跑位爱了"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "前方高能⚠"
     },
     {
       "turn": 195,
       "role": "caster",
-      "text": "关键拦截！GLM 5.3 放倒了 Sonnet 5.5 的持旗单位。"
+      "text": "门口直接按死！GLM 5.3 截下 Sonnet 5.5 的持旗者！"
     },
     {
       "turn": 195,
-      "role": "crowd",
-      "text": "拦得漂亮"
-    },
-    {
-      "turn": 200,
-      "role": "analyst",
-      "text": "第 151–200 回合：Sonnet 5.5 拾旗 3 次转化 2 次，是这一段转化率最高的队伍；Sonnet 5.5 以 6 次击杀主导了交火。"
-    },
-    {
-      "turn": 204,
-      "role": "crowd",
-      "text": "Player5 牛！"
-    },
-    {
-      "turn": 214,
       "role": "crowd",
       "text": "好截！"
     },
     {
+      "turn": 198,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "第 151–200 回合：Sonnet 5.5 拾旗 3 次转化 2 次，效率拉满；交火是 Sonnet 5.5 说了算，6 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "这操作我服了"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "高松灯来了🐧"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
+    },
+    {
+      "turn": 204,
+      "role": "crowd",
+      "text": "爽！这才叫音乐"
+    },
+    {
+      "turn": 206,
+      "role": "crowd",
+      "text": "直播间氛围真好"
+    },
+    {
+      "turn": 214,
+      "role": "crowd",
+      "text": "差一点！"
+    },
+    {
       "turn": 216,
       "role": "caster",
-      "text": "GPT-6 Astra 交旗成功！9:7。"
+      "text": "进了！GPT-6 Astra 交旗，9:7！"
     },
     {
       "turn": 216,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "爽！这才叫音乐"
+    },
+    {
+      "turn": 217,
+      "role": "crowd",
+      "text": "寄！"
     },
     {
       "turn": 218,
       "role": "crowd",
-      "text": "这球漂亮"
+      "text": "进了进了！"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "加一"
     },
     {
       "turn": 225,
       "role": "color",
-      "text": "现在主动权在 Player5 手里：9 分，领先 Sonnet 5.5 1 分。"
+      "text": "这局现在是 Player5 说了算：9 分，压着 Sonnet 5.5 1 分。兄弟们，把'稳'打在公屏上。"
     },
     {
       "turn": 230,
       "role": "caster",
-      "text": "Player4 得分，现在是 9:8。"
+      "text": "旗送回家！Player4 得分，9:8！"
     },
     {
       "turn": 230,
@@ -346,79 +451,89 @@
     {
       "turn": 233,
       "role": "crowd",
-      "text": "又平了"
+      "text": "悬念拉满"
     },
     {
       "turn": 237,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "好球！"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 243,
       "role": "caster",
-      "text": "关键拦截！DeepSeek V4.1 Flash 放倒了 GPT-6 Astra 的持旗单位。"
+      "text": "门口直接按死！DeepSeek V4.1 Flash 截下 GPT-6 Astra 的持旗者！"
     },
     {
       "turn": 243,
       "role": "crowd",
-      "text": "好截！"
+      "text": "断了断了！"
     },
     {
       "turn": 245,
       "role": "crowd",
-      "text": "防守赢了"
+      "text": "差一点！"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Sonnet 5.5 站位最靠前，单位平均离本方基地约 14.3 格；GPT-6 Astra 最保守，平均只有 5.5 格。"
+      "text": "Sonnet 5.5 压得最凶，单位平均离家 14.3 格；GPT-6 Astra 最保守，平均只有 5.5 格。一个在大气层，一个在地下室，站位哲学完全不同。"
     },
     {
       "turn": 255,
       "role": "caster",
-      "text": "GPT-6 Astra 扳平比分，9:9！",
+      "text": "就差这一下！GPT-6 Astra 扳平，9:9！",
       "key": true
     },
     {
       "turn": 255,
       "role": "crowd",
-      "text": "扳平了！"
+      "text": "悬念拉满"
     },
     {
       "turn": 259,
       "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "差一点！"
     },
     {
       "turn": 264,
       "role": "caster",
-      "text": "Player5 得分并反超！10:9！",
+      "text": "反超了！Player5 交旗，10:9！",
       "key": true
     },
     {
       "turn": 264,
       "role": "crowd",
-      "text": "反超了！！"
+      "text": "逆转剧本！"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "急了急了"
     },
     {
       "turn": 278,
       "role": "caster",
-      "text": "Player2 截下了 GPT-6 Astra 的持旗者！"
+      "text": "断了！Player2 拦下 GPT-6 Astra，这防守（战术后仰）！"
     },
     {
       "turn": 278,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "好截！"
     },
     {
       "turn": 281,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "好球！"
     },
     {
       "turn": 283,
       "role": "crowd",
-      "text": "差一点就进了"
+      "text": "差一点！"
     },
     {
       "turn": 284,
@@ -428,22 +543,22 @@
     {
       "turn": 296,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "爽！这才叫音乐"
     },
     {
       "turn": 298,
       "role": "crowd",
-      "text": "好截！"
+      "text": "断了断了！"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "第 251–300 回合：GPT-6 Astra 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；GPT-6 Astra 以 5 次击杀主导了交火。"
+      "text": "第 251–300 回合：GPT-6 Astra 拾旗 2 次转化 2 次，效率拉满；交火是 GPT-6 Astra 说了算，5 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
     },
     {
       "turn": 303,
       "role": "crowd",
-      "text": "这球漂亮"
+      "text": "爽！这才叫音乐"
     },
     {
       "turn": 304,
@@ -453,137 +568,167 @@
     {
       "turn": 309,
       "role": "caster",
-      "text": "Player5 交旗成功！12:10。"
+      "text": "Player5 又下一旗，12:10，拦不住啊！"
     },
     {
       "turn": 309,
       "role": "crowd",
-      "text": "Player5 牛！"
+      "text": "又进一个！"
     },
     {
       "turn": 316,
       "role": "caster",
-      "text": "Fable 5.1 截下了 Player5 的持旗者！"
+      "text": "Player5 的持旗大哥倒了！Fable 5.1 这下太关键！"
     },
     {
       "turn": 316,
       "role": "crowd",
-      "text": "断了！"
+      "text": "差一点！"
     },
     {
       "turn": 323,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "进了进了！"
     },
     {
       "turn": 326,
       "role": "caster",
-      "text": "GPT-6 Astra 扳平比分，12:12！",
+      "text": "扳平了兄弟们！GPT-6 Astra 交旗，12:12！",
       "key": true
     },
     {
       "turn": 326,
       "role": "crowd",
-      "text": "又平了"
+      "text": "这谁顶得住"
     },
     {
       "turn": 334,
       "role": "crowd",
-      "text": "这球漂亮"
+      "text": "Sonnet 5.5 冲！"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "加一"
     },
     {
       "turn": 337,
       "role": "caster",
-      "text": "Sonnet 5.5 扳平比分，12:12！",
+      "text": "就差这一下！Sonnet 5.5 扳平，12:12！",
       "key": true
     },
     {
       "turn": 337,
       "role": "crowd",
-      "text": "又平了"
+      "text": "绞肉机！"
     },
     {
       "turn": 342,
       "role": "caster",
-      "text": "Player5 得分并反超！13:12！",
+      "text": "反超了！Player5 交旗，13:12！",
       "key": true
     },
     {
       "turn": 342,
       "role": "crowd",
-      "text": "Player5 领先了！"
+      "text": "领先易主！"
     },
     {
       "turn": 344,
       "role": "crowd",
-      "text": "这比赛太刺激了"
+      "text": "绞肉机！"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "Sonnet 5.5 站位最靠前，单位平均离本方基地约 11.0 格；GPT-6 Astra 最保守，平均只有 5.7 格。"
+      "text": "Sonnet 5.5 压得最凶，单位平均离家 11.0 格；GPT-6 Astra 最保守，平均只有 5.7 格。一个在大气层，一个在地下室，站位哲学完全不同。"
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "急了急了"
     },
     {
       "turn": 359,
       "role": "caster",
-      "text": "Sonnet 5.5 扳平比分，13:13！",
+      "text": "就差这一下！Sonnet 5.5 扳平，13:13！",
       "key": true
     },
     {
       "turn": 359,
       "role": "crowd",
-      "text": "这比赛太刺激了"
+      "text": "这谁顶得住"
     },
     {
       "turn": 363,
-      "role": "crowd",
-      "text": "差一点就进了"
-    },
-    {
-      "turn": 364,
       "role": "crowd",
       "text": "好截！"
     },
     {
       "turn": 366,
       "role": "crowd",
-      "text": "防守赢了"
+      "text": "水贴赚分（不是）"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "我裂开了"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "内行看门道👀"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "爽！😎这才叫音乐🎶"
     },
     {
       "turn": 377,
       "role": "caster",
-      "text": "关键拦截！GPT-6.1 Sol 放倒了 Sonnet 5.5 的持旗单位。"
+      "text": "断了！GPT-6.1 Sol 拦下 Sonnet 5.5，这防守（战术后仰）！"
     },
     {
       "turn": 377,
+      "role": "crowd",
+      "text": "寄！"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "蹲蹲"
+    },
+    {
+      "turn": 383,
+      "role": "caster",
+      "text": "断了！Player4 拦下 GPT-6 Astra，这防守（战术后仰）！"
+    },
+    {
+      "turn": 383,
       "role": "crowd",
       "text": "好截！"
     },
     {
-      "turn": 383,
-      "role": "caster",
-      "text": "关键拦截！Player4 放倒了 GPT-6 Astra 的持旗单位。"
-    },
-    {
-      "turn": 383,
-      "role": "crowd",
-      "text": "差一点就进了"
-    },
-    {
       "turn": 396,
       "role": "caster",
-      "text": "Sonnet 5.5 得分并反超！14:13！",
+      "text": "反超了！Sonnet 5.5 交旗，14:13！",
       "key": true
     },
     {
       "turn": 396,
       "role": "crowd",
-      "text": "逆转来了"
+      "text": "Sonnet 5.5 领先！"
     },
     {
       "turn": 397,
       "role": "crowd",
-      "text": "最后时刻！"
+      "text": "顶住！"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     }
   ]
 }

@@ -63,444 +63,679 @@
     {
       "turn": 10,
       "role": "caster",
-      "text": "Fable 5.1 扳平比分，1:1！",
+      "text": "扳平了兄弟们！Fable 5.1 交旗，1:1！",
       "key": true
     },
     {
       "turn": 10,
       "role": "crowd",
-      "text": "这比赛太刺激了"
+      "text": "绞肉机！"
+    },
+    {
+      "turn": 14,
+      "role": "crowd",
+      "text": "这波在大气层☁"
     },
     {
       "turn": 24,
       "role": "caster",
-      "text": "Player3 扳平比分，1:1！",
+      "text": "扳平了兄弟们！Player3 交旗，1:1！",
       "key": true
     },
     {
       "turn": 24,
       "role": "crowd",
-      "text": "这比赛太刺激了"
+      "text": "又平了！"
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "加一"
     },
     {
       "turn": 31,
       "role": "caster",
-      "text": "这一球让 Fable 5.1 领先了，2:1！",
+      "text": "名场面预定！Fable 5.1 反超，2:1！",
       "key": true
     },
     {
       "turn": 31,
       "role": "crowd",
-      "text": "Fable 5.1 领先了！"
+      "text": "名场面！"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "这操作我服了"
     },
     {
       "turn": 40,
       "role": "caster",
-      "text": "Fable 5.1 再下一城，比分 3:1。"
+      "text": "进了！Fable 5.1 交旗，3:1！"
     },
     {
       "turn": 40,
       "role": "crowd",
-      "text": "Fable 5.1 冲冲冲"
+      "text": "Fable 5.1 牛！"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 44,
       "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "差一点！"
+    },
+    {
+      "turn": 49,
+      "role": "crowd",
+      "text": "啊？这爆了吧？"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "GPT-6.1 Sol 站位最靠前，单位平均离本方基地约 13.0 格；DeepSeek V4.1 Flash 最保守，平均只有 5.5 格。"
+      "text": "GPT-6.1 Sol 压得最凶，单位平均离家 13.0 格；DeepSeek V4.1 Flash 最保守，平均只有 5.5 格。一个在大气层，一个在地下室，站位哲学完全不同。"
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "老观众了"
     },
     {
       "turn": 57,
       "role": "caster",
-      "text": "Fable 5.1 交旗成功！4:1。"
+      "text": "Fable 5.1 又下一旗，4:1，拦不住啊！"
     },
     {
       "turn": 57,
       "role": "crowd",
-      "text": "Fable 5.1 冲冲冲"
+      "text": "进了进了！"
+    },
+    {
+      "turn": 59,
+      "role": "crowd",
+      "text": "好球！"
+    },
+    {
+      "turn": 66,
+      "role": "crowd",
+      "text": "直播间氛围真好"
+    },
+    {
+      "turn": 67,
+      "role": "crowd",
+      "text": "草（一种植物）"
     },
     {
       "turn": 70,
       "role": "caster",
-      "text": "GPT-6.1 Sol 再下一城，比分 5:2。"
+      "text": "旗送回家！GPT-6.1 Sol 得分，5:2！"
     },
     {
       "turn": 70,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "稳！😎"
     },
     {
       "turn": 72,
       "role": "crowd",
-      "text": "Fable 5.1 冲冲冲"
+      "text": "Fable 5.1 牛！"
     },
     {
       "turn": 75,
       "role": "color",
-      "text": "现在主动权在 Fable 5.1 手里：6 分，领先 GPT-6.1 Sol 4 分。"
+      "text": "这局现在是 Fable 5.1 说了算：6 分，压着 GPT-6.1 Sol 4 分。兄弟们，把'稳'打在公屏上。"
     },
     {
       "turn": 84,
       "role": "caster",
-      "text": "Player3 交旗成功！6:2。"
+      "text": "进了！Player3 交旗，6:2！"
     },
     {
       "turn": 84,
       "role": "crowd",
-      "text": "Player3 牛！"
+      "text": "爽！这才叫音乐"
     },
     {
       "turn": 85,
       "role": "crowd",
-      "text": "稳！"
+      "text": "好球！"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "高松灯来了🐧"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "第 51–100 回合：Fable 5.1 拾旗 2 次转化 3 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 4 次击杀主导了交火。"
+      "text": "第 51–100 回合：Fable 5.1 拾旗 2 次转化 3 次，效率拉满；交火是 GPT-6.1 Sol 说了算，4 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
     },
     {
       "turn": 102,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "稳！😎"
+    },
+    {
+      "turn": 105,
+      "role": "crowd",
+      "text": "又进一个！"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "不愧是你"
     },
     {
       "turn": 121,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash 再下一城，比分 6:4。"
+      "text": "DeepSeek V4.1 Flash 又下一旗，6:4，拦不住啊！"
     },
     {
       "turn": 121,
       "role": "crowd",
-      "text": "稳！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "草（一种植物）"
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 131,
       "role": "caster",
-      "text": "Fable 5.1 得分，现在是 7:4。"
+      "text": "（嘶吼）Fable 5.1 进了！7:4！"
     },
     {
       "turn": 131,
       "role": "crowd",
-      "text": "Fable 5.1 冲冲冲"
+      "text": "好球！"
     },
     {
       "turn": 134,
       "role": "crowd",
-      "text": "稳！"
+      "text": "稳！😎"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "起立！"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "老观众了"
     },
     {
       "turn": 144,
       "role": "caster",
-      "text": "Fable 5.1 交旗成功！8:4。"
+      "text": "进了！Fable 5.1 交旗，8:4！"
     },
     {
       "turn": 144,
       "role": "crowd",
-      "text": "Fable 5.1 冲冲冲"
+      "text": "Fable 5.1 牛！"
     },
     {
       "turn": 147,
       "role": "crowd",
-      "text": "稳！"
+      "text": "进了进了！"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "爽！😎这才叫音乐🎶"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "Player3 站位最靠前，单位平均离本方基地约 9.7 格；DeepSeek V4.1 Flash 最保守，平均只有 5.3 格。"
+      "text": "Player3 压得最凶，单位平均离家 9.7 格；DeepSeek V4.1 Flash 最保守，平均只有 5.3 格。一个在大气层，一个在地下室，站位哲学完全不同。"
     },
     {
       "turn": 157,
       "role": "caster",
-      "text": "GPT-6.1 Sol 再下一城，比分 8:5。"
+      "text": "GPT-6.1 Sol 又下一旗，8:5，拦不住啊！"
     },
     {
       "turn": 157,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "好球！"
     },
     {
       "turn": 162,
       "role": "caster",
-      "text": "Player3 交旗成功！8:5。"
+      "text": "旗送回家！Player3 得分，8:5！"
     },
     {
       "turn": 162,
       "role": "crowd",
-      "text": "Player3 牛！"
+      "text": "稳！😎"
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "哦？😮哦？😮"
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "起立！"
     },
     {
       "turn": 168,
       "role": "caster",
-      "text": "Fable 5.1 截下了 DeepSeek V4.1 Flash 的持旗者！"
+      "text": "门口直接按死！Fable 5.1 截下 DeepSeek V4.1 Flash 的持旗者！"
     },
     {
       "turn": 168,
       "role": "crowd",
-      "text": "好截！"
+      "text": "差一点！"
     },
     {
       "turn": 175,
       "role": "caster",
-      "text": "GPT-6.1 Sol 再下一城，比分 8:6。"
+      "text": "（嘶吼）GPT-6.1 Sol 进了！8:6！"
     },
     {
       "turn": 175,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "GPT-6.1 Sol 冲！"
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "内行看门道👀"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 184,
       "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "差一点！"
     },
     {
       "turn": 187,
       "role": "caster",
-      "text": "GPT-6.1 Sol 再下一城，比分 8:7。"
+      "text": "（嘶吼）GPT-6.1 Sol 进了！8:7！"
     },
     {
       "turn": 187,
       "role": "crowd",
-      "text": "又进一个"
+      "text": "进了进了！"
     },
     {
       "turn": 189,
       "role": "crowd",
-      "text": "Player3 牛！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "这操作我服了"
     },
     {
       "turn": 201,
       "role": "caster",
-      "text": "GPT-6.1 Sol 扳平比分，8:8！",
+      "text": "就差这一下！GPT-6.1 Sol 扳平，8:8！",
       "key": true
     },
     {
       "turn": 201,
       "role": "crowd",
-      "text": "悬念拉满"
+      "text": "这谁顶得住"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
+    },
+    {
+      "turn": 206,
+      "role": "crowd",
+      "text": "直播间氛围真好"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "在？看看实力"
     },
     {
       "turn": 219,
       "role": "caster",
-      "text": "这一球让 GPT-6.1 Sol 领先了，9:8！",
+      "text": "反超了！GPT-6.1 Sol 交旗，9:8！",
       "key": true
     },
     {
       "turn": 219,
       "role": "crowd",
-      "text": "全场起立"
+      "text": "反超了！！"
     },
     {
       "turn": 221,
       "role": "crowd",
-      "text": "稳！"
+      "text": "好球！"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "加一"
     },
     {
       "turn": 225,
       "role": "color",
-      "text": "现在主动权在 GPT-6.1 Sol 手里：9 分，领先 Fable 5.1 1 分。"
+      "text": "这局现在是 GPT-6.1 Sol 说了算：9 分，压着 Fable 5.1 1 分。兄弟们，把'稳'打在公屏上。"
     },
     {
       "turn": 233,
       "role": "caster",
-      "text": "Fable 5.1 扳平比分，9:9！",
+      "text": "就差这一下！Fable 5.1 扳平，9:9！",
       "key": true
     },
     {
       "turn": 233,
       "role": "crowd",
-      "text": "扳平了！"
+      "text": "又平了！"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "把'稳'打在公屏上"
     },
     {
       "turn": 247,
       "role": "crowd",
-      "text": "稳！"
+      "text": "DeepSeek V4.1 Flash 冲！"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Fable 5.1 站位最靠前，单位平均离本方基地约 10.7 格；Player3 最保守，平均只有 4.5 格。"
+      "text": "Fable 5.1 压得最凶，单位平均离家 10.7 格；Player3 最保守，平均只有 4.5 格。一个在大气层，一个在地下室，站位哲学完全不同。"
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "我裂开了"
     },
     {
       "turn": 256,
       "role": "caster",
-      "text": "GPT-6.1 Sol 得分并反超！10:9！",
+      "text": "名场面预定！GPT-6.1 Sol 反超，10:9！",
       "key": true
     },
     {
       "turn": 256,
       "role": "crowd",
-      "text": "名场面"
+      "text": "全场起立！"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     },
     {
       "turn": 261,
       "role": "caster",
-      "text": "Player3 交旗成功！10:9。"
+      "text": "Player3 又下一旗，10:9，拦不住啊！"
     },
     {
       "turn": 261,
       "role": "crowd",
-      "text": "Player3 牛！"
+      "text": "又进一个！"
     },
     {
       "turn": 269,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash 得分，现在是 10:9。"
+      "text": "DeepSeek V4.1 Flash 又下一旗，10:9，拦不住啊！"
     },
     {
       "turn": 269,
       "role": "crowd",
-      "text": "稳！"
+      "text": "好球！"
     },
     {
       "turn": 276,
       "role": "caster",
-      "text": "Fable 5.1 扳平比分，10:10！",
+      "text": "扳平了兄弟们！Fable 5.1 交旗，10:10！",
       "key": true
     },
     {
       "turn": 276,
       "role": "crowd",
-      "text": "又平了"
+      "text": "悬念拉满"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "不愧是你"
     },
     {
       "turn": 282,
       "role": "caster",
-      "text": "GPT-6.1 Sol 得分并反超！11:10！",
+      "text": "反超了！GPT-6.1 Sol 交旗，11:10！",
       "key": true
     },
     {
       "turn": 282,
       "role": "crowd",
-      "text": "反超了！！"
+      "text": "领先易主！"
     },
     {
       "turn": 289,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash 再下一城，比分 11:10。"
+      "text": "DeepSeek V4.1 Flash 又下一旗，11:10，拦不住啊！"
     },
     {
       "turn": 289,
       "role": "crowd",
-      "text": "稳！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "退钱！"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "第 251–300 回合：GPT-6.1 Sol 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 7 次击杀主导了交火。"
+      "text": "第 251–300 回合：GPT-6.1 Sol 拾旗 1 次转化 2 次，效率拉满；交火是 GPT-6.1 Sol 说了算，7 次击杀。数据不会骗人兄弟们，一边抢旗一边送人头，这账算不过来。"
     },
     {
       "turn": 301,
       "role": "crowd",
-      "text": "Player3 牛！"
+      "text": "又进一个！"
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "看不懂但震撼"
+    },
+    {
+      "turn": 304,
+      "role": "crowd",
+      "text": "这跑位爱了"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "不愧是你"
     },
     {
       "turn": 316,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash 再下一城，比分 11:10。"
+      "text": "进了！DeepSeek V4.1 Flash 交旗，11:10！"
     },
     {
       "turn": 316,
       "role": "crowd",
-      "text": "稳！"
+      "text": "这跑位爱了"
     },
     {
       "turn": 320,
       "role": "crowd",
-      "text": "Player3 牛！"
+      "text": "这跑位爱了"
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "蹲蹲"
     },
     {
       "turn": 329,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash 得分，现在是 11:10。"
+      "text": "DeepSeek V4.1 Flash 又下一旗，11:10，拦不住啊！"
     },
     {
       "turn": 329,
       "role": "crowd",
-      "text": "稳！"
+      "text": "又进一个！"
     },
     {
       "turn": 333,
       "role": "crowd",
-      "text": "扳平了！"
+      "text": "又平了！"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "加一"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
     },
     {
       "turn": 343,
       "role": "caster",
-      "text": "这一球让 Fable 5.1 领先了，12:11！",
+      "text": "名场面预定！Fable 5.1 反超，12:11！",
       "key": true
     },
     {
       "turn": 343,
       "role": "crowd",
-      "text": "反超了！！"
+      "text": "名场面！"
     },
     {
       "turn": 347,
       "role": "crowd",
-      "text": "好截！"
+      "text": "寄！"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "DeepSeek V4.1 Flash 站位最靠前，单位平均离本方基地约 8.5 格；Fable 5.1 最保守，平均只有 6.5 格。"
+      "text": "DeepSeek V4.1 Flash 压得最凶，单位平均离家 8.5 格；Fable 5.1 最保守，平均只有 6.5 格。一个在大气层，一个在地下室，站位哲学完全不同。"
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "急了急了"
     },
     {
       "turn": 356,
       "role": "caster",
-      "text": "GPT-6.1 Sol 扳平比分，12:12！",
+      "text": "扳平了兄弟们！GPT-6.1 Sol 交旗，12:12！",
       "key": true
     },
     {
       "turn": 356,
       "role": "crowd",
-      "text": "这比赛太刺激了"
+      "text": "这谁顶得住"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "看不懂但震撼"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "水贴赚分（不是）"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "我裂开了"
     },
     {
       "turn": 368,
       "role": "caster",
-      "text": "GPT-6.1 Sol 截下了 Fable 5.1 的持旗者！"
+      "text": "断了！GPT-6.1 Sol 拦下 Fable 5.1，这防守（战术后仰）！"
     },
     {
       "turn": 368,
       "role": "crowd",
-      "text": "拦得漂亮"
+      "text": "寄！"
     },
     {
       "turn": 371,
       "role": "crowd",
-      "text": "Player3 牛！"
+      "text": "Player3 冲！"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "内行看门道👀"
     },
     {
       "turn": 376,
       "role": "caster",
-      "text": "Player3 截下了 GPT-6.1 Sol 的持旗者！"
+      "text": "GPT-6.1 Sol 的持旗大哥倒了！Player3 这下太关键！"
     },
     {
       "turn": 376,
       "role": "crowd",
-      "text": "防守赢了"
+      "text": "好截！"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "蹲蹲"
     },
     {
       "turn": 390,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash 扳平比分，12:12！",
+      "text": "扳平了兄弟们！DeepSeek V4.1 Flash 交旗，12:12！",
       "key": true
     },
     {
       "turn": 390,
       "role": "crowd",
-      "text": "又平了"
+      "text": "绞肉机！"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "这操作我服了"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "领头的羊🐏善战的狼🐺"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "终场结论：Fable 5.1 以 12 分收官，全场拾旗转化率 92%。"
+      "text": "终场定论：Fable 5.1 收下 12 分，全场拾旗转化率 92%。抢得多不如转化高，这堂课叫'转化'，好吧。"
     }
   ]
 }

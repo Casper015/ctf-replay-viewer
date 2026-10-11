@@ -63,534 +63,724 @@
     {
       "turn": 6,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 1–1!",
+      "text": "Back level, chat! GPT-6.1 Sol scores, 1–1!",
       "key": true
     },
     {
       "turn": 6,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 14,
+      "role": "crowd",
+      "text": "5D chess"
     },
     {
       "turn": 21,
       "role": "caster",
-      "text": "That capture puts c08_ponly_xxl in front. 2–1!",
+      "text": "And that's the lead! c08_ponly_xxl scores, 2–1!",
       "key": true
     },
     {
       "turn": 21,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "LEAD CHANGE!!"
     },
     {
       "turn": 26,
       "role": "caster",
-      "text": "GPT-6.1 Sol stops c08_ponly_xxl's flag carrier!"
+      "text": "DENIED! GPT-6.1 Sol shuts down c08_ponly_xxl. That stop (leans back)!"
     },
     {
       "turn": 26,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "Cut down!"
+    },
+    {
+      "turn": 28,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 32,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 2–2!",
+      "text": "Back level, chat! GPT-6.1 Sol scores, 2–2!",
       "key": true
     },
     {
       "turn": 32,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Level again!"
     },
     {
       "turn": 33,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "??? oh ??? oh"
     },
     {
       "turn": 43,
       "role": "caster",
-      "text": "Capture for c08_ponly_xxl, and it's 4–2."
+      "text": "(screaming) c08_ponly_xxl scores! 4–2!"
     },
     {
       "turn": 43,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "Another one!"
     },
     {
       "turn": 49,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Another one!"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "GPT-6.1 Sol played furthest forward, about 5.5 cells from home on average; c08_ponly_xxl stayed closest to base at 5.0."
+      "text": "GPT-6.1 Sol pushed furthest, averaging 5.5 cells from home; c08_ponly_xxl never left the porch at 5.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Old timer here"
+    },
+    {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 61,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 4–4!",
+      "text": "That's the one! GPT-6.1 Sol ties it, 4–4!",
       "key": true
     },
     {
       "turn": 61,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Who blinks first"
     },
     {
       "turn": 65,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "??? oh ??? oh"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 73,
       "role": "caster",
-      "text": "Capture for c08_ponly_xxl, and it's 6–4."
+      "text": "c08_ponly_xxl again! 6–4. Nobody stops him!"
     },
     {
       "turn": 73,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "c08_ponly_xxl is him!"
     },
     {
       "turn": 82,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 6–5."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 6–5!"
     },
     {
       "turn": 82,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol diff!"
     },
     {
       "turn": 88,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 6–6!",
+      "text": "Back level, chat! GPT-6.1 Sol scores, 6–6!",
       "key": true
     },
     {
       "turn": 88,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "My heart lol"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "High energy incoming"
     },
     {
       "turn": 94,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores and takes the lead! 7–6.",
+      "text": "Instant classic loading! GPT-6.1 Sol takes the lead, 7–6!",
       "key": true
     },
     {
       "turn": 94,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "IT'S OVER? IT'S ON!"
     },
     {
       "turn": 99,
       "role": "caster",
-      "text": "c08_ponly_xxl scores to level it up. 7–7!",
+      "text": "That's the one! c08_ponly_xxl ties it, 7–7!",
       "key": true
     },
     {
       "turn": 99,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Can't breathe"
     },
     {
       "turn": 106,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores and takes the lead! 8–7.",
+      "text": "Instant classic loading! GPT-6.1 Sol takes the lead, 8–7!",
       "key": true
     },
     {
       "turn": 106,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "They flipped it!"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 117,
       "role": "caster",
-      "text": "GPT-6.1 Sol brings the flag home! 9–7."
+      "text": "GPT-6.1 Sol again! 9–7. Nobody stops him!"
     },
     {
       "turn": 117,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 125,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "LET'S GO!"
     },
     {
       "turn": 129,
       "role": "caster",
-      "text": "c08_ponly_xxl scores to level it up. 9–9!",
+      "text": "That's the one! c08_ponly_xxl ties it, 9–9!",
       "key": true
     },
     {
       "turn": 129,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "STAND UP"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 142,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores and takes the lead! 10–9.",
+      "text": "Instant classic loading! GPT-6.1 Sol takes the lead, 10–9!",
       "key": true
     },
     {
       "turn": 142,
       "role": "crowd",
-      "text": "LEAD CHANGE"
+      "text": "IT'S OVER? IT'S ON!"
     },
     {
       "turn": 143,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol is him!"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "GPT-6.1 Sol played furthest forward, about 5.5 cells from home on average; c08_ponly_xxl stayed closest to base at 4.5."
+      "text": "GPT-6.1 Sol pushed furthest, averaging 5.5 cells from home; c08_ponly_xxl never left the porch at 4.5. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 153,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "c08_ponly_xxl is him!"
     },
     {
       "turn": 158,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 12–10 now."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 12–10!"
     },
     {
       "turn": 158,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 164,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 13–10 now."
+      "text": "He scores! GPT-6.1 Sol brings it home. 13–10!"
     },
     {
       "turn": 164,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "STAND UP"
     },
     {
       "turn": 169,
       "role": "caster",
-      "text": "Capture for c08_ponly_xxl, and it's 13–11."
+      "text": "c08_ponly_xxl again! 13–11. Nobody stops him!"
     },
     {
       "turn": 169,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "c08_ponly_xxl is him!"
     },
     {
       "turn": 175,
       "role": "color",
-      "text": "It's GPT-6.1 Sol's match to lose right now: 13, 2 clear of c08_ponly_xxl."
+      "text": "This is GPT-6.1 Sol's game right now: 13, keeping c08_ponly_xxl 2 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 182,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 14–11 now."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 14–11!"
     },
     {
       "turn": 182,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 196,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "c08_ponly_xxl diff!"
+    },
+    {
+      "turn": 197,
+      "role": "crowd",
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "Turns 151–200: c08_ponly_xxl turned 4 of 3 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 6 kills."
+      "text": "Turns 151–200: c08_ponly_xxl turned 3 pickups into 4 goals, efficiency maxed out. c08_ponly_xxl owned the fights with 6 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 207,
       "role": "caster",
-      "text": "c08_ponly_xxl scores to level it up. 14–14!",
+      "text": "That's the one! c08_ponly_xxl ties it, 14–14!",
       "key": true
     },
     {
       "turn": 207,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "My heart lol"
     },
     {
       "turn": 210,
       "role": "crowd",
-      "text": "GPT-6.1 Sol in front!"
+      "text": "They flipped it!"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
     },
     {
       "turn": 218,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 16–14 now."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 16–14!"
     },
     {
       "turn": 218,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol diff!"
     },
     {
       "turn": 222,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 229,
       "role": "caster",
-      "text": "Capture for c08_ponly_xxl, and it's 17–15."
+      "text": "c08_ponly_xxl again! 17–15. Nobody stops him!"
     },
     {
       "turn": 229,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "LET'S GO!"
     },
     {
       "turn": 234,
       "role": "caster",
-      "text": "c08_ponly_xxl brings the flag home! 17–16."
+      "text": "Flag in! c08_ponly_xxl banks another one. 17–16!"
     },
     {
       "turn": 234,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 240,
       "role": "caster",
-      "text": "c08_ponly_xxl scores to level it up. 17–17!",
+      "text": "Back level, chat! c08_ponly_xxl scores, 17–17!",
       "key": true
     },
     {
       "turn": 240,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Who blinks first"
     },
     {
       "turn": 248,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Defence wins"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "c08_ponly_xxl played furthest forward, about 8.0 cells from home on average; GPT-6.1 Sol stayed closest to base at 5.0."
+      "text": "c08_ponly_xxl pushed furthest, averaging 8.0 cells from home; GPT-6.1 Sol never left the porch at 5.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 251,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "DENIED!"
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 259,
       "role": "caster",
-      "text": "That capture puts c08_ponly_xxl in front. 18–17!",
+      "text": "Instant classic loading! c08_ponly_xxl takes the lead, 18–17!",
       "key": true
     },
     {
       "turn": 259,
       "role": "crowd",
-      "text": "c08_ponly_xxl in front!"
+      "text": "Instant classic!"
     },
     {
       "turn": 263,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "They're nervous"
     },
     {
       "turn": 270,
       "role": "caster",
-      "text": "GPT-6.1 Sol brings the flag home! 19–18."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 19–18!"
     },
     {
       "turn": 270,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
     },
     {
       "turn": 274,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 275,
       "role": "color",
-      "text": "It's c08_ponly_xxl's match to lose right now: 20, 2 clear of GPT-6.1 Sol."
+      "text": "This is c08_ponly_xxl's game right now: 20, keeping GPT-6.1 Sol 2 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 281,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 20–19 now."
+      "text": "GPT-6.1 Sol again! 20–19. Nobody stops him!"
     },
     {
       "turn": 281,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Another one!"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 285,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "SO CLOSE"
     },
     {
       "turn": 287,
       "role": "caster",
-      "text": "c08_ponly_xxl scores again. 21–19 now."
+      "text": "(screaming) c08_ponly_xxl scores! 21–19!"
     },
     {
       "turn": 287,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "Sheesh"
     },
     {
       "turn": 295,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 21–20."
+      "text": "(screaming) GPT-6.1 Sol scores! 21–20!"
     },
     {
       "turn": 295,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol is him!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: GPT-6.1 Sol turned 3 of 3 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 5 kills."
+      "text": "Turns 251–300: GPT-6.1 Sol turned 3 pickups into 3 goals, efficiency maxed out. c08_ponly_xxl owned the fights with 5 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 300,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "c08_ponly_xxl diff!"
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 312,
       "role": "caster",
-      "text": "GPT-6.1 Sol brings the flag home! 22–21."
+      "text": "He scores! GPT-6.1 Sol brings it home. 22–21!"
     },
     {
       "turn": 312,
       "role": "crowd",
-      "text": "Another one"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Real ones know"
     },
     {
       "turn": 324,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 22–22!",
+      "text": "Back level, chat! GPT-6.1 Sol scores, 22–22!",
       "key": true
     },
     {
       "turn": 324,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Meat grinder!"
     },
     {
       "turn": 330,
       "role": "caster",
-      "text": "c08_ponly_xxl scores and takes the lead! 23–22.",
+      "text": "And that's the lead! c08_ponly_xxl scores, 23–22!",
       "key": true
     },
     {
       "turn": 330,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "STAND UP!"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 338,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 23–23!",
+      "text": "Back level, chat! GPT-6.1 Sol scores, 23–23!",
       "key": true
     },
     {
       "turn": 338,
       "role": "crowd",
-      "text": "Level!"
+      "text": "My heart lol"
     },
     {
       "turn": 347,
       "role": "caster",
-      "text": "That capture puts c08_ponly_xxl in front. 24–23!",
+      "text": "c08_ponly_xxl takes over the whole game! 24–23!",
       "key": true
     },
     {
       "turn": 347,
       "role": "crowd",
-      "text": "Here we go"
+      "text": "Instant classic!"
     },
     {
       "turn": 353,
       "role": "caster",
-      "text": "c08_ponly_xxl scores again. 25–23 now."
+      "text": "c08_ponly_xxl again! 25–23. Nobody stops him!"
     },
     {
       "turn": 353,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "c08_ponly_xxl is him!"
     },
     {
       "turn": 358,
       "role": "caster",
-      "text": "Capture for c08_ponly_xxl, and it's 26–23."
+      "text": "Flag in! c08_ponly_xxl banks another one. 26–23!"
     },
     {
       "turn": 358,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
     },
     {
       "turn": 366,
       "role": "caster",
-      "text": "c08_ponly_xxl brings the flag home! 27–23."
+      "text": "Flag in! c08_ponly_xxl banks another one. 27–23!"
     },
     {
       "turn": 366,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 374,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 27–24 now."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 27–24!"
     },
     {
       "turn": 374,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 378,
+      "role": "crowd",
+      "text": "5D chess"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 388,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 27–25."
+      "text": "He scores! GPT-6.1 Sol brings it home. 27–25!"
     },
     {
       "turn": 388,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Textbook run"
     },
     {
       "turn": 389,
       "role": "crowd",
-      "text": "GG c08_ponly_xxl"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: c08_ponly_xxl finish on 28. Across the match they converted 93% of their pickups."
+      "text": "Final verdict: c08_ponly_xxl take it with 28. 93% pickup conversion across the match — steal less, convert more. That's the lesson."
     },
     {
       "turn": 400,
       "role": "crowd",
-      "text": "Another one"
+      "text": "NOW THIS IS MUSIC"
     }
   ]
 }

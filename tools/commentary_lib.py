@@ -15,6 +15,7 @@ from __future__ import annotations
 import datetime as dt
 import json
 import os
+import random
 import re
 import time
 import urllib.error
@@ -499,7 +500,21 @@ class MockWriter:
                     text = self.pick(key, turn * 7 + j * 3 + len(team), team=team)
                     if text and all(o["text"] != text or abs(o["turn"] - turn) > 3 for o in out):
                         out.append({"turn": min(total, turn + j // 2), "text": text})
-            return sorted(out, key=lambda o: o["turn"])[:role["max_lines"]]
+            out.sort(key=lambda o: o["turn"])
+            del out[role["max_lines"]:]
+            # Random ambient barrage (随机触发): meme lines that fire on their own at
+            # deterministic pseudo-random turns (seeded per turn), so regeneration
+            # stays reproducible while viewers get an unpredictable stream of spam.
+            if self.t.get("crowd.ambient"):
+                for turn in range(t0 + 1, min(t1, total) + 1):
+                    if len(out) >= role["max_lines"]:
+                        break
+                    if random.Random(turn).random() >= 0.12 or any(o["turn"] == turn for o in out):
+                        continue
+                    text = self.pick("crowd.ambient", turn * 13, team="")
+                    if text and all(o["text"] != text or abs(o["turn"] - turn) > 3 for o in out):
+                        out.append({"turn": turn, "text": text})
+            return sorted(out, key=lambda o: o["turn"])
 
         standings = facts.get("standings") or []
         stats = facts.get("window_stats") or []

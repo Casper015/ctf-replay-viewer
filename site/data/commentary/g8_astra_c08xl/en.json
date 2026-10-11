@@ -63,574 +63,734 @@
     {
       "turn": 10,
       "role": "caster",
-      "text": "c08_ponly_xxl stops c08_ponly_xl's flag carrier!"
+      "text": "c08_ponly_xl's flag man is down! c08_ponly_xxl with the huge stop!"
     },
     {
       "turn": 10,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "What a stop"
+    },
+    {
+      "turn": 14,
+      "role": "crowd",
+      "text": "5D chess"
     },
     {
       "turn": 20,
       "role": "caster",
-      "text": "c08_ponly_xxl scores and takes the lead! 1–0.",
+      "text": "c08_ponly_xxl takes over the whole game! 1–0!",
       "key": true
     },
     {
       "turn": 20,
       "role": "crowd",
-      "text": "Comeback is real"
+      "text": "They flipped it!"
     },
     {
       "turn": 25,
       "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 1–1!",
+      "text": "That's the one! GPT-6 Astra ties it, 1–1!",
       "key": true
     },
     {
       "turn": 25,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Can't breathe"
     },
     {
       "turn": 29,
       "role": "crowd",
-      "text": "c08_ponly_xxl in front!"
+      "text": "LEAD CHANGE!!"
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 33,
       "role": "caster",
-      "text": "c08_ponly_xl brings the flag home! 2–1."
+      "text": "c08_ponly_xl again! 2–1. Nobody stops him!"
     },
     {
       "turn": 33,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 46,
       "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 2–2!",
+      "text": "Back level, chat! GPT-6 Astra scores, 2–2!",
       "key": true
     },
     {
       "turn": 46,
-      "role": "crowd",
-      "text": "Level!"
-    },
-    {
-      "turn": 49,
-      "role": "crowd",
-      "text": "Another one"
-    },
-    {
-      "turn": 51,
-      "role": "caster",
-      "text": "v12_ponly_xl brings the flag home! 2–2."
-    },
-    {
-      "turn": 51,
-      "role": "crowd",
-      "text": "Easy money"
-    },
-    {
-      "turn": 53,
-      "role": "crowd",
-      "text": "Let's go Fable 5.1"
-    },
-    {
-      "turn": 62,
-      "role": "caster",
-      "text": "c08_ponly_xl stops c08_ponly_xxl's flag carrier!"
-    },
-    {
-      "turn": 62,
-      "role": "crowd",
-      "text": "DENIED"
-    },
-    {
-      "turn": 64,
-      "role": "crowd",
-      "text": "Huge stop"
-    },
-    {
-      "turn": 67,
-      "role": "caster",
-      "text": "Big stop: c08_ponly_xxl takes down the c08_ponly_xl carrier."
-    },
-    {
-      "turn": 67,
-      "role": "crowd",
-      "text": "So close"
-    },
-    {
-      "turn": 73,
-      "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 3–2!",
-      "key": true
-    },
-    {
-      "turn": 73,
-      "role": "crowd",
-      "text": "Here we go"
-    },
-    {
-      "turn": 74,
-      "role": "crowd",
-      "text": "DENIED"
-    },
-    {
-      "turn": 79,
-      "role": "caster",
-      "text": "c08_ponly_xxl scores to level it up. 3–3!",
-      "key": true
-    },
-    {
-      "turn": 79,
-      "role": "crowd",
-      "text": "This is insane"
-    },
-    {
-      "turn": 81,
-      "role": "crowd",
-      "text": "Easy money"
-    },
-    {
-      "turn": 96,
-      "role": "caster",
-      "text": "c08_ponly_xl brings the flag home! 3–3."
-    },
-    {
-      "turn": 96,
-      "role": "crowd",
-      "text": "Easy money"
-    },
-    {
-      "turn": 100,
-      "role": "crowd",
-      "text": "DENIED"
-    },
-    {
-      "turn": 101,
-      "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 4–3!",
-      "key": true
-    },
-    {
-      "turn": 101,
-      "role": "crowd",
-      "text": "Comeback is real"
-    },
-    {
-      "turn": 106,
-      "role": "caster",
-      "text": "c08_ponly_xl stops c08_ponly_xxl's flag carrier!"
-    },
-    {
-      "turn": 106,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 109,
-      "role": "crowd",
-      "text": "So close"
-    },
-    {
-      "turn": 112,
-      "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 4–3."
-    },
-    {
-      "turn": 112,
-      "role": "crowd",
-      "text": "Another one"
-    },
-    {
-      "turn": 116,
-      "role": "crowd",
-      "text": "Huge stop"
-    },
-    {
-      "turn": 118,
-      "role": "caster",
-      "text": "Capture for v12_ponly_xxl, and it's 4–3."
-    },
-    {
-      "turn": 118,
-      "role": "crowd",
-      "text": "GG v12_ponly_xxl"
-    },
-    {
-      "turn": 127,
-      "role": "caster",
-      "text": "Capture for c08_ponly_xl, and it's 4–3."
-    },
-    {
-      "turn": 127,
-      "role": "crowd",
-      "text": "Easy money"
-    },
-    {
-      "turn": 145,
-      "role": "caster",
-      "text": "v12_ponly_xl scores to level it up. 4–4!",
-      "key": true
-    },
-    {
-      "turn": 145,
-      "role": "crowd",
-      "text": "Can't look away"
-    },
-    {
-      "turn": 150,
-      "role": "analyst",
-      "text": "GPT-6 Astra played furthest forward, about 15.0 cells from home on average; v12_ponly_xl stayed closest to base at 7.0."
-    },
-    {
-      "turn": 155,
-      "role": "caster",
-      "text": "Fable 5.1 scores again. 4–4 now."
-    },
-    {
-      "turn": 155,
-      "role": "crowd",
-      "text": "Let's go Fable 5.1"
-    },
-    {
-      "turn": 165,
-      "role": "caster",
-      "text": "c08_ponly_xl scores to level it up. 4–4!",
-      "key": true
-    },
-    {
-      "turn": 165,
-      "role": "crowd",
-      "text": "Can't look away"
-    },
-    {
-      "turn": 175,
-      "role": "color",
-      "text": "Dead even at the top, c08_ponly_xl and c08_ponly_xxl and v12_ponly_xl on 4 each."
-    },
-    {
-      "turn": 180,
-      "role": "caster",
-      "text": "c08_ponly_xxl scores and takes the lead! 5–4.",
-      "key": true
-    },
-    {
-      "turn": 180,
-      "role": "crowd",
-      "text": "Comeback is real"
-    },
-    {
-      "turn": 182,
-      "role": "crowd",
-      "text": "Let's go Fable 5.1"
-    },
-    {
-      "turn": 190,
-      "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 5–5!",
-      "key": true
-    },
-    {
-      "turn": 190,
-      "role": "crowd",
-      "text": "Level!"
-    },
-    {
-      "turn": 195,
-      "role": "caster",
-      "text": "Big stop: c08_ponly_xl takes down the Fable 5.1 carrier."
-    },
-    {
-      "turn": 195,
-      "role": "crowd",
-      "text": "So close"
-    },
-    {
-      "turn": 201,
-      "role": "caster",
-      "text": "That capture puts c08_ponly_xxl in front. 6–5!",
-      "key": true
-    },
-    {
-      "turn": 201,
-      "role": "crowd",
-      "text": "LEAD CHANGE"
-    },
-    {
-      "turn": 206,
-      "role": "caster",
-      "text": "v12_ponly_xl scores again. 6–5 now."
-    },
-    {
-      "turn": 206,
-      "role": "crowd",
-      "text": "Easy money"
-    },
-    {
-      "turn": 212,
-      "role": "caster",
-      "text": "v12_ponly_xl scores to level it up. 6–6!",
-      "key": true
-    },
-    {
-      "turn": 212,
-      "role": "crowd",
-      "text": "Tied again!"
-    },
-    {
-      "turn": 216,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 228,
-      "role": "crowd",
-      "text": "So close"
-    },
-    {
-      "turn": 229,
-      "role": "caster",
-      "text": "Capture for c08_ponly_xl, and it's 6–6."
-    },
-    {
-      "turn": 229,
-      "role": "crowd",
-      "text": "Easy money"
-    },
-    {
-      "turn": 235,
-      "role": "caster",
-      "text": "Big stop: c08_ponly_xxl takes down the v12_ponly_xl carrier."
-    },
-    {
-      "turn": 235,
-      "role": "crowd",
-      "text": "Defense wins"
-    },
-    {
-      "turn": 243,
-      "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 6–6!",
-      "key": true
-    },
-    {
-      "turn": 243,
-      "role": "crowd",
-      "text": "Tied again!"
-    },
-    {
-      "turn": 247,
-      "role": "crowd",
-      "text": "Here we go"
-    },
-    {
-      "turn": 250,
-      "role": "analyst",
-      "text": "c08_ponly_xxl played furthest forward, about 11.0 cells from home on average; v12_ponly_xl stayed closest to base at 6.0."
-    },
-    {
-      "turn": 252,
-      "role": "crowd",
-      "text": "DENIED"
-    },
-    {
-      "turn": 257,
-      "role": "caster",
-      "text": "Big stop: c08_ponly_xl takes down the v12_ponly_xl carrier."
-    },
-    {
-      "turn": 257,
-      "role": "crowd",
-      "text": "DENIED"
-    },
-    {
-      "turn": 259,
-      "role": "crowd",
-      "text": "Huge stop"
-    },
-    {
-      "turn": 263,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 264,
-      "role": "caster",
-      "text": "c08_ponly_xl brings the flag home! 7–6."
-    },
-    {
-      "turn": 264,
-      "role": "crowd",
-      "text": "Easy money"
-    },
-    {
-      "turn": 266,
-      "role": "crowd",
-      "text": "Defense wins"
-    },
-    {
-      "turn": 268,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 271,
-      "role": "caster",
-      "text": "Big stop: v12_ponly_xxl takes down the c08_ponly_xxl carrier."
-    },
-    {
-      "turn": 271,
-      "role": "crowd",
-      "text": "Huge stop"
-    },
-    {
-      "turn": 278,
-      "role": "caster",
-      "text": "c08_ponly_xxl stops v12_ponly_xl's flag carrier!"
-    },
-    {
-      "turn": 278,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 284,
-      "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 7–7!",
-      "key": true
-    },
-    {
-      "turn": 284,
-      "role": "crowd",
-      "text": "Can't look away"
-    },
-    {
-      "turn": 295,
-      "role": "crowd",
-      "text": "So close"
-    },
-    {
-      "turn": 296,
-      "role": "crowd",
-      "text": "Big save"
-    },
-    {
-      "turn": 298,
-      "role": "caster",
-      "text": "c08_ponly_xl scores to level it up. 7–7!",
-      "key": true
-    },
-    {
-      "turn": 298,
-      "role": "crowd",
-      "text": "This is insane"
-    },
-    {
-      "turn": 302,
-      "role": "crowd",
-      "text": "DENIED"
-    },
-    {
-      "turn": 305,
-      "role": "caster",
-      "text": "That capture puts c08_ponly_xl in front. 8–7!",
-      "key": true
-    },
-    {
-      "turn": 305,
-      "role": "crowd",
-      "text": "Here we go"
-    },
-    {
-      "turn": 319,
-      "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 8–8!",
-      "key": true
-    },
-    {
-      "turn": 319,
-      "role": "crowd",
-      "text": "Tied again!"
-    },
-    {
-      "turn": 327,
-      "role": "caster",
-      "text": "That capture puts c08_ponly_xl in front. 9–8!",
-      "key": true
-    },
-    {
-      "turn": 327,
-      "role": "crowd",
-      "text": "c08_ponly_xl in front!"
-    },
-    {
-      "turn": 339,
-      "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 9–9!",
-      "key": true
-    },
-    {
-      "turn": 339,
-      "role": "crowd",
-      "text": "Tied again!"
-    },
-    {
-      "turn": 344,
-      "role": "caster",
-      "text": "c08_ponly_xl scores and takes the lead! 10–9.",
-      "key": true
-    },
-    {
-      "turn": 344,
-      "role": "crowd",
-      "text": "LEAD CHANGE"
-    },
-    {
-      "turn": 350,
-      "role": "analyst",
-      "text": "GPT-6 Astra played furthest forward, about 12.0 cells from home on average; v12_ponly_xl stayed closest to base at 7.0."
-    },
-    {
-      "turn": 352,
-      "role": "crowd",
-      "text": "Easy money"
-    },
-    {
-      "turn": 361,
-      "role": "crowd",
-      "text": "GG c08_ponly_xxl"
-    },
-    {
-      "turn": 362,
-      "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 10–10!",
-      "key": true
-    },
-    {
-      "turn": 362,
-      "role": "crowd",
-      "text": "Level!"
-    },
-    {
-      "turn": 363,
       "role": "crowd",
       "text": "Who blinks first"
     },
     {
+      "turn": 49,
+      "role": "crowd",
+      "text": "Another one!"
+    },
+    {
+      "turn": 51,
+      "role": "caster",
+      "text": "(screaming) v12_ponly_xl scores! 2–2!"
+    },
+    {
+      "turn": 51,
+      "role": "crowd",
+      "text": "v12_ponly_xl diff!"
+    },
+    {
+      "turn": 53,
+      "role": "crowd",
+      "text": "Fable 5.1 is him!"
+    },
+    {
+      "turn": 55,
+      "role": "crowd",
+      "text": "Old timer here"
+    },
+    {
+      "turn": 57,
+      "role": "crowd",
+      "text": "Classic"
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "DENIED! c08_ponly_xl shuts down c08_ponly_xxl. That stop (leans back)!"
+    },
+    {
+      "turn": 62,
+      "role": "crowd",
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 64,
+      "role": "crowd",
+      "text": "Down bad"
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "c08_ponly_xl's flag man is down! c08_ponly_xxl with the huge stop!"
+    },
+    {
+      "turn": 67,
+      "role": "crowd",
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "Instant classic loading! GPT-6 Astra takes the lead, 3–2!",
+      "key": true
+    },
+    {
+      "turn": 73,
+      "role": "crowd",
+      "text": "Instant classic!"
+    },
+    {
+      "turn": 74,
+      "role": "crowd",
+      "text": "Defence wins"
+    },
+    {
+      "turn": 79,
+      "role": "caster",
+      "text": "That's the one! c08_ponly_xxl ties it, 3–3!",
+      "key": true
+    },
+    {
+      "turn": 79,
+      "role": "crowd",
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 81,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "High energy incoming"
+    },
+    {
+      "turn": 91,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
+    },
+    {
+      "turn": 96,
+      "role": "caster",
+      "text": "He scores! c08_ponly_xl brings it home. 3–3!"
+    },
+    {
+      "turn": 96,
+      "role": "crowd",
+      "text": "c08_ponly_xl is him!"
+    },
+    {
+      "turn": 100,
+      "role": "crowd",
+      "text": "Defence wins"
+    },
+    {
+      "turn": 101,
+      "role": "caster",
+      "text": "GPT-6 Astra takes over the whole game! 4–3!",
+      "key": true
+    },
+    {
+      "turn": 101,
+      "role": "crowd",
+      "text": "GPT-6 Astra in front!"
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "c08_ponly_xxl's flag man is down! c08_ponly_xl with the huge stop!"
+    },
+    {
+      "turn": 106,
+      "role": "crowd",
+      "text": "Down bad"
+    },
+    {
+      "turn": 112,
+      "role": "caster",
+      "text": "He scores! GPT-6.1 Sol brings it home. 4–3!"
+    },
+    {
+      "turn": 112,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 116,
+      "role": "crowd",
+      "text": "Down bad"
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "Flag in! v12_ponly_xxl banks another one. 4–3!"
+    },
+    {
+      "turn": 118,
+      "role": "crowd",
+      "text": "Textbook run"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
+    },
+    {
+      "turn": 127,
+      "role": "caster",
+      "text": "(screaming) c08_ponly_xl scores! 4–3!"
+    },
+    {
+      "turn": 127,
+      "role": "crowd",
+      "text": "Clean!"
+    },
+    {
+      "turn": 128,
+      "role": "crowd",
+      "text": "v12_ponly_xl is him!"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "STAND UP"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
+    },
+    {
+      "turn": 145,
+      "role": "caster",
+      "text": "That's the one! v12_ponly_xl ties it, 4–4!",
+      "key": true
+    },
+    {
+      "turn": 145,
+      "role": "crowd",
+      "text": "My heart lol"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6 Astra pushed furthest, averaging 15.0 cells from home; v12_ponly_xl never left the porch at 7.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 155,
+      "role": "caster",
+      "text": "(screaming) Fable 5.1 scores! 4–4!"
+    },
+    {
+      "turn": 155,
+      "role": "crowd",
+      "text": "Sheesh"
+    },
+    {
+      "turn": 162,
+      "role": "crowd",
+      "text": "Pog"
+    },
+    {
+      "turn": 165,
+      "role": "caster",
+      "text": "That's the one! c08_ponly_xl ties it, 4–4!",
+      "key": true
+    },
+    {
+      "turn": 165,
+      "role": "crowd",
+      "text": "My heart lol"
+    },
+    {
+      "turn": 166,
+      "role": "crowd",
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "Dead even, c08_ponly_xl and c08_ponly_xxl and v12_ponly_xl both on 4. My heart can't take this, boys."
+    },
+    {
+      "turn": 176,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 180,
+      "role": "caster",
+      "text": "And that's the lead! c08_ponly_xxl scores, 5–4!",
+      "key": true
+    },
+    {
+      "turn": 180,
+      "role": "crowd",
+      "text": "They flipped it!"
+    },
+    {
+      "turn": 182,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 190,
+      "role": "caster",
+      "text": "Back level, chat! GPT-6 Astra scores, 5–5!",
+      "key": true
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 195,
+      "role": "caster",
+      "text": "Stopped at the door! c08_ponly_xl deletes the Fable 5.1 carrier!"
+    },
+    {
+      "turn": 195,
+      "role": "crowd",
+      "text": "Defence wins"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 200,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 201,
+      "role": "caster",
+      "text": "And that's the lead! c08_ponly_xxl scores, 6–5!",
+      "key": true
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "??? oh ??? oh"
+    },
+    {
+      "turn": 203,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
+    },
+    {
+      "turn": 206,
+      "role": "caster",
+      "text": "Flag in! v12_ponly_xl banks another one. 6–5!"
+    },
+    {
+      "turn": 206,
+      "role": "crowd",
+      "text": "Sheesh"
+    },
+    {
+      "turn": 212,
+      "role": "caster",
+      "text": "Back level, chat! v12_ponly_xl scores, 6–6!",
+      "key": true
+    },
+    {
+      "turn": 212,
+      "role": "crowd",
+      "text": "Can't breathe"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
+    },
+    {
+      "turn": 216,
+      "role": "crowd",
+      "text": "DENIED!"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 228,
+      "role": "crowd",
+      "text": "What a stop"
+    },
+    {
+      "turn": 229,
+      "role": "caster",
+      "text": "c08_ponly_xl again! 6–6. Nobody stops him!"
+    },
+    {
+      "turn": 229,
+      "role": "crowd",
+      "text": "Textbook run"
+    },
+    {
+      "turn": 235,
+      "role": "caster",
+      "text": "v12_ponly_xl's flag man is down! c08_ponly_xxl with the huge stop!"
+    },
+    {
+      "turn": 235,
+      "role": "crowd",
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 239,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 243,
+      "role": "caster",
+      "text": "That's the one! GPT-6 Astra ties it, 6–6!",
+      "key": true
+    },
+    {
+      "turn": 243,
+      "role": "crowd",
+      "text": "My heart lol"
+    },
+    {
+      "turn": 247,
+      "role": "crowd",
+      "text": "c08_ponly_xxl in front!"
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "c08_ponly_xxl pushed furthest, averaging 11.0 cells from home; v12_ponly_xl never left the porch at 6.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 252,
+      "role": "crowd",
+      "text": "DENIED!"
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 257,
+      "role": "caster",
+      "text": "DENIED! c08_ponly_xl shuts down v12_ponly_xl. That stop (leans back)!"
+    },
+    {
+      "turn": 257,
+      "role": "crowd",
+      "text": "What a stop"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Cut down!"
+    },
+    {
+      "turn": 263,
+      "role": "crowd",
+      "text": "DENIED!"
+    },
+    {
+      "turn": 264,
+      "role": "caster",
+      "text": "He scores! c08_ponly_xl brings it home. 7–6!"
+    },
+    {
+      "turn": 264,
+      "role": "crowd",
+      "text": "c08_ponly_xl is him!"
+    },
+    {
+      "turn": 266,
+      "role": "crowd",
+      "text": "Cut down!"
+    },
+    {
+      "turn": 268,
+      "role": "crowd",
+      "text": "What a stop"
+    },
+    {
+      "turn": 271,
+      "role": "caster",
+      "text": "c08_ponly_xxl's flag man is down! v12_ponly_xxl with the huge stop!"
+    },
+    {
+      "turn": 271,
+      "role": "crowd",
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 278,
+      "role": "caster",
+      "text": "DENIED! c08_ponly_xxl shuts down v12_ponly_xl. That stop (leans back)!"
+    },
+    {
+      "turn": 278,
+      "role": "crowd",
+      "text": "Defence wins"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Classic"
+    },
+    {
+      "turn": 284,
+      "role": "caster",
+      "text": "Back level, chat! GPT-6 Astra scores, 7–7!",
+      "key": true
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "Meat grinder!"
+    },
+    {
+      "turn": 285,
+      "role": "crowd",
+      "text": "Level again!"
+    },
+    {
+      "turn": 295,
+      "role": "crowd",
+      "text": "Cut down!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 298,
+      "role": "caster",
+      "text": "Back level, chat! c08_ponly_xl scores, 7–7!",
+      "key": true
+    },
+    {
+      "turn": 298,
+      "role": "crowd",
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 302,
+      "role": "crowd",
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 305,
+      "role": "caster",
+      "text": "c08_ponly_xl takes over the whole game! 8–7!",
+      "key": true
+    },
+    {
+      "turn": 305,
+      "role": "crowd",
+      "text": "STAND UP!"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 319,
+      "role": "caster",
+      "text": "That's the one! GPT-6 Astra ties it, 8–8!",
+      "key": true
+    },
+    {
+      "turn": 319,
+      "role": "crowd",
+      "text": "Meat grinder!"
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "waiting room"
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "And that's the lead! c08_ponly_xl scores, 9–8!",
+      "key": true
+    },
+    {
+      "turn": 327,
+      "role": "crowd",
+      "text": "IT'S OVER? IT'S ON!"
+    },
+    {
+      "turn": 336,
+      "role": "crowd",
+      "text": "Add one"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 339,
+      "role": "caster",
+      "text": "That's the one! GPT-6 Astra ties it, 9–9!",
+      "key": true
+    },
+    {
+      "turn": 339,
+      "role": "crowd",
+      "text": "Meat grinder!"
+    },
+    {
+      "turn": 344,
+      "role": "caster",
+      "text": "c08_ponly_xl takes over the whole game! 10–9!",
+      "key": true
+    },
+    {
+      "turn": 344,
+      "role": "crowd",
+      "text": "??? oh ??? oh"
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra pushed furthest, averaging 12.0 cells from home; v12_ponly_xl never left the porch at 7.0. One plays in the stratosphere, one lives in the basement."
+    },
+    {
+      "turn": 352,
+      "role": "crowd",
+      "text": "v12_ponly_xl is him!"
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "They're nervous"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 361,
+      "role": "crowd",
+      "text": "c08_ponly_xxl is him!"
+    },
+    {
+      "turn": 362,
+      "role": "caster",
+      "text": "Back level, chat! GPT-6 Astra scores, 10–10!",
+      "key": true
+    },
+    {
+      "turn": 362,
+      "role": "crowd",
+      "text": "Level again!"
+    },
+    {
+      "turn": 363,
+      "role": "crowd",
+      "text": "Hold on!"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
       "turn": 373,
       "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 11–10!",
+      "text": "Instant classic loading! GPT-6 Astra takes the lead, 11–10!",
       "key": true
     },
     {
       "turn": 373,
       "role": "crowd",
-      "text": "Here we go"
+      "text": "GPT-6 Astra in front!"
     },
     {
       "turn": 374,
@@ -638,19 +798,34 @@
       "text": "Final stretch!"
     },
     {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
+    },
+    {
       "turn": 392,
       "role": "caster",
-      "text": "v12_ponly_xxl stops GPT-6 Astra's flag carrier!"
+      "text": "DENIED! v12_ponly_xxl shuts down GPT-6 Astra. That stop (leans back)!"
     },
     {
       "turn": 392,
       "role": "crowd",
-      "text": "So close"
+      "text": "Defence wins"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "I respect it"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: GPT-6 Astra finish on 11. Across the match they converted 58% of their pickups."
+      "text": "Final verdict: GPT-6 Astra take it with 11. 58% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }

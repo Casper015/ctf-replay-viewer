@@ -61,594 +61,794 @@
   },
   "lines": [
     {
+      "turn": 14,
+      "role": "crowd",
+      "text": "5D chess"
+    },
+    {
       "turn": 24,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores to level it up. 1–1!",
+      "text": "Back level, chat! DeepSeek V4.1 Flash scores, 1–1!",
       "key": true
     },
     {
       "turn": 24,
       "role": "crowd",
-      "text": "Can't look away"
-    },
-    {
-      "turn": 25,
-      "role": "crowd",
-      "text": "Level!"
+      "text": "My heart lol"
     },
     {
       "turn": 28,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Can't breathe"
     },
     {
       "turn": 29,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 1–1!",
+      "text": "That's the one! Opus 5.5 ties it, 1–1!",
       "key": true
+    },
+    {
+      "turn": 31,
+      "role": "crowd",
+      "text": "I'm cooked"
+    },
+    {
+      "turn": 32,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 40,
       "role": "caster",
-      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
+      "text": "DeepSeek V4.1 Flash's flag man is down! Fable 5.1 with the huge stop!"
     },
     {
       "turn": 40,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Cut down!"
+    },
+    {
+      "turn": 43,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 44,
       "role": "crowd",
-      "text": "Kimi K3!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 48,
       "role": "crowd",
-      "text": "Big save"
+      "text": "SO CLOSE"
     },
     {
       "turn": 49,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Another one!"
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "Opus 5.5 played furthest forward, about 16.7 cells from home on average; Player5 stayed closest to base at 4.0."
+      "text": "Opus 5.5 pushed furthest, averaging 16.7 cells from home; Player5 never left the porch at 4.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 51,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Meat grinder!"
     },
     {
       "turn": 54,
       "role": "crowd",
-      "text": "Level!"
-    },
-    {
-      "turn": 55,
-      "role": "crowd",
-      "text": "So close"
+      "text": "Level again!"
     },
     {
       "turn": 62,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores to level it up. 2–2!",
+      "text": "Back level, chat! DeepSeek V4.1 Flash scores, 2–2!",
       "key": true
     },
     {
       "turn": 62,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Who blinks first"
     },
     {
       "turn": 63,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Meat grinder!"
     },
     {
       "turn": 68,
       "role": "caster",
-      "text": "Opus 5.5 scores and takes the lead! 3–2.",
+      "text": "Opus 5.5 takes over the whole game! 3–2!",
       "key": true
+    },
+    {
+      "turn": 68,
+      "role": "crowd",
+      "text": "??? oh ??? oh"
+    },
+    {
+      "turn": 72,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 75,
       "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 3, 1 clear of DeepSeek V4.1 Flash."
+      "text": "This is Opus 5.5's game right now: 3, keeping DeepSeek V4.1 Flash 1 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 80,
       "role": "caster",
-      "text": "Player4 scores to level it up. 3–3!",
+      "text": "Back level, chat! Player4 scores, 3–3!",
       "key": true
     },
     {
       "turn": 80,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "My heart lol"
     },
     {
       "turn": 82,
       "role": "crowd",
-      "text": "So close"
+      "text": "DENIED!"
+    },
+    {
+      "turn": 89,
+      "role": "crowd",
+      "text": "High energy incoming"
     },
     {
       "turn": 91,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores to level it up. 3–3!",
+      "text": "That's the one! DeepSeek V4.1 Flash ties it, 3–3!",
       "key": true
     },
     {
       "turn": 91,
       "role": "crowd",
-      "text": "Tied again!"
+      "text": "Can't breathe"
     },
     {
       "turn": 99,
       "role": "crowd",
-      "text": "So close"
+      "text": "DENIED!"
     },
     {
       "turn": 100,
       "role": "analyst",
-      "text": "Turns 51–100: Player4 turned 2 of 1 pickups into points, the best conversion in this stretch. DeepSeek V4.1 Flash led the fighting with 8 kills."
+      "text": "Turns 51–100: Player4 turned 1 pickups into 2 goals, efficiency maxed out. DeepSeek V4.1 Flash owned the fights with 8 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 101,
       "role": "crowd",
-      "text": "This is insane"
+      "text": "Who blinks first"
     },
     {
       "turn": 102,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "??? oh ??? oh"
     },
     {
       "turn": 108,
       "role": "caster",
-      "text": "Baseline stops DeepSeek V4.1 Flash's flag carrier!"
+      "text": "Stopped at the door! Baseline deletes the DeepSeek V4.1 Flash carrier!"
+    },
+    {
+      "turn": 113,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 119,
       "role": "caster",
-      "text": "Big stop: GPT-6 Astra takes down the GPT-6.1 Sol carrier."
+      "text": "DENIED! GPT-6 Astra shuts down GPT-6.1 Sol. That stop (leans back)!"
     },
     {
       "turn": 119,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Down bad"
+    },
+    {
+      "turn": 121,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 123,
+      "role": "crowd",
+      "text": "lol. lmao"
     },
     {
       "turn": 126,
       "role": "caster",
-      "text": "Sonnet 5.5 brings the flag home! 5–3."
+      "text": "Flag in! Sonnet 5.5 banks another one. 5–3!"
     },
     {
       "turn": 126,
       "role": "crowd",
-      "text": "Clean capture"
+      "text": "Sonnet 5.5 is him!"
     },
     {
       "turn": 130,
       "role": "crowd",
-      "text": "Player4!!!"
+      "text": "Clean!"
     },
     {
       "turn": 131,
       "role": "caster",
-      "text": "Big stop: Player1 takes down the Opus 5.5 carrier."
+      "text": "DENIED! Player1 shuts down Opus 5.5. That stop (leans back)!"
     },
     {
       "turn": 131,
       "role": "crowd",
-      "text": "Big save"
+      "text": "DENIED!"
+    },
+    {
+      "turn": 137,
+      "role": "crowd",
+      "text": "STAND UP"
+    },
+    {
+      "turn": 139,
+      "role": "crowd",
+      "text": "Old timer here"
     },
     {
       "turn": 141,
       "role": "caster",
-      "text": "Big stop: GPT-6 Astra takes down the Sonnet 5.5 carrier."
+      "text": "Stopped at the door! GPT-6 Astra deletes the Sonnet 5.5 carrier!"
     },
     {
       "turn": 141,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 149,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 150,
       "role": "analyst",
-      "text": "GPT-6.1 Sol played furthest forward, about 14.0 cells from home on average; Player4 stayed closest to base at 8.5."
+      "text": "GPT-6.1 Sol pushed furthest, averaging 14.0 cells from home; Player4 never left the porch at 8.5. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 153,
       "role": "crowd",
-      "text": "So close"
+      "text": "SO CLOSE"
     },
     {
       "turn": 155,
       "role": "caster",
-      "text": "Sonnet 5.5 scores again. 6–4 now."
+      "text": "(screaming) Sonnet 5.5 scores! 6–4!"
     },
     {
       "turn": 155,
       "role": "crowd",
-      "text": "Clean capture"
+      "text": "Textbook run"
     },
     {
       "turn": 156,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "Defence wins"
     },
     {
       "turn": 161,
       "role": "caster",
-      "text": "Sonnet 5.5 scores again. 7–4 now."
+      "text": "Sonnet 5.5 again! 7–4. Nobody stops him!"
     },
     {
       "turn": 161,
       "role": "crowd",
-      "text": "Clean capture"
+      "text": "Sonnet 5.5 diff!"
     },
     {
       "turn": 162,
       "role": "crowd",
-      "text": "Player4!!!"
+      "text": "Clean!"
+    },
+    {
+      "turn": 164,
+      "role": "crowd",
+      "text": "oh? oh? oh?"
     },
     {
       "turn": 167,
       "role": "caster",
-      "text": "Big stop: Kimi K3 takes down the Sonnet 5.5 carrier."
+      "text": "DENIED! Kimi K3 shuts down Sonnet 5.5. That stop (leans back)!"
     },
     {
       "turn": 167,
       "role": "crowd",
-      "text": "DENIED"
+      "text": "DENIED!"
     },
     {
       "turn": 172,
       "role": "caster",
-      "text": "Capture for Player5, and it's 7–5."
+      "text": "He scores! Player5 brings it home. 7–5!"
     },
     {
       "turn": 172,
       "role": "crowd",
-      "text": "Player5!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 176,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Down bad"
     },
     {
       "turn": 179,
       "role": "caster",
-      "text": "Fable 5.1 scores again. 7–5 now."
+      "text": "(screaming) Fable 5.1 scores! 7–5!"
     },
     {
       "turn": 179,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Sheesh"
+    },
+    {
+      "turn": 183,
+      "role": "crowd",
+      "text": "Type EASY in chat"
     },
     {
       "turn": 185,
       "role": "caster",
-      "text": "Player4 scores again. 7–6 now."
+      "text": "Player4 again! 7–6. Nobody stops him!"
     },
     {
       "turn": 185,
       "role": "crowd",
-      "text": "Player4!!!"
+      "text": "Sheesh"
     },
     {
       "turn": 188,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Clean!"
+    },
+    {
+      "turn": 190,
+      "role": "crowd",
+      "text": "Pog"
     },
     {
       "turn": 194,
       "role": "caster",
-      "text": "Sonnet 5.5 scores again. 8–6 now."
+      "text": "Flag in! Sonnet 5.5 banks another one. 8–6!"
     },
     {
       "turn": 194,
       "role": "crowd",
-      "text": "Clean capture"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 198,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "Turns 151–200: Sonnet 5.5 turned 4 of 4 pickups into points, the best conversion in this stretch. Player4 led the fighting with 7 kills."
+      "text": "Turns 151–200: Sonnet 5.5 turned 4 pickups into 4 goals, efficiency maxed out. Player4 owned the fights with 7 kills. Numbers don't lie, boys: one side steals flags, the other feeds."
     },
     {
       "turn": 200,
       "role": "crowd",
-      "text": "Clean capture"
+      "text": "Another one!"
+    },
+    {
+      "turn": 201,
+      "role": "crowd",
+      "text": "High energy incoming"
     },
     {
       "turn": 203,
       "role": "crowd",
-      "text": "Another one"
+      "text": "LET'S GO!"
     },
     {
       "turn": 204,
       "role": "crowd",
-      "text": "Player4!!!"
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 209,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores again. 9–7 now."
+      "text": "DeepSeek V4.1 Flash again! 9–7. Nobody stops him!"
     },
     {
       "turn": 209,
       "role": "crowd",
-      "text": "Easy money"
+      "text": "Another one!"
+    },
+    {
+      "turn": 215,
+      "role": "crowd",
+      "text": "show us something"
     },
     {
       "turn": 218,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "What a stop"
     },
     {
       "turn": 219,
       "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 9–7."
+      "text": "(screaming) Fable 5.1 scores! 9–7!"
     },
     {
       "turn": 219,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Sheesh"
     },
     {
       "turn": 220,
       "role": "crowd",
-      "text": "Defense wins"
+      "text": "DENIED!"
     },
     {
       "turn": 222,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 224,
+      "role": "crowd",
+      "text": "Add one"
     },
     {
       "turn": 225,
       "role": "color",
-      "text": "It's Sonnet 5.5's match to lose right now: 9, 2 clear of Player4."
+      "text": "This is Sonnet 5.5's game right now: 9, keeping Player4 2 back. Chat, type 'easy' and we move."
     },
     {
       "turn": 225,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "Cut down!"
     },
     {
       "turn": 233,
       "role": "caster",
-      "text": "Fable 5.1 scores again. 9–7 now."
+      "text": "Fable 5.1 again! 9–7. Nobody stops him!"
     },
     {
       "turn": 233,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "LET'S GO!"
     },
     {
       "turn": 239,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 9–7 now."
+      "text": "(screaming) GPT-6.1 Sol scores! 9–7!"
     },
     {
       "turn": 239,
       "role": "crowd",
-      "text": "Another one"
+      "text": "GPT-6.1 Sol is him!"
     },
     {
       "turn": 250,
       "role": "analyst",
-      "text": "Fable 5.1 played furthest forward, about 15.3 cells from home on average; Sonnet 5.5 stayed closest to base at 6.0."
+      "text": "Fable 5.1 pushed furthest, averaging 15.3 cells from home; Sonnet 5.5 never left the porch at 6.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 252,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Textbook run"
+    },
+    {
+      "turn": 255,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 258,
       "role": "caster",
-      "text": "Opus 5.5 stops Player4's flag carrier!"
+      "text": "Stopped at the door! Opus 5.5 deletes the Player4 carrier!"
     },
     {
       "turn": 258,
       "role": "crowd",
-      "text": "Big save"
+      "text": "SO CLOSE"
+    },
+    {
+      "turn": 259,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 265,
       "role": "caster",
-      "text": "Capture for Fable 5.1, and it's 9–8."
+      "text": "Fable 5.1 again! 9–8. Nobody stops him!"
     },
     {
       "turn": 265,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "LET'S GO!"
+    },
+    {
+      "turn": 269,
+      "role": "crowd",
+      "text": "They're nervous"
     },
     {
       "turn": 270,
       "role": "caster",
-      "text": "Fable 5.1 stops Sonnet 5.5's flag carrier!"
+      "text": "Stopped at the door! Fable 5.1 deletes the Sonnet 5.5 carrier!"
     },
     {
       "turn": 270,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Defence wins"
     },
     {
       "turn": 273,
       "role": "crowd",
-      "text": "Huge stop"
+      "text": "DENIED!"
     },
     {
       "turn": 276,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 9–9!",
+      "text": "Back level, chat! GPT-6.1 Sol scores, 9–9!",
       "key": true
     },
     {
       "turn": 276,
       "role": "crowd",
-      "text": "Can't look away"
+      "text": "Who blinks first"
+    },
+    {
+      "turn": 281,
+      "role": "crowd",
+      "text": "Classic"
+    },
+    {
+      "turn": 284,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 287,
       "role": "caster",
-      "text": "That capture puts Sonnet 5.5 in front. 10–9!",
+      "text": "Sonnet 5.5 takes over the whole game! 10–9!",
       "key": true
     },
     {
       "turn": 287,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "STAND UP!"
+    },
+    {
+      "turn": 296,
+      "role": "crowd",
+      "text": "REFUND"
     },
     {
       "turn": 302,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 10–10!",
+      "text": "Back level, chat! GPT-6.1 Sol scores, 10–10!",
       "key": true
     },
     {
       "turn": 302,
       "role": "crowd",
-      "text": "Level!"
+      "text": "Level again!"
+    },
+    {
+      "turn": 303,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
+    },
+    {
+      "turn": 309,
+      "role": "crowd",
+      "text": "Classic"
     },
     {
       "turn": 313,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "LET'S GO!"
     },
     {
       "turn": 314,
       "role": "caster",
-      "text": "GPT-6.1 Sol scores and takes the lead! 11–10.",
+      "text": "GPT-6.1 Sol takes over the whole game! 11–10!",
       "key": true
     },
     {
       "turn": 314,
       "role": "crowd",
-      "text": "Unreal"
+      "text": "They flipped it!"
+    },
+    {
+      "turn": 316,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 326,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 327,
       "role": "caster",
-      "text": "Player4 brings the flag home! 11–10."
+      "text": "(screaming) Player4 scores! 11–10!"
     },
     {
       "turn": 327,
       "role": "crowd",
-      "text": "Player4!!!"
+      "text": "LET'S GO!"
     },
     {
       "turn": 329,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Down bad"
     },
     {
       "turn": 331,
       "role": "crowd",
-      "text": "Big save"
+      "text": "SO CLOSE"
     },
     {
       "turn": 332,
       "role": "crowd",
-      "text": "So close"
+      "text": "Down bad"
     },
     {
       "turn": 336,
       "role": "caster",
-      "text": "GPT-6.1 Sol brings the flag home! 12–10."
+      "text": "He scores! GPT-6.1 Sol brings it home. 12–10!"
     },
     {
       "turn": 336,
       "role": "crowd",
-      "text": "Another one"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 338,
+      "role": "crowd",
+      "text": "bait used to be believable"
     },
     {
       "turn": 342,
       "role": "caster",
-      "text": "GPT-6.1 Sol brings the flag home! 13–10."
+      "text": "Flag in! GPT-6.1 Sol banks another one. 13–10!"
     },
     {
       "turn": 342,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
     },
     {
       "turn": 343,
       "role": "crowd",
-      "text": "Player4!!!"
+      "text": "LET'S GO!"
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "GPT-6.1 Sol played furthest forward, about 8.0 cells from home on average; Player4 stayed closest to base at 6.0."
+      "text": "GPT-6.1 Sol pushed furthest, averaging 8.0 cells from home; Player4 never left the porch at 6.0. One plays in the stratosphere, one lives in the basement."
     },
     {
       "turn": 351,
       "role": "crowd",
-      "text": "Big save"
+      "text": "Down bad"
     },
     {
       "turn": 352,
       "role": "crowd",
-      "text": "Let's go Fable 5.1"
+      "text": "Fable 5.1 diff!"
+    },
+    {
+      "turn": 353,
+      "role": "crowd",
+      "text": "They're nervous"
+    },
+    {
+      "turn": 359,
+      "role": "crowd",
+      "text": "Don't get it but it's peak"
     },
     {
       "turn": 361,
       "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 14–10."
+      "text": "GPT-6.1 Sol again! 14–10. Nobody stops him!"
     },
     {
       "turn": 361,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Another one!"
+    },
+    {
+      "turn": 366,
+      "role": "crowd",
+      "text": "bait used to be believable"
+    },
+    {
+      "turn": 367,
+      "role": "crowd",
+      "text": "I'm cooked"
     },
     {
       "turn": 370,
       "role": "caster",
-      "text": "Capture for Player4, and it's 14–10."
+      "text": "Flag in! Player4 banks another one. 14–10!"
     },
     {
       "turn": 370,
       "role": "crowd",
-      "text": "Player4!!!"
+      "text": "Clean!"
+    },
+    {
+      "turn": 372,
+      "role": "crowd",
+      "text": "Real ones know"
+    },
+    {
+      "turn": 373,
+      "role": "crowd",
+      "text": "NOW THIS IS MUSIC"
     },
     {
       "turn": 375,
       "role": "color",
-      "text": "It's GPT-6.1 Sol's match to lose right now: 14, 4 clear of Sonnet 5.5."
+      "text": "This is GPT-6.1 Sol's game right now: 14, keeping Sonnet 5.5 4 back. Chat, type 'easy' and we move."
+    },
+    {
+      "turn": 378,
+      "role": "crowd",
+      "text": "5D chess"
+    },
+    {
+      "turn": 379,
+      "role": "crowd",
+      "text": "Type EASY in chat"
+    },
+    {
+      "turn": 382,
+      "role": "crowd",
+      "text": "waiting room"
     },
     {
       "turn": 390,
       "role": "caster",
-      "text": "Sonnet 5.5 brings the flag home! 14–11."
+      "text": "Flag in! Sonnet 5.5 banks another one. 14–11!"
     },
     {
       "turn": 390,
       "role": "crowd",
-      "text": "Clean capture"
+      "text": "Sonnet 5.5 is him!"
     },
     {
       "turn": 392,
       "role": "crowd",
-      "text": "Another one"
+      "text": "NOW THIS IS MUSIC"
+    },
+    {
+      "turn": 396,
+      "role": "crowd",
+      "text": "I respect it"
     },
     {
       "turn": 398,
       "role": "crowd",
-      "text": "Another one"
+      "text": "Clean!"
+    },
+    {
+      "turn": 399,
+      "role": "crowd",
+      "text": "Big sheep, fast wolf"
     },
     {
       "turn": 400,
       "role": "analyst",
-      "text": "Final verdict: GPT-6.1 Sol finish on 16. Across the match they converted 76% of their pickups."
+      "text": "Final verdict: GPT-6.1 Sol take it with 16. 76% pickup conversion across the match — steal less, convert more. That's the lesson."
     }
   ]
 }
