@@ -12,6 +12,8 @@ import { loadCommentary } from '../../core/data.js';
 
 const CAPTION_TURNS = 8;   // how long a caption stays on the board
 const KNOWN_ICONS = new Set(['mic', 'chat', 'chart', 'activity', 'swords', 'flag', 'trophy', 'info']);
+const MIN_GAP = 5;           // turns between lines when a file doesn't say (matches commentary/config.json)
+const DEFAULT_PRIORITY = { analyst: 3, caster: 2, color: 1 };
 
 export function mountCommentary(store, { playback }) {
   const pane = $('#pane-commentary');
@@ -228,15 +230,31 @@ function normalize(data, lang, origin, current = null, fileName = '') {
   if (!Array.isArray(data.lines)) throw new Error('"lines" must be a list');
   const lines = data.lines
     .filter((ln) => ln && Number.isFinite(ln.turn) && typeof ln.text === 'string' && ln.text.trim())
-    .map((ln) => ({ turn: Math.round(ln.turn), role: String(ln.role || 'caster'), text: ln.text.trim() }))
+    .map((ln) => ({ turn: Math.round(ln.turn), role: String(ln.role || 'caster'), text: ln.text.trim(), key: ln.key === true }))
     .sort((a, b) => a.turn - b.turn);
   if (!lines.length) throw new Error('no usable lines');
   const known = new Map([...(current?.roles || []), ...(Array.isArray(data.roles) ? data.roles : [])].map((r) => [r.id, r]));
-  const roles = [...new Set(lines.map((ln) => ln.role))].map((id) => {
+  const priority = (id) => known.get(id)?.priority ?? DEFAULT_PRIORITY[id] ?? 0;
+  // Same spacing rule as tools/commentate.py: one line per `gap` turns across all roles
+  const spaced = spaceLines(lines, Number.isFinite(data.min_gap) ? data.min_gap : MIN_GAP, priority);
+  const roles = [...new Set(spaced.map((ln) => ln.role))].map((id) => {
     const r = known.get(id) || {};
     return { id, name: r.name || id, icon: KNOWN_ICONS.has(r.icon) ? r.icon : 'chat', caption: r.caption ?? id !== 'analyst' };
   });
-  return { language: lang, roles, lines, sources: data.sources || {}, origin, fileName };
+  return { language: lang, roles, lines: spaced, sources: data.sources || {}, origin, fileName };
+}
+
+function spaceLines(lines, gap, priority) {
+  const taken = [];
+  const kept = [];
+  // Key lines (lead changes, ties, the winner) first, then role priority, then earlier turns
+  for (const ln of [...lines].sort((a, b) => (b.key - a.key) || priority(b.role) - priority(a.role) || a.turn - b.turn)) {
+    if (taken.every((t) => Math.abs(t - ln.turn) >= gap)) {
+      kept.push(ln);
+      taken.push(ln.turn);
+    }
+  }
+  return kept.sort((a, b) => a.turn - b.turn);
 }
 
 function frameForTurn(replay, turn) {

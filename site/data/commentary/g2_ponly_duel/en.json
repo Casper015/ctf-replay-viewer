@@ -1,0 +1,313 @@
+{
+  "version": 1,
+  "match": "g2_ponly_duel",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 6,
+      "role": "caster",
+      "text": "v12_ponly_pxxl scores and takes the lead! 1–0.",
+      "key": true
+    },
+    {
+      "turn": 14,
+      "role": "caster",
+      "text": "v12_ponly_pxxl stops Player5's flag carrier!"
+    },
+    {
+      "turn": 23,
+      "role": "caster",
+      "text": "v12_ponly_pxxl scores again. 2–0 now."
+    },
+    {
+      "turn": 35,
+      "role": "caster",
+      "text": "Player5 scores again. 3–1 now."
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "v12_ponly_pxxl played furthest forward, about 6.5 cells from home on average; Player5 stayed closest to base at 5.0."
+    },
+    {
+      "turn": 61,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 5–2."
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 6–3."
+    },
+    {
+      "turn": 85,
+      "role": "caster",
+      "text": "Capture for v12_ponly_pxxl, and it's 8–3."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: v12_ponly_pxxl turned 5 of 5 pickups into points, the best conversion in this stretch. v12_ponly_pxxl led the fighting with 5 kills."
+    },
+    {
+      "turn": 109,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 10–5."
+    },
+    {
+      "turn": 115,
+      "role": "caster",
+      "text": "Capture for v12_ponly_pxxl, and it's 11–5."
+    },
+    {
+      "turn": 120,
+      "role": "caster",
+      "text": "v12_ponly_pxxl brings the flag home! 12–5."
+    },
+    {
+      "turn": 126,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 12–6."
+    },
+    {
+      "turn": 134,
+      "role": "caster",
+      "text": "v12_ponly_pxxl scores again. 13–6 now."
+    },
+    {
+      "turn": 145,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 13–8."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "v12_ponly_pxxl played furthest forward, about 8.0 cells from home on average; Player5 stayed closest to base at 6.0."
+    },
+    {
+      "turn": 156,
+      "role": "caster",
+      "text": "v12_ponly_pxxl brings the flag home! 14–9."
+    },
+    {
+      "turn": 167,
+      "role": "caster",
+      "text": "Player5 scores again. 14–11 now."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's v12_ponly_pxxl's match to lose right now: 14, 2 clear of Player5."
+    },
+    {
+      "turn": 181,
+      "role": "caster",
+      "text": "Capture for v12_ponly_pxxl, and it's 15–12."
+    },
+    {
+      "turn": 192,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 15–14."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: v12_ponly_pxxl turned 3 of 3 pickups into points, the best conversion in this stretch. v12_ponly_pxxl led the fighting with 4 kills."
+    },
+    {
+      "turn": 206,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 16–16!",
+      "key": true
+    },
+    {
+      "turn": 215,
+      "role": "caster",
+      "text": "That capture puts Player5 in front. 17–16!",
+      "key": true
+    },
+    {
+      "turn": 224,
+      "role": "caster",
+      "text": "Player5 scores again. 18–16 now."
+    },
+    {
+      "turn": 229,
+      "role": "caster",
+      "text": "Big stop: Player5 takes down the v12_ponly_pxxl carrier."
+    },
+    {
+      "turn": 236,
+      "role": "caster",
+      "text": "Player5 scores again. 19–16 now."
+    },
+    {
+      "turn": 244,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 20–16."
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "v12_ponly_pxxl played furthest forward, about 5.7 cells from home on average; Player5 stayed closest to base at 4.3."
+    },
+    {
+      "turn": 255,
+      "role": "caster",
+      "text": "v12_ponly_pxxl brings the flag home! 21–17."
+    },
+    {
+      "turn": 260,
+      "role": "caster",
+      "text": "Player5 stops v12_ponly_pxxl's flag carrier!"
+    },
+    {
+      "turn": 268,
+      "role": "caster",
+      "text": "Capture for v12_ponly_pxxl, and it's 21–18."
+    },
+    {
+      "turn": 277,
+      "role": "caster",
+      "text": "Capture for Player5, and it's 22–18."
+    },
+    {
+      "turn": 282,
+      "role": "caster",
+      "text": "v12_ponly_pxxl brings the flag home! 22–19."
+    },
+    {
+      "turn": 288,
+      "role": "caster",
+      "text": "Player5 brings the flag home! 23–19."
+    },
+    {
+      "turn": 293,
+      "role": "caster",
+      "text": "Player5 scores again. 24–19 now."
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: v12_ponly_pxxl turned 3 of 5 pickups into points, the best conversion in this stretch. v12_ponly_pxxl led the fighting with 7 kills."
+    },
+    {
+      "turn": 310,
+      "role": "caster",
+      "text": "Capture for v12_ponly_pxxl, and it's 24–21."
+    },
+    {
+      "turn": 316,
+      "role": "caster",
+      "text": "v12_ponly_pxxl stops Player5's flag carrier!"
+    },
+    {
+      "turn": 321,
+      "role": "caster",
+      "text": "v12_ponly_pxxl brings the flag home! 24–22."
+    },
+    {
+      "turn": 330,
+      "role": "caster",
+      "text": "v12_ponly_pxxl brings the flag home! 24–23."
+    },
+    {
+      "turn": 341,
+      "role": "caster",
+      "text": "That capture puts v12_ponly_pxxl in front. 25–24!",
+      "key": true
+    },
+    {
+      "turn": 347,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 25–25!",
+      "key": true
+    },
+    {
+      "turn": 353,
+      "role": "caster",
+      "text": "That capture puts Player5 in front. 26–25!",
+      "key": true
+    },
+    {
+      "turn": 358,
+      "role": "caster",
+      "text": "v12_ponly_pxxl scores to level it up. 26–26!",
+      "key": true
+    },
+    {
+      "turn": 365,
+      "role": "caster",
+      "text": "That capture puts v12_ponly_pxxl in front. 27–26!",
+      "key": true
+    },
+    {
+      "turn": 375,
+      "role": "color",
+      "text": "It's v12_ponly_pxxl's match to lose right now: 28, 2 clear of Player5."
+    },
+    {
+      "turn": 380,
+      "role": "caster",
+      "text": "Player5 scores again. 28–27 now."
+    },
+    {
+      "turn": 387,
+      "role": "caster",
+      "text": "Player5 scores to level it up. 28–28!",
+      "key": true
+    },
+    {
+      "turn": 393,
+      "role": "caster",
+      "text": "That capture puts v12_ponly_pxxl in front. 29–28!",
+      "key": true
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: v12_ponly_pxxl finish on 29. Across the match they converted 78% of their pickups."
+    }
+  ]
+}

@@ -28,7 +28,7 @@ from pathlib import Path
 
 from commentary_lib import (COMMENTARY_DIR, OUTPUT_DIR, CommentaryError, MockWriter, RefusalError, accept_lines,
                             build_prompt, check_config, load_config, load_role, load_skill, make_provider,
-                            parse_lines, today, window_facts, write_track)
+                            min_gap_any, parse_lines, role_priorities, today, window_facts, write_track)
 from ctf_data import MATCH_DIR, ROOT, load_content, read_json, write_pretty
 
 BRIEF_DIR = COMMENTARY_DIR / "briefs"
@@ -64,7 +64,7 @@ def run_track(key: str, replay: dict, meta: dict, role: dict, lang: str, config:
     for t0, t1 in windows(total, role["window"]):
         if t1 <= t_from or t0 >= t_to:
             continue
-        facts = window_facts(replay, meta, t0, t1, lang, role["context"])
+        facts = window_facts(replay, meta, t0, t1, lang, role["context"], config.get("generation", {}).get("focus"))
         last = lines[-1]["turn"] if lines else None
         if mock:
             raw = mock.lines(role, facts, replay, lang)
@@ -132,7 +132,8 @@ def cmd_prompt(args) -> None:
     replay = read_json(MATCH_DIR / f"{args.key}.json")
     role = load_role(args.role)
     t0, t1 = windows(replay["frames"][-1]["turn"], role["window"])[args.window]
-    system, user = build_prompt(role, args.lang, config, window_facts(replay, meta, t0, t1, args.lang, role["context"]), [])
+    facts = window_facts(replay, meta, t0, t1, args.lang, role["context"], config.get("generation", {}).get("focus"))
+    system, user = build_prompt(role, args.lang, config, facts, [])
     print("=== system ===\n" + system + "\n\n=== user ===\n" + user)
 
 
@@ -149,6 +150,8 @@ def cmd_export(args) -> None:
     total = replay["frames"][-1]["turn"]
     language = config["languages"][lang]
     role_ids = args.roles or config["roles"]
+    focus = config.get("generation", {}).get("focus")
+    big = bool(focus) and replay["header"]["teams"] > focus.get("when_teams_over", 4)
 
     parts = [
         f"# Commentary brief: {meta['title'].get(lang) or meta['title']['en']}",
@@ -171,9 +174,19 @@ def cmd_export(args) -> None:
         "```",
         "",
         "- `turn` is the turn the line refers to (0 to %d). Lines can be in any order." % total,
+        "- Optional `\"key\": true` marks a lead change, a tie at the top or the winning capture. Key lines always keep their slot.",
         f"- `role` is one of: {', '.join(f'`{r}`' for r in role_ids)}.",
         f"- Every `text` is written in {language['english_name']} and at most {language['max_chars']} characters.",
         "- Follow each role's pacing below: how many lines per window and the minimum gap between its lines.",
+        f"- Across all roles, at most one line every {min_gap_any(config)} turns. Where two roles would speak within "
+        f"{min_gap_any(config)} turns, keep the higher-priority one: "
+        + " > ".join(f"`{r}`" for r in sorted(role_ids, key=lambda r: -role_priorities(config).get(r, 0))) + ". "
+        "Lines closer than that are dropped on import.",
+        *([f"- This match has {replay['header']['teams']} teams. Follow only the contenders, the top "
+           f"{focus.get('top', 3)} teams by score, listed in each window under `focus` (they change as the match "
+           "goes). Don't narrate every team; mention others only when they directly affect a contender, "
+           "for example by stopping a leader's flag carrier. Each window only lists events that involve contenders."]
+          if big else []),
         "",
         f"Publish it with: `python3 tools/commentate.py import {args.key}.{lang}.json`",
         "",
@@ -216,7 +229,7 @@ def cmd_export(args) -> None:
         context = ["events", "standings", "window_stats"]
         if t1 % 50 == 0 or t1 == total:
             context += ["positions", "orders"]
-        facts = window_facts(replay, meta, t0, t1, lang, context)
+        facts = window_facts(replay, meta, t0, t1, lang, context, focus)
         facts.pop("match")
         parts += [f"### Turns {t0 + 1}–{t1}", "", "```json", json.dumps(facts, ensure_ascii=False, separators=(",", ":")), "```", ""]
 
@@ -268,12 +281,16 @@ def cmd_import(args) -> None:
     errs = validate_offline(data, config, replay["frames"][-1]["turn"], lang)
     if errs:
         sys.exit(f"error: {path} has problems:\n  - " + "\n  - ".join(errs))
-    lines = [{"turn": ln["turn"], "role": ln["role"], "text": ln["text"].strip()} for ln in data["lines"]]
+    lines = [{"turn": ln["turn"], "role": ln["role"], "text": ln["text"].strip(), **({"key": True} if ln.get("key") is True else {})}
+             for ln in data["lines"]]
     roles = [load_role(r) for r in config["roles"] if any(ln["role"] == r for ln in lines)]
     src = data.get("source") or {}
     source = {"provider": src.get("provider") or "offline", "model": src.get("model"), "generated": today()}
     out = write_track(key, lang, config, lines, roles, source)
-    print(f"imported {len(lines)} lines ({', '.join(r['id'] for r in roles)}) -> {out.relative_to(ROOT)}")
+    kept = len(read_json(out)["lines"])
+    dropped = len(lines) - kept
+    print(f"imported {kept} lines ({', '.join(r['id'] for r in roles)}) -> {out.relative_to(ROOT)}"
+          + (f"; dropped {dropped} closer than {min_gap_any(config)} turns to another line" if dropped > 0 else ""))
     rebuild_catalog()
 
 
@@ -298,6 +315,12 @@ def cmd_check(_args) -> None:
                     continue
                 data = read_json(f)
                 errs += [f"{rel}: {e}" for e in validate_offline(data, config, total, lang)]
+                turns = sorted(ln["turn"] for ln in data.get("lines", []))
+                gap = min_gap_any(config)
+                close = [(a, b) for a, b in zip(turns, turns[1:]) if b - a < gap]
+                if close:
+                    errs.append(f"{rel}: lines at turns {close[0][0]} and {close[0][1]} are closer than {gap} turns "
+                                f"(re-run generate/import to re-space)")
                 ids = {r["id"] for r in data.get("roles", [])}
                 missing = {ln.get("role") for ln in data.get("lines", [])} - ids
                 if missing:

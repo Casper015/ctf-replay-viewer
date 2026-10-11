@@ -2,83 +2,70 @@
   "version": 1,
   "match": "g4_three_way",
   "language": "zh",
+  "min_gap": 5,
   "roles": [
     {
       "id": "caster",
       "name": "解说",
       "icon": "mic",
-      "caption": true
+      "caption": true,
+      "priority": 2
     },
     {
       "id": "color",
       "name": "嘉宾点评",
       "icon": "chat",
-      "caption": true
+      "caption": true,
+      "priority": 1
     },
     {
       "id": "analyst",
       "name": "战术分析师",
       "icon": "chart",
-      "caption": false
+      "caption": false,
+      "priority": 3
     }
   ],
   "sources": {
     "caster": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     },
     "color": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     },
     "analyst": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     }
   },
   "lines": [
     {
       "turn": 10,
       "role": "caster",
-      "text": "Fable 5.1 扳平比分，1:1！"
+      "text": "Fable 5.1 扳平比分，1:1！",
+      "key": true
     },
     {
       "turn": 24,
       "role": "caster",
-      "text": "Player3 扳平比分，1:1！"
-    },
-    {
-      "turn": 25,
-      "role": "color",
-      "text": "榜首胶着，Player3、Fable 5.1、GPT-6.1 Sol 都是 1 分。"
+      "text": "Player3 扳平比分，1:1！",
+      "key": true
     },
     {
       "turn": 31,
       "role": "caster",
-      "text": "这一球让 Fable 5.1 领先了，2:1！"
+      "text": "这一球让 Fable 5.1 领先了，2:1！",
+      "key": true
     },
     {
       "turn": 40,
       "role": "caster",
       "text": "Fable 5.1 再下一城，比分 3:1。"
-    },
-    {
-      "turn": 42,
-      "role": "caster",
-      "text": "这一回合倒下了 3 个单位，中路打得太激烈了！"
-    },
-    {
-      "turn": 44,
-      "role": "caster",
-      "text": "Fable 5.1 截下了 DeepSeek V4.1 Flash 的持旗者！"
-    },
-    {
-      "turn": 50,
-      "role": "color",
-      "text": "Fable 5.1 拿到 3 分，领先 Player3 2 分。这一段最活跃的是 Fable 5.1，打进 2 球。"
     },
     {
       "turn": 50,
@@ -91,19 +78,9 @@
       "text": "Fable 5.1 交旗成功！4:1。"
     },
     {
-      "turn": 59,
-      "role": "caster",
-      "text": "Fable 5.1 得分，现在是 5:1。"
-    },
-    {
       "turn": 70,
       "role": "caster",
       "text": "GPT-6.1 Sol 再下一城，比分 5:2。"
-    },
-    {
-      "turn": 72,
-      "role": "caster",
-      "text": "Fable 5.1 交旗成功！6:2。"
     },
     {
       "turn": 75,
@@ -117,23 +94,8 @@
     },
     {
       "turn": 100,
-      "role": "color",
-      "text": "Fable 5.1 拿到 6 分，领先 Player3 4 分。这一段最活跃的是 Player3，打进 1 球。"
-    },
-    {
-      "turn": 100,
       "role": "analyst",
       "text": "第 51–100 回合：Fable 5.1 拾旗 2 次转化 3 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 4 次击杀主导了交火。"
-    },
-    {
-      "turn": 102,
-      "role": "caster",
-      "text": "GPT-6.1 Sol 交旗成功！6:3。"
-    },
-    {
-      "turn": 105,
-      "role": "caster",
-      "text": "GPT-6.1 Sol 交旗成功！6:4。"
     },
     {
       "turn": 121,
@@ -141,34 +103,14 @@
       "text": "DeepSeek V4.1 Flash 再下一城，比分 6:4。"
     },
     {
-      "turn": 125,
-      "role": "color",
-      "text": "现在主动权在 Fable 5.1 手里：6 分，领先 GPT-6.1 Sol 2 分。"
-    },
-    {
       "turn": 131,
       "role": "caster",
       "text": "Fable 5.1 得分，现在是 7:4。"
     },
     {
-      "turn": 134,
-      "role": "caster",
-      "text": "DeepSeek V4.1 Flash 得分，现在是 7:4。"
-    },
-    {
       "turn": 144,
       "role": "caster",
       "text": "Fable 5.1 交旗成功！8:4。"
-    },
-    {
-      "turn": 147,
-      "role": "caster",
-      "text": "DeepSeek V4.1 Flash 交旗成功！8:4。"
-    },
-    {
-      "turn": 150,
-      "role": "color",
-      "text": "Fable 5.1 拿到 8 分，领先 DeepSeek V4.1 Flash 4 分。这一段最活跃的是 Fable 5.1，打进 2 球。"
     },
     {
       "turn": 150,
@@ -196,49 +138,21 @@
       "text": "GPT-6.1 Sol 再下一城，比分 8:6。"
     },
     {
-      "turn": 175,
-      "role": "color",
-      "text": "现在主动权在 Fable 5.1 手里：8 分，领先 GPT-6.1 Sol 2 分。"
-    },
-    {
-      "turn": 184,
-      "role": "caster",
-      "text": "Fable 5.1 截下了 GPT-6.1 Sol 的持旗者！"
-    },
-    {
       "turn": 187,
       "role": "caster",
       "text": "GPT-6.1 Sol 再下一城，比分 8:7。"
     },
     {
-      "turn": 189,
-      "role": "caster",
-      "text": "Player3 交旗成功！8:7。"
-    },
-    {
-      "turn": 200,
-      "role": "color",
-      "text": "Fable 5.1 拿到 8 分，领先 GPT-6.1 Sol 1 分。这一段最活跃的是 Player3，打进 1 球。"
-    },
-    {
-      "turn": 200,
-      "role": "analyst",
-      "text": "第 151–200 回合：Player3 拾旗 2 次转化 2 次，是这一段转化率最高的队伍；Fable 5.1 以 10 次击杀主导了交火。"
-    },
-    {
       "turn": 201,
       "role": "caster",
-      "text": "GPT-6.1 Sol 扳平比分，8:8！"
+      "text": "GPT-6.1 Sol 扳平比分，8:8！",
+      "key": true
     },
     {
       "turn": 219,
       "role": "caster",
-      "text": "这一球让 GPT-6.1 Sol 领先了，9:8！"
-    },
-    {
-      "turn": 221,
-      "role": "caster",
-      "text": "DeepSeek V4.1 Flash 得分，现在是 9:8。"
+      "text": "这一球让 GPT-6.1 Sol 领先了，9:8！",
+      "key": true
     },
     {
       "turn": 225,
@@ -248,22 +162,8 @@
     {
       "turn": 233,
       "role": "caster",
-      "text": "Fable 5.1 扳平比分，9:9！"
-    },
-    {
-      "turn": 236,
-      "role": "caster",
-      "text": "这一回合倒下了 3 个单位，中路打得太激烈了！"
-    },
-    {
-      "turn": 247,
-      "role": "caster",
-      "text": "DeepSeek V4.1 Flash 再下一城，比分 9:9。"
-    },
-    {
-      "turn": 250,
-      "role": "color",
-      "text": "难分高下：Fable 5.1、GPT-6.1 Sol 同为 9 分，接下来每一球都会改变领先者。"
+      "text": "Fable 5.1 扳平比分，9:9！",
+      "key": true
     },
     {
       "turn": 250,
@@ -273,7 +173,8 @@
     {
       "turn": 256,
       "role": "caster",
-      "text": "GPT-6.1 Sol 得分并反超！10:9！"
+      "text": "GPT-6.1 Sol 得分并反超！10:9！",
+      "key": true
     },
     {
       "turn": 261,
@@ -286,19 +187,16 @@
       "text": "DeepSeek V4.1 Flash 得分，现在是 10:9。"
     },
     {
-      "turn": 275,
-      "role": "color",
-      "text": "现在主动权在 GPT-6.1 Sol 手里：10 分，领先 Fable 5.1 1 分。"
-    },
-    {
       "turn": 276,
       "role": "caster",
-      "text": "Fable 5.1 扳平比分，10:10！"
+      "text": "Fable 5.1 扳平比分，10:10！",
+      "key": true
     },
     {
       "turn": 282,
       "role": "caster",
-      "text": "GPT-6.1 Sol 得分并反超！11:10！"
+      "text": "GPT-6.1 Sol 得分并反超！11:10！",
+      "key": true
     },
     {
       "turn": 289,
@@ -307,23 +205,8 @@
     },
     {
       "turn": 300,
-      "role": "color",
-      "text": "GPT-6.1 Sol 拿到 11 分，领先 Fable 5.1 1 分。这一段最活跃的是 Fable 5.1，打进 1 球。"
-    },
-    {
-      "turn": 300,
       "role": "analyst",
       "text": "第 251–300 回合：GPT-6.1 Sol 拾旗 1 次转化 2 次，是这一段转化率最高的队伍；GPT-6.1 Sol 以 7 次击杀主导了交火。"
-    },
-    {
-      "turn": 301,
-      "role": "caster",
-      "text": "Player3 再下一城，比分 11:10。"
-    },
-    {
-      "turn": 304,
-      "role": "caster",
-      "text": "Player3 再下一城，比分 11:10。"
     },
     {
       "turn": 316,
@@ -331,44 +214,15 @@
       "text": "DeepSeek V4.1 Flash 再下一城，比分 11:10。"
     },
     {
-      "turn": 320,
-      "role": "caster",
-      "text": "Player3 得分，现在是 11:10。"
-    },
-    {
-      "turn": 325,
-      "role": "color",
-      "text": "现在主动权在 GPT-6.1 Sol 手里：11 分，领先 Fable 5.1 1 分。"
-    },
-    {
       "turn": 329,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash 得分，现在是 11:10。"
     },
     {
-      "turn": 333,
-      "role": "caster",
-      "text": "Fable 5.1 扳平比分，11:11！"
-    },
-    {
       "turn": 343,
       "role": "caster",
-      "text": "这一球让 Fable 5.1 领先了，12:11！"
-    },
-    {
-      "turn": 347,
-      "role": "caster",
-      "text": "关键拦截！GPT-6.1 Sol 放倒了 DeepSeek V4.1 Flash 的持旗单位。"
-    },
-    {
-      "turn": 350,
-      "role": "caster",
-      "text": "这一回合倒下了 4 个单位，中路打得太激烈了！"
-    },
-    {
-      "turn": 350,
-      "role": "color",
-      "text": "Fable 5.1 拿到 12 分，领先 GPT-6.1 Sol 1 分。这一段最活跃的是 Fable 5.1，打进 2 球。"
+      "text": "这一球让 Fable 5.1 领先了，12:11！",
+      "key": true
     },
     {
       "turn": 350,
@@ -378,22 +232,13 @@
     {
       "turn": 356,
       "role": "caster",
-      "text": "GPT-6.1 Sol 扳平比分，12:12！"
+      "text": "GPT-6.1 Sol 扳平比分，12:12！",
+      "key": true
     },
     {
       "turn": 368,
       "role": "caster",
       "text": "GPT-6.1 Sol 截下了 Fable 5.1 的持旗者！"
-    },
-    {
-      "turn": 371,
-      "role": "caster",
-      "text": "Player3 得分，现在是 12:12。"
-    },
-    {
-      "turn": 375,
-      "role": "color",
-      "text": "榜首胶着，Fable 5.1、GPT-6.1 Sol 都是 12 分。"
     },
     {
       "turn": 376,
@@ -403,12 +248,8 @@
     {
       "turn": 390,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash 扳平比分，12:12！"
-    },
-    {
-      "turn": 400,
-      "role": "color",
-      "text": "难分高下：Fable 5.1、DeepSeek V4.1 Flash、GPT-6.1 Sol 同为 12 分，接下来每一球都会改变领先者。"
+      "text": "DeepSeek V4.1 Flash 扳平比分，12:12！",
+      "key": true
     },
     {
       "turn": 400,

@@ -66,6 +66,10 @@
   "roles": ["caster", "color", "analyst"],
 
   "generation": {
+    "$min_turns_between_lines": "No two lines (from any roles) closer than this many turns. When roles collide, the higher role priority keeps the slot.",
+    "min_turns_between_lines": 5,
+    "$focus": "In big matches, commentators follow the contenders (top teams) instead of narrating every team. Applies when a match has more than 'when_teams_over' teams; 'top' teams by score are the contenders (ties included).",
+    "focus": { "when_teams_over": 4, "top": 3 },
     "previous_lines": 3,
     "max_retries": 2,
     "jobs": 4

@@ -7,5 +7,6 @@
   "min_gap": 8,
   "length": "medium",
   "context": ["events", "standings", "window_stats"],
+  "priority": 1,
   "caption": true
 }

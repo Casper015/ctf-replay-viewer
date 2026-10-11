@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "match": "g8_astra_c08xl",
+  "language": "zh",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "解说",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "嘉宾点评",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "战术分析师",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "c08_ponly_xxl 截下了 c08_ponly_xl 的持旗者！"
+    },
+    {
+      "turn": 20,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分并反超！1:0！",
+      "key": true
+    },
+    {
+      "turn": 25,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，1:1！",
+      "key": true
+    },
+    {
+      "turn": 33,
+      "role": "caster",
+      "text": "c08_ponly_xl 交旗成功！2:1。"
+    },
+    {
+      "turn": 46,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，2:2！",
+      "key": true
+    },
+    {
+      "turn": 51,
+      "role": "caster",
+      "text": "v12_ponly_xl 交旗成功！2:2。"
+    },
+    {
+      "turn": 62,
+      "role": "caster",
+      "text": "c08_ponly_xl 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 67,
+      "role": "caster",
+      "text": "关键拦截！c08_ponly_xxl 放倒了 c08_ponly_xl 的持旗单位。"
+    },
+    {
+      "turn": 73,
+      "role": "caster",
+      "text": "这一球让 GPT-6 Astra 领先了，3:2！",
+      "key": true
+    },
+    {
+      "turn": 79,
+      "role": "caster",
+      "text": "c08_ponly_xxl 扳平比分，3:3！",
+      "key": true
+    },
+    {
+      "turn": 96,
+      "role": "caster",
+      "text": "c08_ponly_xl 交旗成功！3:3。"
+    },
+    {
+      "turn": 101,
+      "role": "caster",
+      "text": "这一球让 GPT-6 Astra 领先了，4:3！",
+      "key": true
+    },
+    {
+      "turn": 106,
+      "role": "caster",
+      "text": "c08_ponly_xl 截下了 c08_ponly_xxl 的持旗者！"
+    },
+    {
+      "turn": 112,
+      "role": "caster",
+      "text": "GPT-6.1 Sol 再下一城，比分 4:3。"
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "v12_ponly_xxl 再下一城，比分 4:3。"
+    },
+    {
+      "turn": 127,
+      "role": "caster",
+      "text": "c08_ponly_xl 再下一城，比分 4:3。"
+    },
+    {
+      "turn": 145,
+      "role": "caster",
+      "text": "v12_ponly_xl 扳平比分，4:4！",
+      "key": true
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 15.0 格；v12_ponly_xl 最保守，平均只有 7.0 格。"
+    },
+    {
+      "turn": 155,
+      "role": "caster",
+      "text": "Fable 5.1 得分，现在是 4:4。"
+    },
+    {
+      "turn": 165,
+      "role": "caster",
+      "text": "c08_ponly_xl 扳平比分，4:4！",
+      "key": true
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "榜首胶着，c08_ponly_xl、c08_ponly_xxl、v12_ponly_xl 都是 4 分。"
+    },
+    {
+      "turn": 180,
+      "role": "caster",
+      "text": "c08_ponly_xxl 得分并反超！5:4！",
+      "key": true
+    },
+    {
+      "turn": 190,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，5:5！",
+      "key": true
+    },
+    {
+      "turn": 195,
+      "role": "caster",
+      "text": "关键拦截！c08_ponly_xl 放倒了 Fable 5.1 的持旗单位。"
+    },
+    {
+      "turn": 201,
+      "role": "caster",
+      "text": "这一球让 c08_ponly_xxl 领先了，6:5！",
+      "key": true
+    },
+    {
+      "turn": 206,
+      "role": "caster",
+      "text": "v12_ponly_xl 得分，现在是 6:5。"
+    },
+    {
+      "turn": 212,
+      "role": "caster",
+      "text": "v12_ponly_xl 扳平比分，6:6！",
+      "key": true
+    },
+    {
+      "turn": 229,
+      "role": "caster",
+      "text": "c08_ponly_xl 再下一城，比分 6:6。"
+    },
+    {
+      "turn": 235,
+      "role": "caster",
+      "text": "关键拦截！c08_ponly_xxl 放倒了 v12_ponly_xl 的持旗单位。"
+    },
+    {
+      "turn": 243,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，6:6！",
+      "key": true
+    },
+    {
+      "turn": 250,
+      "role": "analyst",
+      "text": "c08_ponly_xxl 站位最靠前，单位平均离本方基地约 11.0 格；v12_ponly_xl 最保守，平均只有 6.0 格。"
+    },
+    {
+      "turn": 257,
+      "role": "caster",
+      "text": "关键拦截！c08_ponly_xl 放倒了 v12_ponly_xl 的持旗单位。"
+    },
+    {
+      "turn": 264,
+      "role": "caster",
+      "text": "c08_ponly_xl 交旗成功！7:6。"
+    },
+    {
+      "turn": 271,
+      "role": "caster",
+      "text": "关键拦截！v12_ponly_xxl 放倒了 c08_ponly_xxl 的持旗单位。"
+    },
+    {
+      "turn": 278,
+      "role": "caster",
+      "text": "c08_ponly_xxl 截下了 v12_ponly_xl 的持旗者！"
+    },
+    {
+      "turn": 284,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，7:7！",
+      "key": true
+    },
+    {
+      "turn": 298,
+      "role": "caster",
+      "text": "c08_ponly_xl 扳平比分，7:7！",
+      "key": true
+    },
+    {
+      "turn": 305,
+      "role": "caster",
+      "text": "这一球让 c08_ponly_xl 领先了，8:7！",
+      "key": true
+    },
+    {
+      "turn": 319,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，8:8！",
+      "key": true
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "这一球让 c08_ponly_xl 领先了，9:8！",
+      "key": true
+    },
+    {
+      "turn": 339,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，9:9！",
+      "key": true
+    },
+    {
+      "turn": 344,
+      "role": "caster",
+      "text": "c08_ponly_xl 得分并反超！10:9！",
+      "key": true
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "GPT-6 Astra 站位最靠前，单位平均离本方基地约 12.0 格；v12_ponly_xl 最保守，平均只有 7.0 格。"
+    },
+    {
+      "turn": 362,
+      "role": "caster",
+      "text": "GPT-6 Astra 扳平比分，10:10！",
+      "key": true
+    },
+    {
+      "turn": 373,
+      "role": "caster",
+      "text": "这一球让 GPT-6 Astra 领先了，11:10！",
+      "key": true
+    },
+    {
+      "turn": 392,
+      "role": "caster",
+      "text": "v12_ponly_xxl 截下了 GPT-6 Astra 的持旗者！"
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "终场结论：GPT-6 Astra 以 11 分收官，全场拾旗转化率 58%。"
+    }
+  ]
+}

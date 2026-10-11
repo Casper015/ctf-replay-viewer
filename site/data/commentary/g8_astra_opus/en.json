@@ -2,53 +2,53 @@
   "version": 1,
   "match": "g8_astra_opus",
   "language": "en",
+  "min_gap": 5,
   "roles": [
     {
       "id": "caster",
       "name": "Caster",
       "icon": "mic",
-      "caption": true
+      "caption": true,
+      "priority": 2
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
-      "caption": true
+      "caption": true,
+      "priority": 1
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
-      "caption": false
+      "caption": false,
+      "priority": 3
     }
   ],
   "sources": {
     "caster": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     },
     "color": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     },
     "analyst": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     }
   },
   "lines": [
     {
-      "turn": 12,
-      "role": "caster",
-      "text": "Baseline stops Player6's flag carrier!"
-    },
-    {
       "turn": 16,
       "role": "caster",
-      "text": "Fable 5.1 scores to level it up. 1–1!"
+      "text": "Fable 5.1 scores to level it up. 1–1!",
+      "key": true
     },
     {
       "turn": 25,
@@ -56,14 +56,10 @@
       "text": "Dead even at the top, Player5 and Fable 5.1 and GPT-6 Astra on 1 each."
     },
     {
-      "turn": 30,
+      "turn": 31,
       "role": "caster",
-      "text": "Opus 5.5 stops GLM 5.3's flag carrier!"
-    },
-    {
-      "turn": 33,
-      "role": "caster",
-      "text": "Player5 scores to level it up. 2–2!"
+      "text": "That capture puts Fable 5.1 in front. 2–1!",
+      "key": true
     },
     {
       "turn": 36,
@@ -73,47 +69,19 @@
     {
       "turn": 45,
       "role": "caster",
-      "text": "That capture puts Fable 5.1 in front. 3–2!"
-    },
-    {
-      "turn": 48,
-      "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 3–2."
-    },
-    {
-      "turn": 50,
-      "role": "color",
-      "text": "Fable 5.1 have 3 and a 1-point cushion over Player5. Fable 5.1 made the most noise in this stretch with 2 captures."
+      "text": "That capture puts Fable 5.1 in front. 3–2!",
+      "key": true
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "DeepSeek V4.1 Flash played furthest forward, about 17.0 cells from home on average; Player6 stayed closest to base at 5.0."
-    },
-    {
-      "turn": 53,
-      "role": "caster",
-      "text": "Big stop: Opus 5.5 takes down the DeepSeek V4.1 Flash carrier."
-    },
-    {
-      "turn": 58,
-      "role": "caster",
-      "text": "Fable 5.1 stops Baseline's flag carrier!"
-    },
-    {
-      "turn": 60,
-      "role": "caster",
-      "text": "Opus 5.5 stops GLM 5.3's flag carrier!"
-    },
-    {
-      "turn": 64,
-      "role": "caster",
-      "text": "Capture for Opus 5.5, and it's 3–2."
+      "text": "Player5 played furthest forward, about 15.0 cells from home on average; GPT-6 Astra stayed closest to base at 5.5."
     },
     {
       "turn": 67,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 3–3!"
+      "text": "Opus 5.5 scores to level it up. 3–3!",
+      "key": true
     },
     {
       "turn": 72,
@@ -121,59 +89,16 @@
       "text": "Player6 stops Fable 5.1's flag carrier!"
     },
     {
-      "turn": 75,
-      "role": "color",
-      "text": "Dead even at the top, Opus 5.5 and Fable 5.1 on 3 each."
-    },
-    {
-      "turn": 78,
-      "role": "caster",
-      "text": "Player5 stops Player6's flag carrier!"
-    },
-    {
       "turn": 82,
       "role": "caster",
-      "text": "Capture for Baseline, and it's 3–3."
-    },
-    {
-      "turn": 86,
-      "role": "caster",
-      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
-    },
-    {
-      "turn": 90,
-      "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 3–3."
-    },
-    {
-      "turn": 92,
-      "role": "caster",
-      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
-    },
-    {
-      "turn": 96,
-      "role": "caster",
-      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
+      "text": "Player5 scores to level it up. 3–3!",
+      "key": true
     },
     {
       "turn": 98,
       "role": "caster",
-      "text": "Opus 5.5 scores and takes the lead! 4–3."
-    },
-    {
-      "turn": 100,
-      "role": "color",
-      "text": "Opus 5.5 have 4 and a 1-point cushion over Player5. Opus 5.5 made the most noise in this stretch with 1 captures."
-    },
-    {
-      "turn": 100,
-      "role": "analyst",
-      "text": "Turns 51–100: Player5 turned 1 of 1 pickups into points, the best conversion in this stretch. Fable 5.1 led the fighting with 6 kills."
-    },
-    {
-      "turn": 104,
-      "role": "caster",
-      "text": "Baseline stops Fable 5.1's flag carrier!"
+      "text": "Opus 5.5 scores and takes the lead! 4–3.",
+      "key": true
     },
     {
       "turn": 108,
@@ -186,11 +111,6 @@
       "text": "GPT-6 Astra brings the flag home! 5–3."
     },
     {
-      "turn": 117,
-      "role": "caster",
-      "text": "DeepSeek V4.1 Flash brings the flag home! 5–3."
-    },
-    {
       "turn": 120,
       "role": "caster",
       "text": "Player5 brings the flag home! 5–4."
@@ -199,21 +119,6 @@
       "turn": 125,
       "role": "color",
       "text": "It's Opus 5.5's match to lose right now: 5, 1 clear of Player5."
-    },
-    {
-      "turn": 126,
-      "role": "caster",
-      "text": "Player6 brings the flag home! 5–4."
-    },
-    {
-      "turn": 131,
-      "role": "caster",
-      "text": "Big stop: Fable 5.1 takes down the Baseline carrier."
-    },
-    {
-      "turn": 135,
-      "role": "caster",
-      "text": "Big stop: Player5 takes down the Opus 5.5 carrier."
     },
     {
       "turn": 137,
@@ -226,24 +131,9 @@
       "text": "Capture for Fable 5.1, and it's 6–5."
     },
     {
-      "turn": 144,
-      "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 6–5."
-    },
-    {
-      "turn": 150,
-      "role": "color",
-      "text": "Opus 5.5 have 6 and a 1-point cushion over Player5. Fable 5.1 made the most noise in this stretch with 2 captures."
-    },
-    {
       "turn": 150,
       "role": "analyst",
-      "text": "DeepSeek V4.1 Flash played furthest forward, about 16.5 cells from home on average; GLM 5.3 stayed closest to base at 5.7."
-    },
-    {
-      "turn": 153,
-      "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 7–5."
+      "text": "Player5 played furthest forward, about 8.7 cells from home on average; Opus 5.5 stayed closest to base at 6.0."
     },
     {
       "turn": 158,
@@ -251,29 +141,9 @@
       "text": "Baseline stops Player5's flag carrier!"
     },
     {
-      "turn": 160,
-      "role": "caster",
-      "text": "Capture for Baseline, and it's 7–5."
-    },
-    {
-      "turn": 162,
-      "role": "caster",
-      "text": "Player5 brings the flag home! 7–6."
-    },
-    {
       "turn": 169,
       "role": "caster",
       "text": "Capture for GPT-6 Astra, and it's 7–6."
-    },
-    {
-      "turn": 175,
-      "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 7, 1 clear of Player5."
-    },
-    {
-      "turn": 176,
-      "role": "caster",
-      "text": "GPT-6 Astra stops DeepSeek V4.1 Flash's flag carrier!"
     },
     {
       "turn": 179,
@@ -281,29 +151,9 @@
       "text": "Opus 5.5 scores again. 8–6 now."
     },
     {
-      "turn": 183,
-      "role": "caster",
-      "text": "Player5 brings the flag home! 8–7."
-    },
-    {
-      "turn": 186,
-      "role": "caster",
-      "text": "Fable 5.1 stops DeepSeek V4.1 Flash's flag carrier!"
-    },
-    {
       "turn": 189,
       "role": "caster",
       "text": "GPT-6 Astra brings the flag home! 8–7."
-    },
-    {
-      "turn": 198,
-      "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 8–7."
-    },
-    {
-      "turn": 200,
-      "role": "color",
-      "text": "Opus 5.5 have 8 and a 1-point cushion over Player5. Opus 5.5 made the most noise in this stretch with 1 captures."
     },
     {
       "turn": 200,
@@ -311,24 +161,9 @@
       "text": "Turns 151–200: Opus 5.5 turned 2 of 2 pickups into points, the best conversion in this stretch. Player5 led the fighting with 7 kills."
     },
     {
-      "turn": 203,
-      "role": "caster",
-      "text": "Big stop: Opus 5.5 takes down the GLM 5.3 carrier."
-    },
-    {
       "turn": 209,
       "role": "caster",
       "text": "GPT-6 Astra scores again. 8–7 now."
-    },
-    {
-      "turn": 213,
-      "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 9–7."
-    },
-    {
-      "turn": 216,
-      "role": "caster",
-      "text": "Player5 brings the flag home! 9–8."
     },
     {
       "turn": 218,
@@ -341,34 +176,15 @@
       "text": "It's Opus 5.5's match to lose right now: 9, 1 clear of Player5."
     },
     {
-      "turn": 228,
-      "role": "caster",
-      "text": "Baseline brings the flag home! 9–8."
-    },
-    {
       "turn": 230,
       "role": "caster",
       "text": "GPT-6 Astra scores again. 9–8 now."
     },
     {
-      "turn": 235,
-      "role": "caster",
-      "text": "Big stop: GPT-6 Astra takes down the DeepSeek V4.1 Flash carrier."
-    },
-    {
       "turn": 243,
       "role": "caster",
-      "text": "GPT-6 Astra scores to level it up. 9–9!"
-    },
-    {
-      "turn": 245,
-      "role": "caster",
-      "text": "Player5 scores to level it up. 9–9!"
-    },
-    {
-      "turn": 250,
-      "role": "color",
-      "text": "Nothing to separate them: Opus 5.5 and Player5 and GPT-6 Astra are level on 9. Every capture from here is a lead change."
+      "text": "GPT-6 Astra scores to level it up. 9–9!",
+      "key": true
     },
     {
       "turn": 250,
@@ -376,34 +192,22 @@
       "text": "Opus 5.5 played furthest forward, about 10.3 cells from home on average; Player5 stayed closest to base at 6.0."
     },
     {
-      "turn": 256,
-      "role": "caster",
-      "text": "Capture for Baseline, and it's 9–9."
-    },
-    {
       "turn": 261,
       "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 10–9!"
+      "text": "That capture puts GPT-6 Astra in front. 10–9!",
+      "key": true
     },
     {
       "turn": 269,
       "role": "caster",
-      "text": "Player5 scores to level it up. 10–10!"
+      "text": "Player5 scores to level it up. 10–10!",
+      "key": true
     },
     {
       "turn": 275,
       "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 11–10!"
-    },
-    {
-      "turn": 275,
-      "role": "color",
-      "text": "It's GPT-6 Astra's match to lose right now: 11, 1 clear of Player5."
-    },
-    {
-      "turn": 279,
-      "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 12–10."
+      "text": "That capture puts GPT-6 Astra in front. 11–10!",
+      "key": true
     },
     {
       "turn": 281,
@@ -411,49 +215,14 @@
       "text": "Big stop: Opus 5.5 takes down the GPT-6 Astra carrier."
     },
     {
-      "turn": 288,
-      "role": "caster",
-      "text": "Opus 5.5 stops GLM 5.3's flag carrier!"
-    },
-    {
       "turn": 291,
       "role": "caster",
       "text": "GPT-6 Astra brings the flag home! 13–10."
     },
     {
-      "turn": 295,
-      "role": "caster",
-      "text": "Big stop: Fable 5.1 takes down the DeepSeek V4.1 Flash carrier."
-    },
-    {
-      "turn": 300,
-      "role": "color",
-      "text": "GPT-6 Astra have 13 and a 3-point cushion over Opus 5.5. GPT-6 Astra made the most noise in this stretch with 2 captures."
-    },
-    {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: Baseline turned 2 of 1 pickups into points, the best conversion in this stretch. Player5 led the fighting with 9 kills."
-    },
-    {
-      "turn": 304,
-      "role": "caster",
-      "text": "Capture for Opus 5.5, and it's 13–11."
-    },
-    {
-      "turn": 306,
-      "role": "caster",
-      "text": "Opus 5.5 stops GLM 5.3's flag carrier!"
-    },
-    {
-      "turn": 309,
-      "role": "caster",
-      "text": "Fable 5.1 brings the flag home! 13–11."
-    },
-    {
-      "turn": 311,
-      "role": "caster",
-      "text": "Big stop: Opus 5.5 takes down the GLM 5.3 carrier."
+      "text": "Turns 251–300: Player5 turned 1 of 1 pickups into points, the best conversion in this stretch. Player5 led the fighting with 9 kills."
     },
     {
       "turn": 314,
@@ -466,19 +235,9 @@
       "text": "Capture for Opus 5.5, and it's 14–12."
     },
     {
-      "turn": 322,
-      "role": "caster",
-      "text": "Capture for Fable 5.1, and it's 14–12."
-    },
-    {
       "turn": 325,
       "role": "color",
       "text": "It's GPT-6 Astra's match to lose right now: 14, 2 clear of Opus 5.5."
-    },
-    {
-      "turn": 327,
-      "role": "caster",
-      "text": "Player6 brings the flag home! 14–12."
     },
     {
       "turn": 331,
@@ -486,34 +245,15 @@
       "text": "Capture for Player5, and it's 14–12."
     },
     {
-      "turn": 344,
+      "turn": 345,
       "role": "caster",
-      "text": "Opus 5.5 scores again. 14–13 now."
-    },
-    {
-      "turn": 350,
-      "role": "caster",
-      "text": "Opus 5.5 stops GLM 5.3's flag carrier!"
-    },
-    {
-      "turn": 350,
-      "role": "color",
-      "text": "Nothing to separate them: Opus 5.5 and GPT-6 Astra are level on 14. Every capture from here is a lead change."
+      "text": "Opus 5.5 scores to level it up. 14–14!",
+      "key": true
     },
     {
       "turn": 350,
       "role": "analyst",
-      "text": "Player5 played furthest forward, about 21.5 cells from home on average; Player6 stayed closest to base at 9.0."
-    },
-    {
-      "turn": 353,
-      "role": "caster",
-      "text": "Big stop: DeepSeek V4.1 Flash takes down the GPT-6 Astra carrier."
-    },
-    {
-      "turn": 358,
-      "role": "caster",
-      "text": "GLM 5.3 stops GPT-6 Astra's flag carrier!"
+      "text": "Player5 played furthest forward, about 21.5 cells from home on average; Opus 5.5 stayed closest to base at 11.5."
     },
     {
       "turn": 360,
@@ -521,54 +261,20 @@
       "text": "Fable 5.1 brings the flag home! 14–14."
     },
     {
-      "turn": 363,
-      "role": "caster",
-      "text": "GLM 5.3 brings the flag home! 14–14."
-    },
-    {
-      "turn": 366,
-      "role": "caster",
-      "text": "3 units go down this turn. What a fight in the middle!"
-    },
-    {
-      "turn": 369,
-      "role": "caster",
-      "text": "GLM 5.3 brings the flag home! 14–14."
-    },
-    {
       "turn": 375,
       "role": "color",
       "text": "Dead even at the top, Opus 5.5 and GPT-6 Astra on 14 each."
     },
     {
-      "turn": 380,
-      "role": "caster",
-      "text": "GLM 5.3 scores again. 14–14 now."
-    },
-    {
       "turn": 383,
       "role": "caster",
-      "text": "That capture puts GPT-6 Astra in front. 15–14!"
+      "text": "That capture puts GPT-6 Astra in front. 15–14!",
+      "key": true
     },
     {
-      "turn": 385,
+      "turn": 388,
       "role": "caster",
-      "text": "Big stop: Baseline takes down the Player5 carrier."
-    },
-    {
-      "turn": 398,
-      "role": "caster",
-      "text": "Baseline scores again. 15–14 now."
-    },
-    {
-      "turn": 400,
-      "role": "caster",
-      "text": "Opus 5.5 stops GLM 5.3's flag carrier!"
-    },
-    {
-      "turn": 400,
-      "role": "color",
-      "text": "GPT-6 Astra have 15 and a 1-point cushion over Opus 5.5. GLM 5.3 made the most noise in this stretch with 1 captures."
+      "text": "Baseline stops Player5's flag carrier!"
     },
     {
       "turn": 400,

@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "match": "g4_v12xxl_win",
+  "language": "en",
+  "min_gap": 5,
+  "roles": [
+    {
+      "id": "caster",
+      "name": "Caster",
+      "icon": "mic",
+      "caption": true,
+      "priority": 2
+    },
+    {
+      "id": "color",
+      "name": "Color commentator",
+      "icon": "chat",
+      "caption": true,
+      "priority": 1
+    },
+    {
+      "id": "analyst",
+      "name": "Analyst",
+      "icon": "chart",
+      "caption": false,
+      "priority": 3
+    }
+  ],
+  "sources": {
+    "caster": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "color": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    },
+    "analyst": {
+      "provider": "mock",
+      "model": null,
+      "generated": "2026-10-11"
+    }
+  },
+  "lines": [
+    {
+      "turn": 10,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores to level it up. 1–1!",
+      "key": true
+    },
+    {
+      "turn": 23,
+      "role": "caster",
+      "text": "That capture puts v12_ponly_xxl in front. 2–1!",
+      "key": true
+    },
+    {
+      "turn": 37,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 3–1."
+    },
+    {
+      "turn": 50,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 10.0 cells from home on average; c08_ponly_xxl stayed closest to base at 4.0."
+    },
+    {
+      "turn": 64,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 4–2."
+    },
+    {
+      "turn": 77,
+      "role": "caster",
+      "text": "v12_ponly_xxl scores again. 5–3 now."
+    },
+    {
+      "turn": 91,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 5–3."
+    },
+    {
+      "turn": 100,
+      "role": "analyst",
+      "text": "Turns 51–100: c08_ponly_xxl turned 2 of 1 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 6 kills."
+    },
+    {
+      "turn": 118,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 6–4."
+    },
+    {
+      "turn": 127,
+      "role": "caster",
+      "text": "Capture for GPT-6 Astra, and it's 6–4."
+    },
+    {
+      "turn": 132,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 6–4."
+    },
+    {
+      "turn": 140,
+      "role": "caster",
+      "text": "v12_ponly_xxl scores again. 7–4 now."
+    },
+    {
+      "turn": 145,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 7–5."
+    },
+    {
+      "turn": 150,
+      "role": "analyst",
+      "text": "GPT-6 Astra played furthest forward, about 9.0 cells from home on average; GPT-6.1 Sol stayed closest to base at 7.0."
+    },
+    {
+      "turn": 168,
+      "role": "caster",
+      "text": "GPT-6.1 Sol brings the flag home! 8–6."
+    },
+    {
+      "turn": 175,
+      "role": "color",
+      "text": "It's v12_ponly_xxl's match to lose right now: 8, 1 clear of GPT-6.1 Sol."
+    },
+    {
+      "turn": 182,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 8–7 now."
+    },
+    {
+      "turn": 200,
+      "role": "analyst",
+      "text": "Turns 151–200: GPT-6 Astra turned 1 of 1 pickups into points, the best conversion in this stretch. c08_ponly_xxl led the fighting with 7 kills."
+    },
+    {
+      "turn": 207,
+      "role": "caster",
+      "text": "Big stop: GPT-6.1 Sol takes down the c08_ponly_xxl carrier."
+    },
+    {
+      "turn": 221,
+      "role": "caster",
+      "text": "That capture puts GPT-6.1 Sol in front. 9–8!",
+      "key": true
+    },
+    {
+      "turn": 237,
+      "role": "caster",
+      "text": "v12_ponly_xxl brings the flag home! 10–9."
+    },
+    {
+      "turn": 250,
+      "role": "caster",
+      "text": "v12_ponly_xxl scores to level it up. 10–10!",
+      "key": true
+    },
+    {
+      "turn": 260,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores again. 10–10 now."
+    },
+    {
+      "turn": 273,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 10–10."
+    },
+    {
+      "turn": 290,
+      "role": "caster",
+      "text": "GPT-6.1 Sol scores and takes the lead! 11–10.",
+      "key": true
+    },
+    {
+      "turn": 300,
+      "role": "analyst",
+      "text": "Turns 251–300: c08_ponly_xxl turned 1 of 1 pickups into points, the best conversion in this stretch. v12_ponly_xxl led the fighting with 6 kills."
+    },
+    {
+      "turn": 305,
+      "role": "caster",
+      "text": "GPT-6 Astra scores again. 11–10 now."
+    },
+    {
+      "turn": 313,
+      "role": "caster",
+      "text": "GPT-6 Astra scores to level it up. 11–11!",
+      "key": true
+    },
+    {
+      "turn": 319,
+      "role": "caster",
+      "text": "Big stop: GPT-6 Astra takes down the c08_ponly_xxl carrier."
+    },
+    {
+      "turn": 327,
+      "role": "caster",
+      "text": "v12_ponly_xxl scores to level it up. 11–11!",
+      "key": true
+    },
+    {
+      "turn": 334,
+      "role": "caster",
+      "text": "v12_ponly_xxl scores and takes the lead! 12–11.",
+      "key": true
+    },
+    {
+      "turn": 341,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores again. 12–11 now."
+    },
+    {
+      "turn": 350,
+      "role": "analyst",
+      "text": "c08_ponly_xxl played furthest forward, about 9.3 cells from home on average; v12_ponly_xxl stayed closest to base at 6.0."
+    },
+    {
+      "turn": 360,
+      "role": "caster",
+      "text": "GPT-6 Astra brings the flag home! 14–12."
+    },
+    {
+      "turn": 374,
+      "role": "caster",
+      "text": "c08_ponly_xxl scores again. 14–12 now."
+    },
+    {
+      "turn": 379,
+      "role": "caster",
+      "text": "Capture for GPT-6.1 Sol, and it's 14–12."
+    },
+    {
+      "turn": 387,
+      "role": "caster",
+      "text": "v12_ponly_xxl brings the flag home! 15–12."
+    },
+    {
+      "turn": 400,
+      "role": "analyst",
+      "text": "Final verdict: v12_ponly_xxl finish on 15. Across the match they converted 79% of their pickups."
+    }
+  ]
+}

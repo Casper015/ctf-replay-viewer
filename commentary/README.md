@@ -16,6 +16,10 @@ Every match can have a commentary booth of three roles, written by any LLM (or b
 
 Viewers see the lines in the **Commentary** panel as the replay reaches each turn (no spoilers), and caster/color lines appear as **captions** on the board.
 
+Two rules keep the booth watchable (both in `config.json` → `generation`):
+- **At most one line every 5 turns**, across all roles (`min_turns_between_lines`). Lines marked `"key": true` (lead changes, ties, the winner) keep their slot first, then analyst > caster > color.
+- **Big matches follow the contenders** (`focus`): with more than 4 teams, roles only receive and talk about the top 3 teams by score. Others are mentioned only when they stop a contender's carrier.
+
 ### Files
 
 ```
@@ -100,6 +104,10 @@ python3 tools/commentate.py check     # config, roles, skills and every commenta
 | **战术分析师**（`analyst`） | 为什么：转化率、交火、站位、机器人的意图 | 约每 50 回合，以及半场和终场 |
 
 观众在**解说**面板中看到台词，回放到哪一回合才显示到哪一回合（不剧透）；解说和嘉宾的台词还会作为**字幕**显示在棋盘上。
+
+两条规则让解说不会过于密集（都在 `config.json` → `generation` 中）：
+- **每 5 个回合最多一句**，所有角色共用（`min_turns_between_lines`）。标记了 `"key": true` 的台词（领先易主、扳平、制胜球）优先保留，其次按 分析师 > 解说 > 嘉宾 的顺序。
+- **大型比赛只跟踪争冠队伍**（`focus`）：超过 4 支队伍时，角色只拿到、也只评论得分前三的队伍；其他队伍只有在截下争冠队伍的持旗者时才会被提及。
 
 ### 文件
 

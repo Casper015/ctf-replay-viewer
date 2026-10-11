@@ -2,83 +2,70 @@
   "version": 1,
   "match": "g2",
   "language": "en",
+  "min_gap": 5,
   "roles": [
     {
       "id": "caster",
       "name": "Caster",
       "icon": "mic",
-      "caption": true
+      "caption": true,
+      "priority": 2
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
-      "caption": true
+      "caption": true,
+      "priority": 1
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
-      "caption": false
+      "caption": false,
+      "priority": 3
     }
   ],
   "sources": {
     "caster": {
       "provider": "offline",
       "model": "claude-opus-5-5 (written from commentary/briefs/g2.en.md)",
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     },
     "color": {
       "provider": "offline",
       "model": "claude-opus-5-5 (written from commentary/briefs/g2.en.md)",
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     },
     "analyst": {
       "provider": "offline",
       "model": "claude-opus-5-5 (written from commentary/briefs/g2.en.md)",
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     }
   },
   "lines": [
     {
       "turn": 6,
       "role": "caster",
-      "text": "Opus 5.5 draws first blood on the scoreboard. 1–0 inside six turns!"
-    },
-    {
-      "turn": 7,
-      "role": "caster",
-      "text": "And Player5 answers straight away. 1–1."
+      "text": "Opus 5.5 draws first blood on the scoreboard. 1–0 inside six turns!",
+      "key": true
     },
     {
       "turn": 17,
       "role": "caster",
-      "text": "Player5 brings the second flag home and edges ahead, 2–1."
+      "text": "Player5 brings the second flag home and edges ahead, 2–1.",
+      "key": true
     },
     {
-      "turn": 18,
-      "role": "caster",
-      "text": "Opus replies in the very next turn. 2–2, this is a shootout."
-    },
-    {
-      "turn": 25,
+      "turn": 23,
       "role": "color",
       "text": "Four captures in eighteen turns. Neither side is wasting time on defence; they're just racing each other to the flags."
     },
     {
       "turn": 29,
       "role": "caster",
-      "text": "Player5 cuts down the Opus carrier and scores on the same turn. 3–2!"
-    },
-    {
-      "turn": 32,
-      "role": "caster",
-      "text": "Another stop by Player5. Opus can't get a flag out of the middle."
-    },
-    {
-      "turn": 41,
-      "role": "caster",
-      "text": "Player5 makes it 4–2."
+      "text": "Player5 cuts down the Opus carrier and scores on the same turn. 3–2!",
+      "key": true
     },
     {
       "turn": 42,
@@ -111,24 +98,14 @@
       "text": "Opus 5.5 again. 6–5 and it simply won't go away."
     },
     {
-      "turn": 75,
-      "role": "color",
-      "text": "I love this rhythm. Every time Player5 opens a gap, Opus chips it back. That's a team that believes it can win the race."
-    },
-    {
       "turn": 78,
       "role": "caster",
       "text": "Player5 strikes back, 7–5."
     },
     {
-      "turn": 88,
-      "role": "caster",
-      "text": "Opus scores to make it 7–6..."
-    },
-    {
       "turn": 89,
       "role": "caster",
-      "text": "...and Player5 replies one turn later. 8–6!"
+      "text": "Opus makes it 7–6, and Player5 answers a turn later. 8–6!"
     },
     {
       "turn": 100,
@@ -136,19 +113,9 @@
       "text": "Turns 51–100 were even on paper, 4 captures to 3 for Opus, but the shape flipped: Player5 now sits 8.0 cells from home on average while Opus pulled back to 4.5. Opus is camping the flags; Player5 is escorting carriers in."
     },
     {
-      "turn": 102,
-      "role": "caster",
-      "text": "Opus 5.5 pulls one back, 8–7."
-    },
-    {
       "turn": 106,
       "role": "caster",
       "text": "Player5 answers, 9–7."
-    },
-    {
-      "turn": 118,
-      "role": "caster",
-      "text": "Player5 again! 10–7."
     },
     {
       "turn": 120,
@@ -161,11 +128,6 @@
       "text": "That double at turns 118 and 120 is the first real crack. Opus had matched everything until now, and suddenly it's four points adrift."
     },
     {
-      "turn": 129,
-      "role": "caster",
-      "text": "12–7. Player5 is running away with it."
-    },
-    {
       "turn": 134,
       "role": "caster",
       "text": "Opus stops the bleeding. 12–8."
@@ -176,39 +138,19 @@
       "text": "Player5 straight back, 13–8."
     },
     {
-      "turn": 148,
-      "role": "caster",
-      "text": "Opus 5.5 answers, 13–9."
-    },
-    {
       "turn": 150,
       "role": "analyst",
       "text": "Player5 scored 5 of the 8 captures in turns 101–150, all from clean escorts: it lost no carriers in that stretch. Opus has the kills to compete, but kills away from the carrier don't change the scoreboard."
     },
     {
-      "turn": 154,
-      "role": "caster",
-      "text": "Opus takes down the Player5 carrier! First big stop for Opus."
-    },
-    {
       "turn": 159,
       "role": "caster",
-      "text": "And Opus turns that stop into a point. 13–10."
-    },
-    {
-      "turn": 161,
-      "role": "caster",
-      "text": "Player5 hits right back, 14–10."
+      "text": "Opus stopped a Player5 carrier on turn 154 and now turns it into a point. 13–10."
     },
     {
       "turn": 170,
       "role": "caster",
       "text": "Opus scores, 14–11."
-    },
-    {
-      "turn": 175,
-      "role": "caster",
-      "text": "Player5, 15–11."
     },
     {
       "turn": 175,
@@ -231,24 +173,9 @@
       "text": "Opus stops a Player5 carrier!"
     },
     {
-      "turn": 193,
-      "role": "caster",
-      "text": "And another one! Opus is shutting the door."
-    },
-    {
-      "turn": 200,
-      "role": "color",
-      "text": "Four points sounds comfortable. It isn't, with Player5's whole team waiting to respawn."
-    },
-    {
       "turn": 200,
       "role": "analyst",
       "text": "Halftime, 16–12 Player5. But the last ten turns matter more than the score: Opus had 3 kills and 2 carrier stops with no losses, and all three Player5 units are down at turn 200. The second half starts with Opus holding the middle."
-    },
-    {
-      "turn": 203,
-      "role": "caster",
-      "text": "Opus cashes in. 16–13."
     },
     {
       "turn": 206,
@@ -261,49 +188,25 @@
       "text": "Three straight for Opus 5.5! 16–15."
     },
     {
-      "turn": 218,
-      "role": "caster",
-      "text": "Player5 stops the Opus carrier. They needed that."
-    },
-    {
-      "turn": 221,
-      "role": "caster",
-      "text": "Another Player5 stop, but Opus keeps coming..."
-    },
-    {
-      "turn": 222,
-      "role": "caster",
-      "text": "Opus levels it! 16–16!"
-    },
-    {
       "turn": 225,
       "role": "caster",
-      "text": "Player5 goes straight back in front, 17–16."
+      "text": "Opus levelled at 16 on turn 222, but Player5 goes straight back in front, 17–16.",
+      "key": true
     },
     {
-      "turn": 225,
+      "turn": 230,
       "role": "color",
       "text": "Opus scored four unanswered from 12 to 16. That's the momentum swing we've been waiting for all match."
     },
     {
-      "turn": 236,
-      "role": "caster",
-      "text": "Opus cuts down the Player5 carrier!"
-    },
-    {
       "turn": 237,
       "role": "caster",
-      "text": "But Player5 scores anyway, 18–16."
+      "text": "Opus stops one carrier, but Player5 scores anyway. 18–16."
     },
     {
       "turn": 245,
       "role": "caster",
       "text": "Opus 5.5 answers, 18–17."
-    },
-    {
-      "turn": 248,
-      "role": "caster",
-      "text": "Player5 restores the two, 19–17."
     },
     {
       "turn": 250,
@@ -323,22 +226,13 @@
     {
       "turn": 268,
       "role": "caster",
-      "text": "And Opus 5.5 leads for the first time since turn 6! 20–19!"
-    },
-    {
-      "turn": 272,
-      "role": "caster",
-      "text": "21–19 Opus!"
+      "text": "And Opus 5.5 leads for the first time since turn 6! 20–19!",
+      "key": true
     },
     {
       "turn": 275,
       "role": "color",
       "text": "From 12–7 down to 21–19 up. That's what happens when one team stops winning the fights and the other never stops believing."
-    },
-    {
-      "turn": 279,
-      "role": "caster",
-      "text": "Opus again, 22–19. Player5 is reeling."
     },
     {
       "turn": 283,
@@ -357,18 +251,8 @@
     },
     {
       "turn": 300,
-      "role": "color",
-      "text": "A hundred turns left and Player5 needs five unanswered captures to get back in front. It's done harder things... it's just never needed to."
-    },
-    {
-      "turn": 300,
       "role": "analyst",
       "text": "Turns 251–300: Opus 7 captures, Player5 1. Player5 is stuck 3.0 cells from home on average, defending its base instead of contesting the flags, and you can't score from there."
-    },
-    {
-      "turn": 301,
-      "role": "caster",
-      "text": "Player5 gets one back, 24–21."
     },
     {
       "turn": 308,
@@ -381,29 +265,16 @@
       "text": "Player5 scores, 24–22."
     },
     {
-      "turn": 317,
-      "role": "caster",
-      "text": "Again! 24–23, Player5 is roaring back!"
-    },
-    {
       "turn": 326,
       "role": "caster",
-      "text": "Player5 levels it! 24–24! Four straight!"
-    },
-    {
-      "turn": 330,
-      "role": "color",
-      "text": "Now it's Player5's turn to string four together. This match refuses to stay settled for more than twenty turns."
+      "text": "Player5 levels it! 24–24! Four straight!",
+      "key": true
     },
     {
       "turn": 334,
       "role": "caster",
-      "text": "Opus answers, back in front 25–24."
-    },
-    {
-      "turn": 337,
-      "role": "caster",
-      "text": "26–24 Opus!"
+      "text": "Opus answers, back in front 25–24.",
+      "key": true
     },
     {
       "turn": 345,
@@ -411,44 +282,33 @@
       "text": "Player5 replies, 26–25."
     },
     {
-      "turn": 348,
-      "role": "caster",
-      "text": "Opus 5.5, 27–25. Fifty turns to go."
-    },
-    {
       "turn": 350,
       "role": "analyst",
       "text": "Turns 301–350 went 5–3 to Player5, and the shape flipped again: Player5 is back out at 5.0 cells from home while Opus has retreated to 3.5. Whoever controls the middle in the final fifty decides it."
     },
     {
-      "turn": 356,
-      "role": "caster",
-      "text": "Player5 pulls within one, 27–26."
-    },
-    {
       "turn": 359,
       "role": "caster",
-      "text": "Level again! 27–27!"
-    },
-    {
-      "turn": 360,
-      "role": "color",
-      "text": "Twenty-seven each with forty turns left. You couldn't script it better."
+      "text": "Level again! 27–27!",
+      "key": true
     },
     {
       "turn": 367,
       "role": "caster",
-      "text": "Player5 retakes the lead, 28–27!"
+      "text": "Player5 retakes the lead, 28–27!",
+      "key": true
     },
     {
       "turn": 373,
       "role": "caster",
-      "text": "Opus levels, 28–28!"
+      "text": "Opus levels, 28–28!",
+      "key": true
     },
     {
       "turn": 378,
       "role": "caster",
-      "text": "Player5 in front again, 29–28!"
+      "text": "Player5 in front again, 29–28!",
+      "key": true
     },
     {
       "turn": 386,
@@ -456,29 +316,10 @@
       "text": "Player5 makes it 30–28. A two-point cushion with fourteen to play!"
     },
     {
-      "turn": 389,
-      "role": "caster",
-      "text": "Opus answers immediately, 30–29!"
-    },
-    {
-      "turn": 390,
-      "role": "color",
-      "text": "Nobody has led by more than two since turn 334. Somebody has to blink."
-    },
-    {
       "turn": 397,
       "role": "caster",
-      "text": "Player5 scores! 31–29 with three turns left. That should be it!"
-    },
-    {
-      "turn": 400,
-      "role": "caster",
-      "text": "Full time! Player5 wins it 31–29 after sixty captures!"
-    },
-    {
-      "turn": 400,
-      "role": "analyst",
-      "text": "Verdict: Player5 won the final 50 turns 6–2 by getting back to the middle while Opus retreated. Opus won the fights around halftime and led 24–20 at turn 295, but couldn't hold its position."
+      "text": "Player5 scores with three turns left! 31–29, and that's the match!",
+      "key": true
     }
   ]
 }

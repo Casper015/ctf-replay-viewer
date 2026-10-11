@@ -96,6 +96,8 @@ def check_config() -> list[str]:
         if p.get("type") == "openai_compatible" and not p.get("base_url"):
             errs.append(f"config.json: providers.{name} needs a 'base_url'")
 
+    if not isinstance(config.get("generation", {}).get("min_turns_between_lines", DEFAULT_MIN_GAP), int):
+        errs.append("config.json: generation.min_turns_between_lines must be an integer")
     for role_id in config.get("roles", []):
         rdir = ROLES_DIR / role_id
         if not (rdir / "role.json").exists():
@@ -141,8 +143,20 @@ def _leaders(score: list[int]) -> list[int]:
     return [t for t, s in enumerate(score) if s == best]
 
 
-def window_facts(replay: dict, meta: dict, t0: int, t1: int, lang: str, context: list[str]) -> dict:
-    """Facts for turns t0 < turn <= t1, in the language's display names."""
+def contenders(score: list[int], top: int) -> list[int]:
+    """Teams fighting for first: the top `top` by score, plus anyone tied with the last of them."""
+    order = sorted(range(len(score)), key=lambda t: -score[t])
+    cutoff = score[order[min(top, len(order)) - 1]]
+    return [t for t in order if score[t] >= cutoff and score[t] > 0] or order[:top]
+
+
+def window_facts(replay: dict, meta: dict, t0: int, t1: int, lang: str, context: list[str],
+                 focus: dict | None = None) -> dict:
+    """Facts for turns t0 < turn <= t1, in the language's display names.
+
+    focus = {"when_teams_over": 4, "top": 3}: in bigger matches only the contenders' events and
+    stats are included (plus events where another team directly hits a contender), so
+    commentary follows the title race instead of narrating every team."""
     frames = replay["frames"]
     header = replay["header"]
     teams = header["teams"]
@@ -156,11 +170,21 @@ def window_facts(replay: dict, meta: dict, t0: int, t1: int, lang: str, context:
     if t1 >= total:
         phase = "final"
 
+    end = frames[k1]
+    focus_teams = None
+    if focus and teams > focus.get("when_teams_over", 4):
+        # Contenders as of the window's end; scores before it are already known to viewers
+        focus_teams = set(contenders(end["score"], focus.get("top", 3)))
+    keep = (lambda *ts: True) if focus_teams is None else (lambda *ts: any(t in focus_teams for t in ts if t is not None))
+
     facts: dict = {
         # No title: titles state the final result, which would spoil live commentary
         "match": {"teams": teams, "map": f"{header['size']}x{header['size']}", "total_turns": total, "team_names": names},
         "window": {"from_turn": t0 + 1, "to_turn": t1, "phase": phase},
     }
+    if focus_teams is not None:
+        facts["focus"] = {"contenders": [names[t] for t in sorted(focus_teams, key=lambda t: -end["score"][t])],
+                          "note": "Talk about these teams. Mention another team only when it directly affects one of them."}
 
     if "events" in context:
         captures, stops, pickups, brawls = [], [], [], []
@@ -170,6 +194,8 @@ def window_facts(replay: dict, meta: dict, t0: int, t1: int, lang: str, context:
             for e in f["events"]:
                 kind = e["type"]
                 if kind == "capture":
+                    if not keep(e["team"]):
+                        continue
                     before, after = _leaders(prev["score"]), _leaders(f["score"])
                     captures.append({
                         "turn": f["turn"], "team": names[e["team"]], "team_score": f["score"][e["team"]],
@@ -179,17 +205,16 @@ def window_facts(replay: dict, meta: dict, t0: int, t1: int, lang: str, context:
                     })
                 elif kind == "death":
                     deaths += 1
-                    if e.get("flag") is not None:
-                        by = e.get("by") or []
+                    by = e.get("by") or []
+                    if e.get("flag") is not None and keep(team_of(e["unit"])):
                         stops.append({"turn": f["turn"], "victim": names[team_of(e["unit"])],
                                       "by": names[team_of(by[0])] if by else None})
-                elif kind == "pickup":
+                elif kind == "pickup" and keep(team_of(e["unit"])):
                     pickups.append({"turn": f["turn"], "team": names[team_of(e["unit"])]})
-            if deaths >= 3:
+            if deaths >= 3 and focus_teams is None:
                 brawls.append({"turn": f["turn"], "units_down": deaths})
         facts["events"] = {"captures": captures, "carrier_stops": stops, "pickups": pickups, "big_fights": brawls}
 
-    end = frames[k1]
     if "standings" in context:
         order = sorted(range(teams), key=lambda t: -end["score"][t])
         facts["standings"] = [{"team": names[t], "score": end["score"][t]} for t in order[:8]]
@@ -209,12 +234,14 @@ def window_facts(replay: dict, meta: dict, t0: int, t1: int, lang: str, context:
                         stats[team_of(by[0])]["kills"] += 1
                         if e.get("flag") is not None:
                             stats[team_of(by[0])]["carrier_stops"] += 1
-        facts["window_stats"] = [{"team": names[t], **dict(c)} for t, c in stats.items() if c]
+        facts["window_stats"] = [{"team": names[t], **dict(c)} for t, c in stats.items() if c and keep(t)]
 
     if "positions" in context:
         center = (header["size"] - 1) / 2
         rows = []
         for t in range(teams):
+            if not keep(t):
+                continue
             base = header["bases"][t]
             bx = sum(x for x, _ in base) / len(base)
             by = sum(y for _, y in base) / len(base)
@@ -240,7 +267,7 @@ def window_facts(replay: dict, meta: dict, t0: int, t1: int, lang: str, context:
                     if note and not re.fullmatch(r"[\d:,.\s-]+", note):
                         notes[int(team_key)][note] += 1
         facts["bot_intent_notes"] = [{"team": names[t], "notes": [n for n, _ in c.most_common(4)]}
-                                     for t, c in notes.items() if c]
+                                     for t, c in notes.items() if c and keep(t)]
     return facts
 
 
@@ -257,8 +284,16 @@ def build_prompt(role: dict, lang: str, config: dict, facts: dict, previous: lis
         "Fewer lines are fine; an empty list is fine when nothing is worth saying.",
         f"- Each line's \"turn\" must be between {facts['window']['from_turn']} and {facts['window']['to_turn']}: "
         "the turn where the thing you describe happened, or the last turn for a summary.",
-        '- Reply with JSON only, no other text: {"lines": [{"turn": <integer>, "text": "<line>"}]}',
+        f"- Across all roles there is at most one line every {min_gap_any(config)} turns, so make each line count: "
+        "pick the moments that matter most (lead changes, ties, captures by the leaders, stops of a leader's carrier).",
+        '- Add "key": true to a line about a lead change, a tie at the top or the winning capture; key lines are never '
+        'dropped when the booth gets crowded. Use it sparingly.',
+        '- Reply with JSON only, no other text: {"lines": [{"turn": <integer>, "text": "<line>", "key": <optional true>}]}',
     ]
+    if "focus" in facts:
+        rules.insert(-1, "- This is a big match: follow only the contenders listed under \"focus\" (the teams fighting for "
+                         "first). Don't run through every team's score or name teams outside the race unless they "
+                         "directly affect a contender (for example, stopping a leader's flag carrier).")
     if skill_lang != lang:
         rules.insert(0, f"- Write every line in {language['english_name']} ({language['name']}), "
                         "even though your role description is in another language.")
@@ -297,7 +332,10 @@ def accept_lines(raw: list[dict], role: dict, lang: str, config: dict, t0: int, 
         turn = min(t1, max(t0 + 1, turn)) if isinstance(turn, int) else t1
         if last_turn is not None and turn - last_turn < role["min_gap"]:
             continue
-        out.append({"turn": turn, "role": role["id"], "text": text})
+        line = {"turn": turn, "role": role["id"], "text": text}
+        if item.get("key") is True:
+            line["key"] = True
+        out.append(line)
         last_turn = turn
         if len(out) >= role["max_lines"]:
             break
@@ -425,16 +463,17 @@ class MockWriter:
             ev = facts.get("events", {})
             for c in ev.get("captures", []):
                 key = "caster.capture_lead" if c["takes_lead"] else "caster.capture_tie" if c["ties_lead"] else "caster.capture"
-                cands.append((0, c["turn"], self.pick(key, c["turn"], team=c["team"], score=c["scoreline"])))
+                cands.append((0 if key != "caster.capture" else 1, c["turn"],
+                              self.pick(key, c["turn"], team=c["team"], score=c["scoreline"]), key != "caster.capture"))
             for s in ev.get("carrier_stops", []):
                 if s["by"]:
-                    cands.append((1, s["turn"], self.pick("caster.stop", s["turn"], by=s["by"], victim=s["victim"])))
+                    cands.append((2, s["turn"], self.pick("caster.stop", s["turn"], by=s["by"], victim=s["victim"]), False))
             for b in ev.get("big_fights", []):
-                cands.append((2, b["turn"], self.pick("caster.brawl", b["turn"], count=b["units_down"])))
+                cands.append((3, b["turn"], self.pick("caster.brawl", b["turn"], count=b["units_down"]), False))
             chosen = []
-            for _prio, turn, text in sorted(cands):
+            for _prio, turn, text, is_key in sorted(cands):
                 if text and all(abs(turn - c["turn"]) >= role["min_gap"] for c in chosen):
-                    chosen.append({"turn": turn, "text": text})
+                    chosen.append({"turn": turn, "text": text, **({"key": True} if is_key else {})})
                 if len(chosen) >= role["max_lines"]:
                     break
             return sorted(chosen, key=lambda c: c["turn"])
@@ -486,6 +525,32 @@ class MockWriter:
         return []
 
 
+# ---------------------------------------------------------------- spacing
+
+DEFAULT_MIN_GAP = 5
+
+
+def min_gap_any(config: dict) -> int:
+    return int(config.get("generation", {}).get("min_turns_between_lines", DEFAULT_MIN_GAP))
+
+
+def space_lines(lines: list[dict], gap: int, priority: dict[str, int]) -> list[dict]:
+    """Keep at most one line per `gap` turns across all roles. Lines marked "key" (lead changes,
+    ties, the winning capture) claim their turns first, then higher-priority roles, then earlier
+    turns, so the decisive moments survive and a rare analyst line beats routine caster lines."""
+    kept: list[dict] = []
+    taken: list[int] = []
+    for ln in sorted(lines, key=lambda ln: (not ln.get("key"), -priority.get(ln["role"], 0), ln["turn"])):
+        if all(abs(ln["turn"] - t) >= gap for t in taken):
+            kept.append(ln)
+            taken.append(ln["turn"])
+    return sorted(kept, key=lambda ln: ln["turn"])
+
+
+def role_priorities(config: dict) -> dict[str, int]:
+    return {rid: int(load_role(rid).get("priority", 1)) for rid in config["roles"]}
+
+
 # ---------------------------------------------------------------- output
 
 def output_path(key: str, lang: str) -> Path:
@@ -498,15 +563,18 @@ def write_track(key: str, lang: str, config: dict, new_lines: list[dict], roles:
     existing = read_json(path) if path.exists() else {}
     replaced = {r["id"] for r in roles}
     lines = [ln for ln in existing.get("lines", []) if ln["role"] not in replaced] + new_lines
-    lines.sort(key=lambda ln: (ln["turn"], config["roles"].index(ln["role"]) if ln["role"] in config["roles"] else 99))
+    gap = min_gap_any(config)
+    lines = space_lines(lines, gap, role_priorities(config))
     sources = {k: v for k, v in existing.get("sources", {}).items() if k not in replaced}
     for r in roles:
         sources[r["id"]] = source
     used = {ln["role"] for ln in lines}
     role_meta = [{"id": rid, "name": load_role(rid)["name"].get(lang) or load_role(rid)["name"].get("en"),
-                  "icon": load_role(rid)["icon"], "caption": bool(load_role(rid).get("caption"))}
+                  "icon": load_role(rid)["icon"], "caption": bool(load_role(rid).get("caption")),
+                  "priority": int(load_role(rid).get("priority", 1))}
                  for rid in config["roles"] if rid in used]
-    out = {"version": 1, "match": key, "language": lang, "roles": role_meta, "sources": sources, "lines": lines}
+    out = {"version": 1, "match": key, "language": lang, "min_gap": gap, "roles": role_meta, "sources": sources,
+           "lines": lines}
     path.parent.mkdir(parents=True, exist_ok=True)
     write_pretty(path, out)
     return path

@@ -2,133 +2,82 @@
   "version": 1,
   "match": "g8_record",
   "language": "en",
+  "min_gap": 5,
   "roles": [
     {
       "id": "caster",
       "name": "Caster",
       "icon": "mic",
-      "caption": true
+      "caption": true,
+      "priority": 2
     },
     {
       "id": "color",
       "name": "Color commentator",
       "icon": "chat",
-      "caption": true
+      "caption": true,
+      "priority": 1
     },
     {
       "id": "analyst",
       "name": "Analyst",
       "icon": "chart",
-      "caption": false
+      "caption": false,
+      "priority": 3
     }
   ],
   "sources": {
     "caster": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     },
     "color": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     },
     "analyst": {
       "provider": "mock",
       "model": null,
-      "generated": "2026-10-10"
+      "generated": "2026-10-11"
     }
   },
   "lines": [
     {
-      "turn": 10,
-      "role": "caster",
-      "text": "Opus 5.5 stops Player2's flag carrier!"
-    },
-    {
-      "turn": 12,
-      "role": "caster",
-      "text": "Sonnet 5.5 stops DeepSeek V4.1 Flash's flag carrier!"
-    },
-    {
       "turn": 16,
       "role": "caster",
-      "text": "GPT-6 Astra scores and takes the lead! 1–0."
-    },
-    {
-      "turn": 18,
-      "role": "caster",
-      "text": "GPT-6.1 Sol scores to level it up. 1–1!"
+      "text": "GPT-6 Astra scores and takes the lead! 1–0.",
+      "key": true
     },
     {
       "turn": 24,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 1–1!"
-    },
-    {
-      "turn": 25,
-      "role": "color",
-      "text": "Dead even at the top, GPT-6.1 Sol and Opus 5.5 and GPT-6 Astra on 1 each."
-    },
-    {
-      "turn": 26,
-      "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores to level it up. 1–1!"
-    },
-    {
-      "turn": 31,
-      "role": "caster",
-      "text": "3 units go down this turn. What a fight in the middle!"
+      "text": "Opus 5.5 scores to level it up. 1–1!",
+      "key": true
     },
     {
       "turn": 35,
       "role": "caster",
-      "text": "That capture puts GPT-6.1 Sol in front. 2–1!"
+      "text": "That capture puts GPT-6.1 Sol in front. 2–1!",
+      "key": true
     },
     {
       "turn": 42,
       "role": "caster",
-      "text": "DeepSeek V4.1 Flash scores to level it up. 2–2!"
-    },
-    {
-      "turn": 45,
-      "role": "caster",
-      "text": "That capture puts GPT-6.1 Sol in front. 3–2!"
-    },
-    {
-      "turn": 48,
-      "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 3–2."
-    },
-    {
-      "turn": 50,
-      "role": "color",
-      "text": "GPT-6.1 Sol have 3 and a 1-point cushion over Opus 5.5. GPT-6.1 Sol made the most noise in this stretch with 2 captures."
+      "text": "DeepSeek V4.1 Flash scores to level it up. 2–2!",
+      "key": true
     },
     {
       "turn": 50,
       "role": "analyst",
-      "text": "Player3 played furthest forward, about 13.7 cells from home on average; Opus 5.5 stayed closest to base at 4.5."
-    },
-    {
-      "turn": 54,
-      "role": "caster",
-      "text": "5 units go down this turn. What a fight in the middle!"
+      "text": "DeepSeek V4.1 Flash played furthest forward, about 9.3 cells from home on average; Opus 5.5 stayed closest to base at 4.5."
     },
     {
       "turn": 60,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 3–3!"
-    },
-    {
-      "turn": 65,
-      "role": "caster",
-      "text": "That capture puts GPT-6.1 Sol in front. 5–3!"
-    },
-    {
-      "turn": 73,
-      "role": "caster",
-      "text": "Big stop: Opus 5.5 takes down the Player2 carrier."
+      "text": "Opus 5.5 scores to level it up. 3–3!",
+      "key": true
     },
     {
       "turn": 75,
@@ -136,84 +85,31 @@
       "text": "It's GPT-6.1 Sol's match to lose right now: 5, 2 clear of Opus 5.5."
     },
     {
-      "turn": 77,
-      "role": "caster",
-      "text": "Sonnet 5.5 scores again. 5–3 now."
-    },
-    {
       "turn": 81,
       "role": "caster",
       "text": "Opus 5.5 brings the flag home! 5–4."
     },
     {
-      "turn": 83,
-      "role": "caster",
-      "text": "Player2 scores again. 5–4 now."
-    },
-    {
-      "turn": 93,
-      "role": "caster",
-      "text": "Player2 brings the flag home! 5–4."
-    },
-    {
-      "turn": 97,
-      "role": "caster",
-      "text": "Capture for Sonnet 5.5, and it's 5–4."
-    },
-    {
       "turn": 99,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 5–5!"
-    },
-    {
-      "turn": 100,
-      "role": "color",
-      "text": "Nothing to separate them: GPT-6.1 Sol and Opus 5.5 are level on 5. Every capture from here is a lead change."
-    },
-    {
-      "turn": 100,
-      "role": "analyst",
-      "text": "Turns 51–100: Opus 5.5 turned 3 of 3 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 4 kills."
-    },
-    {
-      "turn": 101,
-      "role": "caster",
-      "text": "Player1 scores again. 5–5 now."
+      "text": "Opus 5.5 scores to level it up. 5–5!",
+      "key": true
     },
     {
       "turn": 109,
       "role": "caster",
-      "text": "That capture puts GPT-6.1 Sol in front. 6–5!"
+      "text": "That capture puts GPT-6.1 Sol in front. 6–5!",
+      "key": true
     },
     {
       "turn": 116,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 6–5 now."
-    },
-    {
-      "turn": 119,
-      "role": "caster",
-      "text": "Big stop: DeepSeek V4.1 Flash takes down the Sonnet 5.5 carrier."
-    },
-    {
-      "turn": 122,
-      "role": "caster",
-      "text": "DeepSeek V4.1 Flash stops Player2's flag carrier!"
+      "text": "GPT-6 Astra stops Sonnet 5.5's flag carrier!"
     },
     {
       "turn": 125,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash scores again. 6–5 now."
-    },
-    {
-      "turn": 125,
-      "role": "color",
-      "text": "It's GPT-6.1 Sol's match to lose right now: 6, 1 clear of Opus 5.5."
-    },
-    {
-      "turn": 129,
-      "role": "caster",
-      "text": "Big stop: Player2 takes down the Player1 carrier."
     },
     {
       "turn": 131,
@@ -221,59 +117,22 @@
       "text": "DeepSeek V4.1 Flash scores again. 6–5 now."
     },
     {
-      "turn": 133,
+      "turn": 141,
       "role": "caster",
-      "text": "Big stop: DeepSeek V4.1 Flash takes down the Player2 carrier."
-    },
-    {
-      "turn": 140,
-      "role": "caster",
-      "text": "GPT-6 Astra scores again. 6–5 now."
-    },
-    {
-      "turn": 143,
-      "role": "caster",
-      "text": "Player2 scores again. 6–6 now."
+      "text": "DeepSeek V4.1 Flash scores to level it up. 6–6!",
+      "key": true
     },
     {
       "turn": 150,
       "role": "caster",
-      "text": "Opus 5.5 scores to level it up. 6–6!"
-    },
-    {
-      "turn": 150,
-      "role": "color",
-      "text": "Nothing to separate them: GPT-6.1 Sol and Opus 5.5 and DeepSeek V4.1 Flash are level on 6. Every capture from here is a lead change."
-    },
-    {
-      "turn": 150,
-      "role": "analyst",
-      "text": "GPT-6.1 Sol played furthest forward, about 14.0 cells from home on average; Sonnet 5.5 stayed closest to base at 5.5."
-    },
-    {
-      "turn": 153,
-      "role": "caster",
-      "text": "Big stop: GPT-6.1 Sol takes down the GPT-6 Astra carrier."
-    },
-    {
-      "turn": 157,
-      "role": "caster",
-      "text": "Big stop: DeepSeek V4.1 Flash takes down the Sonnet 5.5 carrier."
+      "text": "Opus 5.5 scores to level it up. 6–6!",
+      "key": true
     },
     {
       "turn": 161,
       "role": "caster",
-      "text": "That capture puts Opus 5.5 in front. 7–6!"
-    },
-    {
-      "turn": 166,
-      "role": "caster",
-      "text": "Capture for Sonnet 5.5, and it's 7–6."
-    },
-    {
-      "turn": 171,
-      "role": "caster",
-      "text": "3 units go down this turn. What a fight in the middle!"
+      "text": "That capture puts Opus 5.5 in front. 7–6!",
+      "key": true
     },
     {
       "turn": 175,
@@ -281,39 +140,14 @@
       "text": "It's Opus 5.5's match to lose right now: 7, 1 clear of GPT-6.1 Sol."
     },
     {
-      "turn": 178,
-      "role": "caster",
-      "text": "Capture for Player3, and it's 7–6."
-    },
-    {
       "turn": 182,
       "role": "caster",
-      "text": "GPT-6 Astra scores again. 8–6 now."
-    },
-    {
-      "turn": 196,
-      "role": "caster",
-      "text": "Capture for GPT-6.1 Sol, and it's 8–7."
-    },
-    {
-      "turn": 198,
-      "role": "caster",
-      "text": "Opus 5.5 brings the flag home! 9–7."
-    },
-    {
-      "turn": 200,
-      "role": "caster",
-      "text": "Player2 scores again. 9–7 now."
-    },
-    {
-      "turn": 200,
-      "role": "color",
-      "text": "Opus 5.5 have 9 and a 2-point cushion over GPT-6.1 Sol. Opus 5.5 made the most noise in this stretch with 2 captures."
+      "text": "Opus 5.5 scores again. 8–6 now."
     },
     {
       "turn": 200,
       "role": "analyst",
-      "text": "Turns 151–200: Opus 5.5 turned 3 of 3 pickups into points, the best conversion in this stretch. Player3 led the fighting with 6 kills."
+      "text": "Turns 151–200: Opus 5.5 turned 3 of 3 pickups into points, the best conversion in this stretch. GPT-6.1 Sol led the fighting with 4 kills."
     },
     {
       "turn": 205,
@@ -321,44 +155,9 @@
       "text": "Capture for GPT-6 Astra, and it's 9–7."
     },
     {
-      "turn": 210,
-      "role": "caster",
-      "text": "3 units go down this turn. What a fight in the middle!"
-    },
-    {
-      "turn": 212,
-      "role": "caster",
-      "text": "GPT-6 Astra stops Sonnet 5.5's flag carrier!"
-    },
-    {
-      "turn": 214,
-      "role": "caster",
-      "text": "GPT-6.1 Sol stops Player3's flag carrier!"
-    },
-    {
-      "turn": 218,
-      "role": "caster",
-      "text": "Sonnet 5.5 scores again. 9–7 now."
-    },
-    {
-      "turn": 223,
-      "role": "caster",
-      "text": "Capture for Player1, and it's 9–7."
-    },
-    {
       "turn": 225,
       "role": "caster",
       "text": "GPT-6 Astra brings the flag home! 9–7."
-    },
-    {
-      "turn": 225,
-      "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 9, 2 clear of GPT-6.1 Sol."
-    },
-    {
-      "turn": 229,
-      "role": "caster",
-      "text": "Big stop: Player2 takes down the GPT-6.1 Sol carrier."
     },
     {
       "turn": 234,
@@ -366,34 +165,14 @@
       "text": "Player3 stops GPT-6.1 Sol's flag carrier!"
     },
     {
-      "turn": 237,
-      "role": "caster",
-      "text": "Sonnet 5.5 brings the flag home! 9–7."
-    },
-    {
-      "turn": 241,
-      "role": "caster",
-      "text": "Big stop: Player2 takes down the DeepSeek V4.1 Flash carrier."
-    },
-    {
       "turn": 245,
       "role": "caster",
       "text": "GPT-6 Astra scores again. 9–8 now."
     },
     {
-      "turn": 248,
-      "role": "caster",
-      "text": "Sonnet 5.5 stops DeepSeek V4.1 Flash's flag carrier!"
-    },
-    {
-      "turn": 250,
-      "role": "color",
-      "text": "Opus 5.5 have 9 and a 1-point cushion over GPT-6 Astra. Player3 made the most noise in this stretch with 1 captures."
-    },
-    {
       "turn": 250,
       "role": "analyst",
-      "text": "Player1 played furthest forward, about 13.3 cells from home on average; DeepSeek V4.1 Flash stayed closest to base at 5.0."
+      "text": "Opus 5.5 played furthest forward, about 13.3 cells from home on average; GPT-6.1 Sol stayed closest to base at 5.7."
     },
     {
       "turn": 259,
@@ -401,44 +180,9 @@
       "text": "Capture for Sonnet 5.5, and it's 9–8."
     },
     {
-      "turn": 263,
-      "role": "caster",
-      "text": "Opus 5.5 scores again. 10–8 now."
-    },
-    {
-      "turn": 266,
-      "role": "caster",
-      "text": "GPT-6 Astra scores again. 11–9 now."
-    },
-    {
-      "turn": 268,
-      "role": "caster",
-      "text": "Player2 stops DeepSeek V4.1 Flash's flag carrier!"
-    },
-    {
-      "turn": 272,
-      "role": "caster",
-      "text": "Opus 5.5 stops Player2's flag carrier!"
-    },
-    {
-      "turn": 275,
-      "role": "color",
-      "text": "It's Opus 5.5's match to lose right now: 11, 2 clear of GPT-6 Astra."
-    },
-    {
       "turn": 279,
       "role": "caster",
       "text": "DeepSeek V4.1 Flash brings the flag home! 11–9."
-    },
-    {
-      "turn": 282,
-      "role": "caster",
-      "text": "GPT-6.1 Sol brings the flag home! 11–9."
-    },
-    {
-      "turn": 285,
-      "role": "caster",
-      "text": "Big stop: Sonnet 5.5 takes down the GPT-6 Astra carrier."
     },
     {
       "turn": 288,
@@ -451,34 +195,9 @@
       "text": "Capture for DeepSeek V4.1 Flash, and it's 12–9."
     },
     {
-      "turn": 297,
-      "role": "caster",
-      "text": "Player2 brings the flag home! 12–9."
-    },
-    {
-      "turn": 300,
-      "role": "color",
-      "text": "Opus 5.5 have 12 and a 3-point cushion over GPT-6 Astra. DeepSeek V4.1 Flash made the most noise in this stretch with 2 captures."
-    },
-    {
       "turn": 300,
       "role": "analyst",
-      "text": "Turns 251–300: Opus 5.5 turned 3 of 2 pickups into points, the best conversion in this stretch. Sonnet 5.5 led the fighting with 6 kills."
-    },
-    {
-      "turn": 302,
-      "role": "caster",
-      "text": "GPT-6.1 Sol scores again. 12–9 now."
-    },
-    {
-      "turn": 305,
-      "role": "caster",
-      "text": "Player3 scores again. 12–9 now."
-    },
-    {
-      "turn": 314,
-      "role": "caster",
-      "text": "Player3 scores again. 12–9 now."
+      "text": "Turns 251–300: Opus 5.5 turned 3 of 2 pickups into points, the best conversion in this stretch. Opus 5.5 led the fighting with 5 kills."
     },
     {
       "turn": 317,
@@ -486,64 +205,14 @@
       "text": "GPT-6.1 Sol scores again. 12–10 now."
     },
     {
-      "turn": 321,
-      "role": "caster",
-      "text": "GPT-6 Astra brings the flag home! 12–10."
-    },
-    {
-      "turn": 323,
-      "role": "caster",
-      "text": "Player1 scores again. 12–10 now."
-    },
-    {
       "turn": 325,
       "role": "color",
       "text": "It's Opus 5.5's match to lose right now: 12, 2 clear of GPT-6.1 Sol."
     },
     {
-      "turn": 334,
-      "role": "caster",
-      "text": "Capture for Sonnet 5.5, and it's 12–10."
-    },
-    {
-      "turn": 336,
-      "role": "caster",
-      "text": "DeepSeek V4.1 Flash brings the flag home! 12–10."
-    },
-    {
-      "turn": 338,
-      "role": "caster",
-      "text": "Player2 scores again. 12–10 now."
-    },
-    {
-      "turn": 343,
-      "role": "caster",
-      "text": "Big stop: DeepSeek V4.1 Flash takes down the Player2 carrier."
-    },
-    {
-      "turn": 345,
-      "role": "caster",
-      "text": "3 units go down this turn. What a fight in the middle!"
-    },
-    {
-      "turn": 347,
-      "role": "caster",
-      "text": "Big stop: Player3 takes down the Player2 carrier."
-    },
-    {
-      "turn": 350,
-      "role": "color",
-      "text": "Opus 5.5 have 12 and a 2-point cushion over GPT-6.1 Sol. Player2 made the most noise in this stretch with 1 captures."
-    },
-    {
       "turn": 350,
       "role": "analyst",
-      "text": "Sonnet 5.5 played furthest forward, about 13.0 cells from home on average; Player1 stayed closest to base at 4.0."
-    },
-    {
-      "turn": 352,
-      "role": "caster",
-      "text": "Capture for Player1, and it's 12–10."
+      "text": "GPT-6 Astra played furthest forward, about 11.0 cells from home on average; Opus 5.5 stayed closest to base at 8.0."
     },
     {
       "turn": 355,
@@ -551,29 +220,9 @@
       "text": "Capture for DeepSeek V4.1 Flash, and it's 12–10."
     },
     {
-      "turn": 360,
-      "role": "caster",
-      "text": "Opus 5.5 stops Player2's flag carrier!"
-    },
-    {
       "turn": 367,
       "role": "caster",
       "text": "Capture for GPT-6 Astra, and it's 12–11."
-    },
-    {
-      "turn": 369,
-      "role": "caster",
-      "text": "GPT-6.1 Sol brings the flag home! 12–11."
-    },
-    {
-      "turn": 373,
-      "role": "caster",
-      "text": "Big stop: Player2 takes down the DeepSeek V4.1 Flash carrier."
-    },
-    {
-      "turn": 375,
-      "role": "caster",
-      "text": "Big stop: DeepSeek V4.1 Flash takes down the Player2 carrier."
     },
     {
       "turn": 375,
@@ -581,39 +230,9 @@
       "text": "It's Opus 5.5's match to lose right now: 12, 1 clear of GPT-6.1 Sol."
     },
     {
-      "turn": 379,
-      "role": "caster",
-      "text": "Capture for Player2, and it's 12–11."
-    },
-    {
-      "turn": 381,
-      "role": "caster",
-      "text": "Big stop: Opus 5.5 takes down the DeepSeek V4.1 Flash carrier."
-    },
-    {
       "turn": 385,
       "role": "caster",
       "text": "Capture for Opus 5.5, and it's 13–11."
-    },
-    {
-      "turn": 393,
-      "role": "caster",
-      "text": "Player2 brings the flag home! 13–11."
-    },
-    {
-      "turn": 395,
-      "role": "caster",
-      "text": "Big stop: Player3 takes down the Opus 5.5 carrier."
-    },
-    {
-      "turn": 397,
-      "role": "caster",
-      "text": "Capture for GPT-6 Astra, and it's 13–12."
-    },
-    {
-      "turn": 400,
-      "role": "color",
-      "text": "Opus 5.5 have 13 and a 1-point cushion over GPT-6 Astra. Player2 made the most noise in this stretch with 2 captures."
     },
     {
       "turn": 400,
